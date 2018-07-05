@@ -1,0 +1,76 @@
+Initialize engine version: 5.6.3p1 (9c92e827232b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 22.21.13.8554]
+    Renderer: NVIDIA Quadro K610M
+    Vendor:   NVIDIA
+    VRAM:     995 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1 BC4=1 BC5=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to default shader.
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.594723 ms
+[Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+RimWorld 0.18.1722 rev1198
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Non platform assembly: data-11D69448 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11D69448.dll
+Non platform assembly: data-11DD4060 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11DD4060.dll
+Non platform assembly: data-11E04070 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E04070.dll
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 8522.
+Total: 53.474777 ms (FindLiveObjects: 0.427654 ms CreateObjectMapping: 0.597005 ms MarkObjects: 52.389389 ms  DeleteObjects: 0.059871 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.475979 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 8721.
+Total: 46.870937 ms (FindLiveObjects: 0.402422 ms CreateObjectMapping: 0.521738 ms MarkObjects: 45.889896 ms  DeleteObjects: 0.056022 ms)
+
+Initializing new game with mods Core, MyMod, and EdBPrepareCarefully
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 15060.
+Total: 106.562103 ms (FindLiveObjects: 0.758231 ms CreateObjectMapping: 0.888238 ms MarkObjects: 104.804863 ms  DeleteObjects: 0.110762 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2b20 -> priority: 1 
+  Thread -> id: 30e8 -> priority: 1 
+  Thread -> id: 3658 -> priority: 1 
+  Thread -> id: 17c -> priority: 1 

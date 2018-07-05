@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <NeedDef>
+    <defName>Willpower</defName>
+    <needClass>MyRimworldMod.Willpower_Need</needClass>
+    <label>Willpower</label>
+    <description>Willpower.</description>
+    <listPriority>1200</listPriority>
+    <major>true</major>
+    <showForCaravanMembers>false</showForCaravanMembers>
+    <scaleBar>true</scaleBar>
+  </NeedDef>
+  <NeedDef>
+    <defName>Authority</defName>
+    <needClass>MyRimworldMod.Authority_Need</needClass>
+    <label>Authority</label>
+    <description>Authority.</description>
+    <listPriority>1300</listPriority>
+    <major>false</major>
+    <showForCaravanMembers>false</showForCaravanMembers>
+    <scaleBar>true</scaleBar>
+  </NeedDef>
+
+</Defs>

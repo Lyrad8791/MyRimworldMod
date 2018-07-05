@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <BodyPartDef>
+    <defName>MyBodyPart</defName>
+    <label>MyBodyPart</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+
+  <NeedDef>
+    <defName>InjectNeed</defName>
+    <needClass>MyRimworldMod.Inject_Need</needClass>
+    <label>Inject</label>
+    <description>Used for injecting other code.</description>
+    <showOnNeedList>false</showOnNeedList>
+    <minIntelligence>Humanlike</minIntelligence>
+    <baseLevel>0.40</baseLevel>
+    <listPriority>1000</listPriority>
+    <major>false</major>
+    <freezeWhileSleeping>true</freezeWhileSleeping>
+    <showForCaravanMembers>true</showForCaravanMembers>
+  </NeedDef>
+
+  <HediffDef>
+    <defName>Feminism</defName>
+    <label>feminism</label>
+    <lethalSeverity>1</lethalSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>trivial</label>
+        <socialFightChanceFactor>-1.5</socialFightChanceFactor>
+        <hungerRateFactorOffset>-0.5</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Rationalism</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.2</minSeverity>
+        <label>minor</label>
+        <socialFightChanceFactor>-2</socialFightChanceFactor>
+        <hungerRateFactorOffset>-0.6</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Rationalism</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>moderate</label>
+        <socialFightChanceFactor>2.5</socialFightChanceFactor>
+        <hungerRateFactorOffset>0.6</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Rationalism</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>severe</label>
+        <socialFightChanceFactor>3</socialFightChanceFactor>
+        <hungerRateFactorOffset>0.6</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Rationalism</capacity>
+            <offset>-0.30</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <hungerRateFactorOffset>0.6</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Rationalism</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>AnusImprovement</defName>
+    <label>Improve Anus</label>
+    <description>Improve Anus.</description>
+    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+    <jobString>Installing lung.</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Anus</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+</Defs>

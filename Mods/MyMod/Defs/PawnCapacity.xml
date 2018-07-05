@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <PawnCapacityDef>
+    <defName>Rationalism</defName>
+    <label>rationalism</label>
+    <listOrder>35</listOrder>
+    <workerClass>MyRimworldMod.PawnCapacityWorker_Rationalism</workerClass>
+    <zeroIfCannotBeAwake>true</zeroIfCannotBeAwake>
+    <showOnCaravanHealthTab>true</showOnCaravanHealthTab>
+  </PawnCapacityDef>
+</Defs>

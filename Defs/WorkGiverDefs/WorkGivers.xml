@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <WorkGiverDef>
+    <defName>Discipline</defName>
+    <label>Discipline person</label>
+    <giverClass>MyRimworldMod.WorkGiver_ProvideDiscipline</giverClass>
+    <workType>Disciplining</workType>
+    <verb>Discipline</verb>
+    <gerund>Disciplining</gerund>
+  </WorkGiverDef>
+
+</Defs>
