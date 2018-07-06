@@ -35,5 +35,6 @@
       <li>Anus</li>
     </appliedOnFixedBodyParts>
     <addsHediff>AdvancedPowerArm</addsHediff>
+  <requiredGiverWorkType>Master</requiredGiverWorkType>
   </RecipeDef>
 </Defs>

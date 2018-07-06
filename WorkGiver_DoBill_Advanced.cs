@@ -317,7 +317,7 @@ namespace RimWorld
             if (pawn != null)
             {
 
-                if (this.def.billGiversAllHumanlikes && pawn.RaceProps.Humanlike && isGenderApropriate(pawn))
+                if (this.def.billGiversAllHumanlikes && pawn.RaceProps.Humanlike)
                 {
                     return true;
                 }

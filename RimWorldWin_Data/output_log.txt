@@ -1,39 +1,39 @@
 Initialize engine version: 5.6.3p1 (9c92e827232b)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 9.0c [nvldumd.dll 22.21.13.8554]
-    Renderer: NVIDIA Quadro K610M
-    Vendor:   NVIDIA
-    VRAM:     995 MB (via DXGI)
-    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1 BC4=1 BC5=1
+    Version:  Direct3D 9.0c [aticfx32.dll 22.19.677.257]
+    Renderer: AMD Radeon R9 200 Series
+    Vendor:   ATI
+    VRAM:     3052 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 NULL=1 RESZ=1 SlowINTZ=1 ATOC=0 BC4=1 BC5=1
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
-Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
-- Completed reload, in  0.031 seconds
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
+Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to default shader.
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.395009 ms
+UnloadTime: 1.296052 ms
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -42,15 +42,88 @@ RimWorld 0.18.1722 rev1198
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
-Non platform assembly: data-11E86898 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E86898.dll
-Non platform assembly: data-11DCB700 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11DCB700.dll
-Non platform assembly: data-11EA86A8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11EA86A8.dll
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 29e0 -> priority: 1 
-  Thread -> id: 16c0 -> priority: 1 
-  Thread -> id: a04 -> priority: 1 
-  Thread -> id: 1fbc -> priority: 1 
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Non platform assembly: data-138C5AF8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-138C5AF8.dll
+Non platform assembly: data-138F9B90 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-138F9B90.dll
+Non platform assembly: data-1395D6F8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1395D6F8.dll
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.484233 ms
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 7833.
+Total: 26.348051 ms (FindLiveObjects: 0.324573 ms CreateObjectMapping: 0.571364 ms MarkObjects: 25.400259 ms  DeleteObjects: 0.051214 ms)
+
+Loading game from file New Arrivals2 with mods Core, EdBPrepareCarefully, ExpandedProsthetics&OrganEngineering, and MyMod
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 14400.
+Total: 106.203636 ms (FindLiveObjects: 0.841201 ms CreateObjectMapping: 1.322940 ms MarkObjects: 104.004929 ms  DeleteObjects: 0.033929 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 101c -> priority: 1 
+  Thread -> id: 2c40 -> priority: 1 

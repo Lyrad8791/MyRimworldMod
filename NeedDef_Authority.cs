@@ -9,6 +9,9 @@ namespace MyRimworldMod
 {
     public class NeedDef_Authority : NeedDef
     {
-        
+        void emp()
+        {
+            
+        }
     }
 }
