@@ -9,4 +9,4 @@ C:\Users\marti\Source\Repos\Rimworld_ModMaking\MyRimworldMod\obj\Debug\MyRimworl
 C:\Users\marti\source\repos\MyRimworldMod\obj\Debug\MyRimworldMod.csproj.CoreCompileInputs.cache
 C:\Users\marti\source\repos\MyRimworldMod\obj\Debug\MyRimworldMod.dll
 C:\Users\marti\source\repos\MyRimworldMod\Mods\MyMod\Assemblies\MyRimworldMod.dll
-C:\Users\marti\Source\Repos\MyRimworldMod\obj\Debug\MyRimworldMod.csprojResolveAssemblyReference.cache
+C:\Users\marti\source\repos\MyRimworldMod\obj\Debug\MyRimworldMod.csprojAssemblyReference.cache

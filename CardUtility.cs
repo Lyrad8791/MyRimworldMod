@@ -128,7 +128,10 @@ namespace MyRimworldMod
                 return list;
             };
             Rect rect = new Rect(leftRect.x - 9f, curY, leftRect.width, leftRect.height - curY - 20f);
-            ((IBillGiver)thingForMedBills).BillStack.DoListing(rect, recipeOptionsMaker, ref CardUtility.billsScrollPosition, ref CardUtility.billsScrollHeight);
+            Rect pslider = new Rect(leftRect.x - 9f, curY-25f, leftRect.width, leftRect.height - curY - 30f);
+            GUI.HorizontalSlider(rect, 0.2f, 0, 1f);
+            IBillGiver bg = StorageTest.myBillManager.GetIBillGiver(pawn);
+            bg.BillStack.DoListing(rect, recipeOptionsMaker, ref CardUtility.billsScrollPosition, ref CardUtility.billsScrollHeight);
             return curY;
         }
 
@@ -169,7 +172,8 @@ namespace MyRimworldMod
                         return;
                     }
                     Bill_Sexual bill = new Bill_Sexual(recipe);
-                    pawn2.BillStack.AddBill(bill);
+                    IBillGiver billGiver = StorageTest.myBillManager.GetIBillGiver(pawn2);
+                    billGiver.BillStack.AddBill(bill);
                     bill.Part = part;
                     if (recipe.conceptLearned != null)
                     {

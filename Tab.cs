@@ -42,7 +42,7 @@ namespace MyRimworldMod
         protected override void FillTab()
         {
             Rect outRect = new Rect(0f, 20f, this.size.x, this.size.y - 20f);
-            CardUtility.DrawPawnCard(outRect, myPawn,  base.SelThing);
+            CardUtility2.DrawPawnCard(outRect, myPawn,  base.SelThing);
 
         }
     }

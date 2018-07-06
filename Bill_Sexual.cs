@@ -73,7 +73,8 @@ namespace MyRimworldMod
         {
             get
             {
-                Pawn pawn = this.billStack.billGiver as Pawn;
+                var bg = this.billStack.billGiver as MyBillGiver;
+                var pawn = bg.pawn;
                 Corpse corpse = this.billStack.billGiver as Corpse;
                 if (corpse != null)
                 {

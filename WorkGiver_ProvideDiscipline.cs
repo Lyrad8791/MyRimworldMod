@@ -12,6 +12,8 @@ namespace MyRimworldMod
     using Verse;
     using Verse.AI;
 
+    
+
     public class WorkGiver_ProvideDiscipline : WorkGiver
     {
 
