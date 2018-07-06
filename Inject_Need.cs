@@ -27,18 +27,29 @@ namespace MyRimworldMod
 
         public override void SetInitialLevel()
         {
-            if (pawn.gender == Gender.Female && !pawn.NonHumanlikeOrWildMan())
+            if (pawn != null)
             {
-                HediffDef def = DefDatabase<HediffDef>.GetNamed("Feminism");
-                var hediff =HediffMaker.MakeHediff(def, pawn, null);
-                hediff.Severity = 0.4f;
-                pawn.health.AddHediff(hediff, null, null);
-                pawn.RaceProps.
+                if (pawn.gender == Gender.Female && !pawn.NonHumanlikeOrWildMan())
+                {
+                    HediffDef def = DefDatabase<HediffDef>.GetNamed("Plague");
+                    if (pawn.health.hediffSet.hediffs.Exists(x => x.def == def))
+                    {
+                        Log.Message("Already exists");
+                    }
+                    else
+                    {
+                        Log.Message("Adding hedif");
 
+                        var hediff = HediffMaker.MakeHediff(def, pawn, null);
+                        hediff.Severity = 0.4f;
+                        pawn.health.AddHediff(hediff, null, null); 
+                    }
+                }
             }
-
-
-
+            else
+            {
+                Log.Message("Could not find Pawn");
+            }
         }
 
     }

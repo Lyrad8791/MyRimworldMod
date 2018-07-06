@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateSimpleProstheticLeg.label>Crear pierna prostetica sencilla</CreateSimpleProstheticLeg.label>
+	<CreateSimpleProstheticLeg.description>Crea una pierna prostetica simple de acero, plasticero y componentes.</CreateSimpleProstheticLeg.description>
+
+	<CreateSimpleProstheticArm.label>Crear brazo prostetico sencillo</CreateSimpleProstheticArm.label>
+	<CreateSimpleProstheticArm.description>Crea un brazo prostetico simple de acero, plasticero y componentes.</CreateSimpleProstheticArm.description>
+
+	<CreateSimpleProstheticHand.label>Crear mano prostetica sencilla</CreateSimpleProstheticHand.label>
+	<CreateSimpleProstheticHand.description>Crea una mano prostetica simple de acero, plasticero y componentes.</CreateSimpleProstheticHand.description>
+
+	<CreateSimpleProstheticFoot.label>Crear pie prostetico sencillo</CreateSimpleProstheticFoot.label>
+	<CreateSimpleProstheticFoot.description>Crea un pie prostetico simple de acero, plasticero y componentes.</CreateSimpleProstheticFoot.description>
+
+	<CreateArtificialNose.label>Crear nariz artificial</CreateArtificialNose.label>
+	<CreateArtificialNose.description>Crea una nariz artifical de plasticero.</CreateArtificialNose.description>
+
+	<CreateArtificialPelvis.label>Crear Pelvis artificial</CreateArtificialPelvis.label>
+	<CreateArtificialPelvis.description>Crea una pelvis artifical de acero y plastiacero.</CreateArtificialPelvis.description>
+
+	<CreateHydraulicJaw.label>Crear mandibula hidraulica</CreateHydraulicJaw.label>
+	<CreateHydraulicJaw.description>Crea una mandibula hidraulica de acero y componentes.</CreateHydraulicJaw.description>
+
+	<CreateGoldenEye.label>Crear Ojo de oro</CreateGoldenEye.label>
+	<CreateGoldenEye.description>Crea un ojo de oro.</CreateGoldenEye.description>
+
+</LanguageData>

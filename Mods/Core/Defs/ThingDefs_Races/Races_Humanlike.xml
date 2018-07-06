@@ -130,6 +130,7 @@
     </race>
     <recipes>
       <li>InstallPowerClaw</li>
+      <li>MyImprovement</li>
       <li>InstallScytherBlade</li>
       <li>InstallBionicEye</li>
       <li>InstallBionicArm</li>
@@ -146,7 +147,7 @@
       <li>InstallNaturalLiver</li>
       <li>ExciseCarcinoma</li>
       <li>AdministerMechSerumHealer</li>
-      <li>RemoveBodyPart</li>
+      <li>MyImprovement</li>
       <li>Euthanize</li>
       <li>Anesthetize</li>
     </recipes>

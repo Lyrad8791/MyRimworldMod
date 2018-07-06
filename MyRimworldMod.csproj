@@ -57,7 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SkillDef_Discipline.cs" />
     <Compile Include="Willpower_Need.cs" />
-    <Compile Include="WorkGiver_ProvideDiscipline - Copy.cs" />
+    <Compile Include="WorkGiver_DoBill_Advanced.cs" />
     <Compile Include="WorkGiver_ProvideDiscipline.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -448,7 +448,9 @@
     <Content Include="Mods\Core\Defs\Tutor\Concepts_TriggeredModal.xml" />
     <Content Include="Mods\Core\Defs\Tutor\Instructions.xml" />
     <Content Include="Mods\Core\Defs\WeatherDefs\Weathers.xml" />
-    <Content Include="Mods\Core\Defs\WorkGiverDefs\WorkGivers.xml" />
+    <Content Include="Mods\Core\Defs\WorkGiverDefs\WorkGivers.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Mods\Core\Defs\WorkTypeDefs\WorkTypes.xml" />
     <Content Include="Mods\Core\Defs\WorldGeneration\WorldGenerator.xml" />
     <Content Include="Mods\Core\Defs\WorldObjectDefs\WorldObjects.xml" />
@@ -9538,6 +9540,7 @@
     <Content Include="Mods\MyMod\Defs\BodiesDefs\Items_BodyPartsNatural.xml" />
     <Content Include="Mods\MyMod\Defs\BodiesDefs\OE_BodyParts.xml" />
     <Content Include="Mods\MyMod\Defs\PawnCapacity.xml" />
+    <Content Include="Mods\MyMod\Defs\TestDef - Copy.xml" />
     <Content Include="Mods\MyMod\Defs\TestDef.xml" />
   </ItemGroup>
   <ItemGroup>

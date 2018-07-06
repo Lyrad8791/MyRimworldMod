@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallPowerArm.label>Implantar brazo de poder</InstallPowerArm.label>
+	<InstallPowerArm.description>Implanta un brazo de poder.</InstallPowerArm.description>
+
+	<InstallBionicHand.label>Implantar mano bionica</InstallBionicHand.label>
+	<InstallBionicHand.description>Implanta una mano bionica.</InstallBionicHand.description>
+
+	<InstallBionicFoot.label>Implantar pie bionico</InstallBionicFoot.label>
+	<InstallBionicFoot.description>Implanta un pie bionico.</InstallBionicFoot.description>
+
+	<InstallBionicEar.label>Implantar oido bionico</InstallBionicEar.label>
+	<InstallBionicEar.description>Implanta un oido bionico.</InstallBionicEar.description>
+
+	<InstallBionicJaw.label>Implantar mandibula bionica</InstallBionicJaw.label>
+	<InstallBionicJaw.description>Bringt bionischen Kiefer an.</InstallBionicJaw.description>
+
+	<InstallSilentJaw.label>Instalar implante mandibular mudo</InstallSilentJaw.label>
+	<InstallSilentJaw.description>Instala un implante mandibular mudo.</InstallSilentJaw.description>
+
+	<InstallBionicSpine.label>Implantar columna vertebral bionica</InstallBionicSpine.label>
+	<InstallBionicSpine.description>Implanta una columna vertebral bionica.</InstallBionicSpine.description>
+
+	<InstallMedicalRib.label>Implantar reemplazo medico de costilla</InstallMedicalRib.label>
+	<InstallMedicalRib.description>Implanta un reemplazo medico para la costilla.</InstallMedicalRib.description>
+
+	<InstallDruggedRib.label>Implantar costilla alcoholizada</InstallDruggedRib.label>
+	<InstallDruggedRib.description>Implanta una costilla con alcohol.</InstallDruggedRib.description>
+	
+	<InstallAdrenalineRib.label>Implantar costilla con adrenalina</InstallAdrenalineRib.label>
+	<InstallAdrenalineRib.description>Implanta una costilla con adrenalina.</InstallAdrenalineRib.description>
+	
+	<InstallPainkillerRib.label>Implantar costilla analgesica</InstallPainkillerRib.label>
+	<InstallPainkillerRib.description>Implanta una costilla con analgesico.</InstallPainkillerRib.description>
+
+</LanguageData>

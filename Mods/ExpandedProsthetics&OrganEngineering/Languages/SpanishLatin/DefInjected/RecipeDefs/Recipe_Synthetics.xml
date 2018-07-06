@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallAIChip.label>Implantar Chip IA</InstallAIChip.label>
+	<InstallAIChip.description>Implanta Chip IA.</InstallAIChip.description>
+
+	<InstallSyntheticLung.label>Implantar pulmon sintetico</InstallSyntheticLung.label>
+	<InstallSyntheticLung.description>Implanta pulmon sintetico.</InstallSyntheticLung.description>
+
+	<InstallSyntheticStomach.label>Implantar estomago sintetico</InstallSyntheticStomach.label>
+	<InstallSyntheticStomach.description>Implanta estomago sintetico.</InstallSyntheticStomach.description>
+
+	<InstallSyntheticLiver.label>Implantar higado sintetico</InstallSyntheticLiver.label>
+	<InstallSyntheticLiver.description>Implanta higado sintetico.</InstallSyntheticLiver.description>
+
+	<InstallSyntheticKidney.label>Implantar riñon sintetico</InstallSyntheticKidney.label>
+	<InstallSyntheticKidney.description>Implanta riñon sintetico.</InstallSyntheticKidney.description>
+
+	<InstallSyntheticHeart.label>Implantar corazon sintetico</InstallSyntheticHeart.label>
+	<InstallSyntheticHeart.description>Implanta corazon sintetico.</InstallSyntheticHeart.description>
+
+</LanguageData>
