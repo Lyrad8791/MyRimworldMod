@@ -479,6 +479,14 @@
             <li>Waist</li>
           </groups>
         </li>
+         <li>
+          <def>Genitals</def>
+          <coverage>0</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>Waist</li>
+          </groups>
+        </li>
         <li>
           <def>LeftLeg</def>
           <coverage>0.14</coverage>

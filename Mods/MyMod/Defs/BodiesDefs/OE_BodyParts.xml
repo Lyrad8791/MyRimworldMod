@@ -31,6 +31,17 @@
   </BodyPartDef>
 
   <BodyPartDef>
+    <defName>Genitals</defName>
+    <label>genitals</label>
+    <hitPoints>1</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0.06</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <beautyRelated>false</beautyRelated>
+    <spawnThingOnRemoved>Ear</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  <BodyPartDef>
     <defName>RightEar</defName>
     <label>right ear</label>
     <hitPoints>10</hitPoints>

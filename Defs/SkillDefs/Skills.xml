@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <SkillDef>
-    <defName>Discipline</defName>
-    <description>Discipline.</description>
-    <skillLabel>Discipline</skillLabel>
-    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
-  </SkillDef>
-</Defs>

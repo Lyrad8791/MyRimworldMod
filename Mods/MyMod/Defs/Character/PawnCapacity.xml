@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <PawnCapacityDef>
+    <defName>Authority</defName>
+    <label>authority</label>
+    <listOrder>35</listOrder>
+    <workerClass>MyRimworldMod.Capacity_Authority</workerClass>
+    <zeroIfCannotBeAwake>true</zeroIfCannotBeAwake>
+    <showOnCaravanHealthTab>true</showOnCaravanHealthTab>
+  </PawnCapacityDef>
+</Defs>

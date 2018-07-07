@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <ThinkTreeDef>
+    <defName>FindMate</defName>
+    <insertTag>Humanlike_PostDuty</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="MyRimworldMod.JobGiver_HaveSex" />
+  </ThinkTreeDef>
+  
+  <JobDef>
+    <defName>Fuck</defName>
+    <driverClass>MyRimworldMod.JobDriver_HaveSex</driverClass>
+    <reportString>Fucking TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+﻿<!--<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>Sex</defName>
+    <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+
+    <label>Penetrate</label>
+    <description>Intercourse</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Fucking.</jobString>
+    <workAmount>1000</workAmount>
+    <appliedOnFixedBodyParts>
+      <li>Anus</li>
+      <li>Jaw</li>
+      <li>Genitals</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>AdvancedPowerArm</addsHediff>
+  <requiredGiverWorkType>Master</requiredGiverWorkType>
+  </RecipeDef>
+</Defs>-->

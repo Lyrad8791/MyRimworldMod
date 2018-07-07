@@ -539,13 +539,13 @@
       
       This example just makes colonists beat on each other, but modders
       can add any behavior using these and they'll all work together.-->
-  
-  <!--<ThinkTreeDef>
+  <!--
+  <ThinkTreeDef>
     <defName>InsertHookTest</defName>
     <insertTag>Humanlike_PostMentalState</insertTag>
-    <insertPriority>10000000000</insertPriority>
+    <insertPriority>100</insertPriority>
     <thinkRoot Class="JobGiver_Berserk" />
-  </ThinkTreeDef>-->
-  
+  </ThinkTreeDef>
+  -->
 
 </Defs>
