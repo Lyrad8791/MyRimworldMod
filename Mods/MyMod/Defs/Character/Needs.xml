@@ -17,5 +17,21 @@
     <showForCaravanMembers>false</showForCaravanMembers>
     <ratioSexTrigger>0.3</ratioSexTrigger>
   </NeedDef>
+
+  <NeedDef>
+    <defName>Discipline</defName>
+    <needClass>MyRimworldMod.Need_Discipline</needClass>
+    <label>Discipline</label>
+    <description>.</description>
+    <showOnNeedList>true</showOnNeedList>
+    <minIntelligence>Humanlike</minIntelligence>
+    <baseLevel>0.40</baseLevel>
+    <seekerRisePerHour>0.12</seekerRisePerHour>
+    <seekerFallPerHour>0.04</seekerFallPerHour>
+    <listPriority>450</listPriority>
+    <major>true</major>
+    <freezeWhileSleeping>false</freezeWhileSleeping>
+    <showForCaravanMembers>false</showForCaravanMembers>
+  </NeedDef>
  
 </Defs>

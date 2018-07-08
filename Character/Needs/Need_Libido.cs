@@ -10,16 +10,6 @@ namespace MyRimworldMod
 
     public class Need_Libido : Need
     {
-        public float SexualStatus;
-        public void UpdateSatus()
-        {
-            SexualStatus = 0;
-            SexualStatus += pawn.health.capacities.GetLevel(DefDatabase<PawnCapacityDef>.GetNamed("Authority"));
-            SexualStatus += 1 - CurLevelPercentage;
-            SexualStatus /= 2f;
-            
-        }
-
         public Libido_def Def
         {
             get
@@ -42,6 +32,14 @@ namespace MyRimworldMod
         {
             this.CurLevelPercentage = 0.5f;
         }
+        public void ManageFemaleHediff()
+        {
+        }
+
+        public void ManageMaleHediff()
+        {
+        }
+
         public override void NeedInterval()
         {
             if (pawn.gender == Gender.Female)
@@ -52,7 +50,7 @@ namespace MyRimworldMod
             {
                 this.CurLevelPercentage += 3.0E-03f;
             }
-            UpdateSatus();
+            
 
 
         }

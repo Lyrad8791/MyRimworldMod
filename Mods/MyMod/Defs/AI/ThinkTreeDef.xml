@@ -1,12 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-  <ThinkTreeDef>
-    <defName>FindMate</defName>
-    <insertTag>Humanlike_PostDuty</insertTag>
-    <insertPriority>100</insertPriority>
-    <thinkRoot Class="MyRimworldMod.JobGiver_HaveSex" />
-  </ThinkTreeDef>
+
+  <WorkTypeDef>
+    <defName>Master</defName>
+    <labelShort>Discipline</labelShort>
+    <pawnLabel>Master</pawnLabel>
+    <gerundLabel>disciplining</gerundLabel>
+    <description>Disicplines lazy people in colony.</description>
+    <verb>Discipline</verb>
+    <naturalPriority>1000</naturalPriority>
+    <alwaysStartActive>false</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+  </WorkTypeDef>
+
+  <WorkGiverDef>
+    <defName>Discipline person</defName>
+    <label>operate discipline person</label>
+    <giverClass>MyRimworldMod.WorkGiver_Discipline</giverClass>
+    <workType>Master</workType>
+    <priorityInType>80</priorityInType>
+    <billGiversAllHumanlikes>true</billGiversAllHumanlikes>
+    <billGiversAllHumanlikesCorpses>false</billGiversAllHumanlikesCorpses>
+    <verb>discipline </verb>
+    <gerund>discipline </gerund>
+    <requiredCapacities>
+      <li>SelfDiscipline</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
   
   <JobDef>
     <defName>Fuck</defName>
@@ -15,4 +37,16 @@
     <casualInterruptible>false</casualInterruptible>
   </JobDef>
 
+  <ThoughtDef>
+    <defName>HadSex_Thought</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>10</stackLimit>
+    <stages>
+      <li>
+        <label>had Sex</label>
+        <description>I had sex</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

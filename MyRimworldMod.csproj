@@ -51,11 +51,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\JobDriver_HaveSex.cs" />
-    <Compile Include="AI\JobGiver_HaveSex.cs" />
     <Compile Include="AI\PawnFinder.cs" />
-    <Compile Include="Character\Capacity_Authority.cs" />
-    <Compile Include="Character\Libido.cs" />
-    <Compile Include="Character\Libido_def.cs" />
+    <Compile Include="AI\WorkGiver_Discipline.cs" />
+    <Compile Include="Character\Capacities\Capacity_Authority.cs" />
+    <Compile Include="Character\Hediffs\Hediff_UnDiscpilined.cs" />
+    <Compile Include="Character\Needs\Libido_def.cs" />
+    <Compile Include="Character\Needs\Need_Discipline.cs" />
+    <Compile Include="Character\Needs\Need_Libido.cs" />
+    <Compile Include="Character\Stats\Need_Libido.cs" />
     <Compile Include="UI\CardUtility2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\Tab.cs" />
@@ -9533,7 +9536,15 @@
     <Content Include="Mods\MyMod\Defs\BodiesDefs\OE_BodyParts.xml" />
     <Content Include="Mods\MyMod\Defs\AI\ThinkTreeDef.xml" />
     <Content Include="Mods\MyMod\Defs\Character\Needs.xml" />
-    <Content Include="Mods\MyMod\Defs\Character\PawnCapacity.xml" />
+    <Content Include="Mods\MyMod\Defs\Character\Stats.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Mods\MyMod\Defs\Character\PawnCapacity.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Mods\MyMod\Defs\HeDiffs\Hediffs.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Mods\MyMod\Defs\Interactions\Items_BodyPartsNatural.xml" />
     <Content Include="UI\PawnCapacity.xml" />
     <Content Include="UI\Sexual.xml">

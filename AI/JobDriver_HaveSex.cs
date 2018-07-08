@@ -19,7 +19,7 @@ namespace MyRimworldMod
 
     public class VaginalSex : ISexType
     {
-        public int Duration => 100;
+        public int Duration => 500;
 
         public float AverageDelta => 0.2f;
 
@@ -35,7 +35,7 @@ namespace MyRimworldMod
     }
     public class AnalSex : ISexType
     {
-        public int Duration => 100;
+        public int Duration => 600;
 
         public float AverageDelta => 0.4f;
 
@@ -47,13 +47,9 @@ namespace MyRimworldMod
         {
             return "Fucking " + target.Name.ToStringShort + " in her ass";
         }
-
     }
 
-
-
-
-    public class JobDriver_HaveSex : JobDriver
+    public class JobDriver_Discipline : JobDriver
     {
         private const TargetIndex FemInd = TargetIndex.A;
         private const int TicksBetweenHeartMotes = 100;
@@ -117,7 +113,10 @@ namespace MyRimworldMod
             {
                 maleLibdo.CurLevelPercentage = 0f;
                 femaleLibdo.CurLevelPercentage *= 0.2f;
+                
                 pawn.jobs.EndCurrentJob(JobCondition.Succeeded, true);
+                pawn.needs.mood.thoughts.memories.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("HadSex_Thought"));
+                Female.needs.mood.thoughts.memories.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("HadSex_Thought"));
                 //                PawnUtility.Mated(pawn,Female);
 
             });

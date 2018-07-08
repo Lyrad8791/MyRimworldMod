@@ -2,10 +2,10 @@
 
 <Defs>
   <PawnCapacityDef>
-    <defName>Authority</defName>
-    <label>authority</label>
+    <defName>SelfDiscipline</defName>
+    <label>Discipline</label>
     <listOrder>35</listOrder>
-    <workerClass>MyRimworldMod.Capacity_Authority</workerClass>
+    <workerClass>MyRimworldMod.Capacity_SelfDiscipline</workerClass>
     <zeroIfCannotBeAwake>true</zeroIfCannotBeAwake>
     <showOnCaravanHealthTab>true</showOnCaravanHealthTab>
   </PawnCapacityDef>

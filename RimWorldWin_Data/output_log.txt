@@ -33,7 +33,7 @@ WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to defau
 <RI> Input initialized.
 desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.425369 ms
+UnloadTime: 1.311096 ms
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -43,20 +43,20 @@ RimWorld 0.18.1722 rev1198
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
-Non platform assembly: data-1397A010 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1397A010.dll
-Non platform assembly: data-13996008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13996008.dll
-Non platform assembly: data-139C0628 (this message is harmless)
-Non platform assembly: data-139C0628 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-139C0628.dll
-Non platform assembly: data-13A1AB00 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13A1AB00.dll
+Non platform assembly: data-134CDC80 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-134CDC80.dll
+Non platform assembly: data-134E62A8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-134E62A8.dll
+Non platform assembly: data-135105C0 (this message is harmless)
+Non platform assembly: data-135105C0 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-135105C0.dll
+Non platform assembly: data-13573768 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13573768.dll
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.330942 ms
+UnloadTime: 2.051469 ms
 
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 7943.
-Total: 23.974890 ms (FindLiveObjects: 0.363624 ms CreateObjectMapping: 0.360103 ms MarkObjects: 23.199625 ms  DeleteObjects: 0.050574 ms)
+Total: 25.912725 ms (FindLiveObjects: 0.324253 ms CreateObjectMapping: 0.629941 ms MarkObjects: 24.895472 ms  DeleteObjects: 0.062738 ms)
 
 Loading game from file Test with mods Core, HugsLib, EdBPrepareCarefully, ExpandedProsthetics&OrganEngineering, MyMod, Spoons Hair Mod -A18, and Detailed Body Texture
  
@@ -64,26 +64,14 @@ Loading game from file Test with mods Core, HugsLib, EdBPrepareCarefully, Expand
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 13769.
-Total: 95.712303 ms (FindLiveObjects: 0.817835 ms CreateObjectMapping: 1.125123 ms MarkObjects: 93.737976 ms  DeleteObjects: 0.030728 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 13773.
+Total: 90.554665 ms (FindLiveObjects: 0.835119 ms CreateObjectMapping: 1.397841 ms MarkObjects: 88.290977 ms  DeleteObjects: 0.030088 ms)
 
 Giving Job
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Trigger 0.3 Libido 0.503
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maybe : Martin
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maybe : Tamara
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-maybe : Dionne
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -135,10 +123,6 @@ Giving Job
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Giving Job
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 Trigger 0.3 Libido 0.006
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -151,7 +135,7 @@ Giving Job
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Giving Job
+Trigger 0.3 Libido 0.006
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -159,11 +143,7 @@ Giving Job
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Trigger 0.3 Libido 0.012
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Giving Job
+Trigger 0.3 Libido 0.009
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -191,6 +171,126 @@ Trigger 0.3 Libido 0.018
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.021
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.024
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.03
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.033
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.039
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.042
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.048
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Giving Job
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trigger 0.3 Libido 0.051
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2fe0 -> priority: 1 
-  Thread -> id: 184 -> priority: 1 
+  Thread -> id: 3048 -> priority: 1 
+  Thread -> id: c2c -> priority: 1 
