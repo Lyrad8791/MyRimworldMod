@@ -31,13 +31,7 @@ namespace MyRimworldMod
         public override void SetInitialLevel()
         {
             this.CurLevelPercentage = 0.5f;
-        }
-        public void ManageFemaleHediff()
-        {
-        }
-
-        public void ManageMaleHediff()
-        {
+            Hediff_Entitled.AddInitialEntitlement(pawn);
         }
 
         public override void NeedInterval()

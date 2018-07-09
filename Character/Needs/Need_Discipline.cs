@@ -1,10 +1,23 @@
 ﻿using RimWorld;
+using System.Collections.Generic;
 using Verse;
 
 namespace MyRimworldMod
 {
     public class Need_Discipline : Need
     {
+        StatDef disciplineDecay;
+
+        public Need_Discipline(Pawn pawn) : base(pawn)
+        {
+            this.threshPercents = new List<float>();
+            this.threshPercents.Add(0.15f);
+            this.threshPercents.Add(0.3f);
+            this.threshPercents.Add(0.7f);
+            this.threshPercents.Add(0.85f);
+            disciplineDecay = DefDatabase<StatDef>.GetNamed("DisciplineDecay");
+        }
+
         public static float GetVal(Pawn pawn)
         {
             return pawn.needs.TryGetNeed<Need_Discipline>().CurLevelPercentage;
@@ -12,14 +25,11 @@ namespace MyRimworldMod
 
         public override void SetInitialLevel()
         {
-            this.CurLevelPercentage = 1f;
+
         }
         public override void NeedInterval()
         {
-            if (pawn.gender == Gender.Female)
-            {
-                this.CurLevelPercentage -= Capacity_SelfDiscipline.GetAuthority(pawn);
-            }
+            CurLevelPercentage -= pawn.GetStatValue(disciplineDecay);
         }
     }
 }

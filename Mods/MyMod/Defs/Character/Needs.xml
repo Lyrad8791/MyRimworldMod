@@ -18,7 +18,7 @@
     <ratioSexTrigger>0.3</ratioSexTrigger>
   </NeedDef>
 
-  <NeedDef>
+  <!--<NeedDef>
     <defName>Discipline</defName>
     <needClass>MyRimworldMod.Need_Discipline</needClass>
     <label>Discipline</label>
@@ -32,6 +32,6 @@
     <major>true</major>
     <freezeWhileSleeping>false</freezeWhileSleeping>
     <showForCaravanMembers>false</showForCaravanMembers>
-  </NeedDef>
+  </NeedDef>-->
  
 </Defs>

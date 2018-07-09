@@ -8,11 +8,13 @@ namespace MyRimworldMod
 {
     public class WorkGiver_Discipline : WorkGiver
     {
-        float minDiscipline = 0.3f;
-        float maxDist = 30;
+        float minDiscipline = 0.5f;
+        
+
         public override Job NonScanJob(Pawn pawn)
         {
-            Log.Message("Giving Job");
+            
+       
             var nearbyPawns = PawnFinder.GetNearbyPawns(pawn);
             if (!(nearbyPawns.Count > 0))
             {
@@ -20,16 +22,17 @@ namespace MyRimworldMod
             }
             Predicate<Pawn> validator = delegate (Pawn pawn3)
             {
-
-                return !pawn3.Downed && pawn3.CanCasuallyInteractNow(false) && !pawn3.IsForbidden(pawn) && pawn3.Faction == pawn.Faction;
+                return !pawn3.Downed && pawn3.CanCasuallyInteractNow(false) && !pawn3.IsForbidden(pawn) && pawn3.Faction == pawn.Faction && pawn!=pawn3;
             };
             var properpawns = nearbyPawns.FindAll(validator);
+            Log.Message("Proper : " + properpawns.Count);
             if (!(properpawns.Count > 0))
             {
                 return null;
             }
+
             Pawn female = properpawns.MinBy(x => Need_Discipline.GetVal(x));
-            if (female == null || Need_Discipline.GetVal(female) < minDiscipline)
+            if (female == null || Need_Discipline.GetVal(female) > minDiscipline)
             {
                 return null;
             }

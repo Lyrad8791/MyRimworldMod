@@ -50,18 +50,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AI\JobDriver_HaveSex.cs" />
+    <Compile Include="AI\AnalSex.cs" />
+    <Compile Include="AI\DisciplinaryAction.cs" />
+    <Compile Include="AI\JobDriver_Discipline.cs" />
+    <Compile Include="AI\NeedGain.cs" />
     <Compile Include="AI\PawnFinder.cs" />
     <Compile Include="AI\WorkGiver_Discipline.cs" />
-    <Compile Include="Character\Capacities\Capacity_Authority.cs" />
-    <Compile Include="Character\Hediffs\Hediff_UnDiscpilined.cs" />
+    <Compile Include="Character\Capacities\Capacity_SelfDiscipline.cs" />
+    <Compile Include="Character\Hediffs\Hediff_Entitled.cs" />
     <Compile Include="Character\Needs\Libido_def.cs" />
     <Compile Include="Character\Needs\Need_Discipline.cs" />
     <Compile Include="Character\Needs\Need_Libido.cs" />
-    <Compile Include="Character\Stats\Need_Libido.cs" />
+    <Compile Include="Character\Stats\Statpart_Gender.cs" />
     <Compile Include="UI\CardUtility2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\Tab.cs" />
+    <Compile Include="UI\ITab_Pawn_Discipline.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mods\Core\About\About.xml" />
@@ -9542,7 +9545,10 @@
     <Content Include="Mods\MyMod\Defs\Character\PawnCapacity.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Mods\MyMod\Defs\HeDiffs\Hediffs.xml">
+    <Content Include="Mods\MyMod\Defs\HeDiffs\Female.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Mods\MyMod\Defs\HeDiffs\Entitled.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Mods\MyMod\Defs\Interactions\Items_BodyPartsNatural.xml" />

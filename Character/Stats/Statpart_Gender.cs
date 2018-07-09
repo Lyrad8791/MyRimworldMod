@@ -18,10 +18,10 @@ namespace MyRimworldMod
         public override void TransformValue(StatRequest req, ref float val)
         {
             Pawn pawn = req.Thing as Pawn;
-            val = 0;
+            val = 0.47f;
             if (pawn.gender == Gender.Male)
             {
-                val = 1;
+                val = 0.53f;
             }
         }
     }
