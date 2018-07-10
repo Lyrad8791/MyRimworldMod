@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using Verse;
 
-namespace MyRimworldMod
+namespace Control
 {
     public class ITab_Pawn_Discipline : ITab
     {

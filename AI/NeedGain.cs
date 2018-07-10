@@ -2,7 +2,7 @@
 using System;
 using Verse;
 
-namespace MyRimworldMod
+namespace Control
 {
     public struct NeedModification
     {

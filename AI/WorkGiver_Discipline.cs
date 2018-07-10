@@ -4,7 +4,7 @@ using UnityEngine;
 using Verse;
 using Verse.AI;
 
-namespace MyRimworldMod
+namespace Control
 {
     public class WorkGiver_Discipline : WorkGiver
     {

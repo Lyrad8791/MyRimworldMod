@@ -7,7 +7,7 @@ using UnityEngine;
 using Verse;
 using Verse.AI;
 
-namespace MyRimworldMod
+namespace Control
 {
     public static class DisciplineUtil
     {

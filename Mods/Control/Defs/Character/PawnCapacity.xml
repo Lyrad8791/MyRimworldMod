@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <PawnCapacityDef>
+    <defName>CriticalThinking</defName>
+    <label>Discipline</label>
+    <listOrder>35</listOrder>
+    <workerClass>Control.CriticalThinking</workerClass>
+    <zeroIfCannotBeAwake>true</zeroIfCannotBeAwake>
+    <showOnCaravanHealthTab>true</showOnCaravanHealthTab>
+  </PawnCapacityDef>
+</Defs>

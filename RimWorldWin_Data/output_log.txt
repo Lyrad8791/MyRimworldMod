@@ -33,7 +33,7 @@ WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to defau
 <RI> Input initialized.
 desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.359752 ms
+UnloadTime: 1.282609 ms
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -43,124 +43,39 @@ RimWorld 0.18.1722 rev1198
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
-Non platform assembly: data-11E5C008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E5C008.dll
-Non platform assembly: data-11E97008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E97008.dll
-Non platform assembly: data-11EBA410 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11EBA410.dll
-Non platform assembly: data-11EC1040 (this message is harmless)
-Non platform assembly: data-11EC1040 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11EC1040.dll
+Non platform assembly: data-11A86920 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11A86920.dll
+Non platform assembly: data-11AC0940 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11AC0940.dll
+Non platform assembly: data-11AE5418 (this message is harmless)
+Non platform assembly: data-11AE5418 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11AE5418.dll
+Non platform assembly: data-11B43DA8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B43DA8.dll
+Non platform assembly: data-11BBD2A0 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11BBD2A0.dll
+Non platform assembly: data-11BC7430 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11BC7430.dll
+Found no usable data when trying to get defs from file Needs.xml
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Config error in Entitled: has comps but hediffClass is not HediffWithComps or subclass thereof
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Config error in Discipline person: defName Discipline person should only contain letters, numbers, underscores, or dashes.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.835089 ms
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 8772.
-Total: 61.853352 ms (FindLiveObjects: 0.563682 ms CreateObjectMapping: 0.529752 ms MarkObjects: 60.668053 ms  DeleteObjects: 0.091226 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 8010.
+Total: 25.035698 ms (FindLiveObjects: 0.348900 ms CreateObjectMapping: 0.436605 ms MarkObjects: 24.185534 ms  DeleteObjects: 0.064018 ms)
 
-Prepare Carefully could not add a hediff to the pawn: Entitled, no part
+Loading game from file New Arrivals1 with mods Core, HugsLib, ExpandedProsthetics&OrganEngineering, Spoons Hair Mod -A18, Detailed Body Texture, EdBPrepareCarefully, ColonyManager, and Control
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Prepare Carefully could not add a hediff to the pawn: Female, Genitals
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 
-Prepare Carefully could not add a hediff to the pawn: Entitled, no part
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 14247.
+Total: 105.655426 ms (FindLiveObjects: 0.871931 ms CreateObjectMapping: 0.957396 ms MarkObjects: 103.785118 ms  DeleteObjects: 0.040331 ms)
 
-Prepare Carefully could not add a hediff to the pawn: Female, Genitals
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Entitled, no part
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Female, Genitals
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Entitled, no part
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Female, Genitals
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Entitled, no part
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Female, Genitals
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Hediff added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Entitled, no part
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Prepare Carefully could not add a hediff to the pawn: Female, Genitals
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 33a0 -> priority: 1 
-  Thread -> id: 2308 -> priority: 1 

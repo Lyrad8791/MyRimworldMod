@@ -1,6 +1,6 @@
 ﻿using RimWorld;
 
-namespace MyRimworldMod
+namespace Control
 {
     public class Libido_def : NeedDef
     {

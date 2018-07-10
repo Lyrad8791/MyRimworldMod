@@ -2,7 +2,7 @@
 using System.Text;
 using Verse;
 
-namespace MyRimworldMod
+namespace Control
 {
     
     public class Hediff_Female : Hediff

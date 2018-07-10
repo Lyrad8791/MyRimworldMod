@@ -6,7 +6,7 @@ using System.Text;
 using UnityEngine;
 using Verse;
 using RimWorld;
-namespace MyRimworldMod
+namespace Control
 {
     [StaticConstructorOnStartup]
     public static class CardUtility2

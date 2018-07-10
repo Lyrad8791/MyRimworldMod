@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--<NeedDef Class ="Control.Libido_def">
+    <defName>Libido</defName>
+    <needClass>Control.Need_Libido</needClass>
+    <label>libido</label>
+    <description>.</description>
+    <showOnNeedList>true</showOnNeedList>
+    <minIntelligence>Humanlike</minIntelligence>
+    <baseLevel>0.40</baseLevel>
+    <seekerRisePerHour>0.12</seekerRisePerHour>
+    <seekerFallPerHour>0.04</seekerFallPerHour>
+    <listPriority>450</listPriority>
+    <major>true</major>
+    <freezeWhileSleeping>false</freezeWhileSleeping>
+    <showForCaravanMembers>false</showForCaravanMembers>
+    <ratioSexTrigger>0.3</ratioSexTrigger>
+  </NeedDef>-->
+
+  <!--<NeedDef>
+    <defName>Discipline</defName>
+    <needClass>Control.Need_Discipline</needClass>
+    <label>Discipline</label>
+    <description>.</description>
+    <showOnNeedList>true</showOnNeedList>
+    <minIntelligence>Humanlike</minIntelligence>
+    <baseLevel>0.40</baseLevel>
+    <seekerRisePerHour>0.12</seekerRisePerHour>
+    <seekerFallPerHour>0.04</seekerFallPerHour>
+    <listPriority>450</listPriority>
+    <major>true</major>
+    <freezeWhileSleeping>false</freezeWhileSleeping>
+    <showForCaravanMembers>false</showForCaravanMembers>
+  </NeedDef>-->
+ 
+</Defs>

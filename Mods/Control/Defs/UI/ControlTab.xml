@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>CTRL_Control</defName>
+    <label>control</label>
+    <description>Gain influence to make colonist performBetter</description>
+    <tabWindowClass>Control.MainTabWindow_Control</tabWindowClass>
+    <order>11</order>
+  </MainButtonDef>
+  
+  <PawnColumnDef>
+    <defName>InfluenceChangeColumn</defName>
+    <label>influence change</label>
+    <workerClass>Control.InfluenceChangeColumn</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+  
+  <PawnColumnDef>
+    <defName>InfluenceLevelColumn</defName>
+    <label>influence Level</label>
+    <workerClass>Control.InfluenceLevelColumn</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+
+    
+  <PawnTableDef>
+    <defName>CTRL_Control</defName>
+    <columns>
+      <li>Label</li>
+      <li>GapTiny</li>
+      <li>InfluenceLevelColumn</li>
+      <li>InfluenceChangeColumn</li>
+    </columns>
+  </PawnTableDef>
+</Defs>
+

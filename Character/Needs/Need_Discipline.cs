@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Verse;
 
-namespace MyRimworldMod
+namespace Control
 {
     public class Need_Discipline : Need
     {

@@ -6,7 +6,7 @@ using System.Linq;
 using Verse;
 using Verse.AI;
 
-namespace MyRimworldMod
+namespace Control
 {
     public struct PawnDistTuple
     {
