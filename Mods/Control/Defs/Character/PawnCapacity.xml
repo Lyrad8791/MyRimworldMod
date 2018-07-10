@@ -3,9 +3,9 @@
 <Defs>
   <PawnCapacityDef>
     <defName>CriticalThinking</defName>
-    <label>Discipline</label>
+    <label>Critical Thinking</label>
     <listOrder>35</listOrder>
-    <workerClass>Control.CriticalThinking</workerClass>
+    <workerClass>Control.Capacity_CriticalThinking</workerClass>
     <zeroIfCannotBeAwake>true</zeroIfCannotBeAwake>
     <showOnCaravanHealthTab>true</showOnCaravanHealthTab>
   </PawnCapacityDef>

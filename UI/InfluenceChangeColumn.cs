@@ -21,7 +21,7 @@ namespace Control
         {
             Widgets.FillableBar(rect, 0.7f);
             Text.Anchor = TextAnchor.MiddleCenter;
-            Widgets.Label(rect, " Level " + 5 );
+            Widgets.Label(rect, " Level " + 0);
             Text.Anchor = TextAnchor.UpperLeft;
 
         }

@@ -6,7 +6,12 @@ namespace Control
 {
     
     public class Hediff_Female : Hediff
-    { }
+    {
+        public override void Tick()
+        {
+            base.Tick();
+        }
+    }
 
     public class Hediff_Entitled : HediffWithComps
     {

@@ -33,5 +33,19 @@
     <freezeWhileSleeping>false</freezeWhileSleeping>
     <showForCaravanMembers>false</showForCaravanMembers>
   </NeedDef>-->
- 
-</Defs>
+  <NeedDef>
+    <defName>Control</defName>
+    <needClass>Control.Need_Control</needClass>
+    <label>Control</label>
+    <description>.</description>
+    <showOnNeedList>true</showOnNeedList>
+    <minIntelligence>Humanlike</minIntelligence>
+    <baseLevel>0.40</baseLevel>
+    <seekerRisePerHour>0.12</seekerRisePerHour>
+    <seekerFallPerHour>0.04</seekerFallPerHour>
+    <listPriority>450</listPriority>
+    <major>true</major>
+    <freezeWhileSleeping>false</freezeWhileSleeping>
+    <showForCaravanMembers>false</showForCaravanMembers>
+  </NeedDef>
+ </Defs>

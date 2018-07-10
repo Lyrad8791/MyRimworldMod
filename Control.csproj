@@ -57,6 +57,7 @@
     <Compile Include="AI\PawnFinder.cs" />
     <Compile Include="AI\WorkGiver_Discipline.cs" />
     <Compile Include="Character\Capacities\Capacity_CriticalThinking.cs" />
+    <Compile Include="Character\Hediffs\Hediff_Control.cs" />
     <Compile Include="Character\Hediffs\Hediff_Entitled.cs" />
     <Compile Include="Character\Needs\Libido_def.cs" />
     <Compile Include="Character\Needs\Need_Discipline.cs" />
@@ -9550,7 +9551,7 @@
     <Content Include="Mods\Control\Defs\BodiesDefs\Items_BodyPartsNatural.xml" />
     <Content Include="Mods\Control\Defs\BodiesDefs\OE_BodyParts.xml" />
     <Content Include="UI\AI\ThinkTreeDef.xml" />
-    <Content Include="Mods\Control\Defs\Character\Needs.xml" />
+    <Content Include="Legacy\Needs.xml" />
     <Content Include="Mods\Control\Defs\Character\Stats.xml">
       <SubType>Designer</SubType>
     </Content>
