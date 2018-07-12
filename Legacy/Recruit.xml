@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+   <ThoughtDef>
+    <defName>StatusDifference</defName>
+    <thoughtClass>Control.Status</thoughtClass>
+    <workerClass>ThoughtWorker_Incestuous</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Inferior</label>
+        <label>Superior</label>
+      </li>
+    </stages>
+  </ThoughtDef>
+	
+
+</Defs>

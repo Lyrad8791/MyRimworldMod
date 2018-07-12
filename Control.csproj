@@ -50,27 +50,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AI\AnalSex.cs" />
-    <Compile Include="AI\DisciplinaryAction.cs" />
-    <Compile Include="AI\JobDriver_Discipline.cs" />
-    <Compile Include="AI\NeedGain.cs" />
-    <Compile Include="AI\PawnFinder.cs" />
-    <Compile Include="AI\WorkGiver_Discipline.cs" />
+    <Compile Include="AI\Thoughts\ThoughtWorker_StatusDifference.cs" />
+    <Compile Include="Legacy\AnalSex.cs" />
+    <Compile Include="Legacy\DisciplinaryAction.cs" />
+    <Compile Include="Legacy\JobDriver_Discipline.cs" />
+    <Compile Include="Legacy\NeedGain.cs" />
+    <Compile Include="Legacy\PawnFinder.cs" />
+    <Compile Include="Legacy\WorkGiver_Discipline.cs" />
     <Compile Include="Character\Capacities\Capacity_CriticalThinking.cs" />
-    <Compile Include="Character\Hediffs\Hediff_Control.cs" />
+    <Compile Include="Legacy\Hediff_Committed.cs" />
     <Compile Include="Character\Hediffs\Hediff_Entitled.cs" />
     <Compile Include="Character\Needs\Libido_def.cs" />
     <Compile Include="Character\Needs\Need_Discipline.cs" />
     <Compile Include="Character\Needs\Need_Libido.cs" />
     <Compile Include="Character\Stats\Statpart_Gender.cs" />
-    <Compile Include="UI\CardUtility2.cs" />
+    <Compile Include="Legacy\CardUtility2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\InfluenceChangeColumn.cs" />
-    <Compile Include="UI\ITab_Pawn_Discipline.cs" />
+    <Compile Include="AI\Interactions\InteractionWorker_Recruit.cs" />
+    <Compile Include="Legacy\ITab_Pawn_Discipline.cs" />
     <Compile Include="UI\MainTabWindow_Control.cs" />
-    <Compile Include="World\CardUtility2.cs" />
+    <Compile Include="World\CultManager.cs" />
+    <Compile Include="World\PawnOpinionCache.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Mods\Control\Defs\Character\Traits.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Legacy\Recruit.xml" />
     <Content Include="Mods\Control\Defs\UI\ControlTab.xml" />
     <Content Include="Mods\Core\About\About.xml" />
     <Content Include="Mods\Core\About\Preview.png" />
@@ -9550,7 +9557,7 @@
     <Content Include="Mods\Control\Defs\BodiesDefs\Bodies_Humanlike.xml" />
     <Content Include="Mods\Control\Defs\BodiesDefs\Items_BodyPartsNatural.xml" />
     <Content Include="Mods\Control\Defs\BodiesDefs\OE_BodyParts.xml" />
-    <Content Include="UI\AI\ThinkTreeDef.xml" />
+    <Content Include="Legacy\AI\ThinkTreeDef.xml" />
     <Content Include="Legacy\Needs.xml" />
     <Content Include="Mods\Control\Defs\Character\Stats.xml">
       <SubType>Designer</SubType>
@@ -9561,10 +9568,10 @@
     <Content Include="Legacy\Female.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Mods\Control\Defs\HeDiffs\Control.xml">
+    <Content Include="Mods\Control\Defs\HeDiffs\Committed.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Mods\Control\Defs\Interactions\Items_BodyPartsNatural.xml" />
+    <Content Include="Mods\Control\Defs\Interactions\Recruit.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Mods\Core\Defs\Effects.meta~alpha14" />
@@ -9597,6 +9604,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mods\Control\Assemblies\" />
+    <Folder Include="Mods\Control\Defs\Thoughts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

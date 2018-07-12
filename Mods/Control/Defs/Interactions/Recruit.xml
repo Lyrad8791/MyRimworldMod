@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <InteractionDef>
+    <defName>CTRL_Recruit</defName>
+    <label>recruit</label>
+    <workerClass>Control.InteractionWorker_Recruit</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <initiatorThought>CTRL_Recruit</initiatorThought>
+    <initiatorXpGainSkill>Social</initiatorXpGainSkill>
+    <initiatorXpGainAmount>10</initiatorXpGainAmount>
+    <recipientThought>CTRL_Recruit</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>logentry->Recruited [other_nameShortIndef].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  
+  
+    
+  
+  <ThoughtDef>
+    <defName>CTRL_Recruit</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitPerPawn>10</stackLimitPerPawn>
+    <stackedEffectMultiplier>0.88</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Discussed cult</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>CTRL_Recruit_ToLeader</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitPerPawn>10</stackLimitPerPawn>
+    <stackedEffectMultiplier>0.88</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Was reqruited and thus trust in leader increased</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  
+
+
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <TraitDef>
+    <defName>CultLeader</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>cult leader</label>
+        <description>NAME wants to use this situation to take control and form a cult.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

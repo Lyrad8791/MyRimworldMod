@@ -2,15 +2,9 @@
 
 <Defs>
   <HediffDef>
-    <defName>Control</defName>
-    <label>Control</label>
-    <labelNoun>The control over this person</labelNoun>
-    <comps>
-      <li Class="Control.HediffCompProperties_SeverityPerDay">
-        <capacityDef>CriticalThinking</capacityDef>
-        <weight>-0.01</weight>
-      </li>
-    </comps>
+    <defName>Committed</defName>
+    <label>Committed</label>
+    <labelNoun>This persons committment to the cult</labelNoun>
     <stages>
       <li>
         <label>trivial</label>
@@ -32,27 +26,13 @@
       </li>
       <li>
         <minSeverity>0.8</minSeverity>
-        <label>severe</label>
+        <label>Large</label>
         <socialFightChanceFactor>0.3</socialFightChanceFactor>
-        <statOffsets>
-          <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
-        </statOffsets>
-          <capMods>
-            <li>
-              <capacity>CriticalThinking</capacity>
-              <offset>-0.3</offset>
-            </li>
-          </capMods>
-      </li>
+    
+       </li>
       <li>
         <minSeverity>0.9</minSeverity>
-        <label>extreme</label>
-        <capMods>
-          <li>
-            <capacity>CriticalThinking</capacity>
-            <offset>-0.4</offset>
-          </li>
-        </capMods>
+        <label>Complete</label>
         <socialFightChanceFactor>0.1</socialFightChanceFactor>
       </li>
       </stages>

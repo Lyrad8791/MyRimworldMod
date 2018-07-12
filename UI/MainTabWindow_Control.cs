@@ -20,7 +20,6 @@ namespace Control
                 return DefDatabase<PawnTableDef>.GetNamed("CTRL_Control");
             }
         }
-
-
     }
+
 }
