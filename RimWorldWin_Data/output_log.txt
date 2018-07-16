@@ -23,7 +23,7 @@ Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Ma
 Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll into Unity Child Domain
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
 Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
-- Completed reload, in  0.028 seconds
+- Completed reload, in  0.237 seconds
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.dll (this message is harmless)
@@ -33,7 +33,7 @@ WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to defau
 <RI> Input initialized.
 desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.155214 ms
+UnloadTime: 1.253484 ms
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -43,42 +43,54 @@ RimWorld 0.18.1722 rev1198
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
-Non platform assembly: data-1400AD48 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1400AD48.dll
-Non platform assembly: data-14046010 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-14046010.dll
-Non platform assembly: data-1406BA20 (this message is harmless)
-Non platform assembly: data-1406BA20 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1406BA20.dll
-Non platform assembly: data-140CDA98 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-140CDA98.dll
-Non platform assembly: data-1413B008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1413B008.dll
-Non platform assembly: data-14144B90 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-14144B90.dll
+Non platform assembly: data-13CD8010 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13CD8010.dll
+Non platform assembly: data-13CE8018 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13CE8018.dll
+Non platform assembly: data-13D10238 (this message is harmless)
+Non platform assembly: data-13D10238 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13D10238.dll
+Non platform assembly: data-13D75678 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13D75678.dll
+Non platform assembly: data-13D9C3A8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13D9C3A8.dll
+Non platform assembly: data-13DAAE40 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13DAAE40.dll
 Config error in CultLeader: TraitDef CultLeader has 0 commonality.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-[HugsLib] v4.1.1 initialized StorageTest
+[HugsLib] v4.1.1 initialized CultManager
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.929198 ms
+UnloadTime: 2.215684 ms
 
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 8010.
-Total: 26.325375 ms (FindLiveObjects: 0.316571 ms CreateObjectMapping: 0.543197 ms MarkObjects: 25.414391 ms  DeleteObjects: 0.050574 ms)
+Total: 24.524252 ms (FindLiveObjects: 0.342499 ms CreateObjectMapping: 0.408118 ms MarkObjects: 23.689770 ms  DeleteObjects: 0.083224 ms)
 
 Loading game from file Test with mods Core, HugsLib, ExpandedProsthetics&OrganEngineering, Spoons Hair Mod -A18, Detailed Body Texture, EdBPrepareCarefully, ColonyManager, and Control
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Could not resolve reference to object with loadID Thing_Human94 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawn Trumpet has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 14221.
-Total: 106.959900 ms (FindLiveObjects: 0.993887 ms CreateObjectMapping: 1.433694 ms MarkObjects: 104.500626 ms  DeleteObjects: 0.030728 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 14294.
+Total: 101.448708 ms (FindLiveObjects: 0.769183 ms CreateObjectMapping: 0.806954 ms MarkObjects: 99.822311 ms  DeleteObjects: 0.050254 ms)
+
+Added
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2f0 -> priority: 1 
-  Thread -> id: 2b50 -> priority: 1 
+  Thread -> id: 1cc8 -> priority: 1 
+  Thread -> id: e7c -> priority: 1 

@@ -8,7 +8,21 @@
     <tabWindowClass>Control.MainTabWindow_Control</tabWindowClass>
     <order>11</order>
   </MainButtonDef>
+
+  <PawnColumnDef>
+    <defName>InfluenceFromLeaderColumn</defName>
+    <label>leader influence</label>
+    <workerClass>Control.InfluenceFromLeaderColumn</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
   
+  <PawnColumnDef>
+    <defName>InfluenceChangeFromFriendsColumn</defName>
+    <label>friends influence</label>
+    <workerClass>Control.InfluenceChangeFromFriendsColumn</workerClass>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+
   <PawnColumnDef>
     <defName>InfluenceChangeColumn</defName>
     <label>influence change</label>
@@ -31,6 +45,8 @@
       <li>GapTiny</li>
       <li>InfluenceLevelColumn</li>
       <li>InfluenceChangeColumn</li>
+      <li>InfluenceFromLeaderColumn</li>
+      <li>InfluenceChangeFromFriendsColumn</li>
     </columns>
   </PawnTableDef>
 </Defs>

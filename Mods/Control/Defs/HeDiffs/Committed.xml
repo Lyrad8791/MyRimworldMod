@@ -5,6 +5,7 @@
     <defName>Committed</defName>
     <label>Committed</label>
     <labelNoun>This persons committment to the cult</labelNoun>
+    <hediffClass>Control.Hediff_Committed</hediffClass>
     <stages>
       <li>
         <label>trivial</label>

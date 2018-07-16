@@ -1,60 +1,64 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using UnityEngine;
 using Verse;
 using RimWorld;
 using HugsLib;
-using HugsLib.Utils;
-using UnityEngine;
+
 
 namespace Control
 {
 
     public class CultManager : ModBase
     {
-        TickManager tm;
+        public static TickManager tm;
         public static Dictionary<int, PawnOpinionCache> OpinionCacheLookup = new Dictionary<int, PawnOpinionCache>();
         static List<Pawn> pawns = new List<Pawn>();
         public static Pawn Leader;
-
+        public static HediffDef CommittedHediffdef
+        {
+            get
+            {
+                if (committedHediffdef == null)
+                {
+                    committedHediffdef = DefDatabase<HediffDef>.GetNamed("Committed");
+                }
+                return committedHediffdef;                
+            }
+        }
+        static HediffDef committedHediffdef;
+        
         public const int OpinionNormalizer = 100;
         
         public override string ModIdentifier
         {
-            get { return "StorageTest"; }
-        }
-
-        public override void MapGenerated(Map map)
-        {
-            base.MapGenerated(map);
-            tm = Find.TickManager;
+            get { return "CultManager"; }
         }
 
         public static int GetOpinionOfLeader(Pawn pawnWithLeaderOpinion)
         {
-            return OpinionCacheLookup[Leader.GetHashCode()].LookupOpinionOfMe(pawnWithLeaderOpinion);
+            return OpinionCacheLookup[Leader.GetHashCode()].GetOpinionOfMe(pawnWithLeaderOpinion);
         }
 
         public override void Tick(int currentTick)
         {
             if (pawns.Count == 0)
             {
-                var hediffdef = DefDatabase<HediffDef>.GetNamed("Committed");
+                tm = Find.TickManager;
                 var cultLeaderTraitDef = DefDatabase<TraitDef>.GetNamed("CultLeader");
                 pawns = Find.VisibleMap.mapPawns.FreeColonists.ToList();
                 foreach (var pawn in pawns)
                 {
                     if (pawn.story.traits.HasTrait(cultLeaderTraitDef))
                     {
-                        if (pawn.health.hediffSet.HasHediff(hediffdef))
+                        var hediff = pawn.health.hediffSet.GetFirstHediffOfDef(CommittedHediffdef);
+                        if (hediff == null)
                         {
-                            var hediff = HediffMaker.MakeHediff(hediffdef, pawn);
+                            hediff = HediffMaker.MakeHediff(CommittedHediffdef, pawn);
                             pawn.health.AddHediff(hediff);
                             hediff.Severity = 1;
+                           
                         }
+                        (hediff as Hediff_Committed).isLeader = true;
                         Leader = pawn;
                         var cache = new PawnOpinionCache(true, pawns,pawn);
                         OpinionCacheLookup.Add(pawn.GetHashCode(), cache);

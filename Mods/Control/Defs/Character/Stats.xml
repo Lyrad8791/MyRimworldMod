@@ -12,4 +12,26 @@
       </li>      
     </parts>
   </StatDef>
+  <StatDef>
+    <defName>InfluenceGainFromLeader</defName>
+    <category>PawnSocial</category>
+    <defaultBaseValue>0.0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentOne</toStringStyle>
+    <parts>
+      <li Class="Control.StatPart_PersonalOpinion">
+      </li>
+    </parts>
+  </StatDef>
+  <StatDef>
+    <defName>InfluenceGainFromFriends</defName>
+    <category>PawnSocial</category>
+    <defaultBaseValue>0.0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentOne</toStringStyle>
+    <parts>
+      <li Class="Control.Statpart_FriendOpinion">
+      </li>
+    </parts>
+  </StatDef>
 </Defs>

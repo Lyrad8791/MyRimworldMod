@@ -15,7 +15,29 @@ namespace Control
         {
             var pawn = diffSet.pawn;
             var researchSkillFactor = pawn.skills.GetSkill(SkillDefOf.Intellectual).Level / 12f;
-            float otherfactor = pawn.needs.mood.CurLevelPercentage * researchSkillFactor;
+            var moodPercent = pawn.needs.mood.CurLevelPercentage;
+            float moodfactor = 1f;
+            if (moodPercent<0.4)
+            {
+                moodfactor = 0.2f;
+            }
+            else if (moodPercent < 0.5)
+            {
+                moodfactor = 0.4f;
+            }
+            else if (moodPercent < 0.6)
+            {
+                moodfactor = 0.65f;
+            }
+            else if (moodPercent < 0.7)
+            {
+                moodfactor = 0.75f;
+            }
+            else if (moodPercent < 0.8)
+            {
+                moodfactor = 0.85f;
+            }
+            float otherfactor =  moodfactor * researchSkillFactor * 2f;
             return CalculateCapacityAndRecord(diffSet, PawnCapacityDefOf.Consciousness, impactors) * otherfactor;
         }        
     }

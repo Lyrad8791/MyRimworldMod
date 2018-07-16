@@ -8,6 +8,8 @@ namespace Control
     {
         public Pawn me;
         Dictionary<int, int> opinionCache = new Dictionary<int, int>();
+        Dictionary<int, int> opinionOfOtherCache = new Dictionary<int, int>();
+
         List<int> opinions = new List<int>();
         List<Pawn> pawns = new List<Pawn>();
         bool isLeader;
@@ -20,6 +22,7 @@ namespace Control
             {
                 int hash = pawn.GetHashCode();
                 opinionCache.Add(hash, LookupOpinionOfMe(pawn));
+                opinionOfOtherCache.Add(hash, LookupMyOpinion(pawn));
                 opinions.Add(opinionCache[hash]);
             }
         }
@@ -33,15 +36,33 @@ namespace Control
             if (!opinionCache.ContainsKey(hash))
             {
                 opinionCache.Add(hash, LookupOpinionOfMe(pawn));
+                opinionOfOtherCache.Add(hash,LookupMyOpinion(pawn));
                 opinions.Add(opinionCache[hash]);
                 pawns.Add(pawn);
             }
             return opinionCache[hash];
         }
-        public int LookupOpinionOfMe(Pawn pawn)
+        public int GetOpinionOfOther(Pawn pawn)
+        {
+            int hash = pawn.GetHashCode();
+            if (!opinionCache.ContainsKey(hash))
+            {
+                opinionCache.Add(hash, LookupOpinionOfMe(pawn));
+                opinionOfOtherCache.Add(hash, LookupMyOpinion(pawn));
+                opinions.Add(opinionCache[hash]);
+                pawns.Add(pawn);
+            }
+            return opinionOfOtherCache[hash];
+        }
+        int LookupOpinionOfMe(Pawn pawn)
         {
             return pawn.relations.OpinionOf(me);
         }
+        int LookupMyOpinion(Pawn pawn)
+        {
+            return me.relations.OpinionOf(pawn);
+        }
+
         public void Tick(int currentTick, int i)
         {
             if (currentTick % 60 == i)

@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\Thoughts\ThoughtWorker_StatusDifference.cs" />
+    <Compile Include="Character\Stats\Statpart_FriendOpinion.cs" />
+    <Compile Include="Character\Stats\Statpart_PersonalOpinion.cs" />
     <Compile Include="Legacy\AnalSex.cs" />
     <Compile Include="Legacy\DisciplinaryAction.cs" />
     <Compile Include="Legacy\JobDriver_Discipline.cs" />
@@ -58,7 +60,7 @@
     <Compile Include="Legacy\PawnFinder.cs" />
     <Compile Include="Legacy\WorkGiver_Discipline.cs" />
     <Compile Include="Character\Capacities\Capacity_CriticalThinking.cs" />
-    <Compile Include="Legacy\Hediff_Committed.cs" />
+    <Compile Include="Character\Hediffs\Hediff_Committed.cs" />
     <Compile Include="Character\Hediffs\Hediff_Entitled.cs" />
     <Compile Include="Character\Needs\Libido_def.cs" />
     <Compile Include="Character\Needs\Need_Discipline.cs" />
