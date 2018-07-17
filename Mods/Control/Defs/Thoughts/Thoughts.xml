@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>Male Attraction</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>Control.ThoughtWorker_MaleAttraction</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Loser</label>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+      </li>
+      <li>
+        <label>Interesting</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+      <li>
+        <label>Attractive</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+      <li>
+        <label>Crush</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+      <li>
+        <label>Master</label>
+        <baseOpinionOffset>35</baseOpinionOffset>
+      </li>
+      <li>
+        <label>God</label>
+        <baseOpinionOffset>45</baseOpinionOffset>
+      </li>
+      
+    </stages>
+  </ThoughtDef>
+
+
+</Defs>

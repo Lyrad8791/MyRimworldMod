@@ -50,36 +50,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AI\Thoughts\ThoughtWorker_StatusDifference.cs" />
+    <Compile Include="Character\Thoughts\Statpart_FriendOpinion.cs" />
+    <Compile Include="Legacy\Cult\AI\Thoughts\ThoughtWorker_StatusDifference.cs" />
     <Compile Include="Character\Stats\Statpart_FriendOpinion.cs" />
     <Compile Include="Character\Stats\Statpart_PersonalOpinion.cs" />
-    <Compile Include="Legacy\AnalSex.cs" />
     <Compile Include="Legacy\DisciplinaryAction.cs" />
     <Compile Include="Legacy\JobDriver_Discipline.cs" />
+    <Compile Include="Legacy\JobGiver_HaveSex.cs" />
     <Compile Include="Legacy\NeedGain.cs" />
     <Compile Include="Legacy\PawnFinder.cs" />
-    <Compile Include="Legacy\WorkGiver_Discipline.cs" />
-    <Compile Include="Character\Capacities\Capacity_CriticalThinking.cs" />
-    <Compile Include="Character\Hediffs\Hediff_Committed.cs" />
-    <Compile Include="Character\Hediffs\Hediff_Entitled.cs" />
+    <Compile Include="Legacy\Cult\Capacities\Capacity_CriticalThinking.cs" />
+    <Compile Include="Legacy\Cult\Hediffs\Hediff_Committed.cs" />
+    <Compile Include="Legacy\Cult\Hediffs\Hediff_Entitled.cs" />
     <Compile Include="Character\Needs\Libido_def.cs" />
-    <Compile Include="Character\Needs\Need_Discipline.cs" />
+    <Compile Include="Legacy\Need_Discipline.cs" />
     <Compile Include="Character\Needs\Need_Libido.cs" />
     <Compile Include="Character\Stats\Statpart_Gender.cs" />
     <Compile Include="Legacy\CardUtility2.cs" />
+    <Compile Include="World\SexualTasksUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\InfluenceChangeColumn.cs" />
-    <Compile Include="AI\Interactions\InteractionWorker_Recruit.cs" />
+    <Compile Include="UI\Columns.cs" />
+    <Compile Include="Legacy\Cult\AI\Interactions\InteractionWorker_Recruit.cs" />
     <Compile Include="Legacy\ITab_Pawn_Discipline.cs" />
-    <Compile Include="UI\MainTabWindow_Control.cs" />
-    <Compile Include="World\CultManager.cs" />
-    <Compile Include="World\PawnOpinionCache.cs" />
+    <Compile Include="Legacy\Cult\MainTabWindow_Control.cs" />
+    <Compile Include="Legacy\CultManager.cs" />
+    <Compile Include="Legacy\PawnOpinionCache.cs" />
+    <Compile Include="UI\MainTabWindow_Sex.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Mods\Control\Defs\Character\Traits.xml">
+    <Content Include="Legacy\Cult\defs\Character\Traits.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Legacy\Recruit.xml" />
+    <Content Include="Legacy\Cult\defs\UI\ControlTab.xml" />
+    <Content Include="Mods\Control\ThinkTreeDefs\Thoughts.xml" />
+    <Content Include="Mods\Control\Defs\Thoughts\Thoughts.xml" />
     <Content Include="Mods\Control\Defs\UI\ControlTab.xml" />
     <Content Include="Mods\Core\About\About.xml" />
     <Content Include="Mods\Core\About\Preview.png" />
@@ -9561,19 +9566,19 @@
     <Content Include="Mods\Control\Defs\BodiesDefs\OE_BodyParts.xml" />
     <Content Include="Legacy\AI\ThinkTreeDef.xml" />
     <Content Include="Legacy\Needs.xml" />
-    <Content Include="Mods\Control\Defs\Character\Stats.xml">
+    <Content Include="Legacy\Cult\defs\Character\Stats.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Mods\Control\Defs\Character\PawnCapacity.xml">
+    <Content Include="Legacy\Cult\defs\Character\PawnCapacity.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Legacy\Female.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Mods\Control\Defs\HeDiffs\Committed.xml">
+    <Content Include="Legacy\Cult\defs\HeDiffs\Committed.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Mods\Control\Defs\Interactions\Recruit.xml" />
+    <Content Include="Legacy\Cult\defs\Interactions\Recruit.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Mods\Core\Defs\Effects.meta~alpha14" />
@@ -9605,8 +9610,8 @@
     <None Include="Mods\Core\Languages\Ukrainian\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Legacy\Cult\defs\Thoughts\" />
     <Folder Include="Mods\Control\Assemblies\" />
-    <Folder Include="Mods\Control\Defs\Thoughts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
