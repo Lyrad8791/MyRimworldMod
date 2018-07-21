@@ -141,7 +141,7 @@
   <AllowedSkillRange>Allowed {0} skill:</AllowedSkillRange>
   
   <RecipeCannotHaveTargetCount>(This recipe cannot have a target count because it has multiple or unpredictable products.)</RecipeCannotHaveTargetCount>
-  <WorkAmount>Work amount</WorkAmount>
+  <workAmount>Work amount</workAmount>
   <MinimumSkills>Minimum skills:</MinimumSkills>
   <BillRequires>Requires {0} {1}</BillRequires>
   <BillRequiresNutrition>Requires {0} nutrition</BillRequiresNutrition>

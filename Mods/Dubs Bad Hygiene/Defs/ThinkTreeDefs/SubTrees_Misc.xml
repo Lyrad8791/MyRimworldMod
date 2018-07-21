@@ -29,7 +29,6 @@
       <subNodes>
         <li Class="ThinkNode_ConditionalPrisoner">
           <subNodes>
-            <li Class="DubsBadHygiene.JobGiver_DrinkWater"/>
             <li Class="DubsBadHygiene.JobGiver_UseToilet"/>
             <li Class="DubsBadHygiene.JobGiver_HaveWash"/>
           </subNodes>
@@ -37,4 +36,5 @@
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>
+
 </Defs>

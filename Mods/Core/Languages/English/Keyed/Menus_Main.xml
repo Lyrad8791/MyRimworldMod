@@ -123,7 +123,7 @@
   <Road>Road</Road>
   <River>River</River>
   <Elevation>Elevation</Elevation>
-  <Fertility>Fertility</Fertility>
+  <fertility>Fertility</fertility>
   <AvgTemp>Average temperature</AvgTemp>
   <AvgSummerTemp>Summer temperature</AvgSummerTemp>
 	<AvgWinterTemp>Winter temperature</AvgWinterTemp>

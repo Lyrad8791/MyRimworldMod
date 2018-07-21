@@ -5,7 +5,6 @@
     <defName>Waste</defName>
     <label>waste</label>
     <parent>Root</parent>
-    <iconPath>DBH/Things/Resource/BurnBarrel</iconPath>
   </ThingCategoryDef>
 
 </Defs>

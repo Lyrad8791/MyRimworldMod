@@ -11,16 +11,16 @@
 
   
   <PawnColumnDef>
-    <defName>QueueLengthColumn</defName>
-    <label>Queue</label>
-    <workerClass>Control.QueueLengthColumn</workerClass>
+    <defName>ResetSexNeedColumn</defName>
+    <label>reset SexNeed</label>
+    <workerClass>Control.ResetSexNeedColumn</workerClass>
     <sortable>true</sortable>
   </PawnColumnDef>
   
   <PawnColumnDef>
-    <defName>SexCommandButton</defName>
-    <label>Add Command</label>
-    <workerClass>Control.CommmandButtonColumn</workerClass>
+    <defName>ResetNeedBladder</defName>
+    <label>Reset Bladder</label>
+    <workerClass>Control.ResetNeedBladder</workerClass>
     <sortable>true</sortable>
   </PawnColumnDef>
 
@@ -30,8 +30,8 @@
     <columns>
       <li>Label</li>
       <li>GapTiny</li>
-      <li>QueueLengthColumn</li>
-      <li>SexCommandButton</li>
+      <li>ResetSexNeedColumn</li>
+      <li>ResetNeedBladder</li>
     </columns>
   </PawnTableDef>
 </Defs>

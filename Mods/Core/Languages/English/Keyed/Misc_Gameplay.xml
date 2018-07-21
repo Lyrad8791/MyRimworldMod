@@ -29,7 +29,7 @@
   <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
   <Immunity>Immunity</Immunity>
   <Race>Race</Race>
-  <Description>Description</Description>
+  <description>Description</description>
   <Equipment>Equipment</Equipment>
   <Apparel>Apparel</Apparel>
   <Inventory>Inventory</Inventory>

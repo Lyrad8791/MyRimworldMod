@@ -36,7 +36,7 @@
       <solidTime>120</solidTime>
     </mote>
     <graphicData>
-      <texPath>DBH/Things/Mote/plunger</texPath>
+      <texPath>Things/Mote/plunger</texPath>
     </graphicData>
   </ThingDef>
   

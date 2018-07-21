@@ -2,6 +2,21 @@
 <Defs>
 
   <ThoughtDef>
+    <defName>HadSex</defName>
+    <thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+    <stackLimit>4</stackLimit>
+    <durationDays>3</durationDays>
+    <stages>
+      <li>
+        <label>had sex</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+  <ThoughtDef>
     <defName>Male Attraction</defName>
     <thoughtClass>Thought_SituationalSocial</thoughtClass>
     <workerClass>Control.ThoughtWorker_MaleAttraction</workerClass>

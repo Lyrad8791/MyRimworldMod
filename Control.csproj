@@ -34,6 +34,10 @@
       <HintPath>RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="BadHygiene">
+      <HintPath>Mods\Dubs Bad Hygiene\Assemblies\BadHygiene.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="HugsLib">
       <HintPath>Mods\HugsLib\Assemblies\HugsLib.dll</HintPath>
       <Private>False</Private>
@@ -50,21 +54,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character\Hediffs\Hediff_SexualSatisfaction.cs" />
+    <Compile Include="Character\Needs\NeedUtil.cs" />
+    <Compile Include="Character\Needs\Need_Sex.cs" />
     <Compile Include="Character\Thoughts\Statpart_FriendOpinion.cs" />
     <Compile Include="Legacy\Cult\AI\Thoughts\ThoughtWorker_StatusDifference.cs" />
     <Compile Include="Character\Stats\Statpart_FriendOpinion.cs" />
     <Compile Include="Character\Stats\Statpart_PersonalOpinion.cs" />
+    <Compile Include="Legacy\Cult\defs\UI\Columns.cs" />
     <Compile Include="Legacy\DisciplinaryAction.cs" />
-    <Compile Include="Legacy\JobDriver_Discipline.cs" />
+    <Compile Include="Legacy\JobDriver_Sex.cs" />
     <Compile Include="Legacy\JobGiver_HaveSex.cs" />
     <Compile Include="Legacy\NeedGain.cs" />
     <Compile Include="Legacy\PawnFinder.cs" />
     <Compile Include="Legacy\Cult\Capacities\Capacity_CriticalThinking.cs" />
     <Compile Include="Legacy\Cult\Hediffs\Hediff_Committed.cs" />
     <Compile Include="Legacy\Cult\Hediffs\Hediff_Entitled.cs" />
-    <Compile Include="Character\Needs\Libido_def.cs" />
     <Compile Include="Legacy\Need_Discipline.cs" />
-    <Compile Include="Character\Needs\Need_Libido.cs" />
     <Compile Include="Character\Stats\Statpart_Gender.cs" />
     <Compile Include="Legacy\CardUtility2.cs" />
     <Compile Include="World\SexualTasksUtil.cs" />
@@ -83,9 +89,16 @@
     </Content>
     <Content Include="Legacy\Recruit.xml" />
     <Content Include="Legacy\Cult\defs\UI\ControlTab.xml" />
-    <Content Include="Mods\Control\ThinkTreeDefs\Thoughts.xml" />
+    <Content Include="Mods\Control\Defs\HeDiffs\Hediffs.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Mods\Control\Defs\Needs\Needs.xml" />
+    <Content Include="Mods\Control\Defs\Scenario.xml" />
+    <Content Include="Mods\Control\Defs\ThinkTreeDefs\ThinkTree.xml" />
     <Content Include="Mods\Control\Defs\Thoughts\Thoughts.xml" />
-    <Content Include="Mods\Control\Defs\UI\ControlTab.xml" />
+    <Content Include="Mods\Control\Defs\UI\ControlTab.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Mods\Core\About\About.xml" />
     <Content Include="Mods\Core\About\Preview.png" />
     <Content Include="Mods\Core\Defs\BiomeDefs\Biomes_Cold.xml" />

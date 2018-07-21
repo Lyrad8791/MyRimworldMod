@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThinkTreeDef>
+    <defName>SexualNeeds</defName>
+    <insertTag>Humanlike_PostDuty</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="ThinkNode_Tagger">
+      <tagToGive>SatisfyingNeeds</tagToGive>
+      <subNodes>
+          <li Class="Control.JobGiver_HaveSex"/>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+  
+  <JobDef>
+    <defName>HaveSex</defName>
+    <driverClass>Control.JobDriver_Sex</driverClass>
+    <reportString>fucking TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+</Defs> 

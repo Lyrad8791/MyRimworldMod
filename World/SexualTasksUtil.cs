@@ -35,7 +35,7 @@ namespace Control
 
     public class SexualTasksUtil : ModBase
     {
-        public static List<ISexualBill> sexualBills = new List<ISexualBill> { new VaginalSex() };
+        public static List<ISexualBill> sexualBills = new List<ISexualBill> { new VaginalSex(),new AnalSex() };
         public static Dictionary<int, List<SexualCommand>> billsLookup = new Dictionary<int, List<SexualCommand>>();
         public static List<Pawn> colonyPawns = new List<Pawn>();
 
@@ -69,8 +69,10 @@ namespace Control
         {
             if (currentTick%60 == 0)
             {
-                colonyPawns = Find.VisibleMap.mapPawns.FreeColonists.ToList(); 
+                colonyPawns = Find.VisibleMap.mapPawns.FreeColonists.ToList();
+                PawnFinder.Update();   
             }
+
         }
     }
 
@@ -92,4 +94,24 @@ namespace Control
 
         }
     }
+
+    public class AnalSex : ISexualBill
+    {
+        public int Duration => 200;
+
+        public int intensity => 1;
+
+        public string Name => "Anal Sex";
+
+        public string GetReport(Pawn female)
+        {
+            return "Having vaginal sex with " + female.Name.ToStringShort;
+        }
+
+        public void OnComplete(Pawn male, Pawn female)
+        {
+
+        }
+    }
+
 }
