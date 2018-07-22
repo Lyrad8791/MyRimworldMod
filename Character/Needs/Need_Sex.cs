@@ -28,12 +28,10 @@ namespace Control
 
         public override void NeedInterval()
         {
-           
-
             this.CurLevelPercentage -= 1.0E-04f;
             if (!added)
             {
-                Hediff_SexualSatisfaction.AddInitialEntitlement(pawn);
+               // Hed.AddInitialEntitlement(pawn);
                 added = true;
             }
         }

@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AI\RecipeWorker_Impregnate.cs" />
     <Compile Include="Character\Hediffs\Hediff_SexualSatisfaction.cs" />
     <Compile Include="Character\Needs\NeedUtil.cs" />
     <Compile Include="Character\Needs\Need_Sex.cs" />
@@ -93,6 +94,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Mods\Control\Defs\Needs\Needs.xml" />
+    <Content Include="Mods\Control\Defs\Recipes.xml" />
     <Content Include="Mods\Control\Defs\Scenario.xml" />
     <Content Include="Mods\Control\Defs\ThinkTreeDefs\ThinkTree.xml" />
     <Content Include="Mods\Control\Defs\Thoughts\Thoughts.xml" />

@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StatDef>
+    <defName>WorkSpeedGlobal</defName>
+    <label>global work speed</label>
+    <description>A multiplier on someone's speed at doing any work.</description>
+    <category>PawnWork</category>
+    <displayPriorityInCategory>100</displayPriorityInCategory>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <parts>
+			<li Class="StatPart_Glow">
+				<factorFromGlowCurve>
+					<points>
+						<li>(0,0.80)</li>
+						<li>(0.30,1.00)</li>
+					</points>
+				</factorFromGlowCurve>
+			</li>
+    </parts>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+  <StatDef>
+    <defName>MiningSpeed</defName>
+    <label>mining speed</label>
+    <description>A speed at which this person digs at walls and drills for deep resources.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Mining</skill>
+        <baseValue>0.04</baseValue>
+        <bonusPerLevel>0.12</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+		<capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.5</weight>
+				<max>1</max>
+      </li>
+    </capacityFactors>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+	<StatDef>
+		<defName>MiningYield</defName>
+		<label>mining yield</label>
+		<description>The percentage yield a miner will achieve. This applies to both wall mining and deep drill mining. This doesn't affect the rate of mining rock chunks.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<maxValue>1</maxValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<skillNeedFactors>
+			<li Class="SkillNeed_Direct">
+				<skill>Mining</skill>
+				<valuesPerLevel>
+					<li>0.6</li>
+					<li>0.7</li>
+					<li>0.8</li>
+					<li>0.85</li>
+					<li>0.9</li>
+					<li>0.925</li>
+					<li>0.95</li>
+					<li>0.975</li>
+					<li>1</li>
+					<li>1.01</li>
+					<li>1.02</li>
+					<li>1.03</li>
+					<li>1.04</li>
+					<li>1.05</li>
+					<li>1.06</li>
+					<li>1.07</li>
+					<li>1.08</li>
+					<li>1.09</li>
+					<li>1.10</li>
+					<li>1.12</li>
+					<li>1.13</li>
+				</valuesPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.3</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.2</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+  <StatDef>
+    <defName>SmoothingSpeed</defName>
+    <label>smoothing speed</label>
+    <description>A multiplier on the speed at which this person smooths floors.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Construction</skill>
+        <baseValue>0.5</baseValue>
+        <bonusPerLevel>0.15</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.3</weight>
+				<max>1</max>
+			</li>
+    </capacityFactors>
+  </StatDef>
+  
+  <StatDef>
+    <defName>ResearchSpeed</defName>
+    <label>research speed</label>
+    <description>This person does research at this speed.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Intellectual</skill>
+        <baseValue>0.1</baseValue>
+        <bonusPerLevel>0.15</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.5</weight>
+				<max>1.1</max>
+			</li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.5</weight>
+				<max>1.1</max>
+			</li>
+    </capacityFactors>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+	<StatDef>
+		<defName>AnimalGatherSpeed</defName>
+		<label>animal gather speed</label>
+		<description>The speed at which this person milks, shears, and otherwise gathers resources from animals.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Animals</skill>
+				<baseValue>0.04</baseValue>
+				<bonusPerLevel>0.12</bonusPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.5</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+	<StatDef>
+		<defName>AnimalGatherYield</defName>
+		<label>animal gather yield</label>
+		<description>The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal. Higher percentages reduce the chance of wasting the product.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<maxValue>1</maxValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<skillNeedFactors>
+			<li Class="SkillNeed_Direct">
+				<skill>Animals</skill>
+				<valuesPerLevel>
+					<li>0.6</li>
+					<li>0.7</li>
+					<li>0.75</li>
+					<li>0.8</li>
+					<li>0.85</li>
+					<li>0.90</li>
+					<li>0.95</li>
+					<li>0.975</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+					<li>1</li>
+				</valuesPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.3</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.2</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+	</StatDef>
+	
+  <StatDef>
+    <defName>PlantWorkSpeed</defName>
+    <label>plant work speed</label>
+    <description>Speed at which this person sows and harvests plants.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <neverDisabled>true</neverDisabled>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Growing</skill>
+        <baseValue>0.20</baseValue>
+        <bonusPerLevel>0.12</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.3</weight>
+				<max>1</max>
+			</li>
+    </capacityFactors>
+  </StatDef>
+
+  <StatDef>
+    <defName>PlantHarvestYield</defName>
+    <label>plant harvest yield</label>
+    <description>The yield someone gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <neverDisabled>true</neverDisabled>
+    <skillNeedFactors>
+      <li Class="SkillNeed_Direct">
+        <skill>Growing</skill>
+        <valuesPerLevel>
+          <li>0.6</li>
+          <li>0.7</li>
+          <li>0.75</li>
+          <li>0.8</li>
+          <li>0.85</li>
+          <li>0.90</li>
+          <li>0.95</li>
+          <li>0.975</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+        </valuesPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.3</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.2</weight>
+				<max>1</max>
+			</li>
+    </capacityFactors>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+	<StatDef>
+		<defName>ConstructionSpeed</defName>
+		<label>construction speed</label>
+		<description>Speed at which this person constructs and repairs buildings.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Construction</skill>
+				<baseValue>0.5</baseValue>
+				<bonusPerLevel>0.15</bonusPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.2</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+	<StatDef>
+    <defName>ConstructSuccessChance</defName>
+    <label>construct success chance</label>
+    <description>The chance that this person will succeed in constructing something. Failing means wasting time and resources.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_Direct">
+        <skill>Construction</skill>
+        <valuesPerLevel>
+          <li>0.75</li>
+          <li>0.80</li>
+          <li>0.85</li>
+          <li>0.875</li>
+          <li>0.90</li>
+          <li>0.925</li>
+          <li>0.95</li>
+          <li>0.975</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+        </valuesPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.3</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.2</weight>
+				<max>1</max>
+			</li>
+    </capacityFactors>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
+
+  <StatDef>
+    <defName>FixBrokenDownBuildingSuccessChance</defName>
+    <label>repair success chance</label>
+    <description>The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <skillNeedFactors>
+      <li Class="SkillNeed_Direct">
+        <skill>Construction</skill>
+        <valuesPerLevel>
+          <li>0.75</li>
+          <li>0.80</li>
+          <li>0.85</li>
+          <li>0.875</li>
+          <li>0.90</li>
+          <li>0.925</li>
+          <li>0.95</li>
+          <li>0.975</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+          <li>1</li>
+        </valuesPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.3</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.2</weight>
+				<max>1</max>
+			</li>
+    </capacityFactors>
+  </StatDef>
+
+</Defs>

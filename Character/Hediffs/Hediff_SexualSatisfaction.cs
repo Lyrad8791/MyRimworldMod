@@ -18,7 +18,6 @@ namespace Control
                 {
                     var entitledHedif = HediffMaker.MakeHediff(satisfactionDef, pawn);
                     pawn.health.AddHediff(entitledHedif, null, null);
-
                 }
             }
 
