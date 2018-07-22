@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Wild Fruit Trees -->
+
+  <WildAppletree.label>Pommier</WildAppletree.label>
+  <WildAppletree.description>Un arbre fruitier qui donne des pommes et n'est pas détruit lorsqu'elles sont récoltées.</WildAppletree.description>
+
+  <WildBananaTree.label>Bananier</WildBananaTree.label>
+  <WildBananaTree.description>Un arbre fruitier qui donne des bananes et n'est pas détruit lorsqu'elles sont récoltées.</WildBananaTree.description>
+
+  <WildorangeTree.label>Oranger</WildorangeTree.label>
+  <WildorangeTree.description>Un arbre fruitier qui donne des oranges et n'est pas détruit lorsqu'elles sont récoltées.</WildorangeTree.description>
+
+  <WildPeachTree.label>Pêcher</WildPeachTree.label>
+  <WildPeachTree.description>Un arbre fruitier qui donne des pêches et n'est pas détruit lorsqu'elles sont récoltées.</WildPeachTree.description>
+
+  <WildDateTree.label>Dattier</WildDateTree.label>
+  <WildDateTree.description>Un arbre fruitier qui donne des dattes et n'est pas détruit lorsqu'elles sont récoltées.</WildDateTree.description>
+
+  <WildFigTree.label>Figuier</WildFigTree.label>
+  <WildFigTree.description>Un arbre fruitier qui donne des figues et n'est pas détruit lorsqu'elles sont récoltées.</WildFigTree.description>
+
+  <WildCoconuttree.label>Cocotier</WildCoconuttree.label>
+  <WildCoconuttree.description>Un arbre fruitier qui donne des noix de coco et n'est pas détruit lorsqu'elles sont récoltées.</WildCoconuttree.description>
+
+  <PlantCherrytree.label>Cerisier</PlantCherrytree.label>
+  <PlantCherrytree.description>Un arbre fruitier qui donne des cerises et n'est pas détruit lorsqu'elles sont récoltées.</PlantCherrytree.description>
+
+
+  <!-- New crop types Wild Fruit Plants -->
+
+  <Plantpineapple.label>Ananas</Plantpineapple.label>
+  <Plantpineapple.description>Pousse au bout d'une tige, généralement unique et entourée d’une couronne de feuilles dentées.</Plantpineapple.description>
+
+  <Plantcloudberry.label>Plaquebière</Plantcloudberry.label>
+  <Plantcloudberry.description>Un baie qui pousse bien dans les climats froids.</Plantcloudberry.description>
+
+  <Plantgooseberry.label>Groseillier</Plantgooseberry.label>
+  <Plantgooseberry.description>Un baie qui pousse bien dans les climats froids.</Plantgooseberry.description>
+
+  <Plantmushroom.label>Champignon</Plantmushroom.label>
+  <Plantmushroom.description>Ce champignon robuste a été génétiquement modifié et cultivé pour produire un substitut à la viande. Trouvé dans la nature, il peut être cultivé dans un bassin hydroponique.</Plantmushroom.description>
+
+  <!--[Core] <PlantRaspberry.label>raspberry bush</PlantRaspberry.label>-->
+  <!--[Core] <PlantRaspberry.description>A bushy plant which yields delicious red berries.</PlantRaspberry.description>-->
+
+
+</LanguageData>

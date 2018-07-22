@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3DA945B-AB1B-492C-9C59-A17E61362AA5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FacialStuff</RootNamespace>
+    <AssemblyName>FacialStuff</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DefineConstants>develop</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>FacialStuff.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>FacialStuff.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\818773962\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="AbilityUser">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\932008009\Assemblies\AbilityUser.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CompActivatableEffect">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\932008009\Assemblies\CompActivatableEffect.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EdBPrepareCarefully">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\735106432\Assemblies\EdBPrepareCarefully.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectJedi">
+      <HintPath>..\..\..\Star-Wars---The-Force\Assemblies\ProjectJedi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Vampire">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\1187010034\Assemblies\Vampire.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Werewolf">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\1115882219\Assemblies\Werewolf.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AI\JobDriver_Possess.cs" />
+    <Compile Include="AI\JobGiver_Possess.cs" />
+    <Compile Include="AI\MentalStateWorker_Possessed.cs" />
+    <Compile Include="AI\MentalState_Possessed.cs" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="WidgetsFS.cs" />
+    <None Include="Harmony\Optional\AlienPatches.cs" />
+    <None Include="Harmony\Optional\Harmony_Alien.cs" />
+    <Compile Include="Animator\BodyAnimator.cs" />
+    <None Include="Components\CompHumanFace.cs" />
+    <None Include="Controller_Animator.cs" />
+    <None Include="Components\Class1.cs" />
+    <Compile Include="DefOfs\EyeDefOf.cs" />
+    <Compile Include="Enums\HeadCoverage.cs" />
+    <None Include="GraphicsFS\MeshMakerPlanesFS.cs" />
+    <Compile Include="GraphicsFS\Graphic_Multi_Four.cs" />
+    <Compile Include="Tweener\TinyTween.cs" />
+    <Compile Include="Components\CompLoaderTargets.cs" />
+    <Compile Include="Defs\AnimationTargetDef.cs" />
+    <None Include="Drawer\CentipedeDrawer.cs" />
+    <Compile Include="Defs\Export\WeaponExtensionDef_Export.cs" />
+    <Compile Include="Defs\Export\PoseCycleDef_Export.cs" />
+    <Compile Include="Defs\PoseCycleDef.cs" />
+    <Compile Include="Defs\WeaponExtensionDef.cs" />
+    <Compile Include="Drawer\JointLister.cs" />
+    <Compile Include="Enums\Offsets.cs" />
+    <Compile Include="Enums\Tween.cs" />
+    <Compile Include="FaceEditor\Dialog_FaceStyling.BeardTab.cs" />
+    <Compile Include="FaceEditor\Dialog_FaceStyling.FaceStyleTab.cs" />
+    <Compile Include="FaceEditor\Dialog_FaceStyling.FilterTab.cs" />
+    <Compile Include="FaceEditor\Dialog_FaceStyling.GenderTab.cs" />
+    <Compile Include="FaceEditor\Dialog_FaceStyling.SpecialTab.cs" />
+    <None Include="Harmony\Optional\Jec\Harmony_JecsTools.cs" />
+    <None Include="Harmony\Optional\Jec\Harmony_Lightsabers.cs" />
+    <Compile Include="AnimatorWindows\MainTabWindow_BaseAnimator.cs" />
+    <Compile Include="AnimatorWindows\MainTabWindow_PoseAnimator.cs" />
+    <None Include="Animator\PawnPartsTweener.cs" />
+    <None Include="Settings_Animator.cs" />
+    <Compile Include="Components\CompBodyAnimator.cs" />
+    <Compile Include="Components\CompProperties_BodyAnimator.cs" />
+    <Compile Include="Defs\BodyAnimDef.cs" />
+    <Compile Include="Defs\Export\WalkCycleDef_Export.cs" />
+    <Compile Include="Defs\Export\BodyAnimDef_Export.cs" />
+    <Compile Include="Drawer\BasicDrawer.cs" />
+    <Compile Include="Drawer\HumanBipedDrawer.cs" />
+    <Compile Include="Drawer\PawnBodyDrawer.cs" />
+    <Compile Include="Drawer\QuadrupedDrawer.cs" />
+    <Compile Include="Enums\KeyStatus.cs" />
+    <None Include="Enums\WalkcycleType.cs" />
+    <Compile Include="GraphicsFS\PawnBodyGraphic.cs" />
+    <Compile Include="AnimatorWindows\MainTabWindow_WalkAnimator.cs" />
+    <Compile Include="Components\CompProperties_Face.cs" />
+    <Compile Include="Enums\PartStatus.cs" />
+    <Compile Include="Defs\PawnKeyframe.cs" />
+    <Compile Include="DefOfs\WalkCycleDefOf.cs" />
+    <Compile Include="Defs\WalkCycleDef.cs" />
+    <Compile Include="Enums\MaxLayerToShow.cs" />
+    <Compile Include="Components\CompWeaponExtensions.cs" />
+    <Compile Include="Components\CompProperties_WeaponExtensions.cs" />
+    <Compile Include="Drawer\PawnHeadDrawer.cs" />
+    <Compile Include="FaceEditor\UI\Util\SelectionChangeListener.cs" />
+    <Compile Include="FaceEditor\UI\Util\UpdatePawnListener.cs" />
+    <Compile Include="Components\GameComponent_FacialStuff.cs" />
+    <Compile Include="Harmony\Optional\Harmony_Vampire.cs" />
+    <Compile Include="Harmony\Optional\Vampire_Patches.cs" />
+    <Compile Include="Drawer\HumanHeadDrawer.cs" />
+    <Compile Include="ITab_Pawn_Weapons.cs" />
+    <Compile Include="Utilities\CrownTypeChecker.cs" />
+    <None Include="FaceEditor\Job_FaceStylingJoy.cs" />
+    <Compile Include="Components\CompFaceEditor.cs" />
+    <Compile Include="GraphicsFS\FaceMaterial.cs" />
+    <Compile Include="GraphicsFS\GraphicVectorMeshSet.cs" />
+    <None Include="FacialStuff.ruleset" />
+    <None Include="OldStuff\IncidentWorker_FacialStuffUpdateNote.cs" />
+    <Compile Include="HairCut\CutHairDB.cs" />
+    <Compile Include="DefOfs\BeardDefOf.cs" />
+    <Compile Include="DefOfs\MoustacheDefOf.cs" />
+    <Compile Include="Defs\MoustacheDef.cs" />
+    <Compile Include="Defs\BeardDef.cs" />
+    <Compile Include="Defs\BrowDef.cs" />
+    <Compile Include="Defs\EyeDef.cs" />
+    <Compile Include="Defs\MouthDef.cs" />
+    <Compile Include="Defs\WrinkleDef.cs" />
+    <Compile Include="Enums\BeardType.cs" />
+    <Compile Include="PawnExtensions.cs" />
+    <None Include="newStuff\JoyGiver_ChangeAppearance.cs" />
+    <Compile Include="Animator\PawnHeadRotator.cs" />
+    <Compile Include="Enums\Side.cs" />
+    <Compile Include="GraphicsFS\PawnFaceGraphic.cs" />
+    <Compile Include="FaceEditor\Dialog_FaceStyling.cs" />
+    <None Include="FaceEditor\UI\DresserUI.cs" />
+    <Compile Include="FaceEditor\UI\DTO\DresserDTO.cs" />
+    <Compile Include="FaceEditor\UI\DTO\DresserDtoFactory.cs" />
+    <Compile Include="FaceEditor\UI\DTO\SelectionWidgetDTOs\ASelectionWidgetDTO.cs" />
+    <Compile Include="FaceEditor\UI\DTO\SelectionWidgetDTOs\BodyTypeSelectionDTO.cs" />
+    <Compile Include="FaceEditor\UI\DTO\SelectionWidgetDTOs\GenderSelectionDTO.cs" />
+    <Compile Include="FaceEditor\UI\DTO\SelectionWidgetDTOs\HeadTypeSelectionDTO.cs" />
+    <Compile Include="FaceEditor\UI\DTO\SelectionWidgetDTOs\SliderWidgetDTO.cs" />
+    <Compile Include="FaceEditor\UI\Util\WidgetUtil.cs" />
+    <Compile Include="Genetics\HairColorRequest.cs" />
+    <Compile Include="Genetics\HairDNA.cs" />
+    <Compile Include="Harmony\Optional\Harmony_EdBPrepareCarefully.cs" />
+    <Compile Include="Harmony\Optional\Harmony_Werewolf.cs" />
+    <Compile Include="Harmony\Optional\PrepC\PanelBackstory_Postfix.cs" />
+    <Compile Include="Harmony\Optional\PrepC\PresetSaver_Postfix.cs" />
+    <Compile Include="Harmony\Optional\PrepC\PresetLoader_Postfix.cs" />
+    <Compile Include="Harmony\Optional\PrepC\SaveRecordFaceV3.cs" />
+    <Compile Include="Harmony\Optional\PrepC\SaveRecordPawnV3_Postfix.cs" />
+    <Compile Include="Harmony\Optional\Werewolf_Patches.cs" />
+    <Compile Include="GraphicsFS\HumanMouthGraphics.cs" />
+    <Compile Include="PawnFace.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Genetics\HairMelanin.cs" />
+    <None Include="Animator\PawnHeadWiggler.cs" />
+    <Compile Include="Animator\PawnEyeWiggler.cs" />
+    <Compile Include="Enums\enums.cs" />
+    <Compile Include="ITab_Pawn_Face.cs" />
+    <Compile Include="Enums\HeadType.cs" />
+    <Compile Include="DefOfs\MouthDefOf.cs" />
+    <Compile Include="GraphicsFS\FaceTextures.cs" />
+    <Compile Include="HairCut\HairCutPawn.cs" />
+    <Compile Include="GraphicsFS\Graphic_Multi_NaturalEyes.cs" />
+    <Compile Include="GraphicsFS\Graphic_Multi_AddedHeadParts.cs" />
+    <Compile Include="GraphicsFS\MeshPoolFs.cs" />
+    <Compile Include="Harmony\HarmonyPatch_PawnRenderer.cs" />
+    <Compile Include="Components\CompFace.cs" />
+    <Compile Include="FaceEditor\ColorPicker\ColorWrapper.cs" />
+    <Compile Include="FaceEditor\ColorPicker\Dialog_ColorPicker.cs" />
+    <Compile Include="FaceEditor\ColorPicker\ColorHelper.cs" />
+    <Compile Include="FaceEditor\Job_FaceStyling.cs" />
+    <None Include="FaceEditor\Preset.cs" />
+    <None Include="FaceEditor\PresetDatabase.cs" />
+    <Compile Include="GraphicsFS\GraphicDatabaseHeadRecordsModded.cs" />
+    <Compile Include="GraphicsFS\Graphic_Multi_NaturalHeadParts.cs" />
+    <Compile Include="Utilities\DialogUtility.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Genetics\PawnSkinColors_FS.cs" />
+    <Compile Include="Utilities\PawnFaceMaker.cs" />
+    <Compile Include="Harmony\HarmonyPatchesFS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\About\About.xml">
+      <Link>About.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\BeardDefs\BeardDef.xml">
+      <Link>Defs\xml\Face\BeardDef.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Boomrat_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Boomrat_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Caribou_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Caribou_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Cat_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Cat_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Deer_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Deer_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Elk_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Elk_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Human_Fat.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Human_Fat.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Human_Female.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Human_Female.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Human_Hulk.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Human_Hulk.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Human_Male.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Human_Male.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Human_Thin.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Human_Thin.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Husky_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Husky_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Ibex_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Ibex_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_LabradorRetriever_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_LabradorRetriever_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Mechanoid_Centipede_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Mechanoid_Centipede_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Mechanoid_Scyther_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Mechanoid_Scyther_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_Tortoise_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_Tortoise_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_WildBoar_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_WildBoar_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BodyAnimDefs\BodyAnimDef_YorkshireTerrier_Undefined.xml">
+      <Link>Defs\xml\Generated\BodyAnimDef_YorkshireTerrier_Undefined.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BrowDefs\BrowDef_Female.xml">
+      <Link>Defs\xml\Face\BrowDef_Female.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\BrowDefs\BrowDef_Male.xml">
+      <Link>Defs\xml\Face\BrowDef_Male.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\EyeDefs\EyeDef_Basic.xml">
+      <Link>Defs\xml\Face\EyeDef_Basic.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\EyeDefs\EyeDef_Female.xml">
+      <Link>Defs\xml\Face\EyeDef_Female.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\EyeDefs\EyeDef_Male.xml">
+      <Link>Defs\xml\Face\EyeDef_Male.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\HairDefs\HairsBeGone.xml">
+      <Link>Defs\xml\Hair\HairsBeGone.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\HairDefs\Killface.xml">
+      <Link>Defs\xml\Hair\Killface.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\JobDefs\FacialStuff_Jobs.xml">
+      <Link>Defs\xml\FacialStuff_Jobs.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\MainButtonDefs\MainButtons.xml">
+      <Link>Defs\xml\MainButtons.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\MentalStateDefs\MentalStates_Mood_FS.xml">
+      <Link>Defs\xml\MentalStates_Mood_FS.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\MoustacheDefs\MoustacheDef.xml">
+      <Link>Defs\xml\Face\MoustacheDef.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\MouthDefs\MouthDef.xml">
+      <Link>Defs\xml\Face\MouthDef.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\ThingDefs\PawnAnimationTargets.xml">
+      <Link>Defs\xml\PawnAnimationTargets.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Defs\ThinkTreeDefs\SubTrees_MiscFS.xml">
+      <Link>Defs\xml\SubTrees_MiscFS.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\WalkCycleDefs\Biped_Amble.xml">
+      <Link>Defs\xml\Generated\WCycles\Biped_Amble.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\WalkCycleDefs\Biped_Jog.xml">
+      <Link>Defs\xml\Generated\WCycles\Biped_Jog.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\WalkCycleDefs\Biped_Sprint.xml">
+      <Link>Defs\xml\Generated\WCycles\Biped_Sprint.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\WalkCycleDefs\Biped_Walk.xml">
+      <Link>Defs\xml\Generated\WCycles\Biped_Walk.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\WalkCycleDefs\Quadruped_Walk.xml">
+      <Link>Defs\xml\Generated\WCycles\Quadruped_Walk.xml</Link>
+    </Content>
+    <Content Include="..\..\Defs\WrinkleDefs\WrinkleDef.xml">
+      <Link>Defs\xml\Face\WrinkleDef.xml</Link>
+    </Content>
+    <Content Include="..\..\Languages\English\Keyed\FacialStuff_Keyed.xml">
+      <Link>Languages\English\FacialStuff_Keyed.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Languages\English\Keyed\FS_UpdatenInfo.xml">
+      <Link>OldStuff\FS_UpdatenInfo.xml</Link>
+    </Content>
+    <Content Include="..\..\Languages\German\Keyed\FacialStuff_Keyed.xml">
+      <Link>Languages\German\FacialStuff_Keyed.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Patches\EditorPatches.xml">
+      <Link>Patches\EditorPatches.xml</Link>
+    </Content>
+    <Content Include="..\..\Patches\HairPatches.xml">
+      <Link>Patches\HairPatches.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Patches\HumanPatch.xml">
+      <Link>Patches\HumanPatch.xml</Link>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="..\..\Patches\HumanPatchHSK.xml">
+      <Link>Patches\HumanPatchHSK.xml</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\ResharperCodeContractNullability.1.0.8\analyzers\dotnet\cs\CodeContractNullability.dll" />
+    <Analyzer Include="..\packages\ResharperCodeContractNullability.1.0.8\analyzers\dotnet\cs\MsgPack.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

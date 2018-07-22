@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <cider.label>Cidre</cider.label>
+  <cider.description>Le cidre Shinzee est un alcool doux aux pommes.</cider.description>
+  <cider.tools.1.label>goulot</cider.tools.1.label>
+  <cider.ingestible.ingestCommandString>Boire {0}</cider.ingestible.ingestCommandString>
+  <cider.ingestible.ingestReportString>En buvant {0}.</cider.ingestible.ingestReportString>
+
+  <rum.label>Rhum</rum.label>
+  <rum.description>Rhum REinstein. Où est passé tout le rhum ?</rum.description>
+  <rum.tools.1.label>goulot</rum.tools.1.label>
+  <rum.ingestible.ingestCommandString>Boire {0}</rum.ingestible.ingestCommandString>
+  <rum.ingestible.ingestReportString>En buvant {0}.</rum.ingestible.ingestReportString>
+
+  <Wine.label>Vin</Wine.label>
+  <Wine.description>Un alcool doux à partir de raisins. Souvent volées et passées en contrebande, des réserves privées de Ramsi.</Wine.description>
+  <Wine.tools.1.label>goulot</Wine.tools.1.label>
+  <Wine.ingestible.ingestCommandString>Boire {0}</Wine.ingestible.ingestCommandString>
+  <Wine.ingestible.ingestReportString>En buvant {0}.</Wine.ingestible.ingestReportString>
+
+  <strawberrywine.label>Vin de fraise</strawberrywine.label>
+  <strawberrywine.description>L'artiste Spoonshortage avait deux passions dans la vie. L'art et son amour pour le vin de fraise. Tant et si bien qu'elle a dépensé sa richesse à développer sa propre marque. Son vin s'est rapidement répandu sur RimWorld, comme la meilleure et la seule marque à consomer. C'est un alcool doux et rosé à la fraises.</strawberrywine.description>
+  <strawberrywine.tools.1.label>goulot</strawberrywine.tools.1.label>
+  <strawberrywine.ingestible.ingestCommandString>Boire {0}</strawberrywine.ingestible.ingestCommandString>
+  <strawberrywine.ingestible.ingestReportString>En buvant {0}.</strawberrywine.ingestible.ingestReportString>
+
+  <saki.label>Saké</saki.label>
+  <saki.description>WHiZ Saké. Un alcool frais et rafraîchissant à base de riz.</saki.description>
+  <saki.tools.1.label>goulot</saki.tools.1.label>
+  <saki.ingestible.ingestCommandString>Boire {0}</saki.ingestible.ingestCommandString>
+  <saki.ingestible.ingestReportString>En buvant {0}.</saki.ingestible.ingestReportString>
+
+  <vodka.label>Vodka</vodka.label>
+  <vodka.description>La vodka de la marque Syntria est un alcool pur à base de pomme de terre. Créé par l'une des personnalités télévisuelles les plus célèbres de RimWorld.</vodka.description>
+  <vodka.tools.1.label>goulot</vodka.tools.1.label>
+  <vodka.ingestible.ingestCommandString>Boire {0}</vodka.ingestible.ingestCommandString>
+  <vodka.ingestible.ingestReportString>En buvant {0}.</vodka.ingestible.ingestReportString>
+
+  <tequila.label>Téquila</tequila.label>
+  <tequila.description>La tequila de Kitty est une liqueur puissante faite d'agave. Sur la bouteille se trouve une image d’une  femme ressemblant à un chat nue et enivrée. Une fois découverte par un certain Orassan, elle perfectionna rapidement la recette et devint une boisson très populaire sur Orassia et développa une réputation encore plus grande.</tequila.description>
+  <tequila.tools.1.label>goulot</tequila.tools.1.label>
+  <tequila.ingestible.ingestCommandString>Boire {0}</tequila.ingestible.ingestCommandString>
+  <tequila.ingestible.ingestReportString>En buvant {0}.</tequila.ingestible.ingestReportString>
+
+  <whisky.label>Whisky</whisky.label>
+  <whisky.description>Le whisky Quill #18. Cette boisson doit veillir pendant 18ans pour atteindre la perfection. Les imitations bon marché ajoutent des saveurs pour accélérer le processus. Un alcool doré à base de maïs.</whisky.description>
+  <whisky.tools.1.label>goulot</whisky.tools.1.label>
+  <whisky.ingestible.ingestCommandString>Boire {0}</whisky.ingestible.ingestCommandString>
+  <whisky.ingestible.ingestReportString>En buvant {0}.</whisky.ingestible.ingestReportString>
+
+  <BrownAle.label>Bière brune</BrownAle.label>
+  <BrownAle.description>La bière brune de Barky. Une bière brune ambrée. Fabriqué à partir de grains d'orge.</BrownAle.description>
+  <BrownAle.tools.1.label>goulot</BrownAle.tools.1.label>
+  <BrownAle.ingestible.ingestCommandString>Boire {0}</BrownAle.ingestible.ingestCommandString>
+  <BrownAle.ingestible.ingestReportString>En buvant {0}.</BrownAle.ingestible.ingestReportString>
+
+  <Fruitshine.label>Eau-de-Vie</Fruitshine.label>
+  <Fruitshine.description>L'Eau-de-Vie est un alcool doux à partir de fruits. Basé sur des anciennes recettes de contrebande.</Fruitshine.description>
+  <Fruitshine.tools.1.label>goulot</Fruitshine.tools.1.label>
+  <Fruitshine.ingestible.ingestCommandString>Boire {0}</Fruitshine.ingestible.ingestCommandString>
+  <Fruitshine.ingestible.ingestReportString>En buvant {0}.</Fruitshine.ingestible.ingestReportString>
+
+
+</LanguageData>

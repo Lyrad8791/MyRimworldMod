@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!--============================ New Trees ============================-->
+
+
+  <ThingDef ParentName="VG_TreewoodBase">
+    <defName>PlantTreeJapaneseMaple</defName>
+    <label>japanese maple tree</label>
+    <description>These beautiful trees have branches that twist and turn unpredictably and brilliant orange and red foliage that draws the eye.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeJapaneseMaple</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+    </statBases>
+    <ingestible>
+      <nutrition>1</nutrition>
+    </ingestible><plant>
+      <leaflessGraphicPath>Things/Tree/Tree_Leafless/TreeJapaneseMaple_Leafless</leaflessGraphicPath>
+      <growDays>18</growDays>
+      <harvestWork>700</harvestWork>
+      <harvestYield>20</harvestYield>
+       <sowResearchPrerequisites>
+        <li>flowersandtrees</li>
+      </sowResearchPrerequisites>
+       <sowTags>
+        <li>Ground</li>
+      </sowTags>
+  </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_TreewoodBase">
+    <defName>PlantTreeCherryBlossom</defName>
+    <label>cherry blossom tree</label>
+    <description>Cherry blossom trees are not just a good source of building materials, they are also one of the most beautiful trees to have in your lawn.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeCherryBlossom</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>8</Beauty>
+    </statBases>
+    <ingestible>
+      <nutrition>1</nutrition>
+    </ingestible><plant>
+      <leaflessGraphicPath>Things/Tree/Tree_Leafless/TreeCherryBlossom_Leafless</leaflessGraphicPath>
+      <growDays>20</growDays>
+      <harvestWork>700</harvestWork>
+      <harvestYield>30</harvestYield>
+      <sowResearchPrerequisites>
+        <li>flowersandtrees</li>
+      </sowResearchPrerequisites>
+        <sowTags>
+        <li>Ground</li>
+      </sowTags>
+  </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_TreewoodBase">
+    <defName>PlantTreeCamellia</defName>
+    <label>camellia tree</label>
+    <description>This small ornamental tree has beautiful flowers that have been known to stay healthy even through tough winter conditions.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeCamellia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>8</Beauty>
+    </statBases>
+    <ingestible>
+      <nutrition>1</nutrition>
+    </ingestible><plant>
+      <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+      <growDays>20</growDays>
+      <harvestWork>700</harvestWork>
+      <harvestYield>30</harvestYield>
+	<wildBiomes>
+		<TemperateForest>0.03</TemperateForest>
+		<TropicalRainforest>0.03</TropicalRainforest>
+	</wildBiomes>
+       <sowResearchPrerequisites>
+        <li>flowersandtrees</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_TreewoodBase">
+    <defName>PlantTreeAcacia</defName>
+    <label>acacia tree</label>
+    <description>Acacia trees are hardy and can grow in the toughest desert environments. They don't provide much wood and they have sharp thorns too.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeAcacia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+    </statBases>
+    <ingestible>
+      <nutrition>1</nutrition>
+    </ingestible><plant>
+      <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+      <growDays>15</growDays>
+      <harvestWork>700</harvestWork>
+      <harvestYield>12</harvestYield>
+<wildBiomes>
+	<AridShrubland>0.25</AridShrubland>
+	<Desert>0.35</Desert>
+</wildBiomes>
+        <sowResearchPrerequisites>
+        <li>flowersandtrees</li>
+      </sowResearchPrerequisites>
+  </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_TreewoodBase">
+    <defName>PlantTreeRedMaple</defName>
+    <label>red maple tree</label>
+    <description>A soft wood tree. Known for it's red leaves.</description>
+    <graphicData>
+      <texPath>Things/Tree/RedMaple</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>10</Beauty>
+    </statBases>
+    <plant>
+      <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+      <growDays>20</growDays>
+     <harvestWork>1000</harvestWork>
+      <harvestYield>30</harvestYield>
+        <sowTags>
+        <li>Ground</li>
+      </sowTags>
+	<wildBiomes>
+		<TemperateForest>0.01</TemperateForest>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+        <sowResearchPrerequisites>
+        <li>flowersandtrees</li>
+      </sowResearchPrerequisites>
+
+  </plant>
+  </ThingDef>
+
+
+
+
+</Defs>

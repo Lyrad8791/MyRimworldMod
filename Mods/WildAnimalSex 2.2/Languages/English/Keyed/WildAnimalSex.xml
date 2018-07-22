@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<OverpopulationPredatorEntry>Prey overpopulation attracting predators</OverpopulationPredatorEntry>
+	<OverpopulationPredatorEntryDesc>There is an overpopulation of prey animals on the map.\n\nThe abundance of prey is attracting hungry predators onto the map. Predators will continue to arrive until the prey population is under control.\n\nBiome Prey Population Limit: {0} pts\nCurrent Prey Population: {1} pts\nNumber of Prey: {2}\nNumber of Predators: {3}</OverpopulationPredatorEntryDesc>
+	<WildAnimalSexModSetting>Wild Animal Sex Prey Population Limit Setting</WildAnimalSexModSetting>
+	<preyLimitDesc>You can adjust the prey population limit from 1 (extremely low prey population limit) to 9 (very high population limit). Set 10 if you want unlimited animals on your map, although I have no idea why you want to do this to yourself... And if you like my mods, please treat me to a meal or coffee at ko-fi.com/walkingproblem</preyLimitDesc>
+	<preyLimitField>Prey Population Limit ( 1 to 10 )</preyLimitField>
+</LanguageData>

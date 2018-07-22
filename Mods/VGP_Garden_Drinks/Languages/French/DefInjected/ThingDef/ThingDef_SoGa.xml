@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_Syrup.label>Sirop</CPD_Syrup.label>
+  <CPD_Syrup.description>Bouteille de sirop obtenue en réduisant des aliments contenant de grande quantité de sucre.</CPD_Syrup.description>
+  <CPD_Syrup.ingestible.ingestCommandString>Boire {0}</CPD_Syrup.ingestible.ingestCommandString>
+  <CPD_Syrup.ingestible.ingestReportString>En buvant {0}.</CPD_Syrup.ingestible.ingestReportString>
+
+  <AppleSoda.label>Jus pomme</AppleSoda.label>
+  <AppleSoda.description>Un jus de pomme sucré.</AppleSoda.description>
+  <AppleSoda.ingestible.ingestCommandString>Boire {0}</AppleSoda.ingestible.ingestCommandString>
+  <AppleSoda.ingestible.ingestReportString>En buvant {0}.</AppleSoda.ingestible.ingestReportString>
+
+  <BananaSoda.label>Jus de banane</BananaSoda.label>
+  <BananaSoda.description>Un jus de banane légèrement sucré.</BananaSoda.description>
+  <BananaSoda.ingestible.ingestCommandString>Boire {0}</BananaSoda.ingestible.ingestCommandString>
+  <BananaSoda.ingestible.ingestReportString>En buvant {0}.</BananaSoda.ingestible.ingestReportString>
+
+  <GrapeSoda.label>Jus de raisin</GrapeSoda.label>
+  <GrapeSoda.description>Un jus de raisin sucré.</GrapeSoda.description>
+  <GrapeSoda.ingestible.ingestCommandString>Boire {0}</GrapeSoda.ingestible.ingestCommandString>
+  <GrapeSoda.ingestible.ingestReportString>En buvant {0}.</GrapeSoda.ingestible.ingestReportString>
+
+  <OrangeSoda.label>Jus d'orange</OrangeSoda.label>
+  <OrangeSoda.description>Un jus d'orange sucré et acidulé.</OrangeSoda.description>
+  <OrangeSoda.ingestible.ingestCommandString>Boire {0}</OrangeSoda.ingestible.ingestCommandString>
+  <OrangeSoda.ingestible.ingestReportString>En buvant {0}.</OrangeSoda.ingestible.ingestReportString>
+
+  <PeachSoda.label>Jus de pêche</PeachSoda.label>
+  <PeachSoda.description>Un jus de pêche sucré.</PeachSoda.description>
+  <PeachSoda.ingestible.ingestCommandString>Boire {0}</PeachSoda.ingestible.ingestCommandString>
+  <PeachSoda.ingestible.ingestReportString>En buvant {0}.</PeachSoda.ingestible.ingestReportString>
+
+  <PineappleSoda.label>Jus d'ananas</PineappleSoda.label>
+  <PineappleSoda.description>Un jus d'ananas aigre-doux</PineappleSoda.description>
+  <PineappleSoda.ingestible.ingestCommandString>Boire {0}</PineappleSoda.ingestible.ingestCommandString>
+  <PineappleSoda.ingestible.ingestReportString>En buvant {0}.</PineappleSoda.ingestible.ingestReportString>
+
+  <BlueberrySoda.label>Jus de myrtille</BlueberrySoda.label>
+  <BlueberrySoda.description>Un jus de myrtille sucré.</BlueberrySoda.description>
+  <BlueberrySoda.ingestible.ingestCommandString>Boire {0}</BlueberrySoda.ingestible.ingestCommandString>
+  <BlueberrySoda.ingestible.ingestReportString>En buvant {0}.</BlueberrySoda.ingestible.ingestReportString>
+
+  <WatermelonSoda.label>Jus de pastèque</WatermelonSoda.label>
+  <WatermelonSoda.description>Un jus de pastèque sucré.</WatermelonSoda.description>
+  <WatermelonSoda.ingestible.ingestCommandString>Boire {0}</WatermelonSoda.ingestible.ingestCommandString>
+  <WatermelonSoda.ingestible.ingestReportString>En buvant {0}.</WatermelonSoda.ingestible.ingestReportString>
+
+  <CloudberrySoda.label>Jus de plaquebière</CloudberrySoda.label>
+  <CloudberrySoda.description>Un jus de plaquebière sucré.</CloudberrySoda.description>
+  <CloudberrySoda.ingestible.ingestCommandString>Boire {0}</CloudberrySoda.ingestible.ingestCommandString>
+  <CloudberrySoda.ingestible.ingestReportString>En buvant {0}.</CloudberrySoda.ingestible.ingestReportString>
+
+  <GooseberrySoda.label>Jus de groseille</GooseberrySoda.label>
+  <GooseberrySoda.description>Un jus de groseille sucré.</GooseberrySoda.description>
+  <GooseberrySoda.ingestible.ingestCommandString>Boire {0}</GooseberrySoda.ingestible.ingestCommandString>
+  <GooseberrySoda.ingestible.ingestReportString>En buvant {0}.</GooseberrySoda.ingestible.ingestReportString>
+
+  <FigSoda.label>Jus de figue</FigSoda.label>
+  <FigSoda.description>Un jus de figue sucré.</FigSoda.description>
+  <FigSoda.ingestible.ingestCommandString>Boire {0}</FigSoda.ingestible.ingestCommandString>
+  <FigSoda.ingestible.ingestReportString>En buvant {0}.</FigSoda.ingestible.ingestReportString>
+
+  <DateSoda.label>Jus de datte</DateSoda.label>
+  <DateSoda.description>Un jus de datte sucré.</DateSoda.description>
+  <DateSoda.ingestible.ingestCommandString>Boire {0}</DateSoda.ingestible.ingestCommandString>
+  <DateSoda.ingestible.ingestReportString>En buvant {0}.</DateSoda.ingestible.ingestReportString>
+
+  <CoconutSoda.label>Jus de noix de coco</CoconutSoda.label>
+  <CoconutSoda.description>Un jus de noix de coco sucré.</CoconutSoda.description>
+  <CoconutSoda.ingestible.ingestCommandString>Boire {0}</CoconutSoda.ingestible.ingestCommandString>
+  <CoconutSoda.ingestible.ingestReportString>En buvant {0}.</CoconutSoda.ingestible.ingestReportString>
+
+  <CherrySoda.label>Jus de cerise</CherrySoda.label>
+  <CherrySoda.description>Un jus de cerise sucré.</CherrySoda.description>
+  <CherrySoda.ingestible.ingestCommandString>Boire {0}</CherrySoda.ingestible.ingestCommandString>
+  <CherrySoda.ingestible.ingestReportString>En buvant {0}.</CherrySoda.ingestible.ingestReportString>
+
+
+</LanguageData>

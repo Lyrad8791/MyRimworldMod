@@ -3,7 +3,7 @@
 
   <ThoughtDef>
     <defName>DrankUrine</defName>
-    <durationDays>0.5</durationDays>
+    <durationDays>1</durationDays>
     <stackLimit>3</stackLimit>
     <stages>
       <li>
@@ -45,7 +45,7 @@
   
   <ThoughtDef>
 		<defName>SoiledSelf</defName>
-		<durationDays>0.5</durationDays>
+		<durationDays>1</durationDays>
 		<stackLimit>3</stackLimit>
 		<stages>
 			<li>
@@ -59,7 +59,7 @@
 
 	<ThoughtDef>
 		<defName>HotShower</defName>
-		<durationDays>0.25</durationDays>
+		<durationDays>0.2</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
@@ -73,7 +73,7 @@
 
 	<ThoughtDef>
 		<defName>HotBath</defName>
-		<durationDays>0.25</durationDays>
+		<durationDays>0.2</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
@@ -87,7 +87,7 @@
 
 	<ThoughtDef>
 		<defName>ColdBath</defName>
-		<durationDays>0.25</durationDays>
+		<durationDays>0.2</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
@@ -101,7 +101,7 @@
 
 	<ThoughtDef>
 		<defName>ColdShower</defName>
-		<durationDays>0.25</durationDays>
+		<durationDays>0.1</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
@@ -115,7 +115,7 @@
 
   <ThoughtDef>
     <defName>ColdWater</defName>
-    <durationDays>0.25</durationDays>
+    <durationDays>0.1</durationDays>
     <stackLimit>1</stackLimit>
     <stages>
       <li>
@@ -129,7 +129,7 @@
 
 	<ThoughtDef>
 		<defName>tookDump</defName>
-		<durationDays>0.15</durationDays>
+		<durationDays>0.05</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>

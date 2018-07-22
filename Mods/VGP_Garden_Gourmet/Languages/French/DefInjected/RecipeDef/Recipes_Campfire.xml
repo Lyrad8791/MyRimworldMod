@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GrillKabob.label>Griller des brochettes (x2)</GrillKabob.label>
+  <GrillKabob.description>Viandes et/ou légumes embrochés et grillés à la perfection.</GrillKabob.description>
+  <GrillKabob.jobString>Grille les brochettes.</GrillKabob.jobString>
+
+  <Grillsteak.label>Griller des steaks (x2)</Grillsteak.label>
+  <Grillsteak.description>Viande qui ont été cuit sur un grill. \n\nFabrication 2 steaks.</Grillsteak.description>
+  <Grillsteak.jobString>Grille les steaks.</Grillsteak.jobString>
+
+  <GrillVegetables.label>Griller des légumes (x2)</GrillVegetables.label>
+  <GrillVegetables.description>Légumes qui ont été cuits sur un grill.</GrillVegetables.description>
+  <GrillVegetables.jobString>Grille les légumes.</GrillVegetables.jobString>
+
+
+</LanguageData>

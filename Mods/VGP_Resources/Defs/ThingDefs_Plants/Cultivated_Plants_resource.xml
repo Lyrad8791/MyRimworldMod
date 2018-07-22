@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+
+	
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantSteelLeaf</defName>
+    <label>steel shroom tree</label>
+    <description>Plants with natural occurring steel in it's viens. Steel shrooms can be smelted at an Electric Smelter into steel ore.</description>
+    <graphicData>
+      <texPath>Things/Plants/SteelPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawSteelLeaf</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>8</sowMinSkill>
+      <growDays>12</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>resourceleafs</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantPlasteelLeaf</defName>
+    <label>plasteel bulb</label>
+    <description>Plants with natural occurring plasteel in it's viens. Plasteel bulbs can be smelted at an Electric Smelter into plasteel ore.</description>
+    <graphicData>
+      <texPath>Things/Plants/PlasteelPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawPlasteelLeaf</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>10</sowMinSkill>
+      <growDays>16</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>resourceleafs</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantGoldLeaf</defName>
+    <label>gold fern</label>
+    <description>Plants with natural occurring gold in it's viens. Gold ferns can be smelted at an Electric Smelter into gold nuggets.</description>
+    <graphicData>
+      <texPath>Things/Plants/GoldPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawGoldLeaf</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>15</sowMinSkill>
+      <growDays>16</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>resourceleafs</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantJadeLeaf</defName>
+    <label>jade crystal</label>
+    <description>Plants with natural occurring jade in it's viens. Jade crystals can be smelted at an Electric Smelter into jade.</description>
+    <graphicData>
+      <texPath>Things/Plants/JadePlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawJadeLeaf</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>15</sowMinSkill>
+      <growDays>16</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>resourceleafs</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantSilverLeaf</defName>
+    <label>silver flower</label>
+    <description>Plants with natural occurring silver in it's viens. Silver flowers can be smelted at an Electric Smelter into silver.</description>
+    <graphicData>
+      <texPath>Things/Plants/SilverPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawSilverLeaf</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>12</sowMinSkill>
+      <growDays>18</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>resourceleafs</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantUraniumLeaf</defName>
+    <label>uranium root</label>
+    <description>Plants with natural occurring Uranium in it's viens. Uranium roots can be smelted at an Electric Smelter into Uranium ore.</description>
+    <graphicData>
+      <texPath>Things/Plants/UraniumPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawUraniumLeaf</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowMinSkill>14</sowMinSkill>
+      <growDays>20</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>resourceleafs</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+</Defs>

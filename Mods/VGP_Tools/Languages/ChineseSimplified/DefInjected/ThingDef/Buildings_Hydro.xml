@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Planterbox.label>植物盆</Planterbox.label>
+  <Planterbox.description>装满土壤的木箱，使你可以随处耕种。生长速率只有水栽培植物盆的60%，但不耗电。</Planterbox.description>
+  <Planterbox_Blueprint.label>植物盆（蓝图）</Planterbox_Blueprint.label>
+  <Planterbox_Frame.label>植物盆（建造中）</Planterbox_Frame.label>
+  <Planterbox_Frame.description>装满土壤的木箱，使你可以随处耕种。生长速率只有水栽培植物盆的60%，但不耗电。</Planterbox_Frame.description>
+
+  <ModularPlanterbox.label>组合植物盆</ModularPlanterbox.label>
+  <ModularPlanterbox.description>装满土壤的木箱，使你可以随处耕种。生长速率只有水栽培植物盆的60%，但不耗电。1x1的尺寸让你可以自由组合。</ModularPlanterbox.description>
+  <ModularPlanterbox_Blueprint.label>组合植物盆（蓝图）</ModularPlanterbox_Blueprint.label>
+  <ModularPlanterbox_Frame.label>组合植物盆（建造中）</ModularPlanterbox_Frame.label>
+  <ModularPlanterbox_Frame.description>装满土壤的木箱，使你可以随处耕种。生长速率只有水栽培植物盆的60%，但不耗电。1x1的尺寸让你可以自由组合。</ModularPlanterbox_Frame.description>
+
+  <!--[Core] <HydroponicsBasin.label>水栽培植物盆</HydroponicsBasin.label>-->
+  <!--[Core] <HydroponicsBasin.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。</HydroponicsBasin.description>-->
+  <!--[Core] <HydroponicsBasin_Blueprint.label>水栽培植物盆（蓝图）</HydroponicsBasin_Blueprint.label>-->
+  <!--[Core] <HydroponicsBasin_Frame.label>水栽培植物盆（建造中）</HydroponicsBasin_Frame.label>-->
+  <!--[Core] <HydroponicsBasin_Frame.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。</HydroponicsBasin_Frame.description>-->
+
+  <ModularHydroponicsBasin.label>组合水栽培植物盆</ModularHydroponicsBasin.label>
+  <ModularHydroponicsBasin.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。</ModularHydroponicsBasin.description>
+  <ModularHydroponicsBasin_Blueprint.label>组合水栽培植物盆（蓝图）</ModularHydroponicsBasin_Blueprint.label>
+  <ModularHydroponicsBasin_Frame.label>组合水栽培植物盆（建造中）</ModularHydroponicsBasin_Frame.label>
+  <ModularHydroponicsBasin_Frame.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。</ModularHydroponicsBasin_Frame.description>
+
+  <ADVHydroponicsBasin.label>水栽培植物盆（高级）</ADVHydroponicsBasin.label>
+  <ADVHydroponicsBasin.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。内置光源。1x1的尺寸让你可以自由组合。</ADVHydroponicsBasin.description>
+  <ADVHydroponicsBasin_Blueprint.label>水栽培植物盆（高级）（蓝图）</ADVHydroponicsBasin_Blueprint.label>
+  <ADVHydroponicsBasin_Frame.label>水栽培植物盆（高级）（建造中）</ADVHydroponicsBasin_Frame.label>
+  <ADVHydroponicsBasin_Frame.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。内置光源。1x1的尺寸让你可以自由组合。</ADVHydroponicsBasin_Frame.description>
+
+  <ADVModularHydroponicsBasin.label>组合水栽培植物盆（高级）</ADVModularHydroponicsBasin.label>
+  <ADVModularHydroponicsBasin.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。内置光源。1x1的尺寸让你可以自由组合。</ADVModularHydroponicsBasin.description>
+  <ADVModularHydroponicsBasin_Blueprint.label>组合水栽培植物盆（高级）（蓝图）</ADVModularHydroponicsBasin_Blueprint.label>
+  <ADVModularHydroponicsBasin_Frame.label>组合水栽培植物盆（高级）（建造中）</ADVModularHydroponicsBasin_Frame.label>
+  <ADVModularHydroponicsBasin_Frame.description>在人工培养液中快速种植植物。运行时需要消耗电力，断电后植物会死亡。内置光源。1x1的尺寸让你可以自由组合。</ADVModularHydroponicsBasin_Frame.description>
+
+  <VG_Composterbox.label>堆肥池</VG_Composterbox.label>
+  <VG_Composterbox.description>充满土壤和动植物的尸体，并在此发酵腐熟。</VG_Composterbox.description>
+  <VG_Composterbox_Blueprint.label>堆肥池 (蓝图)</VG_Composterbox_Blueprint.label>
+  <VG_Composterbox_Blueprint_Install.label>堆肥池 (蓝图)</VG_Composterbox_Blueprint_Install.label>
+  <VG_Composterbox_Frame.label>堆肥池 (建造中)</VG_Composterbox_Frame.label>
+  <VG_Composterbox_Frame.description>充满土壤和动植物的尸体，并在此发酵腐熟。</VG_Composterbox_Frame.description>
+
+
+</LanguageData>

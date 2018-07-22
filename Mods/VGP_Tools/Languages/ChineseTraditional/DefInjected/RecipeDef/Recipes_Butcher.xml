@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCompostStarter.label>製作堆肥活化劑（15）</MakeCompostStarter.label>
+  <MakeCompostStarter.description>用木材和食物製成堆肥活化劑。</MakeCompostStarter.description>
+  <MakeCompostStarter.jobString>正在製作堆肥活化劑。</MakeCompostStarter.jobString>
+
+  <MakeFertilizer.label>製作肥料（10）</MakeFertilizer.label>
+  <MakeFertilizer.description>用木材和生食做成肥料</MakeFertilizer.description>
+  <MakeFertilizer.jobString>正在製作肥料。</MakeFertilizer.jobString>
+
+  <VG_DigSoil.label>挖土（10）</VG_DigSoil.label>
+  <VG_DigSoil.description>挖出土堆，以用製作肥料。</VG_DigSoil.description>
+  <VG_DigSoil.jobString>挖土中。</VG_DigSoil.jobString>
+
+
+</LanguageData>

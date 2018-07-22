@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <soylenttable.label>营养包生产机</soylenttable.label>
+  <soylenttable.description>一台能够用作物、畜产品、肉类或"高级浮游生物"®作原料制作营养包的机器。</soylenttable.description>
+  <soylenttable_Blueprint.label>营养包生产机 (蓝图)</soylenttable_Blueprint.label>
+  <soylenttable_Frame.label>营养包生产机 (建造中)</soylenttable_Frame.label>
+  <soylenttable_Frame.description>一台能够用作物、畜产品、肉类或"高级浮游生物"®作原料制作营养包的机器。</soylenttable_Frame.description>
+
+
+</LanguageData>

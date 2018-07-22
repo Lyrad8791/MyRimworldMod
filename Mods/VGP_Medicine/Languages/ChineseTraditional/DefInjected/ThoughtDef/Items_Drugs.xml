@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drugs -->
+
+  <Tobacco.stages.0.label>抽菸（舒適-遲緩）</Tobacco.stages.0.label>
+  <Tobacco.stages.0.description>我感覺我沉著、冷靜、泰然自若。</Tobacco.stages.0.description>
+  <Tobacco.stages.1.label>抽菸（舒適-陶醉）</Tobacco.stages.1.label>
+  <Tobacco.stages.1.description>我感覺很興奮。</Tobacco.stages.1.description>
+
+
+  <!-- Tobaccoaddiction -->
+
+  <TobaccoWithdrawal.stages.1.label>VG-菸草戒斷</TobaccoWithdrawal.stages.1.label>
+  <TobaccoWithdrawal.stages.1.description>感覺提不起勁，幹什麼都沒精神。好想抽根菸。</TobaccoWithdrawal.stages.1.description>
+
+
+</LanguageData>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!-- SOYLENT GREEN -->
+	<RecipeDef>
+		<defName>makesoylentgreen</defName>
+		<label>Make Soylent Green</label>
+		<description>Make Soylent Green from "High Energy Plankton"®.</description>
+		<jobString>Making Soylent Green.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Human_Meat</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentgreen>5</soylentgreen>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Human_Meat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmaking</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT GREEN -->
+
+<!-- SOYLENT BLUE -->
+	<RecipeDef>
+		<defName>makesoylentblue</defName>
+		<label>Make Soylent Blue</label>
+		<description>Make Soylent Blue from Animal Meat.</description>
+		<jobString>Making Soylent Blue.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories> 
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentblue>5</soylentblue>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<categories>
+				 <li>MeatRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+			<exceptedThingDefs>
+				<li>Human_Meat</li>
+				<li>Megaspider_Meat</li>
+				<li>soylentgreen</li>
+				<li>soylentblue</li>
+				<li>soylentpurple</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmaking</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT BLUE -->
+
+<!-- SOYLENT PURPLE -->
+	<RecipeDef>
+		<defName>makesoylentpurple</defName>
+		<label>Make Soylent Purple</label>
+		<description>Make Soylent Purple from Insect Meat.</description>
+		<jobString>Making Soylent Purple.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Megaspider_Meat</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentpurple>5</soylentpurple>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Megaspider_Meat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmaking</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT PURPLE -->
+
+<!-- SOYLENT RED -->
+	<RecipeDef>
+		<defName>makesoylentred</defName>
+		<label>Make Soylent Red</label>
+		<description>Make Soylent Red from Plants.</description>
+		<jobString>Making Soylent Red.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories> 
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentred>5</soylentred>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+			<exceptedThingDefs>
+				<li>soylentred</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmaking</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT RED -->
+
+<!-- SOYLENT YELLOW -->
+	<RecipeDef>
+		<defName>makesoylentyellow</defName>
+		<label>Make Soylent Yellow</label>
+		<description>Make Soylent Yellow from Animal Products.</description>
+		<jobString>Making Soylent Yellow.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories> 
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentyellow>5</soylentyellow>
+		</products>
+		<defaultIngredientFilter>
+			<categories> 
+				<li>AnimalProductRaw</li>
+			</categories>
+			<exceptedCategories>
+				<li>EggsFertilized</li>
+			</exceptedCategories>
+			<exceptedThingDefs>
+				<li>InsectJelly</li>
+			</exceptedThingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AnimalProductRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+			<exceptedThingDefs>
+				<li>soylentyellow</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmaking</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT YELLOW -->
+
+
+
+
+<!-- SOYLENT GREEN BULKPRODUCTION -->
+	<RecipeDef>
+		<defName>makesoylentgreen20times</defName>
+		<label>Make Soylent Green (20x)</label>
+		<description>Make Soylent Green from "High Energy Plankton"®.</description>
+		<jobString>Making Soylent Green.</jobString>
+		<workAmount>6500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Human_Meat</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentgreen>100</soylentgreen>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Human_Meat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmakingadvanced</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT GREEN BULKPRODUCTION -->
+
+<!-- SOYLENT BLUE BULKPRODUCTION -->
+	<RecipeDef>
+		<defName>makesoylentblue20times</defName>
+		<label>Make Soylent Blue (20x)</label>
+		<description>Make Soylent Blue from Animal Meat.</description>
+		<jobString>Making Soylent Blue.</jobString>
+		<workAmount>6500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories> 
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentblue>100</soylentblue>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<categories>
+				 <li>MeatRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+			<exceptedThingDefs>
+				<li>Human_Meat</li>
+				<li>Megaspider_Meat</li>
+				<li>soylentgreen</li>
+				<li>soylentblue</li>
+				<li>soylentpurple</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmakingadvanced</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT BLUE BULKPRODUCTION -->
+
+<!-- SOYLENT PURPLE BULKPRODUCTION -->
+	<RecipeDef>
+		<defName>makesoylentpurple20times</defName>
+		<label>Make Soylent Purple (20x)</label>
+		<description>Make Soylent Purple from Insect Meat.</description>
+		<jobString>Making Soylent Purple.</jobString>
+		<workAmount>6500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Megaspider_Meat</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentpurple>100</soylentpurple>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Megaspider_Meat</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmakingadvanced</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT PURPLE BULKPRODUCTION -->
+
+<!-- SOYLENT RED BULKPRODUCTION -->
+	<RecipeDef>
+		<defName>makesoylentred20times</defName>
+		<label>Make Soylent Red (20x)</label>
+		<description>Make Soylent Red from Plants.</description>
+		<jobString>Making Soylent Red.</jobString>
+		<workAmount>6500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories> 
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentred>100</soylentred>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+			<exceptedThingDefs>
+				<li>soylentred</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmakingadvanced</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT RED BULKPRODUCTION -->
+
+<!-- SOYLENT YELLOW BULKPRODUCTION -->
+	<RecipeDef>
+		<defName>makesoylentyellow20times</defName>
+		<label>Make Soylent Yellow (20x)</label>
+		<description>Make Soylent Yellow from Animal Products.</description>
+		<jobString>Making Soylent Yellow.</jobString>
+		<workAmount>6500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<categories> 
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
+			<soylentyellow>100</soylentyellow>
+		</products>
+		<defaultIngredientFilter>
+			<categories> 
+				<li>AnimalProductRaw</li>
+			</categories>
+			<exceptedCategories>
+				<li>EggsFertilized</li>
+			</exceptedCategories>
+			<exceptedThingDefs>
+				<li>InsectJelly</li>
+			</exceptedThingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AnimalProductRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+			<exceptedThingDefs>
+				<li>soylentyellow</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmakingadvanced</researchPrerequisite>
+	</RecipeDef>
+<!-- SOYLENT YELLOW BULKPRODUCTION -->
+
+
+
+	<RecipeDef>
+		<defName>MakeMealSurvivalSoylent</defName>
+		<label>Make Packaged Survival Meal</label>
+		<description>Makes a packaged survival meal from a combination of soylent types and/or pemmican. Much of the ingredients are wasted.</description>
+		<jobString>Making survival meal.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>soylentgreen</li>
+						<li>soylentblue</li>
+						<li>soylentpurple</li>
+						<li>soylentred</li>
+						<li>soylentyellow</li>
+						<li>Pemmican</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSurvivalPack>1</MealSurvivalPack>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>soylentgreen</li>
+				<li>soylentblue</li>
+				<li>soylentpurple</li>
+				<li>soylentred</li>
+				<li>soylentyellow</li>
+				<li>Pemmican</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>soylentmakingadvanced</researchPrerequisite>
+	</RecipeDef>
+</Defs>

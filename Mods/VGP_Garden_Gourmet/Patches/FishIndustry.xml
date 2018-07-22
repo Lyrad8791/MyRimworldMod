@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+				<modName>FishIndustry</modName>
+				<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "SupplyMashgonEggs"]</xpath>
+				<order>Prepend</order>
+			<value>
+			
+			
+  <RecipeDef>
+    <defName>Make_Nigiri</defName>
+    <label>Prepare four nigiri</label>
+    <description>Prepare nigiri from rice and raw seafood. \n\nMakes 4 rolls. Is a fine meal.</description>
+    <jobString>Cooking simple meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+		<li>
+			<filter>
+               <thingDefs>
+					<li>RawRice</li>
+               </thingDefs>
+			</filter>
+				<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+	      			 <li>Mashgon_Meat</li>
+           			 <li>Blueblade_Meat</li>
+           			 <li>Tailteeth_Meat</li>
+          				 <li>Sduiggles_Meat</li>
+            			 <li>Seasnake_Meat</li>
+				</thingDefs>
+			</filter>
+				<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Nigiri>4</Nigiri>
+	</products>
+    <fixedIngredientFilter>
+         <thingDefs>
+            <li>RawRice</li>
+	       <li>Mashgon_Meat</li>
+            <li>Blueblade_Meat</li>
+            <li>Tailteeth_Meat</li>
+            <li>Sduiggles_Meat</li>
+            <li>Seasnake_Meat</li>
+          </thingDefs>
+		<disallowedSpecialFilters>
+			<li>AllowRotten</li>
+		</disallowedSpecialFilters>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+	<skillRequirements>
+			<Cooking>4</Cooking>
+	</skillRequirements>
+	<recipeUsers>
+        <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+	<defName>CookMakiRoll</defName>
+	<label>prepare four maki roll</label>
+	<description>Cooks a somewhat complex meal from a combination of rice rolled with raw fish and/or raw plant ingredients. \n\nMakes 4 rolls. Is a fine meal.</description>
+	<jobString>Cooking fine meal.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_CookMeal</soundWorking>
+ 	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+		<li>
+			<filter>
+         		<thingDefs>
+					<li>Rawsnowbeet</li>
+					<li>Rawbean</li>
+					<li>Rawmushroom</li>
+					<li>Rawtofu</li>
+					<li>PickledVeg</li>
+					<li>RawAgave</li>
+					<li>RawCoconut</li>
+	       <li>Mashgon_Meat</li>
+            <li>Blueblade_Meat</li>
+            <li>Tailteeth_Meat</li>
+            <li>Sduiggles_Meat</li>
+            <li>Seasnake_Meat</li>
+     			</thingDefs>
+			</filter>
+				<count>1</count>
+		</li>
+		<li>
+			<filter>
+         			<thingDefs>
+            			<li>RawRice</li>
+          			</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+         <thingDefs>
+	       <li>Mashgon_Meat</li>
+            <li>Blueblade_Meat</li>
+            <li>Tailteeth_Meat</li>
+            <li>Sduiggles_Meat</li>
+            <li>Seasnake_Meat</li>
+		    <li>RawRice</li>
+			<li>Rawsnowbeet</li>
+			<li>Rawbean</li>
+			<li>Rawmushroom</li>
+			<li>Rawtofu</li>
+			<li>PickledVeg</li>
+			<li>RawAgave</li>
+			<li>RawCoconut</li>
+          </thingDefs>
+		<disallowedSpecialFilters>
+			<li>AllowRotten</li>
+		</disallowedSpecialFilters>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      	<thingDefs>
+	       <li>Mashgon_Meat</li>
+            <li>Blueblade_Meat</li>
+            <li>Tailteeth_Meat</li>
+            <li>Sduiggles_Meat</li>
+            <li>Seasnake_Meat</li>
+	      	<li>RawRice</li>
+			<li>Rawsnowbeet</li>
+			<li>Rawbean</li>
+			<li>Rawmushroom</li>
+			<li>Rawtofu</li>
+			<li>PickledVeg</li>
+			<li>RawAgave</li>
+			<li>RawCoconut</li>
+         </thingDefs>
+    </defaultIngredientFilter>
+	<products>
+     		<MakiRoll>4</MakiRoll>
+    </products>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+	<recipeUsers>
+        <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+  </RecipeDef>
+
+
+			</value>
+		</li>
+	</operations>
+
+</Operation>
+
+</Patch>
+

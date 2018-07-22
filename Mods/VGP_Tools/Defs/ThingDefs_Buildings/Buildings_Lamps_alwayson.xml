@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="VG_BuildingBase">
+    <defName>AO_SunLamp</defName>
+    <label>AO sun lamp</label>
+    <thingClass>Building_SunLamp</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/SunLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.4, 0.2)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <tickerType>Rare</tickerType>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>330</WorkToBuild>
+      <Mass>4.5</Mass>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Lights an area brightly enough to grow crops. Always on.</description>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>7.0</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+     <li Class="CompProperties_Flickable"/>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>5.8</specialDisplayRadius>
+    <designationCategory>GardenTools</designationCategory>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_BuildingBase">
+    <defName>AO_SmallSunLamp</defName>
+    <label>AO small sun lamp</label>
+    <thingClass>Building_SunLamp</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/LampSunSmall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.4, 0.2)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <tickerType>Rare</tickerType>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>330</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Lights an area brightly enough to grow crops. Always on.</description>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>5</overlightRadius>
+        <glowRadius>7.5</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>750</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>3.8</specialDisplayRadius>
+    <designationCategory>GardenTools</designationCategory>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_BuildingBase">
+    <defName>AO_MiniSunLamp</defName>
+    <label>AO mini sun lamp</label>
+    <thingClass>Building_SunLamp</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/LampSunMini</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.4, 0.2)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <tickerType>Rare</tickerType>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>330</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <description>Lights an area brightly enough to grow crops. Always on.</description>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>3.5</overlightRadius>
+        <glowRadius>6</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>550</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>2.8</specialDisplayRadius>
+    <designationCategory>GardenTools</designationCategory>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Caramel.label>Caramel</Caramel.label>
+  <Caramel.description>Du sucre fondu pour obtenir du caramel.</Caramel.description>
+
+  <Hardcandy.label>Bonbon dur</Hardcandy.label>
+  <Hardcandy.description>Un bonbon dur à base de sucre.</Hardcandy.description>
+
+  <Taffy.label>Bonbon tendre</Taffy.label>
+  <Taffy.description>Un bonbon sucré moelleux.</Taffy.description>
+
+  <Chocomilk.label>Lait chocolaté</Chocomilk.label>
+  <Chocomilk.description>Chocolat ajouté au lait.</Chocomilk.description>
+
+
+</LanguageData>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <cider.label>Shinzee苹果酒</cider.label>
+  <cider.description>一种由苹果酿成的甜酒精饮品。</cider.description>
+  <cider.tools.1.label>neck</cider.tools.1.label>
+  <cider.ingestible.ingestCommandString>喝{0}</cider.ingestible.ingestCommandString>
+  <cider.ingestible.ingestReportString>正在喝{0}。</cider.ingestible.ingestReportString>
+
+  <rum.label>REinstein朗姆酒</rum.label>
+  <rum.description>朗姆酒都到去哪了？</rum.description>
+  <rum.tools.1.label>neck</rum.tools.1.label>
+  <rum.ingestible.ingestCommandString>喝{0}</rum.ingestible.ingestCommandString>
+  <rum.ingestible.ingestReportString>正在喝{0}。</rum.ingestible.ingestReportString>
+
+  <Wine.label>Ramsi葡萄酒</Wine.label>
+  <Wine.description>一种由葡萄酿成的甜酒精饮品。</Wine.description>
+  <Wine.tools.1.label>neck</Wine.tools.1.label>
+  <Wine.ingestible.ingestCommandString>喝{0}</Wine.ingestible.ingestCommandString>
+  <Wine.ingestible.ingestReportString>正在喝{0}。</Wine.ingestible.ingestReportString>
+
+  <strawberrywine.label>Spoon草莓酒</strawberrywine.label>
+  <strawberrywine.description>一种由草莓酿成的粉红色甜酒精饮品。</strawberrywine.description>
+  <strawberrywine.tools.1.label>neck</strawberrywine.tools.1.label>
+  <strawberrywine.ingestible.ingestCommandString>喝{0}</strawberrywine.ingestible.ingestCommandString>
+  <strawberrywine.ingestible.ingestReportString>正在喝{0}。</strawberrywine.ingestible.ingestReportString>
+
+  <saki.label>WHiZ清酒</saki.label>
+  <saki.description>一种由稻米酿成的清爽可口的酒。</saki.description>
+  <saki.tools.1.label>neck</saki.tools.1.label>
+  <saki.ingestible.ingestCommandString>喝{0}</saki.ingestible.ingestCommandString>
+  <saki.ingestible.ingestReportString>正在喝{0}。</saki.ingestible.ingestReportString>
+
+  <vodka.label>Syntria伏特加</vodka.label>
+  <vodka.description>一种由马铃薯酿成的蒸馏酒。</vodka.description>
+  <vodka.tools.1.label>neck</vodka.tools.1.label>
+  <vodka.ingestible.ingestCommandString>喝{0}</vodka.ingestible.ingestCommandString>
+  <vodka.ingestible.ingestReportString>正在喝{0}。</vodka.ingestible.ingestReportString>
+
+  <tequila.label>Kitty龙舌兰酒</tequila.label>
+  <tequila.description>一种由龙舌兰酿成，颜色金黄，享誉世界的酒。</tequila.description>
+  <tequila.tools.1.label>neck</tequila.tools.1.label>
+  <tequila.ingestible.ingestCommandString>喝{0}</tequila.ingestible.ingestCommandString>
+  <tequila.ingestible.ingestReportString>正在喝{0}。</tequila.ingestible.ingestReportString>
+
+  <whisky.label>Quill18威士忌</whisky.label>
+  <whisky.description>一种由玉米酿成的金黄色的酒。</whisky.description>
+  <whisky.tools.1.label>neck</whisky.tools.1.label>
+  <whisky.ingestible.ingestCommandString>喝{0}</whisky.ingestible.ingestCommandString>
+  <whisky.ingestible.ingestReportString>正在喝{0}。</whisky.ingestible.ingestReportString>
+
+  <BrownAle.label>Barky棕色爱尔</BrownAle.label>
+  <BrownAle.description>一种由大麦酿制，呈深琥珀色的啤酒。</BrownAle.description>
+  <BrownAle.tools.1.label>neck</BrownAle.tools.1.label>
+  <BrownAle.ingestible.ingestCommandString>喝{0}</BrownAle.ingestible.ingestCommandString>
+  <BrownAle.ingestible.ingestReportString>正在喝{0}。</BrownAle.ingestible.ingestReportString>
+
+  <Fruitshine.label>鲜果酿</Fruitshine.label>
+  <Fruitshine.description>鲜果酿是一种用水果酿制的甜酒。源于古老月光酿造工艺。</Fruitshine.description>
+  <Fruitshine.tools.1.label>neck</Fruitshine.tools.1.label>
+  <Fruitshine.ingestible.ingestCommandString>喝{0}</Fruitshine.ingestible.ingestCommandString>
+  <Fruitshine.ingestible.ingestReportString>正在喝{0}。</Fruitshine.ingestible.ingestReportString>
+
+
+</LanguageData>

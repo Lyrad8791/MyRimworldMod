@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Universal Fermenter -->
+  <Tools_ContainsIngredient>Contient {0} / {1} {2}.</Tools_ContainsIngredient>
+  <Tools_ContainsProduct>Contient {0} / {1} {2}.</Tools_ContainsProduct>
+  <Tools_NoIngredient>besoin d'ingrédients</Tools_NoIngredient>
+  <Tools_IdealSafeFermentingTemperature>Température de fermentation idéale (sûre)</Tools_IdealSafeFermentingTemperature>
+  <Tools_Finished>Fini</Tools_Finished>
+  <Tools_Ideal>Idéale</Tools_Ideal>
+  <Tools_Safe>Sûre</Tools_Safe>
+
+</LanguageData>

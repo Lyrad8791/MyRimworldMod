@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Oven.label>烤炉</Oven.label>
+  <Oven.description>用于烘焙的石质烤炉。</Oven.description>
+  <Oven_Blueprint.label>烤炉（蓝图）</Oven_Blueprint.label>
+  <Oven_Frame.label>烤炉（建造中）</Oven_Frame.label>
+  <Oven_Frame.description>用于烘焙的石质烤炉。</Oven_Frame.description>
+
+  <ElectricOven.label>烤炉(电动)</ElectricOven.label>
+  <ElectricOven.description>用于烘焙的石质烤炉。</ElectricOven.description>
+  <ElectricOven_Blueprint.label>烤炉(电动)（蓝图）</ElectricOven_Blueprint.label>
+  <ElectricOven_Frame.label>烤炉(电动)（建造中）</ElectricOven_Frame.label>
+  <ElectricOven_Frame.description>用于烘焙的石质烤炉。</ElectricOven_Frame.description>
+
+  <HandCanningstove.label>食物加工台（燃料）</HandCanningstove.label>
+  <HandCanningstove.description>用于罐装、压榨和处理食物的手动工作台。制作简单的物品。工作效率只有电动的40%。</HandCanningstove.description>
+  <HandCanningstove_Blueprint.label>食物加工台（蓝图）</HandCanningstove_Blueprint.label>
+  <HandCanningstove_Frame.label>食物加工台（建造中）</HandCanningstove_Frame.label>
+  <HandCanningstove_Frame.description>用于罐装、压榨和处理食物的手动工作台。制作简单的物品。工作效率只有电动的40%。</HandCanningstove_Frame.description>
+
+  <Canningstove.label>食物加工台（电动）</Canningstove.label>
+  <Canningstove.description>用于罐装、压榨和处理食物的电动工作台。</Canningstove.description>
+  <Canningstove_Blueprint.label>食物加工台(电动)（蓝图）</Canningstove_Blueprint.label>
+  <Canningstove_Frame.label>食物加工台(电动)（建造中）</Canningstove_Frame.label>
+  <Canningstove_Frame.description>用于罐装、压榨和处理食物的电动工作台。</Canningstove_Frame.description>
+
+  <FueledCandyTable.label>糖果桌（燃料）</FueledCandyTable.label>
+  <FueledCandyTable.description>制作甜美的糖果。</FueledCandyTable.description>
+  <FueledCandyTable_Blueprint.label>糖果桌(燃料)（蓝图）</FueledCandyTable_Blueprint.label>
+  <FueledCandyTable_Frame.label>糖果桌(燃料)（建造中）</FueledCandyTable_Frame.label>
+  <FueledCandyTable_Frame.description>制作甜美的糖果。</FueledCandyTable_Frame.description>
+
+  <CandyTable.label>糖果桌（电动）</CandyTable.label>
+  <CandyTable.description>制作甜美的糖果。</CandyTable.description>
+  <CandyTable_Blueprint.label>糖果桌(电动)（蓝图）</CandyTable_Blueprint.label>
+  <CandyTable_Frame.label>糖果桌(电动)（建造中）</CandyTable_Frame.label>
+  <CandyTable_Frame.description>制作甜美的糖果。</CandyTable_Frame.description>
+
+  <CookingTools.label>烹饪工具柜</CookingTools.label>
+  <CookingTools.description>提高工作效率15%。需要放置在炉灶等烹饪类工作台旁。可加速周围的所有烹饪工作台。</CookingTools.description>
+  <CookingTools_Blueprint.label>烹饪工具柜（蓝图）</CookingTools_Blueprint.label>
+  <CookingTools_Blueprint_Install.label>烹饪工具柜（蓝图）</CookingTools_Blueprint_Install.label>
+  <CookingTools_Frame.label>烹饪工具柜（建造中）</CookingTools_Frame.label>
+  <CookingTools_Frame.description>提高工作效率15%。需要放置在炉灶等烹饪类工作台旁。可加速周围的所有烹饪工作台。</CookingTools_Frame.description>
+
+  <GrindStone.label>石磨</GrindStone.label>
+  <GrindStone.description>用于快速研磨植物原料的手动小型石磨。</GrindStone.description>
+  <GrindStone_Blueprint.label>石磨（蓝图）</GrindStone_Blueprint.label>
+  <GrindStone_Frame.label>石磨（建造中）</GrindStone_Frame.label>
+  <GrindStone_Frame.description>用于快速研磨植物原料的手动小型石磨。</GrindStone_Frame.description>
+
+
+</LanguageData>

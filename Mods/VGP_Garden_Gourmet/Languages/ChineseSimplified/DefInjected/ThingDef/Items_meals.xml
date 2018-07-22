@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <cookie.label>曲奇</cookie.label>
+  <cookie.description>新鲜出炉的曲奇！</cookie.description>
+
+  <BlueberryPie.label>水果派</BlueberryPie.label>
+  <BlueberryPie.description>一片水果派。</BlueberryPie.description>
+
+  <driedfruit.label>果脯</driedfruit.label>
+  <driedfruit.description>经过脱水处理的水果。</driedfruit.description>
+
+  <Bread.label>面包</Bread.label>
+  <Bread.description>一种非常简单的烤制食物。千百年以来，人类将面包作为主食之一。</Bread.description>
+
+  <sweetbun.label>甜面包</sweetbun.label>
+  <sweetbun.description>覆盖着一层糖霜的甜面包。 \n\n食用效果：意识、行动。</sweetbun.description>
+
+  <grilledcheese.label>烤芝士三明治</grilledcheese.label>
+  <grilledcheese.description>两片面包夹着一片融化的奶酪。 \n\n食用效果：新陈代谢。</grilledcheese.description>
+
+  <grilledmeat.label>芝士汉堡</grilledmeat.label>
+  <grilledmeat.description>两片面包夹着烤肉和一片融化的奶酪。 \n\n食用效果：新陈代谢。</grilledmeat.description>
+
+  <pizza.label>披萨</pizza.label>
+  <pizza.description>不到三十分钟就能做出来的披萨。 \n\n食用效果：意识、新陈代谢。</pizza.description>
+
+  <Porridge.label>粥</Porridge.label>
+  <Porridge.description>谷物简单煮出来的粥。 \n\n食用效果：视觉、血液过滤。</Porridge.description>
+
+  <yogurt.label>酸奶</yogurt.label>
+  <yogurt.description>由奶或豆浆发酵而来。 \n\n食用效果：视觉、血液过滤。</yogurt.description>
+
+  <icecream.label>冰淇淋</icecream.label>
+  <icecream.description>用奶或豆浆制成的冰淇淋。 \n\n食用效果：行动、血液循环。</icecream.description>
+
+  <smoothie.label>奶昔</smoothie.label>
+  <smoothie.description>用奶或豆浆，再加上水果混合制成的饮料。 \n\n食用效果：视觉和行动。</smoothie.description>
+
+  <Tacos.label>墨西哥玉米卷饼</Tacos.label>
+  <Tacos.description>玉米面饼卷着肉和奶酪。 \n\n食用效果：操作、新陈代谢。</Tacos.description>
+
+  <Grilledsteak.label>烤肉</Grilledsteak.label>
+  <Grilledsteak.description>烤熟的肉。</Grilledsteak.description>
+
+  <Grilledveg.label>烤蔬菜</Grilledveg.label>
+  <Grilledveg.description>烤熟的蔬菜。</Grilledveg.description>
+
+  <Kabob.label>烤肉串</Kabob.label>
+  <Kabob.description>用细木棍串起来烤的肉或蔬菜。</Kabob.description>
+
+  <grilledpolenta.label>烤玉米糊</grilledpolenta.label>
+  <grilledpolenta.description>一团玉米糊切成片并烤制得非常完美。 \n\n食用效果：操作、血液过滤。</grilledpolenta.description>
+
+  <bakedpolenta.label>玉米糊面包</bakedpolenta.label>
+  <bakedpolenta.description>由玉米糊包在面包里烘焙而成。 \n\n食用效果：操作、血液过滤。</bakedpolenta.description>
+
+  <Cornbread.label>玉米面包</Cornbread.label>
+  <Cornbread.description>玉米粉烘培的面包。</Cornbread.description>
+
+  <muffin.label>水果玛芬</muffin.label>
+  <muffin.description>水果烘焙而成的玛芬。 \n\n食用效果：意识、移动。</muffin.description>
+
+  <meatpie.label>肉派</meatpie.label>
+  <meatpie.description>一个充满肉馅的馅饼。</meatpie.description>
+
+
+</LanguageData>

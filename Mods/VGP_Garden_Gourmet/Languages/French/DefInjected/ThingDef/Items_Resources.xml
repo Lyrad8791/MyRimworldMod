@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Rawwheat.label>Blé</Rawwheat.label>
+  <Rawwheat.description>Le grain de blé est du céréale, il peut être moulu en farine.</Rawwheat.description>
+
+  <Rawcocoa.label>Fèves de cacao</Rawcocoa.label>
+  <Rawcocoa.description>Les fèves de cacao sont raffinées en chocolat.</Rawcocoa.description>
+
+  <Rawsugarcane.label>Canne à sucre</Rawsugarcane.label>
+  <Rawsugarcane.description>La canne à sucre se raffine pour la fabrication de sucre. </Rawsugarcane.description>
+
+  <cheese.label>Fromage</cheese.label>
+  <cheese.description>Un morceau de fromage</cheese.description>
+
+  <Sugar.label>Sucre</Sugar.label>
+  <Sugar.description>Provient de la canne à sucre broyée. Ingrédient pour des recettes.</Sugar.description>
+
+  <Flour.label>Farine</Flour.label>
+  <Flour.description>Farnie de blé. Ingrédient pour des recettes.</Flour.description>
+
+  <!--[Core] <Chocolate.label>chocolate</Chocolate.label>-->
+  <!--[Core] <Chocolate.description>A delicious preparation of cocoa seeds ground together with sugar and vanilla. Very pleasurable to eat, but not very nutritious.</Chocolate.description>-->
+
+  <Cornmeal.label>Farine de maïs</Cornmeal.label>
+  <Cornmeal.description>Farnie de maïs. Ingrédient pour des recettes.</Cornmeal.description>
+
+  <!--[Core] <Milk.label>milk</Milk.label>-->
+  <!--[Core] <Milk.description>Milk from an animal.</Milk.description>-->
+
+  <VeganEgg.label>Oeuf végétalien</VeganEgg.label>
+  <VeganEgg.description>L’oeuf végétalien est un produit en forme d'œuf à base de tofu, de pommes de terre ou de banane. Utilisé à la place des oeufs dans les recettes de cuisine.</VeganEgg.description>
+
+
+</LanguageData>

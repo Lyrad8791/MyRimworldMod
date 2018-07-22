@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <PlantHealroot.label>药草</PlantHealroot.label>-->
+  <!--[Core] <PlantHealroot.description>一种生长缓慢的植物，可以收获草药。\n\n已经被殖民者们选择育种了几个世纪。因其五大医疗功效，被部落人誉为「医者之手」。</PlantHealroot.description>-->
+
+  <PlantNeutroFlower.label>中性花</PlantNeutroFlower.label>
+  <PlantNeutroFlower.description>一种漂亮黄橙色花朵。用于制作中性胺和药物。</PlantNeutroFlower.description>
+
+  <PlantTobacco.label>烟草</PlantTobacco.label>
+  <PlantTobacco.description>烟草，烟草属草茄木，茄科。收获迅速。种植要求高。</PlantTobacco.description>
+
+
+</LanguageData>

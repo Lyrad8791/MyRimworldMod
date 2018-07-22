@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JoyGiverDef>
+		<defName>VGP_EatSweetFood</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>3</baseChance>
+		<thingDefs>
+			<li>Caramel</li>
+			<li>Hardcandy</li>
+			<li>Taffy</li>
+			<li>Chocomilk</li>
+		</thingDefs>
+		<joyKind>Gluttonous</joyKind>
+	</JoyGiverDef>
+
+
+
+</Defs>

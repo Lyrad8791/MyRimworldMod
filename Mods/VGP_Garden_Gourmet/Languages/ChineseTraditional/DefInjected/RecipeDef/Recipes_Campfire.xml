@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GrillKabob.label>烤肉串（2）</GrillKabob.label>
+  <GrillKabob.description>用細木棍串起來烤的肉或蔬菜。</GrillKabob.description>
+  <GrillKabob.jobString>正在烤肉串。</GrillKabob.jobString>
+
+  <Grillsteak.label>烤肉（2）</Grillsteak.label>
+  <Grillsteak.description>將肉排烤熟。/n一次烤2份。</Grillsteak.description>
+  <Grillsteak.jobString>正在烤肉。</Grillsteak.jobString>
+
+  <GrillVegetables.label>烤蔬菜（2）</GrillVegetables.label>
+  <GrillVegetables.description>將蔬菜烤熟。/n一次烤2份。</GrillVegetables.description>
+  <GrillVegetables.jobString>正在烤蔬菜。</GrillVegetables.jobString>
+
+
+</LanguageData>

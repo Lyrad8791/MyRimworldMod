@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drugs -->
+
+  <Tobacco.stages.0.label>抽烟（舒适-迟缓）</Tobacco.stages.0.label>
+  <Tobacco.stages.0.description>我感觉我沉着、冷静、泰然自若。</Tobacco.stages.0.description>
+  <Tobacco.stages.1.label>抽烟（舒适-陶醉）</Tobacco.stages.1.label>
+  <Tobacco.stages.1.description>我感觉很兴奋。</Tobacco.stages.1.description>
+
+
+  <!-- Tobaccoaddiction -->
+
+  <TobaccoWithdrawal.stages.1.label>烟叶成瘾（戒断反应）</TobaccoWithdrawal.stages.1.label>
+  <TobaccoWithdrawal.stages.1.description>感觉提不起劲，干什么都没精神。好想抽根烟。</TobaccoWithdrawal.stages.1.description>
+
+
+</LanguageData>

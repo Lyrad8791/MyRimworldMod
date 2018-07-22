@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drugs -->
+
+  <RawTobacco.label>VG-菸葉</RawTobacco.label>
+  <RawTobacco.description>菸葉。不推薦直接吃，但可以做成小雪茄。</RawTobacco.description>
+
+  <Cigarillos.label>小雪茄</Cigarillos.label>
+  <Cigarillos.description>一支小雪茄。</Cigarillos.description>
+  <Cigarillos.ingestible.ingestCommandString>抽{0}</Cigarillos.ingestible.ingestCommandString>
+  <Cigarillos.ingestible.ingestReportString>正在抽{0}。</Cigarillos.ingestible.ingestReportString>
+
+
+</LanguageData>

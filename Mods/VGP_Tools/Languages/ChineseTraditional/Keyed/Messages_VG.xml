@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Universal Fermenter -->
+  <Tools_ContainsIngredient>成份: {0} / {1} {2}。</Tools_ContainsIngredient>
+  <Tools_ContainsProduct>成份: {0} / {1} {2}。</Tools_ContainsProduct>
+  <Tools_NoIngredient>需要成份:</Tools_NoIngredient>
+  <Tools_IdealSafeFermentingTemperature>理想(安全)發酵溫度</Tools_IdealSafeFermentingTemperature>
+  <Tools_Finished>完成發酵</Tools_Finished>
+  <Tools_Ideal>理想</Tools_Ideal>
+  <Tools_Safe>安全</Tools_Safe>
+
+</LanguageData>

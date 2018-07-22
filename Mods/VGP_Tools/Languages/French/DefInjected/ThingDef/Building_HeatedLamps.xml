@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HeatedSunLamp.label>Lampe solaire chauffante</HeatedSunLamp.label>
+  <HeatedSunLamp.description>Permet aux plantes de pousser grâce à la lumière intense. De plus, un chauffage est intégré pour garder votre pièce au chaud.</HeatedSunLamp.description>
+  <HeatedSunLamp_Blueprint.label>Lampe solaire chauffante (plan)</HeatedSunLamp_Blueprint.label>
+  <HeatedSunLamp_Frame.label>Lampe solaire chauffante (construction)</HeatedSunLamp_Frame.label>
+  <HeatedSunLamp_Frame.description>Permet aux plantes de pousser grâce à la lumière intense. De plus, un chauffage est intégré pour garder votre pièce au chaud.</HeatedSunLamp_Frame.description>
+
+  <HeatedSmallSunLamp.label>Petite Lampe solaire chauffante</HeatedSmallSunLamp.label>
+  <HeatedSmallSunLamp.description>Permet aux plantes de pousser grâce à la lumière intense. De plus, un chauffage est intégré pour garder votre pièce au chaud.</HeatedSmallSunLamp.description>
+  <HeatedSmallSunLamp_Blueprint.label>Petite Lampe solaire chauffante (plan)</HeatedSmallSunLamp_Blueprint.label>
+  <HeatedSmallSunLamp_Frame.label>Petite Lampe solaire chauffante (construction)</HeatedSmallSunLamp_Frame.label>
+  <HeatedSmallSunLamp_Frame.description>Permet aux plantes de pousser grâce à la lumière intense. De plus, un chauffage est intégré pour garder votre pièce au chaud.</HeatedSmallSunLamp_Frame.description>
+
+  <HeatedMiniSunLamp.label>Mini Lampe solaire chauffante</HeatedMiniSunLamp.label>
+  <HeatedMiniSunLamp.description>Permet aux plantes de pousser grâce à la lumière intense. De plus, un chauffage est intégré pour garder votre pièce au chaud.</HeatedMiniSunLamp.description>
+  <HeatedMiniSunLamp_Blueprint.label>Mini Lampe solaire chauffante (plan)</HeatedMiniSunLamp_Blueprint.label>
+  <HeatedMiniSunLamp_Frame.label>Mini Lampe solaire chauffante (construction)</HeatedMiniSunLamp_Frame.label>
+  <HeatedMiniSunLamp_Frame.description>Permet aux plantes de pousser grâce à la lumière intense. De plus, un chauffage est intégré pour garder votre pièce au chaud.</HeatedMiniSunLamp_Frame.description>
+
+
+</LanguageData>

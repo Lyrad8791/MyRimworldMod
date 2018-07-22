@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeChemfuelFromBamboo.label>Raffiner du chemfuel à partir de bambou</MakeChemfuelFromBamboo.label>
+  <MakeChemfuelFromBamboo.description>Produire des barils de chemfuel par la gazéification de bûche de bambou.</MakeChemfuelFromBamboo.description>
+  <MakeChemfuelFromBamboo.jobString>Raffine du chemfuel à partir de bambou.</MakeChemfuelFromBamboo.jobString>
+
+  <VG_MakeBiofuel.label>Raffiner du biocarburant à partir de grains</VG_MakeBiofuel.label>
+  <VG_MakeBiofuel.description>Produire des barils de biocarburant à partir de blés, de maïs ou des haricots.</VG_MakeBiofuel.description>
+  <VG_MakeBiofuel.jobString>Raffine du biocarburant à partir de matière organique.</VG_MakeBiofuel.jobString>
+
+
+</LanguageData>

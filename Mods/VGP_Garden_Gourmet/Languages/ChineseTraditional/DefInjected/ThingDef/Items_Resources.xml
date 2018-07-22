@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Rawwheat.label>小麥</Rawwheat.label>
+  <Rawwheat.description>小麥是一種穀物，用於磨製成麵粉。</Rawwheat.description>
+
+  <Rawcocoa.label>可可豆</Rawcocoa.label>
+  <Rawcocoa.description>可可豆經過發酵、烘焙、研磨，最後加工成巧克力。</Rawcocoa.description>
+
+  <Rawsugarcane.label>甘蔗</Rawsugarcane.label>
+  <Rawsugarcane.description>甘蔗的桿部。可以提煉蔗糖。</Rawsugarcane.description>
+
+  <cheese.label>奶酪</cheese.label>
+  <cheese.description>一塊奶酪。</cheese.description>
+
+  <Sugar.label>蔗糖</Sugar.label>
+  <Sugar.description>從甘蔗中提煉而來，作為烘焙配料。</Sugar.description>
+
+  <Flour.label>麵粉</Flour.label>
+  <Flour.description>簡單的麵粉，用於烘焙。</Flour.description>
+
+  <!--[Core] <Chocolate.label>巧克力</Chocolate.label>-->
+  <!--[Core] <Chocolate.description>一種用可可，混合了糖與香料製成的美味食品，味道非常可口，但營養價值不高。</Chocolate.description>-->
+
+  <Cornmeal.label>玉米粉</Cornmeal.label>
+  <Cornmeal.description>簡單的玉米粉，用於烘焙。</Cornmeal.description>
+
+  <!--[Core] <Milk.label>鮮奶</Milk.label>-->
+  <!--[Core] <Milk.description>動物產出的奶。</Milk.description>-->
+
+  <VeganEgg.label>素蛋</VeganEgg.label>
+  <VeganEgg.description>由豆腐、南瓜或香蕉製成的蛋狀食物，用於替代烘焙或其他料理中蛋材料。</VeganEgg.description>
+
+
+</LanguageData>

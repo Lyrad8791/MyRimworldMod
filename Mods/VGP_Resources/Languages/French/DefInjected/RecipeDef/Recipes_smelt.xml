@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractRawSteelLeaf.label>Fondre des champiaciers</ExtractRawSteelLeaf.label>
+  <ExtractRawSteelLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les champiaciers. \n\nDonne 4 acier.</ExtractRawSteelLeaf.description>
+  <ExtractRawSteelLeaf.jobString>Fond les champiaciers.</ExtractRawSteelLeaf.jobString>
+
+  <ExtractRawPlasteelLeaf.label>Fondre des bulbes de plastacier</ExtractRawPlasteelLeaf.label>
+  <ExtractRawPlasteelLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les bulbes de plastacier. \n\nDonne 4 plastacier.</ExtractRawPlasteelLeaf.description>
+  <ExtractRawPlasteelLeaf.jobString>Fond les bulbes de plastacier.</ExtractRawPlasteelLeaf.jobString>
+
+  <ExtractRawGoldLeaf.label>Fondre des feuilles d'or de fougère</ExtractRawGoldLeaf.label>
+  <ExtractRawGoldLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les feuilles d'or de fougère. \n\nDonne 4 or.</ExtractRawGoldLeaf.description>
+  <ExtractRawGoldLeaf.jobString>Fond les feuilles d'or de fougère.</ExtractRawGoldLeaf.jobString>
+
+  <ExtractRawJadeLeaf.label>Fondre des cristaux de jade</ExtractRawJadeLeaf.label>
+  <ExtractRawJadeLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les cristaux de jade. \n\nDonne 4 jade.</ExtractRawJadeLeaf.description>
+  <ExtractRawJadeLeaf.jobString>Fond les cristaux de jade.</ExtractRawJadeLeaf.jobString>
+
+  <ExtractRawSilverLeaf.label>Fondre des pétales de fleur d'argent</ExtractRawSilverLeaf.label>
+  <ExtractRawSilverLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les pétales de fleur d'argent. \n\nDonne 4 argent.</ExtractRawSilverLeaf.description>
+  <ExtractRawSilverLeaf.jobString>Fond les pétales de fleur d'argent.</ExtractRawSilverLeaf.jobString>
+
+  <ExtractRawUraniumLeaf.label>Fondre des racines d'uranium</ExtractRawUraniumLeaf.label>
+  <ExtractRawUraniumLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les racines d'uranium. \n\nDonne 4 uranium.</ExtractRawUraniumLeaf.description>
+  <ExtractRawUraniumLeaf.jobString>Fond les racines d'uranium.</ExtractRawUraniumLeaf.jobString>
+
+  <ExtractBulkSteelLeaf.label>Fondre des champiaciers (en masse)</ExtractBulkSteelLeaf.label>
+  <ExtractBulkSteelLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les champiaciers. \n\nDonne 16 acier.</ExtractBulkSteelLeaf.description>
+  <ExtractBulkSteelLeaf.jobString>Fond les champiaciers.</ExtractBulkSteelLeaf.jobString>
+
+  <ExtractBulkPlasteelLeaf.label>Fondre des bulbes de plastacier (en masse)</ExtractBulkPlasteelLeaf.label>
+  <ExtractBulkPlasteelLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les bulbes de plastacier. \n\nDonne 16 plastacier.</ExtractBulkPlasteelLeaf.description>
+  <ExtractBulkPlasteelLeaf.jobString>Fond les bulbes de plastacier.</ExtractBulkPlasteelLeaf.jobString>
+
+  <ExtractbulkGoldLeaf.label>Fondre des feuilles d'or de fougère (en masse)</ExtractbulkGoldLeaf.label>
+  <ExtractbulkGoldLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les feuilles d'or de fougère. \n\nDonne 16 or.</ExtractbulkGoldLeaf.description>
+  <ExtractbulkGoldLeaf.jobString>Fond les feuilles d'or de fougère.</ExtractbulkGoldLeaf.jobString>
+
+  <ExtractBulkRawJadeLeaf.label>Fondre des cristaux de jade (en masse)</ExtractBulkRawJadeLeaf.label>
+  <ExtractBulkRawJadeLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les cristaux de jade. \n\nDonne 16 jade.</ExtractBulkRawJadeLeaf.description>
+  <ExtractBulkRawJadeLeaf.jobString>Fond les cristaux de jade.</ExtractBulkRawJadeLeaf.jobString>
+
+  <ExtractBulkSilverLeaf.label>Fondre des pétales de fleur d'argent (en masse)</ExtractBulkSilverLeaf.label>
+  <ExtractBulkSilverLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les pétales de fleur d'argent. \n\nDonne 16 argent.</ExtractBulkSilverLeaf.description>
+  <ExtractBulkSilverLeaf.jobString>Fond les pétales de fleur d'argent.</ExtractBulkSilverLeaf.jobString>
+
+  <ExtractBulkUraniumLeaf.label>Fondre des racines d'uranium (en masse)</ExtractBulkUraniumLeaf.label>
+  <ExtractBulkUraniumLeaf.description>Utiliser la chaleur et la puissance des électro-aimants afin de fondre les racines d'uranium. \n\nDonne 16 uranium.</ExtractBulkUraniumLeaf.description>
+  <ExtractBulkUraniumLeaf.jobString>Fond les racines d'uranium.</ExtractBulkUraniumLeaf.jobString>
+
+
+</LanguageData>

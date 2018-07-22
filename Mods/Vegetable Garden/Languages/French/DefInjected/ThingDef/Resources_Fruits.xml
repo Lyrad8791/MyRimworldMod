@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Rawapple.label>Pomme</Rawapple.label>
+  <Rawapple.description>Ce fruit rouge pousse sur les pommiers.</Rawapple.description>
+
+  <Rawbanana.label>Banane</Rawbanana.label>
+  <Rawbanana.description>Ce fruit jaune pousse sur les bananiers.</Rawbanana.description>
+
+  <Rawgrape.label>Raisin</Rawgrape.label>
+  <Rawgrape.description>Ce fruit sucré pousse sur les vignes.</Rawgrape.description>
+
+  <Raworange.label>Orange</Raworange.label>
+  <Raworange.description>Ce fruit orange pousse sur les orangers.</Raworange.description>
+
+  <Rawpeach.label>Pêche</Rawpeach.label>
+  <Rawpeach.description>Ce fruit pousse sur les pêchers.</Rawpeach.description>
+
+  <Rawpineapple.label>Ananas</Rawpineapple.label>
+  <Rawpineapple.description>Un fruit tropical ayant de grandes feuilles en forme d'épée et un gros fruit, charnu, comestible.</Rawpineapple.description>
+
+  <Rawblueberry.label>Myrtille</Rawblueberry.label>
+  <Rawblueberry.description>Baie de couleur bleue qui pousse dans les buissons. Bon à manger, même cru.</Rawblueberry.description>
+
+  <Rawwatermelon.label>Pastèque</Rawwatermelon.label>
+  <Rawwatermelon.description>Grand fruit arrondi ou allongé d'une liane rampante ayant une croûte dure et verte, sa pulpe est sucrée, juteuse et généralement rose ou rouge.</Rawwatermelon.description>
+
+  <Rawdate.label>Datte</Rawdate.label>
+  <Rawdate.description>Ce fruit sucré pousse sur les dattiers.</Rawdate.description>
+
+  <Rawfig.label>Figue</Rawfig.label>
+  <Rawfig.description>Ce fruit sucré pousse sur les figuiers.</Rawfig.description>
+
+  <Rawgooseberry.label>Groseille</Rawgooseberry.label>
+  <Rawgooseberry.description>Un fruit sucré qui pousse sur les buissons.</Rawgooseberry.description>
+
+  <Rawcloudberry.label>Plaquebière</Rawcloudberry.label>
+  <Rawcloudberry.description>Un fruit sucré qui pousse dans les ronces.</Rawcloudberry.description>
+
+  <RawCherry.label>Cerises</RawCherry.label>
+  <RawCherry.description>Ce fruit rouge pousse sur les cerisiers.</RawCherry.description>
+
+  <RawCoconut.label>Noix de coco</RawCoconut.label>
+  <RawCoconut.description>La noix de coco pousse sur les cocotiers. Elle possède une coquille extérieure dure et une chair juteuse à l'intérieur.</RawCoconut.description>
+
+  <!--[Core] <RawBerries.label>berries</RawBerries.label>-->
+  <!--[Core] <RawBerries.description>Assorted berries. Nice to eat, even when raw.</RawBerries.description>-->
+
+  <!--[Core] <RawAgave.label>agave fruit</RawAgave.label>-->
+  <!--[Core] <RawAgave.description>Raw agave fruit.</RawAgave.description>-->
+
+
+</LanguageData>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- bases -->
+
+  <RawCotton.label>棉花</RawCotton.label>
+  <RawCotton.description>棉花，可以被紡織成布或賣給商人。</RawCotton.description>
+
+  <RawFlax.label>亞麻</RawFlax.label>
+  <RawFlax.description>亞麻，可以被紡織成布或賣給商人。</RawFlax.description>
+
+  <RawDevilstrand.label>惡魔菇</RawDevilstrand.label>
+  <RawDevilstrand.description>惡魔菇。可以被編織成布或賣給商人。</RawDevilstrand.description>
+
+  <VG_PlasteelThread.label>塑鋼絲</VG_PlasteelThread.label>
+  <VG_PlasteelThread.description>通過熔化塑鋼紡織而成的絲線，用於生產高級布料。</VG_PlasteelThread.description>
+
+  <HempCloth.label>大麻布</HempCloth.label>
+  <HempCloth.description>別人拿來當煙抽的東西製成布然後穿在身上真的沒問題嗎？</HempCloth.description>
+  <HempCloth.stuffProps.stuffAdjective>大麻布</HempCloth.stuffProps.stuffAdjective>
+
+  <!--[Core] <Cloth.label>棉布</Cloth.label>-->
+  <!--[Core] <Cloth.description>以有機纖維編織而成的布料。</Cloth.description>-->
+  <!--[Core] <Cloth.stuffProps.stuffAdjective>棉布</Cloth.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <Synthread.label>合成纖維</Synthread.label>-->
+  <!--[Core] <Synthread.description>以太空科技合成纖維材料製成的衣物，輕盈、柔軟、耐用，而且絕緣良好。</Synthread.description>-->
+  <!--[Core] <Synthread.stuffProps.stuffAdjective>合成纖維</Synthread.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <DevilstrandCloth.label>魔鬼布料</DevilstrandCloth.label>-->
+  <!--[Core] <DevilstrandCloth.description>終極強韌的布料，提取自魔鬼菇。</DevilstrandCloth.description>-->
+  <!--[Core] <DevilstrandCloth.stuffProps.stuffAdjective>魔鬼布料</DevilstrandCloth.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <Hyperweave.label>超級布料</Hyperweave.label>-->
+  <!--[Core] <Hyperweave.description>以高科技奈米纖維織成，有點厚重，但令人難以置信的難以破壞。</Hyperweave.description>-->
+  <!--[Core] <Hyperweave.stuffProps.stuffAdjective>超級布料</Hyperweave.stuffProps.stuffAdjective>-->
+
+  <Flaxcloth.label>亞麻布</Flaxcloth.label>
+  <Flaxcloth.description>用於製作衣物，柔軟、輕、強韌。</Flaxcloth.description>
+  <Flaxcloth.stuffProps.stuffAdjective>亞麻布</Flaxcloth.stuffProps.stuffAdjective>
+
+  <BleadedLeather.label>混合皮</BleadedLeather.label>
+  <BleadedLeather.description>多種不同的小塊皮革拼湊而成。</BleadedLeather.description>
+  <BleadedLeather.stuffProps.stuffAdjective>混合皮</BleadedLeather.stuffProps.stuffAdjective>
+
+
+</LanguageData>

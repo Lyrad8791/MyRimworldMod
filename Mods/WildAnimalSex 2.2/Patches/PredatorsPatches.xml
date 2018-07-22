@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggChickenFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggCobraFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggIguanaFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggTortoiseFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggCassowaryFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggEmuFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggOstrichFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="EggTurkeyFertilized"]/statBases</xpath>
+	  <value>
+		<DeteriorationRate>0</DeteriorationRate>
+	  </value>
+	</Operation>
+	
+	<!--<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName="Cougar"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.6</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName="Cougar"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.14</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation> 
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Panther"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.6</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName="Panther"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.14</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Lynx"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.6</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/PawnKindDef[defName="Lynx"]/wildSpawn_EcoSystemWeight</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.14</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "YorkshireTerrier"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.5</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Husky"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.6</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "LabradorRetriever"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.6</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Cat"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.3</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Warg"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.75</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/PawnKindDef[defName="Warg"]/wildSpawn_EcoSystemWeight</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "WolfTimber"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.4</baseHungerRate>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "WolfArctic"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.4</baseHungerRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "FoxFennec"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.3</baseHungerRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "FoxRed"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.3</baseHungerRate>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "FoxArctic"]/race</xpath>
+	  <value>
+		<baseHungerRate>0.3</baseHungerRate>
+	  </value>
+	</Operation>-->
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "WolfTimber"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "WolfArctic"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "FoxFennec"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "FoxRed"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "FoxArctic"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/PawnKindDef[defName="Cobra"]/wildSpawn_EcoSystemWeight</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "GrizzlyBear"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.1</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/PawnKindDef[defName = "PolarBear"]/lifeStages</xpath>
+	  <value>
+		<wildSpawn_EcoSystemWeight>0.1</wildSpawn_EcoSystemWeight>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/Husky</xpath>
+	  <value>
+		<Husky>0.03</Husky>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/GrizzlyBear</xpath>
+	  <value>
+		<GrizzlyBear>0.03</GrizzlyBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.021</Cougar>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/Lynx</xpath>
+	  <value>
+        <Lynx>0.021</Lynx>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/Warg</xpath>
+	  <value>
+		<Warg>0.021</Warg>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/WolfTimber</xpath>
+	  <value>
+		<WolfTimber>0.21</WolfTimber>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/FoxRed</xpath>
+	  <value>
+		<FoxRed>0.21</FoxRed>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/WolfArctic</xpath>
+	  <value>
+		<WolfArctic>0.09</WolfArctic>
+	  </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "BorealForest"]/wildAnimals/FoxArctic</xpath>
+	  <value>
+		<FoxArctic>0.09</FoxArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/WolfArctic</xpath>
+	  <value>
+		<WolfArctic>0.18</WolfArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/FoxArctic</xpath>
+	  <value>
+		<FoxArctic>0.09</FoxArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/Lynx</xpath>
+	  <value>
+		<Lynx>0.045</Lynx>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/WolfTimber</xpath>
+	  <value>
+		<WolfTimber>0.024</WolfTimber>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.024</Cougar>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/Warg</xpath>
+	  <value>
+		<Warg>0.024</Warg>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/PolarBear</xpath>
+	  <value>
+		<PolarBear>0.024</PolarBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/GrizzlyBear</xpath>
+	  <value>
+		<GrizzlyBear>0.024</GrizzlyBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/FoxRed</xpath>
+	  <value>
+		<FoxRed>0.024</FoxRed>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Tundra"]/wildAnimals/Husky</xpath>
+	  <value>
+		<Husky>0.024</Husky>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/WolfArctic</xpath>
+	  <value>
+		<WolfArctic>0.18</WolfArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/FoxArctic</xpath>
+	  <value>
+		<FoxArctic>0.09</FoxArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/Lynx</xpath>
+	  <value>
+		<Lynx>0.045</Lynx>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/WolfTimber</xpath>
+	  <value>
+		<WolfTimber>0.024</WolfTimber>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.024</Cougar>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/Warg</xpath>
+	  <value>
+		<Warg>0.024</Warg>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/PolarBear</xpath>
+	  <value>
+		<PolarBear>0.024</PolarBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/GrizzlyBear</xpath>
+	  <value>
+		<GrizzlyBear>0.024</GrizzlyBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/FoxRed</xpath>
+	  <value>
+		<FoxRed>0.024</FoxRed>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ColdBog"]/wildAnimals/Husky</xpath>
+	  <value>
+		<Husky>0.024</Husky>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "IceSheet"]/wildAnimals/PolarBear</xpath>
+	  <value>
+		<PolarBear>0.24</PolarBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "IceSheet"]/wildAnimals/Lynx</xpath>
+	  <value>
+		<Lynx>0.03</Lynx>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "IceSheet"]/wildAnimals/WolfArctic</xpath>
+	  <value>
+		<WolfArctic>0.06</WolfArctic>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "IceSheet"]/wildAnimals/FoxArctic</xpath>
+	  <value>
+		<FoxArctic>0.06</FoxArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "SeaIce"]/wildAnimals/PolarBear</xpath>
+	  <value>
+		<PolarBear>0.24</PolarBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "SeaIce"]/wildAnimals/WolfArctic</xpath>
+	  <value>
+		<WolfArctic>0.06</WolfArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "SeaIce"]/wildAnimals/FoxArctic</xpath>
+	  <value>
+		<FoxArctic>0.06</FoxArctic>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "AridShrubland"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.24</Cougar>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "AridShrubland"]/wildAnimals/WolfTimber</xpath>
+	  <value>
+		<WolfTimber>0.03</WolfTimber>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "AridShrubland"]/wildAnimals/FoxFennec</xpath>
+	  <value>
+		<FoxFennec>0.09</FoxFennec>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Desert"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.06</Cougar>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "Desert"]/wildAnimals/FoxFennec</xpath>
+	  <value>
+		<FoxFennec>0.12</FoxFennec>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "ExtremeDesert"]/wildAnimals/FoxFennec</xpath>
+	  <value>
+		<FoxFennec>0.12</FoxFennec>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TropicalRainforest"]/wildAnimals/Cobra</xpath>
+	  <value>
+		<Cobra>0.51</Cobra>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TropicalRainforest"]/wildAnimals/Panther</xpath>
+	  <value>
+		<Panther>0.27</Panther>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TropicalSwamp"]/wildAnimals/Cobra</xpath>
+	  <value>
+		<Cobra>0.51</Cobra>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TropicalSwamp"]/wildAnimals/Panther</xpath>
+	  <value>
+		<Panther>0.27</Panther>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/WolfTimber</xpath>
+	  <value>
+		<WolfTimber>0.12</WolfTimber>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/FoxRed</xpath>
+	  <value>
+		<FoxRed>0.12</FoxRed>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/GrizzlyBear</xpath>
+	  <value>
+		<GrizzlyBear>0.066</GrizzlyBear>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/Warg</xpath>
+	  <value>
+		<Warg>0.036</Warg>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.036</Cougar>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/Lynx</xpath>
+	  <value>
+		<Lynx>0.024</Lynx>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/WolfTimber</xpath>
+	  <value>
+		<WolfTimber>0.12</WolfTimber>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/FoxRed</xpath>
+	  <value>
+		<FoxRed>0.12</FoxRed>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/GrizzlyBear</xpath>
+	  <value>
+		<GrizzlyBear>0.066</GrizzlyBear>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/Warg</xpath>
+	  <value>
+		<Warg>0.036</Warg>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/Cougar</xpath>
+	  <value>
+		<Cougar>0.036</Cougar>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/BiomeDef[defName = "TemperateForest"]/wildAnimals/Lynx</xpath>
+	  <value>
+		<Lynx>0.024</Lynx>
+	  </value>
+	</Operation>
+
+
+	
+	
+	
+	
+</Patch>

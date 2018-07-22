@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <VG_Ambrosia.label>VG：仙饌果</VG_Ambrosia.label>
+  <VG_Ambrosia.description>研究通過水培植物盆種植仙饌果的方法。</VG_Ambrosia.description>
+
+  <VG_GlitterMeds.label>VG：高科技藥品</VG_GlitterMeds.label>
+  <VG_GlitterMeds.description>允許你製作高科技藥品。</VG_GlitterMeds.description>
+
+  <BulkMedicine.label>VG：大量生產藥物</BulkMedicine.label>
+  <BulkMedicine.description>允許你大量生產藥物。\n\n解鎖批量製作中性胺、流感藥物、布洛芬、健康飲料、簡易藥物和醫療包。</BulkMedicine.description>
+
+  <BulkPekoeRefining.label>VG：批量生產百樂茶</BulkPekoeRefining.label>
+  <BulkPekoeRefining.description>學習如何提煉大量迷幻草以製作有別於一般興奮型毒品的百樂茶。</BulkPekoeRefining.description>
+
+  <BulkPsychiteRefining.label>VG：批量提煉迷幻草</BulkPsychiteRefining.label>
+  <BulkPsychiteRefining.description>學習如何提煉大量迷幻草以製造薄片或Y他命，屬於兩種不同形式，但都能夠使人亢奮的藥物。</BulkPsychiteRefining.description>
+
+  <BulkWakeUpProduction.label>VG：批量生產醒神劑</BulkWakeUpProduction.label>
+  <BulkWakeUpProduction.description>你的研究人員將學習如何大量生產醒神劑，一種能提高工作效率的藥物。</BulkWakeUpProduction.description>
+
+  <BulkGoJuiceProduction.label>VG：批量生產能量果飲</BulkGoJuiceProduction.label>
+  <BulkGoJuiceProduction.description>學習如何大量生產能量果飲，一種能夠提高戰鬥能力的藥物。</BulkGoJuiceProduction.description>
+
+  <BulkPenoxycylineProduction.label>VG：批量生產盤諾沙林</BulkPenoxycylineProduction.label>
+  <BulkPenoxycylineProduction.description>學習如何大量生產盤諾沙林，一種能夠預防疾病的藥物。</BulkPenoxycylineProduction.description>
+
+
+</LanguageData>

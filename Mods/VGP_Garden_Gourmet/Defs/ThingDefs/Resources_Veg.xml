@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef ParentName="VG_RawFoodBase">
+		<defName>PickledVeg</defName>
+		<label>Pickled Vegetable</label>
+		<description>Vegetables that have been preserved in a salty brine.</description>
+		<graphicData>
+      <texPath>Things/Item/PickleVeg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>13</MarketValue>
+    </statBases>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <nutrition>0.2</nutrition>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>80</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

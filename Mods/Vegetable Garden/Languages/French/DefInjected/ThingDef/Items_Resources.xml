@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>Grains de café</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>Café cru. Meilleur quand il est torréfié en boisson chaude.</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>Feuilles de thé</Rawtea.label>
+  <Rawtea.description>Feuilles de thé pour l’infusion.</Rawtea.description>
+
+  <!--[Core] <RawHops.label>hops</RawHops.label>-->
+  <!--[Core] <RawHops.description>Raw hops. A flavoring and preserving agent that is necessary for making beer.</RawHops.description>-->
+
+  <!--[Core] <Hay.label>hay</Hay.label>-->
+  <!--[Core] <Hay.description>Nutrient-rich grasses and shoots, harvested and compacted for storage. Hay is good animal feed, but inedible for humans.</Hay.description>-->
+
+
+  <!-- Kibble -->
+
+  <!--[Core] <Kibble.label>kibble</Kibble.label>-->
+  <!--[Core] <Kibble.description>Kibble animal feed made from mixed meat and plant sources. Humans can eat it, but they really, really don't like it.</Kibble.description>-->
+
+  <Silage.label>Ensilage</Silage.label>
+  <Silage.description>Foin fermenté riche en nutriments et céréales pour vos animaux. Le processus de fermentation préserve l'ensilage en l’empêchant de pourrir.</Silage.description>
+
+  <VG_Biofuel.label>Biocarburant</VG_Biofuel.label>
+  <VG_Biofuel.description>Carburant fabriqué à partir des processus de raffinage de divers types de plantes avec leurs huiles ou leurs alcools. Il est utilisé pour alimenter les générateurs et les établis.</VG_Biofuel.description>
+
+
+</LanguageData>

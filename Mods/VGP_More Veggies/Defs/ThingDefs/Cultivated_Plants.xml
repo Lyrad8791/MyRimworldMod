@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<!-- New crop types -->
+	
+
+
+<ThingDef ParentName="VG_PlantDef">
+		<defName>Planteggplant</defName>
+		<label>eggplant plant</label>
+		<description>Purple variety of the eggplant. Bitter when eaten raw. </description>
+    <graphicData>
+      <texPath>Things/Plants/eggplantPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Raweggplant</harvestedThingDef>
+	<harvestYield>7</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>4.5</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+<immatureGraphicPath>Things/Immature/eggplantPlant</immatureGraphicPath>
+    </plant>
+
+  </ThingDef>
+
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantpumpkin</defName>
+	<label>pumpkin plant</label>
+	<description>Large orange version of the squash plant. Often carved to ward off ghosts.</description>
+	<graphicData>
+      <texPath>Things/Plants/pumpkinPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+     	</graphicData>
+      <plant>
+      <harvestedThingDef>Rawpumpkin</harvestedThingDef>
+	 <harvestYield>9</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+<immatureGraphicPath>Things/Immature/pumpkinPlant</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantsquash</defName>
+	<label>squash plant</label>
+	<description>Yellow variety of the squash family.</description>
+	<graphicData>
+      <texPath>Things/Plants/squashPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+     </graphicData>
+	<plant>
+      <harvestedThingDef>Rawsquash</harvestedThingDef>
+	<harvestYield>8</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>5</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+     </plant>
+ </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>PlantTomato</defName>
+	<label>tomato vine</label>
+	<description>Distinctive red fruit that grows best in rich soil.</description>
+    <graphicData>
+      <texPath>Things/Plants/TomatoPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawTomatoes</harvestedThingDef>
+	<harvestYield>8</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>5</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+<immatureGraphicPath>Things/Immature/TomatoPlant</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+  
+
+  
+<ThingDef ParentName="VG_PlantDef">
+	<defName>PlantCarrot</defName>
+	<label>carrot plant</label>
+	<description>A long orange vegetable that can be tricky to grow.</description>
+    <graphicData>
+      <texPath>Things/Plants/CarrotPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawCarrots</harvestedThingDef>
+	<harvestYield>7</harvestYield>
+       <sowMinSkill>4</sowMinSkill>
+     <growDays>3</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+    </plant>
+  </ThingDef>
+
+
+
+</Defs>

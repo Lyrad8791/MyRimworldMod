@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_FL</defName>
+    <label>Flat</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>FL</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_RD</defName>
+    <label>Round</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>RD</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_OV</defName>
+    <label>Oval</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>OV</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_SM</defName>
+    <label>Small</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>SM</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_FLPurple</defName>
+    <label>Flat Purple</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>FLPurple</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_OVPurple</defName>
+    <label>Oval Purple</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>OVPurple</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_RDPurple</defName>
+    <label>Round Purple</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>RDPurple</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_SMPurple</defName>
+    <label>Small Purple</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>SMPurple</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_FLBlue</defName>
+    <label>Flat Blue</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>FLBlue</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_OVBlue</defName>
+    <label>Oval Blue</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>OVBlue</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_RDBlue</defName>
+    <label>Round Blue</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>RDBlue</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_SMBlue</defName>
+    <label>Small Blue</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>SMBlue</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_FLGreen</defName>
+    <label>Flat Green</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>FLGreen</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_OVGreen</defName>
+    <label>Oval Green</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>OVGreen</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_RDGreen</defName>
+    <label>Round Green</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>RDGreen</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_SMGreen</defName>
+    <label>Small Green</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>SMGreen</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_FLGray</defName>
+    <label>Flat Gray</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>FLGray</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_OVGray</defName>
+    <label>Oval Gray</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>OVGray</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_RDGray</defName>
+    <label>Round Gray</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>RDGray</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>  
+  
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_SMGray</defName>
+    <label>Small Gray</label>
+    <hairGender>Female</hairGender>
+    <forbiddenOnRace/>
+    <texPath>SMGray</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+
+  <!--
+  <FacialStuff.Defs.EyeDef>
+    <defName>Eye_Female_Average_Toon</defName>
+    <label>Toon</label>
+    <hairGender>Female</hairGender>
+    <raceList>
+      <li>Human</li>
+    </raceList>
+    <texPath>Toon</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </FacialStuff.Defs.EyeDef>
+  -->
+</Defs>

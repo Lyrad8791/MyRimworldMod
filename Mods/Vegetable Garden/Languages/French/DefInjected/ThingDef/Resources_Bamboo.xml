@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bamboo.label>Bambou</Bamboo.label>
+  <Bamboo.description>Plante à croissance rapide utilisée pour la construction.</Bamboo.description>
+  <Bamboo.stuffProps.stuffAdjective>bambou</Bamboo.stuffProps.stuffAdjective>
+
+  <VG_IronWoodLog.label>Bois de fer</VG_IronWoodLog.label>
+  <VG_IronWoodLog.description>Bois d'arbres de fer. Utile pour construire des structures, des armes et même des prothèses simples. Un bâton de bois brut peut être utilisé comme une arme de mêlée. Très beau matériel décoratif.</VG_IronWoodLog.description>
+  <VG_IronWoodLog.stuffProps.stuffAdjective>bois de fer</VG_IronWoodLog.stuffProps.stuffAdjective>
+
+
+</LanguageData>

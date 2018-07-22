@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <FermentingBarrel.label>发酵桶</FermentingBarrel.label>-->
+  <!--[Core] <FermentingBarrel.description>一个将麦芽汁发酵成啤酒的桶。</FermentingBarrel.description>-->
+  <!--[Core] <FermentingBarrel_Blueprint.label>发酵桶（蓝图）</FermentingBarrel_Blueprint.label>-->
+  <!--[Core] <FermentingBarrel_Blueprint_Install.label>发酵桶（蓝图）</FermentingBarrel_Blueprint_Install.label>-->
+  <!--[Core] <FermentingBarrel_Frame.label>发酵桶（建造中）</FermentingBarrel_Frame.label>-->
+  <!--[Core] <FermentingBarrel_Frame.description>一个将麦芽汁发酵成啤酒的桶。</FermentingBarrel_Frame.description>-->
+
+
+</LanguageData>

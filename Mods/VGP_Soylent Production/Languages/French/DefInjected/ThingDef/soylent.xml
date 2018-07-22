@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SOYLENT GREEN -->
+
+  <soylentgreen.label>Soylent vert</soylentgreen.label>
+  <soylentgreen.description>Soylent vert - fabriqué à partir de "plancton de haute énergie"®.</soylentgreen.description>
+
+
+  <!-- SOYLENT BLUE -->
+
+  <soylentblue.label>Soylent bleu</soylentblue.label>
+  <soylentblue.description>Soylent bleu - fabriqué à partir de viande animale.</soylentblue.description>
+
+
+  <!-- SOYLENT PURPLE -->
+
+  <soylentpurple.label>Soylent violet</soylentpurple.label>
+  <soylentpurple.description>Soylent violet - fabriqué à partir de viande d'insectes.</soylentpurple.description>
+
+
+  <!-- SOYLENT RED -->
+
+  <soylentred.label>Soylent rouge</soylentred.label>
+  <soylentred.description>Soylent rouge - fabriqué à partir de plantes.</soylentred.description>
+
+
+  <!-- SOYLENT YELLOW -->
+
+  <soylentyellow.label>Soylent jaune</soylentyellow.label>
+  <soylentyellow.description>Soylent jaune - fabriqué à partir de produits d'animaux.</soylentyellow.description>
+
+
+</LanguageData>

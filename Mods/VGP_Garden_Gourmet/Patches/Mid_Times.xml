@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "MedTimes_MealCheese"]/ingestible/nutrition</xpath>
+				<value>
+      <nutrition>0.25</nutrition>
+      <maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+         <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>			
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "MedTimes_CookMealCheese"]/products/MedTimes_MealCheese</xpath>
+				<value>
+      <MedTimes_MealCheese>3</MedTimes_MealCheese>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "MedTimes_CookMealCheeseBulk"]/products/MedTimes_MealCheese</xpath>
+				<value>
+      <MedTimes_MealCheese>30</MedTimes_MealCheese>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "MedTimes_CookMealCheese"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MedTimes_CookMealCheeseBulk"]/recipeUsers/li</xpath>
+				<value>
+					<li>Canningstove</li>
+					<li>HandCanningstove</li>				
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+			<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "SaltMeat"]/defaultIngredientFilter/exceptedThingDefs/li</xpath>
+				<value>
+					<li>MedTimes_MealJerkedMeats</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+		<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "SaltMeat"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "PickleVegetable"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "PickleHighVegetable"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "BrewCoffee"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "BrewTea"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MakePolenta"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "Makesoycheese"]/recipeUsers/li</xpath>
+				<value>
+					<li>MedTimes_FoodPrepStation</li>	  		  	  
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+			<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "BakeBread"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "Bakesweetroll"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "Bakepolenta"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "BakeCornbread"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "BakeMeatPie"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "DryFruit"]/recipeUsers/li</xpath>
+				<value>
+					<li>MedTimes_StoneHearth</li>		  	  
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+			<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "BakeMeatPie"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "DryFruit"]/recipeUsers/li</xpath>
+				<value>
+					<li>MedTimes_Smokehouse</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+			<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "MedTimes_CookMealJerkedMeats"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MedTimes_CookMealJerkedMeatsBulk"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MedTimes_CookMealDriedAgaveFruit"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MedTimes_CookMealDriedAgaveFruitBulk"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MedTimes_CookMealDriedBerries"]/recipeUsers/li	|
+		   Defs/RecipeDef[defName = "MedTimes_CookMealDriedBerriesBulk"]/recipeUsers/li</xpath>
+				<value>
+					<li>Oven</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "CookGrillcheese"]/ingredients</xpath>
+				<value>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Bread</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+         </li>
+		<li>
+            <filter>
+               <thingDefs>
+                  <li>cheese</li>
+                  <li>MedTimes_MealCheese</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+      </ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "CookGrillcheese"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+         <thingDefs>
+            <li>Bread</li>
+		 <li>cheese</li>
+            <li>MedTimes_MealCheese</li>
+         </thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "Cookgrilledsandwich"]/ingredients</xpath>
+				<value>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Bread</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+		<li>
+            <filter>
+               <thingDefs>
+                  <li>cheese</li>
+                  <li>MedTimes_MealCheese</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+	     <li>
+		<filter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</filter>
+		<count>6</count>
+		</li>
+      </ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "Cookgrilledsandwich"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+         <thingDefs>
+            <li>Bread</li>
+		 <li>cheese</li>
+            <li>MedTimes_MealCheese</li>
+         </thingDefs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "Cookgrilledsandwich"]/defaultIngredientFilter/thingDefs</xpath>
+				<value>
+         <thingDefs>
+            <li>Bread</li>
+		 <li>cheese</li>
+            <li>MedTimes_MealCheese</li>
+         </thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "CookTacos"]/ingredients</xpath>
+				<value>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Cornmeal</li>
+               </thingDefs>
+            </filter>
+            <count>10</count>
+         </li>
+		<li>
+            <filter>
+               <thingDefs>
+                  <li>cheese</li>
+                  <li>MedTimes_MealCheese</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+         </li>
+	     <li>
+		<filter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</filter>
+		<count>10</count>
+		</li>
+      </ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "CookTacos"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+         <thingDefs>
+            <li>Cornmeal</li>
+		 <li>cheese</li>
+            <li>MedTimes_MealCheese</li>
+         </thingDefs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "CookTacos"]/defaultIngredientFilter/thingDefs</xpath>
+				<value>
+         <thingDefs>
+            <li>Cornmeal</li>
+		 <li>cheese</li>
+            <li>MedTimes_MealCheese</li>
+         </thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	
+</Patch>
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <WorkGiverDef>
+  <defName>DoBillsOven</defName>
+  <label>bake goods</label>
+  <giverClass>WorkGiver_DoBill</giverClass>
+  <workType>Cooking</workType>
+  <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Oven</li>
+      <li>ElectricOven</li>
+    </fixedBillGiverDefs>
+  <verb>bake</verb>
+  <gerund>baking</gerund>
+  <requiredCapacities>
+      <li>Manipulation</li>
+  </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+    <WorkGiverDef>
+  <defName>DoBillsCanningstove</defName>
+  <label>prep food</label>
+  <giverClass>WorkGiver_DoBill</giverClass>
+  <workType>Cooking</workType>
+  <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Canningstove</li>
+      <li>HandCanningstove</li>
+   </fixedBillGiverDefs>
+  <verb>prepping</verb>
+  <gerund>prepping</gerund>
+  <requiredCapacities>
+      <li>Manipulation</li>
+  </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+
+ <WorkGiverDef>
+    <defName>DoBillsBake</defName>
+    <label>make candy</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CandyTable</li>
+      <li>FueledCandyTable</li>
+   </fixedBillGiverDefs>
+    <verb>candymaking</verb>
+    <gerund>candymaking</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+
+ <WorkGiverDef>
+    <defName>DoBillsGrindStone</defName>
+    <label>grind bulk grains</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>GrindStone</li>
+    </fixedBillGiverDefs>
+    <verb>mill</verb>
+    <gerund>milling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+
+    <WorkGiverDef>
+  <defName>DoBillsCanningMachine</defName>
+  <label>can food</label>
+  <giverClass>WorkGiver_DoBill</giverClass>
+  <workType>Cooking</workType>
+  <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CanningFactory</li>
+    </fixedBillGiverDefs>
+  <verb>canning</verb>
+  <gerund>canning</gerund>
+  <requiredCapacities>
+      <li>Manipulation</li>
+  </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsUseSaltMine</defName>
+    <label>do bills at salt mine</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>120</priorityInType>
+    <fixedBillGiverDefs>
+      <li>VG_SaltMine</li>
+    </fixedBillGiverDefs>
+    <verb>mine</verb>
+    <gerund>mining</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>GG_WorkGiver_TakeProductOutOfUniversalFermenter</defName>
+		<label>take product out of canning factory</label>
+		<giverClass>GG.WorkGiver_TakeProductOutOfUniversalFermenter</giverClass>
+		<workType>Hauling</workType>
+		<verb>take product</verb>
+		<gerund>taking product from</gerund>
+		<priorityInType>26</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GG_WorkGiver_FillUniversalFermenter</defName>
+		<label>fill canning factory</label>
+		<giverClass>GG.WorkGiver_FillUniversalFermenter</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>25</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+
+</Defs>
+

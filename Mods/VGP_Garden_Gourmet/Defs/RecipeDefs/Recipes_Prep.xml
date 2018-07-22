@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<RecipeDef>
+	<defName>Makesoymilk</defName>
+	<label>make seven milks</label>
+	<description>Press beans into milk.</description>
+	<jobString>Pressing beans.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>700</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>         
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Rawbean</li>
+	      </thingDefs>
+	    </filter>
+	    <count>5</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	   <thingDefs>
+	        <li>Rawbean</li>
+	      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Milk>7</Milk>
+	</products>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>Canningstove</li>
+         <li>HandCanningstove</li>
+      </recipeUsers>
+
+</RecipeDef>
+
+
+ <RecipeDef>
+	<defName>Makesoycheese</defName>
+	<label>make two cheese</label>
+	<description>Turn milk into cheese.</description>
+	<jobString>Pressing cheese.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>700</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	<li>
+	    <filter>
+	      <thingDefs>
+		   <li>Milk</li>
+	      </thingDefs>
+
+	    </filter>
+	    <count>10</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	   <thingDefs>
+		   <li>Milk</li>
+	      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <cheese>2</cheese>
+	</products>
+	<recipeUsers>
+         <li>Canningstove</li>
+         <li>HandCanningstove</li>
+     </recipeUsers>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>Maketofu</defName>
+	<label>make three tofus</label>
+	<description>Turn beans into tofu. Tofu is use in place of meat in meals or eatten raw. \n\nMakes 3 servings.</description>
+	<jobString>Making tofu.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>600</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          <allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Rawbean</li>
+	      </thingDefs>
+	    </filter>
+	    <count>15</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	   <thingDefs>
+	        <li>Rawbean</li>
+	      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <Rawtofu>3</Rawtofu>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>Makebulktofu</defName>
+	<label>make bulk tofu</label>
+	<description>Your increased cooking skill allows you to mass produce tofu more efficiently! \n\nMakes 10 servings.</description>
+	<jobString>Making tofu</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1200</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>    
+	<ingredients>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Rawbean</li>
+	      </thingDefs>
+	    </filter>
+	    <count>50</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	   <thingDefs>
+	        <li>Rawbean</li>
+	      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+	<products>
+	  <Rawtofu>10</Rawtofu>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+
+<RecipeDef>
+	<defName>MakePolenta</defName>
+	<label>make two polenta</label>
+	<description>Turns cornmeal into polenta. Polenta can be eaten raw, cooked into other meals, baked, or grilled. \n\nMakes 2 servings.</description>
+	<jobString>Making polenta.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>500</workAmount>
+	<effectWorking>Cook</effectWorking>
+     <soundWorking>Recipe_CookMeal</soundWorking>          
+	<ingredients>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Cornmeal</li>
+	      </thingDefs>
+	    </filter>
+	    <count>4</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	   <thingDefs>
+	        <li>Cornmeal</li>
+	      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <RawPolenta>2</RawPolenta>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>MakebulkPolenta</defName>
+	<label>Make bulk polenta</label>
+	<description>Turns cornmeal into polenta. Polenta can be eaten raw, cooked into other meals, baked, or grilled. \n\nMakes 10 servings.</description>
+	<jobString>Making polenta</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1100</workAmount>
+	<effectWorking>Cook</effectWorking>
+     <soundWorking>Recipe_CookMeal</soundWorking>    
+	<ingredients>
+	<li>
+	    <filter>
+	      <thingDefs>
+	        <li>Cornmeal</li>
+	      </thingDefs>
+	    </filter>
+	    <count>20</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	   <thingDefs>
+	        <li>Cornmeal</li>
+	      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+	<products>
+	  <RawPolenta>10</RawPolenta>
+	</products>
+	<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+
+<RecipeDef>
+	<defName>PickleVegetable</defName>
+	<label>pickle ten vegetables</label>
+	<description>Preserve ten vegetables in a salty brine to prevent spoiling.</description>
+	<jobString>Pickling food.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1000</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+            <li>Rawbean</li>
+            <li>RawCorn</li>
+            <li>Rawsnowbeet</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+	<li>
+	  <filter>
+		<thingDefs>
+			<li>ChunkSalt</li>
+		</thingDefs>
+	  </filter>
+		<count>5</count>
+	</li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+            <li>RawPotatoes</li>
+            <li>RawCorn</li>
+            <li>Rawbean</li>
+            <li>Rawsnowbeet</li>
+		 <li>ChunkSalt</li>
+	  </thingDefs>
+      <disallowedSpecialFilters>
+        <li>AllowPlantFood</li>
+        <li>AllowNonSmeltableWeapons</li>
+	   <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+	</fixedIngredientFilter>
+	<products>
+	  <PickledVeg>10</PickledVeg>
+	</products>
+    <defaultIngredientFilter>
+      <thingDefs>
+            <li>RawPotatoes</li>
+            <li>RawCorn</li>
+             <li>Rawbean</li>
+           <li>Rawsnowbeet</li>
+    		  <li>ChunkSalt</li>
+       </thingDefs>
+      <exceptedCategories>
+        <li>EggsFertilized</li>
+    </exceptedCategories>
+      <exceptedThingDefs>
+        <li>PickledVeg</li>
+      </exceptedThingDefs>
+    </defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>Canningstove</li>
+         <li>HandCanningstove</li>
+     </recipeUsers>
+</RecipeDef>
+
+
+<RecipeDef>
+	<defName>SaltMeat</defName>
+	<label>salt ten meats</label>
+	<description>Preserve meats in salt to prevent spoiling.</description>
+	<jobString>Salting meat.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>1000</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+	<li>
+	  <filter>
+		<thingDefs>
+			<li>ChunkSalt</li>
+		</thingDefs>
+	  </filter>
+		<count>5</count>
+	</li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>MeatRaw</li>
+	  </categories>
+     	  <thingDefs>
+		<li>ChunkSalt</li>
+	  </thingDefs>
+	  <disallowedSpecialFilters>
+        <li>AllowPlantFood</li>
+        <li>AllowNonSmeltableWeapons</li>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+	</fixedIngredientFilter>
+	<products>
+	  <SaltedMeat>10</SaltedMeat>
+	</products>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+	 <thingDefs>
+		<li>ChunkSalt</li>
+	 </thingDefs>
+      <exceptedCategories>
+        <li>EggsFertilized</li>
+      </exceptedCategories>
+      <exceptedThingDefs>
+        <li>Human_Meat</li>
+        <li>SaltedMeat</li>
+      </exceptedThingDefs>
+    </defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>Canningstove</li>
+         <li>HandCanningstove</li>
+    </recipeUsers>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>VG_VeganEgg</defName>
+	<label>make Vegan Egg Substitute</label>
+    <description>Vegan Egg Substitute is a egg shape product made from tofu, potatoes, or banana. Used in place of eggs in baking and other recipes.</description>
+	<jobString>Pickling food.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workAmount>700</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>          <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawbanana</li>
+            <li>RawPotatoes</li>
+            <li>Rawtofu</li>
+          </thingDefs>
+        </filter>
+        <count>.5</count>
+      </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+            <li>Rawbanana</li>
+            <li>RawPotatoes</li>
+            <li>Rawtofu</li>
+	  </thingDefs>
+      <disallowedSpecialFilters>
+        <li>AllowNonSmeltableWeapons</li>
+	   <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+	</fixedIngredientFilter>
+	<products>
+	  <VeganEgg>2</VeganEgg>
+	</products>
+    <defaultIngredientFilter>
+      <thingDefs>
+            <li>Rawbanana</li>
+            <li>RawPotatoes</li>
+            <li>Rawtofu</li>
+       </thingDefs>
+    </defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>Canningstove</li>
+         <li>HandCanningstove</li>
+     </recipeUsers>
+</RecipeDef>
+
+
+</Defs>

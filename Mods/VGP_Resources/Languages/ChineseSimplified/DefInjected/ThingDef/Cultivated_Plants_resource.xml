@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlantSteelLeaf.label>钢铁叶</PlantSteelLeaf.label>
+  <PlantSteelLeaf.description>枝叶浓密的植物，脉络中富含铁，可以通过提炼得到钢铁。</PlantSteelLeaf.description>
+
+  <PlantPlasteelLeaf.label>玻璃钢叶</PlantPlasteelLeaf.label>
+  <PlantPlasteelLeaf.description>枝叶浓密的植物，脉络中富含玻璃钢，可以通过提炼得到玻璃钢。</PlantPlasteelLeaf.description>
+
+  <PlantGoldLeaf.label>黄金叶</PlantGoldLeaf.label>
+  <PlantGoldLeaf.description>枝叶浓密的植物，脉络中富含黄金，可以通过提炼得到黄金。</PlantGoldLeaf.description>
+
+  <PlantJadeLeaf.label>翡翠叶</PlantJadeLeaf.label>
+  <PlantJadeLeaf.description>枝叶浓密的植物，脉络中富含翡翠，可以通过提炼得到翡翠。</PlantJadeLeaf.description>
+
+  <PlantSilverLeaf.label>白银叶</PlantSilverLeaf.label>
+  <PlantSilverLeaf.description>枝叶浓密的植物，脉络中富含银，可以通过提炼得到白银。</PlantSilverLeaf.description>
+
+  <PlantUraniumLeaf.label>铀叶</PlantUraniumLeaf.label>
+  <PlantUraniumLeaf.description>枝叶浓密的植物，脉络中富含铀，可以通过提炼得到铀。</PlantUraniumLeaf.description>
+
+
+</LanguageData>

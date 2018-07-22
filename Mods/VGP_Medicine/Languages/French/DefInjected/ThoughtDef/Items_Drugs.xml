@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drugs -->
+
+  <Tobacco.stages.0.label>Inhale la fumée (engourdissement agréable)</Tobacco.stages.0.label>
+  <Tobacco.stages.0.description>Je me sens paisible, cool et serein.</Tobacco.stages.0.description>
+  <Tobacco.stages.1.label>Inhale la fumée (picotement agréable)</Tobacco.stages.1.label>
+  <Tobacco.stages.1.description>Je ressens des picotements partout.</Tobacco.stages.1.description>
+
+
+  <!-- Tobaccoaddiction -->
+
+  <TobaccoWithdrawal.stages.1.label>Sevrage du tabac</TobaccoWithdrawal.stages.1.label>
+  <TobaccoWithdrawal.stages.1.description>Je me sens mal à l'aise. Tout me fait chier. Je continue à penser de fumer.</TobaccoWithdrawal.stages.1.description>
+
+
+</LanguageData>

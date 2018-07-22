@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JoyGiverDef>
+		<defName>VGP_DrinkGardenSoda</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>3</baseChance>
+		<thingDefs>
+			<li>AppleSoda</li>
+			<li>BananaSoda</li>
+			<li>GrapeSoda</li>
+			<li>OrangeSoda</li>
+			<li>PeachSoda</li>
+			<li>PineappleSoda</li>
+			<li>BlueberrySoda</li>
+			<li>WatermelonSoda</li>
+			<li>CloudberrySoda</li>
+			<li>GooseberrySoda</li>
+			<li>FigSoda</li>
+			<li>DateSoda</li>
+			<li>CoconutSoda</li>
+			<li>CherrySoda</li>
+		</thingDefs>
+		<joyKind>Gluttonous</joyKind>
+	</JoyGiverDef>
+
+
+
+</Defs>

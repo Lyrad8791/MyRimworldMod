@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableLoom.label>纺织机</TableLoom.label>
+  <TableLoom.description>用于将纤维原料纺织成布匹的工作台。</TableLoom.description>
+  <TableLoom_Blueprint.label>纺织机（蓝图）</TableLoom_Blueprint.label>
+  <TableLoom_Frame.label>纺织机（建造中）</TableLoom_Frame.label>
+  <TableLoom_Frame.description>用于将纤维原料纺织成布匹的工作台。</TableLoom_Frame.description>
+
+  <TableElecLoom.label>纺织机(电动)</TableElecLoom.label>
+  <TableElecLoom.description>用于将纤维原料纺织成布匹的工作台。</TableElecLoom.description>
+  <TableElecLoom_Blueprint.label>纺织机(电动)（蓝图）</TableElecLoom_Blueprint.label>
+  <TableElecLoom_Frame.label>纺织机(电动)（建造中）</TableElecLoom_Frame.label>
+  <TableElecLoom_Frame.description>用于将纤维原料纺织成布匹的工作台。</TableElecLoom_Frame.description>
+
+
+</LanguageData>

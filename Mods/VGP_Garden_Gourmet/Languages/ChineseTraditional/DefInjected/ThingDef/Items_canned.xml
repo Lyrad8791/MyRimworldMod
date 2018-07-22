@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MealCannedFood.label>罐裝食品</MealCannedFood.label>
+  <MealCannedFood.description>被封存在鐵罐中的食物，不會腐壞。</MealCannedFood.description>
+
+  <CannedVeg.label>蔬菜罐頭</CannedVeg.label>
+  <CannedVeg.description>被封存在鐵罐中的蔬菜，不會腐壞。</CannedVeg.description>
+
+  <CannedMeat.label>肉罐頭</CannedMeat.label>
+  <CannedMeat.description>被封存在鐵罐中的肉，不會腐壞。</CannedMeat.description>
+
+  <CannedFruit.label>水果罐頭</CannedFruit.label>
+  <CannedFruit.description>把已經煮熟的水果封存在鐵罐中，以防止腐敗。</CannedFruit.description>
+
+
+</LanguageData>

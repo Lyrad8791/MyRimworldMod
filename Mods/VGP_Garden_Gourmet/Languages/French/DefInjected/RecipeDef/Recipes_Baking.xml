@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BakeBread.label>Pain (x3)</BakeBread.label>
+  <BakeBread.description>Cuire du pain à base de farine. \n\nFabrique 3 Pains.</BakeBread.description>
+  <BakeBread.jobString>Cuit le pain.</BakeBread.jobString>
+
+  <Bakesweetroll.label>Petite brioche (x4)</Bakesweetroll.label>
+  <Bakesweetroll.description>Cuire une brioche recouvert de sucre glaçe. \n\nFabrique 4 Petites brioches. \n\nEffets nourriture: Conscience et Mouvement</Bakesweetroll.description>
+  <Bakesweetroll.jobString>Cuit les petites brioches.</Bakesweetroll.jobString>
+
+  <Bakepizza.label>Pizza (x3)</Bakepizza.label>
+  <Bakepizza.description>Cuire des pizzas. \n\nFabrique 3 Pizzas. \n\nEffets nourriture: Conscience et Métabolisme.</Bakepizza.description>
+  <Bakepizza.jobString>Cuit les pizzas.</Bakepizza.jobString>
+
+  <BakeCookies.label>Cookie (x6)</BakeCookies.label>
+  <BakeCookies.description>Cuire six cookies. \n\nFabrique 6 Cookies.</BakeCookies.description>
+  <BakeCookies.jobString>Cuit les cookies.</BakeCookies.jobString>
+
+  <BakeBlueberryPie.label>Tarte aux fruits</BakeBlueberryPie.label>
+  <BakeBlueberryPie.description>Cuire une tarte savoureuse garnie de fruits. \n\nFabrique 3 parts de tarte.</BakeBlueberryPie.description>
+  <BakeBlueberryPie.jobString>Cuit une tarte.</BakeBlueberryPie.jobString>
+
+  <DryFruit.label>Fruit sec (x10)</DryFruit.label>
+  <DryFruit.description>Déshydrater les fruits pour augmenter leur durée de conservation.</DryFruit.description>
+  <DryFruit.jobString>Fabrique les fruits secs.</DryFruit.jobString>
+
+  <Bakepolenta.label>Pain de polenta</Bakepolenta.label>
+  <Bakepolenta.description>Cuire un pain savoureux de polenta. \n\nDonne 1 pain. \n\nEffets nourriture : Manipulation et Métabolisme.</Bakepolenta.description>
+  <Bakepolenta.jobString>Cuit le pain de polenta.</Bakepolenta.jobString>
+
+  <BakeCornbread.label>Pains de maïs (x2)</BakeCornbread.label>
+  <BakeCornbread.description>Cuire un pain de Maïs savoureux. \n\nFabrique 2 pains.</BakeCornbread.description>
+  <BakeCornbread.jobString>Cuit le pain de Maïs.</BakeCornbread.jobString>
+
+  <Bakemuffin.label>Muffins (x6)</Bakemuffin.label>
+  <Bakemuffin.description>Cuire des muffins savoureux. \n\nUtilise 8 Farines, 4 Sucres et 6 de chocolats ou Fruits ou Farines de maïs. \n\nFabrique 6 muffins.</Bakemuffin.description>
+  <Bakemuffin.jobString>Cuit les muffins.</Bakemuffin.jobString>
+
+  <BakeMeatPie.label>Tourte à la viande (x2)</BakeMeatPie.label>
+  <BakeMeatPie.description>Cuire une tourte à la viande savoureuse. \n\nFabrique 2 tourtes.</BakeMeatPie.description>
+  <BakeMeatPie.jobString>Cuit les tartes à la viande.</BakeMeatPie.jobString>
+
+
+</LanguageData>

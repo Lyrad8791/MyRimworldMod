@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>soylenttable</defName>
+		<label>Soylent Machine</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A machine to produce Soylent from Plants, Animal Products, Meat and "High Energy Plankton"(R).</description>
+		<graphicData>
+			<texPath>Things/Building/soylenttable</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<Component>2</Component>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+		</statBases>
+		<useHitPoints>True</useHitPoints>
+		<size>(2,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>true</startElectricalFires>
+				<basePowerConsumption>250</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<recipes>
+			<li>MakeMealSurvivalSoylent</li>
+			<li>makesoylentgreen20times</li>
+			<li>makesoylentblue20times</li>
+			<li>makesoylentpurple20times</li>
+			<li>makesoylentred20times</li>
+			<li>makesoylentyellow20times</li>
+			<li>makesoylentgreen</li>
+			<li>makesoylentblue</li>
+			<li>makesoylentpurple</li>
+			<li>makesoylentred</li>
+			<li>makesoylentyellow</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.20</heatPerTickWhileWorking>
+		</building>
+		<researchPrerequisites>
+			<li>soylentmaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

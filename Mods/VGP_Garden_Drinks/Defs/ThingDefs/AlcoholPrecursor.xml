@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef Name="AlcoholPrecursorBase" ParentName="ResourceBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Mass>0.8</Mass>
+		</statBases>
+		<thingCategories>
+			<li>PrecursorBase</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	
+	<!-- ========== Alcohol Precursors ========== -->
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>CPD_CornWort</defName>
+		<label>corn wort</label>
+		<description>Wort made from corn. This substance needs to ferment in a fermenting barrel before it becomes drinkable whiskey.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/CornWort</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>CPD_RiceMash</defName>
+		<label>rice mash</label>
+		<description>Milled, soaked, and cooked rice. This substance needs to ferment in a fermenting barrel before it becomes drinkable saki.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/RiceMash</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>CPD_VodkaPrecursor</defName>
+		<label>undistilled vodka</label>
+		<description>Fermented vodka. This substance needs to be filtered and distilled at a brewery before it becomes drinkable vodka.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/VodkaPrecursor</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>CPD_WineMust</defName>
+		<label>berry wine must</label>
+		<description>Pressed strawberry juice. This substance needs to ferment in a fermenting barrel before it becomes drinkable strawberry wine.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/WineMust</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_CiderMust</defName>
+		<label>cider must</label>
+		<description>Pressed apple juice. This substance needs to ferment in a fermenting barrel before it becomes drinkable hard cider.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/CiderMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_CaneMash</defName>
+		<label>sugarcane mash</label>
+		<description>Milled, soaked, and cooked sugarcane. This substance needs to ferment in a fermenting barrel before it becomes drinkable rum.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/CaneMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_GrapeMust</defName>
+		<label>wine must</label>
+		<description>Pressed fruit juice. This substance needs to ferment in a fermenting barrel before it becomes drinkable wine.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/GrapeMust</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_AmbrosiaMust</defName>
+		<label>ambrosia must</label>
+		<description>Pressed fruit juice. This substance needs to ferment in a fermenting barrel before it becomes drinkable ambrosia.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/GrapeMust</texPath>
+		</graphicData>
+	</ThingDef>
+
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_AgaveMust</defName>
+		<label>agave must</label>
+		<description>Pressed agave juice. This substance needs to ferment in a fermenting barrel before it becomes drinkable tequila.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/AgaveMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_FruitMash</defName>
+		<label>fruit mash</label>
+		<description>Pressed and strained fruit juices. This substance needs to ferment in a fermenting barrel before it becomes drinkable fruitshine.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/CaneMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_BrownMalt</defName>
+		<label>brown malt</label>
+		<description>Preparing barley grain into a malt for making ale. This substance needs to ferment in a fermenting barrel before it becomes drinkable brown ale.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/CaneMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_KvassSodaWort</defName>
+		<label>kvass soda wort</label>
+		<description>Prepare barley grain and syrup into a wort for making kvass soda. This substance needs to ferment in a fermenting barrel before it becomes drinkable kvass soda.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/VodkaPrecursor</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_FruitKvassWort</defName>
+		<label>fruit kvass wort</label>
+		<description>Prepare fruits and syrup into a wort for making a kvass drink. This substance needs to ferment in a fermenting barrel before it becomes drinkable kvass.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/CiderMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_VegKvassWort</defName>
+		<label>beet kvass wort</label>
+		<description>Prepare beets  and syrup into a wort for making a kvass drink. This substance needs to ferment in a fermenting barrel before it becomes drinkable kvass.</description>
+		<graphicData>
+			<texPath>Things/Item/Precursor/AgaveMash</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>
+
+
+
+
+
+

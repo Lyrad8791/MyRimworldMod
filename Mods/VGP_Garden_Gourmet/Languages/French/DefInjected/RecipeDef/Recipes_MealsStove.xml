@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookGrillcheese.label>Panini (x2)</CookGrillcheese.label>
+  <CookGrillcheese.description>Deux tranches de pain grillées avec du fromage fondu au milieu. \n\nDonne 2 portions. \n\nEffets nourriture : Métabolisme.</CookGrillcheese.description>
+  <CookGrillcheese.jobString>Grille les paninis.</CookGrillcheese.jobString>
+
+  <GrillPolenta.label>Polenta grillé (x2)</GrillPolenta.label>
+  <GrillPolenta.description>Tranches de polenta grillées. \n\nDonne 2 portions. \n\nEffets nourriture : Métabolisme et Manipulation.</GrillPolenta.description>
+  <GrillPolenta.jobString>Grille les polentas.</GrillPolenta.jobString>
+
+  <Cookgrilledsandwich.label>Cheeseburger (x2)</Cookgrilledsandwich.label>
+  <Cookgrilledsandwich.description>Un cheeseburger fait de pain, de viande et de fromage. \n\nDonne 2 portions. \n\nEffets nourriture : Métabolisme.</Cookgrilledsandwich.description>
+  <Cookgrilledsandwich.jobString>Cuit les Cheeseburgers.</Cookgrilledsandwich.jobString>
+
+  <CookTacos.label>Tacos (x5)</CookTacos.label>
+  <CookTacos.description>Viande et fromage entourés d’une galette de maïs. Requiert de la viande, du fromage et de la farine de maïs. \n\nDonne 5 portions. \n\ Effets nourriture : Manipulation et Métabolisme.</CookTacos.description>
+  <CookTacos.jobString>Prépare les tacos.</CookTacos.jobString>
+
+  <CookPorridge.label>Porridge (x2)</CookPorridge.label>
+  <CookPorridge.description>Une bouillie simplement cuite à partir de graines. \n\nDonne 2 portions. \n\nEffets nourriture : Vue, Filtrage du sang.</CookPorridge.description>
+  <CookPorridge.jobString>Cuit du porridges.</CookPorridge.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <CookingI.label>VG：高級烹飪</CookingI.label>
+  <CookingI.description>研究高級烹飪儀器的製作方法。\n解鎖「烹飪工具櫃」、「糖果桌」。</CookingI.description>
+
+  <CanningMachine.label>VG：罐頭技術</CanningMachine.label>
+  <CanningMachine.description>研究如何把食品保存於罐頭方法。 \n\n解鎖「罐頭生產機」、「罐裝食品」、「肉罐頭」、「蔬菜罐頭」和「水果罐頭」。</CanningMachine.description>
+
+
+</LanguageData>

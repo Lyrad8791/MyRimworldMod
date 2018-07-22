@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Makesoymilk.label>Lait (x7)</Makesoymilk.label>
+  <Makesoymilk.description>Presser des haricots pour en obtenir du lait.</Makesoymilk.description>
+  <Makesoymilk.jobString>Presse les haricots.</Makesoymilk.jobString>
+
+  <Makesoycheese.label>Fromage (x2)</Makesoycheese.label>
+  <Makesoycheese.description>Transformer le lait en fromage.</Makesoycheese.description>
+  <Makesoycheese.jobString>Fabrique du fromage.</Makesoycheese.jobString>
+
+  <Maketofu.label>Tofu (x3)</Maketofu.label>
+  <Maketofu.description>Transformer des haricots en tofu. Le tofu est utilisé à la place de la viande dans les repas ou alors, il peut être consommé cru. \n\nDonne 3 portions.</Maketofu.description>
+  <Maketofu.jobString>Fabrique du tofus.</Maketofu.jobString>
+
+  <Makebulktofu.label>Tofu (en masse)</Makebulktofu.label>
+  <Makebulktofu.description>Votre compétence culinaire accrue vous permet de produire efficacement du tofu ! \n\nDonne 10 portions.</Makebulktofu.description>
+  <Makebulktofu.jobString>Fabrique du tofus.</Makebulktofu.jobString>
+
+  <MakePolenta.label>Polenta (x2)</MakePolenta.label>
+  <MakePolenta.description>Transformer la farine de maïs en polenta. La polenta peut être consommée de plusieurs manière différente, crue, cuite dans les repas, cuite au four ou grillée. \n\nDonne 2 portions.</MakePolenta.description>
+  <MakePolenta.jobString>Fabrique de la polenta.</MakePolenta.jobString>
+
+  <MakebulkPolenta.label>Polenta (en masse)</MakebulkPolenta.label>
+  <MakebulkPolenta.description>Transformer la farine de maïs en polenta. La polenta peut être consommée de plusieurs manière différente, crue, cuite dans les repas, cuite au four ou grillée. \n\nDonne 10 portions.</MakebulkPolenta.description>
+  <MakebulkPolenta.jobString>Fabrique les polenta.</MakebulkPolenta.jobString>
+
+  <PickleVegetable.label>Saler les légumes (x10)</PickleVegetable.label>
+  <PickleVegetable.description>Conserver les légumes dans une saumure salée pour éviter de pourrir.</PickleVegetable.description>
+  <PickleVegetable.jobString>Sale les légumes.</PickleVegetable.jobString>
+
+  <SaltMeat.label>Saler la viande (x10)</SaltMeat.label>
+  <SaltMeat.description>Conserver la viande dans une saumure salée pour éviter de pourrir.</SaltMeat.description>
+  <SaltMeat.jobString>Sale la viande.</SaltMeat.jobString>
+
+  <VG_VeganEgg.label>Oeuf végétalien</VG_VeganEgg.label>
+  <VG_VeganEgg.description>L’oeuf végétalien est un produit en forme d'œuf à base de tofu, de pommes de terre ou de banane. Utilisé à la place des oeufs dans les recettes de cuisine.</VG_VeganEgg.description>
+  <VG_VeganEgg.jobString>Fabrique un oeuf végétalien.</VG_VeganEgg.jobString>
+
+
+</LanguageData>

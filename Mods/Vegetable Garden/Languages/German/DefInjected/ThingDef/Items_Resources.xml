@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_CoffeeBeans.label>Kaffeebohne</CPD_CoffeeBeans.label>
+  <CPD_CoffeeBeans.description>Bittere Bohne die zum Kaffee kochen verwendet wird.</CPD_CoffeeBeans.description>
+
+  <Rawtea.label>Teeblätter</Rawtea.label>
+  <Rawtea.description>Teeblätter zum Kochen von Tee.</Rawtea.description>
+
+  <!--[Core] <RawHops.label>Hopfen</RawHops.label>-->
+  <!--[Core] <RawHops.description>Roher Hopfen. Ein Aromastoff und Konservierungsmittel, das zum Herstellen von Bier benötigt wird.</RawHops.description>-->
+
+  <!--[Core] <Hay.label>Heu</Hay.label>-->
+  <!--[Core] <Hay.description>Nährstoffreiches, getrocknetes Gras und Sprösslinge, geerntet und zur Lagerung verdichtet. Heu ist ein gutes Tierfutter, aber ungenießbar für Menschen.</Hay.description>-->
+
+
+  <!-- Kibble -->
+
+  <!--[Core] <Kibble.label>Trockenfutter</Kibble.label>-->
+  <!--[Core] <Kibble.description>Trockenfutter für Tiere, das aus einer Mischung verschiedener Fleisch- und Pflanzenarten hergestellt wurde.</Kibble.description>-->
+
+  <Silage.label>Silage</Silage.label>
+  <Silage.description>Nährstoffreiches, fermentiertes Gemisch aus Heu und Körnern, dient als Futter für deine Tiere. Die Fermentierung bewahrt die Silage vor dem Verrotten.</Silage.description>
+
+  <VG_Biofuel.label>Biotreibstoff</VG_Biofuel.label>
+  <VG_Biofuel.description>Treibstoff hergestellt aus verarbeiteten Pflanzenarten. Wird als Treibstoff für Generatoren und Werkbänke verwendet.</VG_Biofuel.description>
+
+
+</LanguageData>

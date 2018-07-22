@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+	<name>VGP_CoffeeTeaDrugs</name>
+	<author>dismar</author>
+    <targetVersion>0.18.0</targetVersion>
+    <description>
+Coffee and Tea will be added into the drug policies. But have no addiction. And teetotaler will not drink them.
+
+Does not require a new save. But you will have to create a new drug Policy in game for them to show up.
+
+Can be loaded any when on your mod list.
+    </description>
+
+</ModMetaData>

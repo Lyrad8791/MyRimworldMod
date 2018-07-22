@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_WorkGiver_TakeProductOutOfUniversalFermenter.label>从发酵桶中取出酒</VG_WorkGiver_TakeProductOutOfUniversalFermenter.label>
+  <VG_WorkGiver_TakeProductOutOfUniversalFermenter.verb>取出酒</VG_WorkGiver_TakeProductOutOfUniversalFermenter.verb>
+  <VG_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>取出酒</VG_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>
+
+  <VG_WorkGiver_FillUniversalFermenter.label>填满发酵桶</VG_WorkGiver_FillUniversalFermenter.label>
+  <VG_WorkGiver_FillUniversalFermenter.verb>填满</VG_WorkGiver_FillUniversalFermenter.verb>
+  <VG_WorkGiver_FillUniversalFermenter.gerund>填满</VG_WorkGiver_FillUniversalFermenter.gerund>
+
+
+</LanguageData>

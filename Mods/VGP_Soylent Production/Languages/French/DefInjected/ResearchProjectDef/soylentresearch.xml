@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <soylentmaking.label>Production de Soylent</soylentmaking.label>
+  <soylentmaking.description>Vous permet de construire la machine pour fabriquer le Soylent à partir de plantes, de produits d'animaux, de viande et de «plancton de haute énergie» ®.</soylentmaking.description>
+
+  <soylentmakingadvanced.label>Production de Soylent avancée</soylentmakingadvanced.label>
+  <soylentmakingadvanced.description>Vous permet de produire en masse le Soylent (qui réduit le temps de production d'environ 15%) et de créer des rations de survie avec du Soylent et/ou du pemmican (pour un coût de ressources élevé).</soylentmakingadvanced.description>
+
+
+</LanguageData>

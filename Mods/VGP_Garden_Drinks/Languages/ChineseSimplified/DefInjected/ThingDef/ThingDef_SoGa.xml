@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_Syrup.label>糖浆</CPD_Syrup.label>
+  <CPD_Syrup.description>一瓶由低含糖量食物制成的糖浆。</CPD_Syrup.description>
+  <CPD_Syrup.ingestible.ingestCommandString>喝{0}</CPD_Syrup.ingestible.ingestCommandString>
+  <CPD_Syrup.ingestible.ingestReportString>正在喝{0}。</CPD_Syrup.ingestible.ingestReportString>
+
+  <AppleSoda.label>苹果苏打</AppleSoda.label>
+  <AppleSoda.description>一款由苹果制成的甜苏打。</AppleSoda.description>
+  <AppleSoda.ingestible.ingestCommandString>喝{0}</AppleSoda.ingestible.ingestCommandString>
+  <AppleSoda.ingestible.ingestReportString>正在喝{0}。</AppleSoda.ingestible.ingestReportString>
+
+  <BananaSoda.label>香蕉苏打</BananaSoda.label>
+  <BananaSoda.description>一款由香蕉制成的甜苏打。</BananaSoda.description>
+  <BananaSoda.ingestible.ingestCommandString>喝{0}</BananaSoda.ingestible.ingestCommandString>
+  <BananaSoda.ingestible.ingestReportString>正在喝{0}。</BananaSoda.ingestible.ingestReportString>
+
+  <GrapeSoda.label>葡萄苏打</GrapeSoda.label>
+  <GrapeSoda.description>一款由葡萄制成的甜苏打。</GrapeSoda.description>
+  <GrapeSoda.ingestible.ingestCommandString>喝{0}</GrapeSoda.ingestible.ingestCommandString>
+  <GrapeSoda.ingestible.ingestReportString>正在喝{0}。</GrapeSoda.ingestible.ingestReportString>
+
+  <OrangeSoda.label>香橙苏打</OrangeSoda.label>
+  <OrangeSoda.description>一款由香橙制成的甜苏打。</OrangeSoda.description>
+  <OrangeSoda.ingestible.ingestCommandString>喝{0}</OrangeSoda.ingestible.ingestCommandString>
+  <OrangeSoda.ingestible.ingestReportString>正在喝{0}。</OrangeSoda.ingestible.ingestReportString>
+
+  <PeachSoda.label>桃子苏打</PeachSoda.label>
+  <PeachSoda.description>一款由桃子制成的甜苏打。</PeachSoda.description>
+  <PeachSoda.ingestible.ingestCommandString>喝{0}</PeachSoda.ingestible.ingestCommandString>
+  <PeachSoda.ingestible.ingestReportString>正在喝{0}。</PeachSoda.ingestible.ingestReportString>
+
+  <PineappleSoda.label>菠萝苏打</PineappleSoda.label>
+  <PineappleSoda.description>一款由菠萝制成的甜苏打。</PineappleSoda.description>
+  <PineappleSoda.ingestible.ingestCommandString>喝{0}</PineappleSoda.ingestible.ingestCommandString>
+  <PineappleSoda.ingestible.ingestReportString>正在喝{0}。</PineappleSoda.ingestible.ingestReportString>
+
+  <BlueberrySoda.label>蓝莓苏打</BlueberrySoda.label>
+  <BlueberrySoda.description>一款由蓝莓制成的甜苏打。</BlueberrySoda.description>
+  <BlueberrySoda.ingestible.ingestCommandString>喝{0}</BlueberrySoda.ingestible.ingestCommandString>
+  <BlueberrySoda.ingestible.ingestReportString>正在喝{0}。</BlueberrySoda.ingestible.ingestReportString>
+
+  <WatermelonSoda.label>西瓜苏打</WatermelonSoda.label>
+  <WatermelonSoda.description>一款由西瓜制成的甜苏打。</WatermelonSoda.description>
+  <WatermelonSoda.ingestible.ingestCommandString>喝{0}</WatermelonSoda.ingestible.ingestCommandString>
+  <WatermelonSoda.ingestible.ingestReportString>正在喝{0}。</WatermelonSoda.ingestible.ingestReportString>
+
+  <CloudberrySoda.label>云莓苏打</CloudberrySoda.label>
+  <CloudberrySoda.description>一款由云莓制成的甜苏打。</CloudberrySoda.description>
+  <CloudberrySoda.ingestible.ingestCommandString>喝{0}</CloudberrySoda.ingestible.ingestCommandString>
+  <CloudberrySoda.ingestible.ingestReportString>正在喝{0}。</CloudberrySoda.ingestible.ingestReportString>
+
+  <GooseberrySoda.label>醋栗苏打</GooseberrySoda.label>
+  <GooseberrySoda.description>一款由醋栗制成的甜苏打。</GooseberrySoda.description>
+  <GooseberrySoda.ingestible.ingestCommandString>喝{0}</GooseberrySoda.ingestible.ingestCommandString>
+  <GooseberrySoda.ingestible.ingestReportString>正在喝{0}。</GooseberrySoda.ingestible.ingestReportString>
+
+  <FigSoda.label>无花果苏打</FigSoda.label>
+  <FigSoda.description>一款由无花果制成的甜苏打。</FigSoda.description>
+  <FigSoda.ingestible.ingestCommandString>喝{0}</FigSoda.ingestible.ingestCommandString>
+  <FigSoda.ingestible.ingestReportString>正在喝{0}。</FigSoda.ingestible.ingestReportString>
+
+  <DateSoda.label>海枣苏打</DateSoda.label>
+  <DateSoda.description>一款由海枣制成的甜苏打。</DateSoda.description>
+  <DateSoda.ingestible.ingestCommandString>喝{0}</DateSoda.ingestible.ingestCommandString>
+  <DateSoda.ingestible.ingestReportString>正在喝{0}。</DateSoda.ingestible.ingestReportString>
+
+  <CoconutSoda.label>椰子苏打</CoconutSoda.label>
+  <CoconutSoda.description>一款由椰子制成的甜苏打。</CoconutSoda.description>
+  <CoconutSoda.ingestible.ingestCommandString>喝{0}</CoconutSoda.ingestible.ingestCommandString>
+  <CoconutSoda.ingestible.ingestReportString>正在喝{0}。</CoconutSoda.ingestible.ingestReportString>
+
+  <CherrySoda.label>樱桃苏打</CherrySoda.label>
+  <CherrySoda.description>一款由樱桃制成的甜苏打。</CherrySoda.description>
+  <CherrySoda.ingestible.ingestCommandString>喝{0}</CherrySoda.ingestible.ingestCommandString>
+  <CherrySoda.ingestible.ingestReportString>正在喝{0}。</CherrySoda.ingestible.ingestReportString>
+
+
+</LanguageData>

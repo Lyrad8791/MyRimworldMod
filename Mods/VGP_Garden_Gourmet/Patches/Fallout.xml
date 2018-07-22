@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Project Fallout v1.6b</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>					</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "CraftFlour"]/ingredients/li/filter/thingDefs  |
+			Defs/RecipeDef[defName = "CraftBulkFlour"]/ingredients/li/filter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	        <li>PFRazorgrain</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "CraftFlour"]/fixedIngredientFilter/thingDefs  |
+			Defs/RecipeDef[defName = "CraftBulkFlour"]/fixedIngredientFilter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	        <li>PFRazorgrain</li>
+				</value>
+			</li>
+		</operations>
+</Operation>
+
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Project Fallout v1.6b</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "CookPorridge"]/ingredients/li/filter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	        <li>PFRazorgrain</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "CookPorridge"]/fixedIngredientFilter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	        <li>PFRazorgrain</li>
+				</value>
+			</li>
+		</operations>
+</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Project Fallout v1.6b</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "PickleVegetable"]/ingredients/li/filter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	      			<li>PFRawTatos</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "PickleVegetable"]/fixedIngredientFilter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	      			<li>PFRawTatos</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/RecipeDef[defName = "PickleVegetable"]/defaultIngredientFilter/thingDefs</xpath>
+				<order>Append</order>
+				<value>
+	      			<li>PFRawTatos</li>
+				</value>
+			</li>
+
+		</operations>
+
+</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Project Fallout v1.6b</modName>
+			<yourMod>VGP Garden Gourmet</yourMod>						</li>
+
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/ThingDef[defName = "Rawapple"]</xpath>
+		<order>Prepend</order>
+		<value>
+<ThingDef ParentName="VG_RawFruitBase">
+<defName>PFMutfruit</defName>
+<label>Mutfruit</label>
+<description>A large mutated descendant of blueberries, it tastes good and won't kill you, a must have for farmers in the wastelands.</description>
+<graphicData>
+<texPath>Things/Fallout/Food/RawPlants/Mutfruit</texPath>
+</graphicData>
+<statBases>
+<MarketValue>2.4</MarketValue>
+<Mass>0.05</Mass>
+</statBases>
+<ingestible>
+<preferability>RawTasty</preferability>
+<tasteThought/>
+<foodType>VegetableOrFruit</foodType>
+<joy>0.005</joy>
+<joyKind>Gluttonous</joyKind>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>27</daysToRotStart>
+</li>
+</comps>
+</ThingDef>
+
+<ThingDef ParentName="VG_RawFruitBase">
+<defName>PFTarberry</defName>
+<label>Tarberries</label>
+<description>A cluster of small purple berries, very similar to cranberries. They taste great and have some other uses other than consumption.</description>
+<graphicData>
+<texPath>Things/Fallout/Food/RawPlants/Tarberry</texPath>
+</graphicData>
+<statBases>
+<MarketValue>2.75</MarketValue>
+<Mass>0.05</Mass>
+</statBases>
+<ingestible>
+<preferability>RawTasty</preferability>
+<tasteThought/>
+<foodType>VegetableOrFruit</foodType>
+<joy>0.005</joy>
+<joyKind>Gluttonous</joyKind>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>27</daysToRotStart>
+</li>
+</comps>
+</ThingDef>
+		</value>
+			</li>
+
+		</operations>
+
+</Operation>
+
+
+</Patch>
+

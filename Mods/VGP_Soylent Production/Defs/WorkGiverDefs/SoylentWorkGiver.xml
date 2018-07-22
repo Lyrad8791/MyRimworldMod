@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<WorkGiverDef>
+		<defName>DoBillsSoylent</defName>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<label>Make Soylent</label>
+		<workType>Cooking</workType>
+		<priorityInType>90</priorityInType>
+		<fixedBillGiverDefs>
+			<li>soylenttable</li>
+		</fixedBillGiverDefs>
+		<verb>make</verb>
+		<gerund>making</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+</Defs>

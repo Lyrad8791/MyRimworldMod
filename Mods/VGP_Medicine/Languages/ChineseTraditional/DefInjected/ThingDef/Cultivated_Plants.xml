@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <PlantHealroot.label>藥草</PlantHealroot.label>-->
+  <!--[Core] <PlantHealroot.description>這種植物在幾個世紀間不斷地被星球定居者進行品種改良，收穫時可以獲得藥草。此外，這種藥草擁有的五大療效讓它在部落民之間贏得了「醫師之手」的美名。</PlantHealroot.description>-->
+
+  <PlantNeutroFlower.label>中性花</PlantNeutroFlower.label>
+  <PlantNeutroFlower.description>一種漂亮黃橙色花朵。用於製作中性胺和藥物。</PlantNeutroFlower.description>
+
+  <PlantTobacco.label>VG-菸草</PlantTobacco.label>
+  <PlantTobacco.description>菸草，菸草屬草茄木，茄科。收穫迅速。種植要求高。</PlantTobacco.description>
+
+
+</LanguageData>

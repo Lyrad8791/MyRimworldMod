@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- bases -->
+
+  <RawSteelLeaf.label>鋼鐵葉</RawSteelLeaf.label>
+  <RawSteelLeaf.description>鋼鐵葉可以通過提煉得到鋼鐵。</RawSteelLeaf.description>
+
+  <RawPlasteelLeaf.label>塑鋼葉</RawPlasteelLeaf.label>
+  <RawPlasteelLeaf.description>塑鋼葉可以通過提煉得到塑鋼。</RawPlasteelLeaf.description>
+
+  <RawGoldLeaf.label>黃金葉</RawGoldLeaf.label>
+  <RawGoldLeaf.description>金葉可以通過提煉得到黃金。</RawGoldLeaf.description>
+
+  <RawJadeLeaf.label>翡翠葉</RawJadeLeaf.label>
+  <RawJadeLeaf.description>翡翠葉可以通過提煉得到翡翠。</RawJadeLeaf.description>
+
+  <RawSilverLeaf.label>白銀葉</RawSilverLeaf.label>
+  <RawSilverLeaf.description>白銀葉可以通過提煉得到白銀。</RawSilverLeaf.description>
+
+  <RawUraniumLeaf.label>鈾葉</RawUraniumLeaf.label>
+  <RawUraniumLeaf.description>鈾葉可以通過提煉得到鈾。</RawUraniumLeaf.description>
+
+
+</LanguageData>

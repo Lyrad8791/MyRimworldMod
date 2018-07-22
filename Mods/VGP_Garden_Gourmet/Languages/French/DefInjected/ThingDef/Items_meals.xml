@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <cookie.label>Cookie</cookie.label>
+  <cookie.description>Cookie encore chaud !</cookie.description>
+
+  <BlueberryPie.label>Tranche de tarte aux fruits</BlueberryPie.label>
+  <BlueberryPie.description>Une tranche de tarte aux fruits.</BlueberryPie.description>
+
+  <driedfruit.label>Fruit sec</driedfruit.label>
+  <driedfruit.description>Le fruit ne contient plus d'eau.</driedfruit.description>
+
+  <Bread.label>Pain</Bread.label>
+  <Bread.description>Cuit au four simplement. Depuis des milliers d'années, les humains cuisinent et mangent ce pain savoureuse.</Bread.description>
+
+  <sweetbun.label>Petite brioche</sweetbun.label>
+  <sweetbun.description>Petite brioche recouverte de sucre glacé. \n\nEffets nourriture : Conscience et Mouvement.</sweetbun.description>
+
+  <grilledcheese.label>Panini</grilledcheese.label>
+  <grilledcheese.description>Deux tranches de pain grillées avec du fromage fondu au milieu. \n\nEffets nourriture : Métabolisme.</grilledcheese.description>
+
+  <grilledmeat.label>Cheeseburger</grilledmeat.label>
+  <grilledmeat.description>Un cheeseburger fait de pain, de viande et de fromage. \n\nEffets nourriture : Métabolisme.</grilledmeat.description>
+
+  <pizza.label>Pizza</pizza.label>
+  <pizza.description>Pizza en 30 minutes ou moins ! \n\nEffets nourriture: Conscience et Metabolisme.</pizza.description>
+
+  <Porridge.label>Porridge</Porridge.label>
+  <Porridge.description>Une bouillie simplement cuite à partir de graines. \n\nEffets nourriture : Vue, Filtrage du sang.</Porridge.description>
+
+  <yogurt.label>Yaourt</yogurt.label>
+  <yogurt.description>Un plaisir sucrée à base de lait. \n\Effets nourriture : Vue et Filtrage du sang.</yogurt.description>
+
+  <icecream.label>Crème glacé</icecream.label>
+  <icecream.description>Un plaisir glacée à base de lait. \n\Effets nourriture : Mouvement et Pompage de sang.</icecream.description>
+
+  <smoothie.label>Smoothie</smoothie.label>
+  <smoothie.description>Une boisson sucrée à base de fruits et de lait. \n\nEffets nourriture : Vue et Mouvement.</smoothie.description>
+
+  <Tacos.label>Tacos</Tacos.label>
+  <Tacos.description>Viande et fromage entourés d’une galette de maïs. \n\ Effets nourriture : Manipulation et Métabolisme.</Tacos.description>
+
+  <Grilledsteak.label>Steak grillé</Grilledsteak.label>
+  <Grilledsteak.description>La viande qui a été cuit sur un grill.</Grilledsteak.description>
+
+  <Grilledveg.label>Légume grillé</Grilledveg.label>
+  <Grilledveg.description>Légume qui a été cuit sur un grill.</Grilledveg.description>
+
+  <Kabob.label>Brochette grillé</Kabob.label>
+  <Kabob.description>Viandes et/ou légumes embrochés et grillés à la perfection.</Kabob.description>
+
+  <grilledpolenta.label>Polenta grillé</grilledpolenta.label>
+  <grilledpolenta.description>Tranches de polenta grillées. \n\nEffets nourriture : Métabolisme et Manipulation.</grilledpolenta.description>
+
+  <bakedpolenta.label>Pain de polenta</bakedpolenta.label>
+  <bakedpolenta.description>Pain de polenta cuit. \n\nEffets nourriture : Manipulation et Métabolisme.</bakedpolenta.description>
+
+  <Cornbread.label>Pains de maïs</Cornbread.label>
+  <Cornbread.description>Une miche de pain très simple, faite à partir de farine de maïs. </Cornbread.description>
+
+  <muffin.label>Muffin</muffin.label>
+  <muffin.description>Un muffin sucré, cuit avec des fruits. \n\nEffets nourriture:  Conscience et Mouvement.</muffin.description>
+
+  <meatpie.label>Tourte à la viande</meatpie.label>
+  <meatpie.description>Une simple tourte cuite au four avec une garniture de viande.</meatpie.description>
+
+
+</LanguageData>

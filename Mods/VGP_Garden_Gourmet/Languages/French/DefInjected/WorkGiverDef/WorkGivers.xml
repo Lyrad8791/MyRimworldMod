@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsOven.label>cuire des aliments</DoBillsOven.label>
+  <DoBillsOven.verb>cuire</DoBillsOven.verb>
+  <DoBillsOven.gerund>en cuisant</DoBillsOven.gerund>
+
+  <DoBillsCanningstove.label>préparer la nourriture</DoBillsCanningstove.label>
+  <DoBillsCanningstove.verb>mettre en conserve</DoBillsCanningstove.verb>
+  <DoBillsCanningstove.gerund>en mettant en conserve</DoBillsCanningstove.gerund>
+
+  <DoBillsBake.label>faire des bonbons</DoBillsBake.label>
+  <DoBillsBake.verb>fabriquer des bonbons</DoBillsBake.verb>
+  <DoBillsBake.gerund>en fabriquant des bonbons</DoBillsBake.gerund>
+
+  <DoBillsGrindStone.label>broyer les grains en vrac</DoBillsGrindStone.label>
+  <DoBillsGrindStone.verb>broyer</DoBillsGrindStone.verb>
+  <DoBillsGrindStone.gerund>en broyant</DoBillsGrindStone.gerund>
+
+  <DoBillsCanningMachine.label>conserve de nourriture</DoBillsCanningMachine.label>
+  <DoBillsCanningMachine.verb>mettre en conserve</DoBillsCanningMachine.verb>
+  <DoBillsCanningMachine.gerund>en mettant en conserve</DoBillsCanningMachine.gerund>
+
+  <DoBillsUseSaltMine.label>travailler à la mine de sel</DoBillsUseSaltMine.label>
+  <DoBillsUseSaltMine.verb>miner</DoBillsUseSaltMine.verb>
+  <DoBillsUseSaltMine.gerund>en minant</DoBillsUseSaltMine.gerund>
+
+  <GG_WorkGiver_TakeProductOutOfUniversalFermenter.label>mise en bouteille</GG_WorkGiver_TakeProductOutOfUniversalFermenter.label>
+  <GG_WorkGiver_TakeProductOutOfUniversalFermenter.verb>mettre en bouteille</GG_WorkGiver_TakeProductOutOfUniversalFermenter.verb>
+  <GG_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>en mettant en bouteille</GG_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>
+
+  <GG_WorkGiver_FillUniversalFermenter.label>remplir le baril de fermentation</GG_WorkGiver_FillUniversalFermenter.label>
+  <GG_WorkGiver_FillUniversalFermenter.verb>remplir</GG_WorkGiver_FillUniversalFermenter.verb>
+  <GG_WorkGiver_FillUniversalFermenter.gerund>en remplissant</GG_WorkGiver_FillUniversalFermenter.gerund>
+
+
+</LanguageData>

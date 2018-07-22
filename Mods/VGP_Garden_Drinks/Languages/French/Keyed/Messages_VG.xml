@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Universal Fermenter -->
+  <VG_ContainsIngredient>Contient {0} / {1} {2}.</VG_ContainsIngredient>
+  <VG_ContainsProduct>Contient {0} / {1} {2}.</VG_ContainsProduct>
+  <VG_NoIngredient>besoin d'ingrédients</VG_NoIngredient>
+  <VG_IdealSafeFermentingTemperature>Température de fermentation idéale (sûre)</VG_IdealSafeFermentingTemperature>
+  <VG_Finished>Fini</VG_Finished>
+  <VG_Ideal>Idéale</VG_Ideal>
+  <VG_Safe>Sûre</VG_Safe>
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <SoilReclam.label>VG：土壤改良 I</SoilReclam.label>
+  <SoilReclam.description>研究开垦可耕种土壤的方法。 \n\n解锁在光滑岩石地板上铺设人工土地。\n\n解锁「地面」菜单中的「铺设土壤」。</SoilReclam.description>
+
+  <SoilReclamII.label>VG：土壤改良 II</SoilReclamII.label>
+  <SoilReclamII.description>研究将沙地、湿软的土地、泥地、沼泽、沙砾改造成可耕种的土壤的方法。\n\n解锁肥沃的耕地——一种极高肥沃度的耕地。 \n\n解锁「地面」菜单中的「肥沃耕地」和「垦荒土壤」。</SoilReclamII.description>
+
+  <AdvancedHydroponics.label>VG：高级水栽培</AdvancedHydroponics.label>
+  <AdvancedHydroponics.description>解锁建造「水栽培植物盆（高级）」，在室内快速种植作物，不受土壤贫瘠和室外天气的影响。比普通的水栽培植物盆消耗更多的材料和电力，但能提供光照。并且作物的生长速度更快。</AdvancedHydroponics.description>
+
+  <HeatedSunlamps.label>VG：加热太阳灯</HeatedSunlamps.label>
+  <HeatedSunlamps.description>允许您构建先进的太阳灯，以提供光照和作为一个小型加热器来种植作物。</HeatedSunlamps.description>
+
+
+</LanguageData>

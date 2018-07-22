@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableLoom.label>Métier à tisser</TableLoom.label>
+  <TableLoom.description>Une table de métier à tisser est utilisée pour tisser les matières premières en tissu utilisable.</TableLoom.description>
+  <TableLoom_Blueprint.label>Métier à tisser (plan)</TableLoom_Blueprint.label>
+  <TableLoom_Frame.label>Métier à tisser (construction)</TableLoom_Frame.label>
+  <TableLoom_Frame.description>Une table de métier à tisser est utilisée pour tisser les matières premières en tissu utilisable.</TableLoom_Frame.description>
+
+  <TableElecLoom.label>Métier à tisser électrique</TableElecLoom.label>
+  <TableElecLoom.description>Une table de métier à tisser est utilisée pour tisser les matières premières en tissu utilisable.</TableElecLoom.description>
+  <TableElecLoom_Blueprint.label>Métier à tisser électrique (plan)</TableElecLoom_Blueprint.label>
+  <TableElecLoom_Frame.label>Métier à tisser électrique (construction)</TableElecLoom_Frame.label>
+  <TableElecLoom_Frame.description>Une table de métier à tisser est utilisée pour tisser les matières premières en tissu utilisable.</TableElecLoom_Frame.description>
+
+
+</LanguageData>

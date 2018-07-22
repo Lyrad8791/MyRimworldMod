@@ -1,0 +1,183 @@
+4/28/18
+Fabrics
+-jobstrings and recipe names grammmmmmmmmmmer changes
+Drinks
+-Ambrosia wine added. Drunk and high!
+-Ambrosia must added.
+Garden
+-Cooking skills req adjusted
+-Food poinsoning removed from drinks.
+Gourmet
+-Cooking skill req. added / adjusted
+
+4/24/18
+Garden
+-Grammmmmmer error in research
+Fabrics
+-Recipes costs boosted
+Drinks
+-Industry Barrels finished. 4x at 25% faster
+Drugs
+-Bulk drugs Intellectual work to match core recipes.
+
+3/3/18
+Fabrics
+-New blended wool with recipe added to loom.
+-Blend Fabrics into cloth recipe.
+-Rebalance cloth recipes time.
+Drinks
+-Mystery Soda recipe added.
+-Syrup recipe adjusted.
+
+2/25/18
+Garden
+-wild biome plants adjusted and now apear again.
+-research wild biome plants adjusted.
+
+
+
+Steam Update:
+2/16/18
+Garden
+-small patch was re-wrote for the butcher table.
+
+2/12/18
+-patch error in the garden was fixed.
+
+2/11/18
+French language added thanks Joedox.
+All Assemblies (Barrels,Can Factory,Composter)
+-Issues with ruined not reseting, code added reseting properly now!
+-Error with dup job labels fixed!
+-Work job strings corrected!
+Gourmet
+-
+Drinks
+-About had a special character removed.
+-Kvass drinks finished.
+-New Fermentation Durations and Cost of Drinks.
+-Industrial fermenting barrels and research.
+Garden
+-Traders adjusted. Buy/Sell ingredents better.
+
+
+1/29/18
+Artwork and Logos updated.
+
+1/27/18
+Gourmet
+-Silage recipe patch fixed/reworked.
+-Canned Meal no longer use "Ingredents"
+-Electric Oven req electricity research now
+-Prep station work label
+
+-Tools
+Linked artwork updated c/o Sulusdacor
+
+1/21/18
+-Vegetable Garden
+New patcher greatly reduces loading time.
+Pemmican bluk recipe adjust to match core.
+-Drinks:
+Kvass drinks coding began
+
+1/8/18
+-Garden
+Campfire recipe fix for tools.
+Meal Recipes fixed (removed joy)
+Drink Recipes fixed (removed nutrition)
+Bamboo Plant art
+Fine and Lavish has milk and cheese again (not bulk)
+
+-Drinks
+Drink Recipes fixed (removed nutrition)
+
+
+12/31/17
+-Drinks 
+Language file issues
+Patch for DeCore
+
+-Vegetable Garden
+Patch for Curo's Survivalists
+Patch for Decore
+
+
+
+12/28/17
+-Tools
+Terrain patch corrected. Bridges and other mods should work again.
+1x1 Modular flower boxes added.
+
+-Vegetable Garden
+Silage recipe adjusted
+Bulk Silage recipe corrected.
+Stuffed Workbenches patch added
+Medieval Times patch added for fuels.
+
+-Drinks
+Stuffed Workbenches patch added
+
+-Gourmet
+Silage patch added.
+Fallout Patch added.
+Medieval Times patch added for recipes.
+Canning meat recipe fixed
+
+-CoffeeTeaDrugs patch
+-Fruit Drink added
+
+12/10/17
+-Drinks:
+Haplos Bee mead and honey added to the barrel system if loaded
+Alcohol Precursor Base have their own stockpile zone under drugs now.
+Chinese language updated
+-Gourmet:
+English updated
+Canned recipes adjusted
+Classic canning machine research added
+Recipes for machine adjusted
+Chinese language updated
+-Garden
+New Research for Wild Biome plants
+
+
+12/03/17
+-Garden - Tea Adjusted
+-Medicine - bulk cigs recipe fixed
+-Medicine - A few drugs recipes have been fixed
+-Resources - Jade plant added.
+-Gourmet - Chair search radii increased
+
+
+
+
+11/30/17
+-Veg Garden - Animal Feed trough patch added back.
+-Vege Garden - HediffDefs adjusted.
+-German (vegetable garden only) and Chinese added (all mods).
+-Canning factory finished. 
+-Garden Meds - Cigarillos bulk added
+-Garden Meds - Research for bulk Psychoid Pekoe brewing and recipe.
+
+11/28/17
+-Canning factory added. 
+
+11/24/17
+-Garden Tools : Language file was cleaned up and patch was optimized.
+-Garden Fabrics : Language file was adjusted.
+-Flowers and Trees : Language file was adjusted.
+-Solent Production : Language file was adjusted.
+-Garden Resources : Language file was adjusted.
+-Garden Medicines : Language file was cleaned up and patch was optimized.
+-Garden Drinks : Language file was cleaned up and patch was optimized.
+-Garden Drinks : Alcohol names simplified and flavor text updated.
+-Garden Drinks : Alcohol prices increased.
+-Garden Gourmet : Language file was cleaned up and patch was optimized.
+-Vegetable Garden : Patch fixed and optimized.
+
+11/23/17
+-Vegetable Garden : Olive Tree sow tag.
+-All mods english language files.
+-Garden Medicines : Updated Cigarillos art and use code.
+-Garden Fabrics " Loom graphics updated.

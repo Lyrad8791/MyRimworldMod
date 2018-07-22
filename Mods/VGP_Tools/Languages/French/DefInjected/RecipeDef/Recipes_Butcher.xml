@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCompostStarter.label>Compost</MakeCompostStarter.label>
+  <MakeCompostStarter.description>Préparer le compost à partir d'une source de bois et de nourriture.</MakeCompostStarter.description>
+  <MakeCompostStarter.jobString>Fait du compost.</MakeCompostStarter.jobString>
+
+  <MakeFertilizer.label>Engrais</MakeFertilizer.label>
+  <MakeFertilizer.description>Faire de l'engrais à partir du compost et de terre.</MakeFertilizer.description>
+  <MakeFertilizer.jobString>Fait de l'engrais.</MakeFertilizer.jobString>
+
+  <VG_DigSoil.label>Terre</VG_DigSoil.label>
+  <VG_DigSoil.description>Creuser le sol pour obtenir de la terre. Utilisé dans la fabrication d'engrais.</VG_DigSoil.description>
+  <VG_DigSoil.jobString>Creuse le sol.</VG_DigSoil.jobString>
+
+
+</LanguageData>

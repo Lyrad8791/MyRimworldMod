@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignationCategoryDef>
+    <defName>GardenTools</defName>
+    <label>garden tools</label>
+    <description>Things for growing crops.</description>
+    <order>16</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+      <li>Designator_SmoothFloor</li>
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+  
+  
+</Defs>

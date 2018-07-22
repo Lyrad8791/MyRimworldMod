@@ -25,6 +25,30 @@
 	</SoundDef>
 
   <SoundDef>
+    <defName>DrainHole</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>misc/drain</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40</min>
+          <max>40</max>
+        </volumeRange>
+        <distRange>
+          <min>0</min>
+          <max>20</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>ToiletFlush</defName>
     <context>MapOnly</context>
     <eventNames />
@@ -99,6 +123,32 @@
   </SoundDef>
 
   <SoundDef>
+    <defName>shower_Ambience</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <eventNames />
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>misc/shower</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>85</min>
+          <max>85</max>
+        </volumeRange>
+        <distRange>
+          <min>0</min>
+          <max>20</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>dripping_Ambience</defName>
     <sustain>True</sustain>
     <context>MapOnly</context>
@@ -152,6 +202,32 @@
 		</subSounds>
 	</SoundDef>
 
+  <SoundDef>
+    <defName>hottub_Ambience</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <eventNames />
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>misc/hottub</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>85</min>
+          <max>85</max>
+        </volumeRange>
+        <distRange>
+          <min>0</min>
+          <max>20</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
 	<SoundDef>
 		<defName>plunging</defName>  
 		<sustain>True</sustain>
@@ -172,7 +248,7 @@
 				</volumeRange>     
 				<distRange>
 					<min>0</min>
-					<max>15</max>
+					<max>25</max>
 				</distRange>
 			</li>
 		</subSounds>

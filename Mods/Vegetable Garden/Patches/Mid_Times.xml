@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+	<Operation Class="PatchOperationSequence">
+  		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Vegetable Garden</yourMod>				</li>
+		<li Class="PatchOperationInsert">
+  <xpath>Defs/ThingDef[defName = "MedTimes_StoneHearth"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li |
+         Defs/ThingDef[defName = "MedTimes_StreetLamp"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li |
+         Defs/ThingDef[defName = "MedTimes_Brazier"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li |
+         Defs/ThingDef[defName = "MedTimes_FoodPrepStation"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li |
+         Defs/ThingDef[defName = "MedTimes_FueledSmelter"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li |
+         Defs/ThingDef[defName = "MedTimes_CorpseBonfire"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li |
+		 Defs/ThingDef[defName = "MedTimes_Smokehouse"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li</xpath>
+				<value>
+					<li>Bamboo</li>
+					<li>VG_Biofuel</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+<Operation Class="PatchOperationSequence">
+  		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Medieval Times</modName>
+			<yourMod>VGP Vegetable Garden</yourMod>				</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/ThingDef[defName = "VG_Campfire"]</xpath>
+				<order>Prepend</order>
+				<value>
+
+<!-- Blacksmith's Forge Tiered Base Class -->
+  <ThingDef Name="MedTimes_BlacksmithsForgeBase" ParentName="MedTimes_BenchBaseTag" Abstract="True">
+    <thingClass>Building_WorkTable</thingClass>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-5</Cleanliness>	  
+    </statBases>
+    <hasInteractionCell>True</hasInteractionCell>
+    <surfaceType>Item</surfaceType>	
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>50.0</fuelConsumptionRate>
+        <fuelCapacity>75.0</fuelCapacity>
+        <fuelFilter>
+			<thingDefs>
+				<li>MedTimes_Resource_Coal</li>
+				<li>WoodLog</li>
+				<li>Bamboo</li>
+				<li>VG_Biofuel</li>
+			</thingDefs>
+		</fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>  
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <!--  (Medieval) Tier 1 Blacksmith's Forge -->
+  <ThingDef ParentName="MedTimes_BlacksmithsForgeBase">
+    <defName>MedTimes_BlacksmithForge</defName>
+    <label>Blacksmith's Forge</label>
+    <description>(1st Tier)[Create Weapons/Armour/Tools](Being Used; Wood Fuel Consumption: 50)(Clean -5) A wood-fueled station equipped for smithing medieval era weapons, armour and tools.</description>
+    <size>(2,1)</size>
+	
+    <graphicData>
+      <texPath>Things/Building/Medieval/Forge/MedTimes_Forge_Tier1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>	  
+      <drawSize>(2,1)</drawSize>  
+    </graphicData>
+		<uiIconPath>Things/Building/Medieval/Forge/MedTimes_Forge_Tier1_Icon</uiIconPath>	
+	
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>		
+    <costList><Steel>35</Steel></costList>
+
+    <interactionCellOffset>(1,0,-1)</interactionCellOffset>	
+    <researchPrerequisites>
+      <li>MedTimes_MedievalTechnologies</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  
+  <!--  (Medieval) Tier 2 Blacksmith's Forge -->
+  <ThingDef ParentName="MedTimes_BlacksmithsForgeBase">
+    <defName>MedTimes_BlacksmithForgeTierTwo</defName>
+    <label>Improved Blacksmith's Forge</label>
+    <description>(2nd Tier)[Create Weapons/Armour/Tools](Being Used; Wood Fuel Consumption: 50)(Clean -5) A wood-fueled station equipped for smithing medieval era weapons, armour and tools.</description>
+    <size>(3,3)</size>
+	
+    <graphicData>
+      <texPath>Things/Building/Medieval/Forge/MedTimes_Forge_Tier2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>	  
+      <drawSize>(3,3)</drawSize>  
+    </graphicData> 
+		<uiIconPath>Things/Building/Medieval/Forge/MedTimes_Forge_Tier2_Icon</uiIconPath>		
+	<costList><Steel>50</Steel></costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>		
+    <statBases>		
+		<Mass>350</Mass>		  
+    </statBases>
+    <interactionCellOffset>(0,0,0)</interactionCellOffset>	
+    <researchPrerequisites>
+      <li>MedTimes_AdvancedMedievalSmithing</li>
+    </researchPrerequisites>
+  </ThingDef> 
+
+
+
+
+				</value>
+			</li>
+		</operations>
+
+</Operation>
+
+</Patch>
+

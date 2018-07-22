@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlantSteelLeaf.label>鋼鐵葉</PlantSteelLeaf.label>
+  <PlantSteelLeaf.description>枝葉濃密的植物，脈絡中富含鐵，可以通過提煉得到鋼鐵。</PlantSteelLeaf.description>
+
+  <PlantPlasteelLeaf.label>塑鋼葉</PlantPlasteelLeaf.label>
+  <PlantPlasteelLeaf.description>枝葉濃密的植物，脈絡中富含塑鋼，可以通過提煉得到塑鋼。</PlantPlasteelLeaf.description>
+
+  <PlantGoldLeaf.label>黃金葉</PlantGoldLeaf.label>
+  <PlantGoldLeaf.description>枝葉濃密的植物，脈絡中富含黃金，可以通過提煉得到黃金。</PlantGoldLeaf.description>
+
+  <PlantJadeLeaf.label>翡翠葉</PlantJadeLeaf.label>
+  <PlantJadeLeaf.description>枝葉濃密的植物，脈絡中富含翡翠，可以通過提煉得到翡翠。</PlantJadeLeaf.description>
+
+  <PlantSilverLeaf.label>白銀葉</PlantSilverLeaf.label>
+  <PlantSilverLeaf.description>枝葉濃密的植物，脈絡中富含白銀，可以通過提煉得到白銀。</PlantSilverLeaf.description>
+
+  <PlantUraniumLeaf.label>鈾葉</PlantUraniumLeaf.label>
+  <PlantUraniumLeaf.description>枝葉濃密的植物，脈絡中富含鈾，可以通過提煉得到鈾。</PlantUraniumLeaf.description>
+
+
+</LanguageData>

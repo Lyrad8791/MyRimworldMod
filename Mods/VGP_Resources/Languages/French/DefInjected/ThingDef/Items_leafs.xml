@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- bases -->
+
+  <RawSteelLeaf.label>ChampiAcier</RawSteelLeaf.label>
+  <RawSteelLeaf.description>Les champiaciers peuvent être fondus en acier.</RawSteelLeaf.description>
+
+  <RawPlasteelLeaf.label>Bulbe de Plastacier</RawPlasteelLeaf.label>
+  <RawPlasteelLeaf.description>Les bulbes de plastacier peuvent être fondus en plastacier.</RawPlasteelLeaf.description>
+
+  <RawGoldLeaf.label>Feuilles d'Or de fougère</RawGoldLeaf.label>
+  <RawGoldLeaf.description>Les feuilles d'or de fougère peuvent être fondus en or.</RawGoldLeaf.description>
+
+  <RawJadeLeaf.label>Cristal de Jade</RawJadeLeaf.label>
+  <RawJadeLeaf.description>Les cristaux de jade peuvent être fondus en jade.</RawJadeLeaf.description>
+
+  <RawSilverLeaf.label>Pétales de fleur d'Argent</RawSilverLeaf.label>
+  <RawSilverLeaf.description>Les pétales de fleur d'argent peuvent être fondus en argent.</RawSilverLeaf.description>
+
+  <RawUraniumLeaf.label>Racine d'Uranium</RawUraniumLeaf.label>
+  <RawUraniumLeaf.description>Les racines d'uranium peuvent être fondus en uranium.</RawUraniumLeaf.description>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>GG_FillUniversalFermenter</defName>
+		<driverClass>GG.JobDriver_FillUniversalFermenter</driverClass>
+		<reportString>filling TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>GG_TakeProductOutOfUniversalFermenter</defName>
+		<driverClass>GG.JobDriver_TakeProductOutOfUniversalFermenter</driverClass>
+		<reportString>taking product out of TargetA.</reportString>
+	</JobDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <agriculture.label>Agriculture I</agriculture.label>
+  <agriculture.description>Recherche la génétique des plantes pour débloquer de nouveaux types de plantes à cultiver ! \n\nDébloque de nouveau légumes à cultiver. \n\nDébloque les semis de betterave, d’haricots, de lentilles rouge et d'olives.</agriculture.description>
+
+  <agricultureII.label>Agriculture II</agricultureII.label>
+  <agricultureII.description>Recherche la génétique des plantes pour débloquer de nouveaux types de plantes à cultiver ! \n\nDébloque de nouveau fruits à cultiver. Les fruits ont une grande valeur nutritive et nécessite donc de faire moins de repas. \n\nDébloque les semis de raisins, d'agaves, de fraises, de myrtille et de pastèques.</agricultureII.description>
+
+  <agricultureIII.label>Agriculture III</agricultureIII.label>
+  <agricultureIII.description>Recherche la génétique des plantes pour débloquer de nouveaux types d’arbres à planter ! \n\nDébloque de nouveaux arbres fruitiers à planter. Les arbres fruitiers ont un temps de croissance plus long mais un rendement plus élevé. \n\nDébloque les semis de pommes, de bananes, d'oranges et de pêchers.</agricultureIII.description>
+
+  <flowersandtrees.label>Fleurs et Arbres</flowersandtrees.label>
+  <flowersandtrees.description>Recherche de nouvelles fleurs et arbres à planter.</flowersandtrees.description>
+
+  <VG_Ambrosia.label>Ambroisie</VG_Ambrosia.label>
+  <VG_Ambrosia.description>Recherche la capacité de cultiver l'ambroisie dans les bassins hydroponiques.</VG_Ambrosia.description>
+
+  <agricultureIV.label>Plante sauvage</agricultureIV.label>
+  <agricultureIV.description>Recherches la génétique des plantes pour débloquer de nouveaux types d’arbres à cultiver ! \n\nDébloque de nouveaux fruits et arbres à cultiver. Les arbres fruitiers ont un temps de croissance plus long mais un rendement plus élevé. \n\nDébloque les semis de cerisier, de cocotier, de figuiers, de dattiers, ananas, de mûres et de groseillier.</agricultureIV.description>
+
+
+</LanguageData>

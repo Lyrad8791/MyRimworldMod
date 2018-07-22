@@ -1,0 +1,9 @@
+<Defs>
+  <JobDef>
+    <defName>NewMate</defName>
+    <driverClass>JobDriver_NewMate</driverClass>
+    <reportString>mating with TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+</Defs>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_FluEz.label>Flu Ez</VG_FluEz.label>
+  <VG_FluEz.description>Un médicament pour bloquer la grippe. Prenez en tous les 5 jours.</VG_FluEz.description>
+  <VG_FluEz.ingestible.ingestCommandString>Prendre {0}</VG_FluEz.ingestible.ingestCommandString>
+  <VG_FluEz.ingestible.ingestReportString>Prend {0}.</VG_FluEz.ingestible.ingestReportString>
+
+  <VG_Ibuprofen.label>Ibuprofène</VG_Ibuprofen.label>
+  <VG_Ibuprofen.description>Un médicament pour bloquer la douleur. Prenez en tous les jours.</VG_Ibuprofen.description>
+  <VG_Ibuprofen.ingestible.ingestCommandString>Prendre {0}</VG_Ibuprofen.ingestible.ingestCommandString>
+  <VG_Ibuprofen.ingestible.ingestReportString>Prend {0}.</VG_Ibuprofen.ingestible.ingestReportString>
+
+  <VG_antibiotics.label>Antibiotiques</VG_antibiotics.label>
+  <VG_antibiotics.description>Une boisson faite de fruits et de médicaments pour aider au rétablissement d'une maladie.</VG_antibiotics.description>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Sweet -->
+
+  <MakeHardcandy.label>製作硬糖（4）</MakeHardcandy.label>
+  <MakeHardcandy.description>將蔗糖製成硬糖。</MakeHardcandy.description>
+  <MakeHardcandy.jobString>正在製作糖果。</MakeHardcandy.jobString>
+
+  <MakeCaramel.label>製作焦糖（4）</MakeCaramel.label>
+  <MakeCaramel.description>將蔗糖製成焦糖。</MakeCaramel.description>
+  <MakeCaramel.jobString>正在製作糖果。</MakeCaramel.jobString>
+
+  <MakeTaffy.label>製作太妃糖（4）</MakeTaffy.label>
+  <MakeTaffy.description>將蔗糖製成太妃糖。</MakeTaffy.description>
+  <MakeTaffy.jobString>正在製作糖果。</MakeTaffy.jobString>
+
+  <CraftChocolate.label>製作巧克力（7）</CraftChocolate.label>
+  <CraftChocolate.description>可可豆經過發酵、烘焙、研磨，最後加工成巧克力。</CraftChocolate.description>
+  <CraftChocolate.jobString>正在製作巧克力。</CraftChocolate.jobString>
+
+  <MakeIcecream.label>製作冰淇淋（2）</MakeIcecream.label>
+  <MakeIcecream.description>用奶或豆漿製成冰淇淋。 \n\n做2份。 \n\n食用效果：行動、血液循環。</MakeIcecream.description>
+  <MakeIcecream.jobString>正在製作冰淇淋。</MakeIcecream.jobString>
+
+  <MakeYogurt.label>製作酸奶（2）</MakeYogurt.label>
+  <MakeYogurt.description>用奶或豆漿製成酸奶。 \n\n做2份。 \n\n食用效果：視覺、血液過濾。</MakeYogurt.description>
+  <MakeYogurt.jobString>正在製作酸奶。</MakeYogurt.jobString>
+
+  <MakeSmoothie.label>製作奶昔（4）</MakeSmoothie.label>
+  <MakeSmoothie.description>用奶或豆漿，再加上水果混合製成的飲料。 \n\n做4份。 \n\n食用效果：視覺和行動。</MakeSmoothie.description>
+  <MakeSmoothie.jobString>正在製作奶昔。</MakeSmoothie.jobString>
+
+
+</LanguageData>

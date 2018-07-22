@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FertilizerCorpse.label>火化屍體作肥料</FertilizerCorpse.label>
+  <FertilizerCorpse.description>把屍體火化成肥料。預設關閉。</FertilizerCorpse.description>
+  <FertilizerCorpse.jobString>火化中。</FertilizerCorpse.jobString>
+
+  <FertilizerCorpseCampfire.label>火化屍體作肥料</FertilizerCorpseCampfire.label>
+  <FertilizerCorpseCampfire.description>在篝火把屍體火化成肥料。比焚化爐效率較低。預設關閉。 </FertilizerCorpseCampfire.description>
+  <FertilizerCorpseCampfire.jobString>火化中。</FertilizerCorpseCampfire.jobString>
+
+
+</LanguageData>

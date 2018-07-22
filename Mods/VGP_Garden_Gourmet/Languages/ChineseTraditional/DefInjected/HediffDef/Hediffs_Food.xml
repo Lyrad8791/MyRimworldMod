@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HedGmeat.label>美食</HedGmeat.label>
+  <HedGmeat.stages.0.label>烤製食物</HedGmeat.stages.0.label>
+
+  <HedIceCream.label>美食</HedIceCream.label>
+  <HedIceCream.stages.0.label>冰淇淋</HedIceCream.stages.0.label>
+
+  <HedPizza.label>美食</HedPizza.label>
+  <HedPizza.stages.0.label>披薩</HedPizza.stages.0.label>
+
+  <HedPorridge.label>美食</HedPorridge.label>
+  <HedPorridge.stages.0.label>粥</HedPorridge.stages.0.label>
+
+  <HedSmoothie.label>美食</HedSmoothie.label>
+  <HedSmoothie.stages.0.label>奶昔</HedSmoothie.stages.0.label>
+
+  <HedTacos.label>美食</HedTacos.label>
+  <HedTacos.stages.0.label>墨西哥玉米卷餅</HedTacos.stages.0.label>
+
+  <HedYogurt.label>美食</HedYogurt.label>
+  <HedYogurt.stages.0.label>酸奶</HedYogurt.stages.0.label>
+
+  <HedGrilledchz.label>美食</HedGrilledchz.label>
+  <HedGrilledchz.stages.0.label>烤芝士</HedGrilledchz.stages.0.label>
+
+  <HedSweetbun.label>美食</HedSweetbun.label>
+  <HedSweetbun.stages.0.label>烘焙食物</HedSweetbun.stages.0.label>
+
+  <HedPolenta.label>美食</HedPolenta.label>
+  <HedPolenta.stages.0.label>玉米糊</HedPolenta.stages.0.label>
+
+
+</LanguageData>

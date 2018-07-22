@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "MakeSilage"]/ingredients</xpath>
+				<value>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>RawCorn</li>
+			        <li>RawRice</li>
+					<li>RawBarley</li>
+			    	<li>Rawbean</li>
+					<li>Rawwheat</li>
+     			 </thingDefs>
+	  		    </filter>
+			<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+				</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "MakebulkSilage"]/ingredients</xpath>
+				<value>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>RawCorn</li>
+			        <li>RawRice</li>
+					<li>RawBarley</li>
+			    	<li>Rawbean</li>
+					<li>Rawwheat</li>
+     			 </thingDefs>
+	  		    </filter>
+			<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+				</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName = "MakeSilage"]/fixedIngredientFilter	|
+		Defs/RecipeDef[defName = "MakebulkSilage"]/fixedIngredientFilter</xpath>
+				<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+			    <li>RawCorn</li>
+			    <li>RawRice</li>
+			    <li>RawBarley</li>
+				<li>Rawwheat</li>
+			    <li>Rawbean</li>
+			    <li>Hay</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+				</value>
+	</Operation>
+
+
+	
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+    <li Class="PatchOperationTest">
+  <xpath>Defs/ThingDef[defName = "FueledStove"]/comps/li[contains(@Class,'CompProperties_AffectedByFacilities')]/linkableFacilities |
+		 Defs/ThingDef[defName = "ElectricStove"]/comps/li[contains(@Class,'CompProperties_AffectedByFacilities')]/linkableFacilities</xpath>
+    </li>
+    <li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "FueledStove"]/comps/li[contains(@Class,'CompProperties_AffectedByFacilities')]/linkableFacilities |
+		 Defs/ThingDef[defName = "ElectricStove"]/comps/li[contains(@Class,'CompProperties_AffectedByFacilities')]/linkableFacilities</xpath>
+      <value>
+          <li>CookingTools</li>
+      </value>
+    </li>
+  </operations>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+    <li Class="PatchOperationTest">
+  <xpath>Defs/ThingDef[defName = "FueledStove"]/comps/li[contains(@Class,'CompProperties_AffectedByFacilities')]/linkableFacilities |
+		 Defs/ThingDef[defName = "ElectricStove"]/comps/li[contains(@Class,'CompProperties_AffectedByFacilities')]/linkableFacilities</xpath>
+      <success>Invert</success>
+    </li>
+    <li Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName = "FueledStove"]/comps |
+		 Defs/ThingDef[defName = "ElectricStove"]/comps</xpath>
+      <value>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>CookingTools</li>
+        </linkableFacilities>
+      </li>
+      </value>
+    </li>
+  </operations>
+</Operation>
+
+
+
+
+</Patch>
+

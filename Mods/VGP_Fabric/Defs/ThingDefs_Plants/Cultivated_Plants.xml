@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantCotton</defName>
+    <label>cotton plant</label>
+    <description>Yields cotton, a fine plant fiber used to make cloth.</description>
+    <graphicData>
+      <texPath>Things/Plants/CottonPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawCotton</harvestedThingDef>
+      <harvestYield>13</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>8</growDays>
+      <fertilitySensitivity>0.85</fertilitySensitivity>      <immatureGraphicPath>Things/Plant/CottonImmature</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantDevilstrand</defName>
+    <label>devilstrand</label>
+    <description>This fragile mushroom was genetically engineered to produce a silk net of the highest grade. Long rumored to have mystical properties, it owes its name to the greed it inspires in people.</description>
+    <graphicData>
+      <texPath>Things/Plants/Devilstrand</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawDevilstrand</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowMinSkill>8</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
+      <growDays>22.5</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+    </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>PlantFlax</defName>
+    <label>flax flower</label>
+    <description>A flower thats fibers are use to spin into cloth.</description>
+    <graphicData>
+      <texPath>Things/Plants/flaxflower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawFlax</harvestedThingDef>
+	<harvestYield>9</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>16.1</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+    </plant>
+  </ThingDef>
+
+
+
+</Defs>

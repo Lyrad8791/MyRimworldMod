@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>VGP Garden Fabrics</name>
+  <author>dismarzero</author>
+  <url>https://ludeon.com/forums/index.php?topic=36926.msg378134#msg378134</url>
+  <targetVersion>0.18.0</targetVersion>
+  <description>
+Garden Fabrics 18.1 (Does not require Vegetable Garden)
+
+Reworks the games cloth production.
+
+Cotton and devilstrand plants produce fibers that can be processed into cloths at the loom. 
+
+-Unpowered loom and an electric loom.
+-Adds Flax plant and linen Cloth.
+-Adds plasteel thread. Used to make high-end cloths.
+-Adds recipes for synthread and hyperthread cloths.
+-Adds hemp cloth made from smokeleaf.
+-Adds Blended leather. Combine leathers to make a simple leather.
+-Adds salvage apparel allowing you to destroy unwanted apperels.
+
+
+ </description>
+</ModMetaData>
+
+
+

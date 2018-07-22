@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NeutroPetals.label>中性花</NeutroPetals.label>
+  <NeutroPetals.description>中性花的漂亮黄橙色花瓣。用于制作中性胺和药物。</NeutroPetals.description>
+
+  <Bandagekit.label>绷带包</Bandagekit.label>
+  <Bandagekit.description>用布制成的绷带包。不如药物疗效好。</Bandagekit.description>
+
+
+</LanguageData>

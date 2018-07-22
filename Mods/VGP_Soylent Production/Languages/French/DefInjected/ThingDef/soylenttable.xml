@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <soylenttable.label>Machine à Soylent</soylenttable.label>
+  <soylenttable.description>Une machine pour fabriquer le Soylent à partir de plantes, de produits d'animaux, de viande et de «plancton de haute énergie» ®.</soylenttable.description>
+  <soylenttable_Blueprint.label>Machine à Soylent (plan)</soylenttable_Blueprint.label>
+  <soylenttable_Frame.label>Machine à Soylent (construction)</soylenttable_Frame.label>
+  <soylenttable_Frame.description>Une machine pour fabriquer le Soylent à partir de plantes, de produits d'animaux, de viande et de «plancton de haute énergie» ®.</soylenttable_Frame.description>
+
+
+</LanguageData>

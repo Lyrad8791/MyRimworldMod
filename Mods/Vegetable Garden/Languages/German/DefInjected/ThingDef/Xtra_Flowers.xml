@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Flowers Vanilla -->
+
+  <!--[Core] <PlantDandelion.label>Löwenzahn</PlantDandelion.label>-->
+  <!--[Core] <PlantDandelion.description>Gewöhnliche kleine Pflanze. Wird aufgrund ihrer Fruchtbarkeit oft als Unkraut angesehen, sieht aber hübsch aus.</PlantDandelion.description>-->
+
+  <!--[Core] <PlantRose.label>Rose</PlantRose.label>-->
+  <!--[Core] <PlantRose.description>Eine wunderschöne, angepflanzte Blume. Sie ist seit alters her das Symbol der Romantik und Liebe.</PlantRose.description>-->
+
+  <!--[Core] <PlantDaylily.label>Taglilie</PlantDaylily.label>-->
+  <!--[Core] <PlantDaylily.description>Eine wunderschöne, angepflanzte Blume. Sehr gut, um einen langweiligen Garten zu verschönern. Sie muss aber häufiger erneuert werden.</PlantDaylily.description>-->
+
+
+  <!-- New Flowers -->
+
+  <PlantPlumeria.label>Plumeria</PlantPlumeria.label>
+  <PlantPlumeria.description>Eine wunderschöne, kleine, buschige Blume die in unterschiedlichen Farben wächst.</PlantPlumeria.description>
+
+
+</LanguageData>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Alcohol Precursors -->
+
+  <CPD_CornWort.label>玉米麥芽漿</CPD_CornWort.label>
+  <CPD_CornWort.description>這玉米麥芽漿需要被裝進發酵桶中，再經過發酵才能變成可飲用的威士忌。</CPD_CornWort.description>
+
+  <CPD_RiceMash.label>米糠</CPD_RiceMash.label>
+  <CPD_RiceMash.description>這米糠需要被裝進發酵桶中，再經過發酵才能變成可飲用的清酒。</CPD_RiceMash.description>
+
+  <CPD_VodkaPrecursor.label>伏特加(未蒸餾)</CPD_VodkaPrecursor.label>
+  <CPD_VodkaPrecursor.description>這伏特加需要進行蒸餾處理才能成為可飲用的伏特加酒。</CPD_VodkaPrecursor.description>
+
+  <CPD_WineMust.label>莓果酒酒醪</CPD_WineMust.label>
+  <CPD_WineMust.description>這酒醪需要被裝進發酵桶中，再經過發酵才能變成可飲用的莓果酒。</CPD_WineMust.description>
+
+  <VG_CiderMust.label>蘋果酒酒醪</VG_CiderMust.label>
+  <VG_CiderMust.description>這酒醪需要被裝進發酵桶中，再經過發酵才能變成可飲用的蘋果酒。</VG_CiderMust.description>
+
+  <VG_CaneMash.label>甘蔗酒醪</VG_CaneMash.label>
+  <VG_CaneMash.description>這酒醪需要被裝進發酵桶中，再經過發酵才能變成可飲用的朗姆酒。</VG_CaneMash.description>
+
+  <VG_GrapeMust.label>葡萄酒酒醪</VG_GrapeMust.label>
+  <VG_GrapeMust.description>這酒醪需要被裝進發酵桶中，再經過發酵才能變成可飲用的葡萄酒。</VG_GrapeMust.description>
+
+  <VG_AgaveMust.label>龍舌蘭酒醪</VG_AgaveMust.label>
+  <VG_AgaveMust.description>這酒醪需要被裝進發酵桶中，再經過發酵才能變成可飲用的龍舌蘭酒。</VG_AgaveMust.description>
+
+  <VG_FruitMash.label>水果酒醪</VG_FruitMash.label>
+  <VG_FruitMash.description>這酒醪需要被裝進發酵桶中，再經過發酵才能變成可飲用的水果酒。</VG_FruitMash.description>
+
+  <VG_BrownMalt.label>棕色麥芽</VG_BrownMalt.label>
+  <VG_BrownMalt.description>這麥芽需要被裝進發酵桶中，再經過發酵才能變成可飲用的棕色啤酒。</VG_BrownMalt.description>
+
+
+</LanguageData>

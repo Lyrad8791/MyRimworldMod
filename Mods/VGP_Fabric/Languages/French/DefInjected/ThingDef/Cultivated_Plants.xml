@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <PlantCotton.label>cotton plant</PlantCotton.label>-->
+  <!--[Core] <PlantCotton.description>Yields cotton, a fine plant fiber used to make cloth.</PlantCotton.description>-->
+
+  <!--[Core] <PlantDevilstrand.label>devilstrand</PlantDevilstrand.label>-->
+  <!--[Core] <PlantDevilstrand.description>This fragile mushroom was genetically engineered to produce a silk net of the highest grade. Long rumored to have mystical properties, it owes its name to the greed it inspires in people.</PlantDevilstrand.description>-->
+
+  <PlantFlax.label>Fleur de lin</PlantFlax.label>
+  <PlantFlax.description>Une fleur dont les fibres sont utilisées pour le tisser en lin.</PlantFlax.description>
+
+
+</LanguageData>

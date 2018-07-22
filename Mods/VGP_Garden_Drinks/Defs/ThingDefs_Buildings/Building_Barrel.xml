@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="VG_BuildingBase">
+        <defName>FermentingBarrel</defName>
+        <label>fermenting barrel</label>
+    <description>a fermenting barrel for making different types of alcohols.</description>
+		<graphicData>
+			<texPath>Things/Building/FermentingBarrel/FermentingBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<rotatable>true</rotatable>
+     		<size>(1,1)</size>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Rare</tickerType>
+	    <statBases>
+      	<Cleanliness>-7</Cleanliness>
+		<WorkToBuild>700</WorkToBuild>
+		<Mass>10</Mass>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+    	    </statBases>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites><li>Brewing</li></researchPrerequisites>
+  <comps>
+     	<li Class="CompProperties_Forbiddable"/>
+     	<li Class="Garden.CompProperties_UniversalFermenter">
+            <products>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>Wort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>40</maxCapacity>
+<baseFermentationDuration>300000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>cider</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_CiderMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>360000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>rum</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_CaneMash</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>480000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>strawberrywine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>CPD_WineMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>600000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>Wine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_GrapeMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>600000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>VG_AmbrosiaWine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_AmbrosiaMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>600000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>saki</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>CPD_RiceMash</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>420000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>CPD_VodkaPrecursor</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>RawPotatoes</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>360000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>tequila</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_AgaveMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>540000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>whisky</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>CPD_CornWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>420000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>BrownAle</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_BrownMalt</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>360000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>Fruitshine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_FruitMash</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>420000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>KvassSoda</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_KvassSodaWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>300000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>FruitKvass</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_FruitKvassWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>300000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>VegetableKvass</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_VegKvassWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>30</maxCapacity>
+<baseFermentationDuration>300000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+
+            </products>
+		</li>
+       </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="VG_BuildingBase">
+        <defName>VG_LargeFermentingBarrel</defName>
+        <label>industrial fermenting barrel</label>
+    <description>a fermenting barrel of industrial size for making larger amount of different types of alcohols.</description>
+		<graphicData>
+			<texPath>Things/Building/FermentingBarrel/FermentingBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+      	<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<rotatable>true</rotatable>
+     		<size>(2,2)</size>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<costStuffCount>90</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Rare</tickerType>
+	    <statBases>
+      	<Cleanliness>-15</Cleanliness>
+		<WorkToBuild>1500</WorkToBuild>
+		<Mass>30</Mass>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+    	    </statBases>
+    <designationCategory>Production</designationCategory>
+    	<researchPrerequisites>
+		<li>VG_industrialfermenting</li>	</researchPrerequisites>
+  <comps>
+     	<li Class="CompProperties_Forbiddable"/>
+     	<li Class="Garden.CompProperties_UniversalFermenter">
+            <products>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>Wort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>150</maxCapacity>
+<baseFermentationDuration>225000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>cider</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_CiderMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>270000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>rum</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_CaneMash</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>360000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>strawberrywine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>CPD_WineMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>450000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>Wine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_GrapeMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>450000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>VG_AmbrosiaWine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_AmbrosiaMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>450000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>saki</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>CPD_RiceMash</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>315000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>CPD_VodkaPrecursor</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>RawPotatoes</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>270000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>tequila</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_AgaveMust</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>385000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>whisky</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>CPD_CornWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>315000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>BrownAle</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_BrownMalt</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>150</maxCapacity>
+<baseFermentationDuration>270000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>Fruitshine</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_FruitMash</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>315000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>KvassSoda</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_KvassSodaWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>225000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>FruitKvass</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_FruitKvassWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>225000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+                <li>
+                    <thingDef>VegetableKvass</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_VegKvassWort</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>120</maxCapacity>
+<baseFermentationDuration>225000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+
+            </products>
+		</li>
+       </comps>
+    </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AO_SunLamp.label>Lampe solaire (on)</AO_SunLamp.label>
+  <AO_SunLamp.description>Permet aux plantes de pousser grâce à la lumière intense. Toujours allumé.</AO_SunLamp.description>
+  <AO_SunLamp_Blueprint.label>Lampe solaire (on) (plan)</AO_SunLamp_Blueprint.label>
+  <AO_SunLamp_Frame.label>Lampe solaire (on) (construction)</AO_SunLamp_Frame.label>
+  <AO_SunLamp_Frame.description>Permet aux plantes de pousser grâce à la lumière intense. Toujours allumé.</AO_SunLamp_Frame.description>
+
+  <AO_SmallSunLamp.label>Petite Lampe solaire (on)</AO_SmallSunLamp.label>
+  <AO_SmallSunLamp.description>Permet aux plantes de pousser grâce à la lumière intense. Toujours allumé.</AO_SmallSunLamp.description>
+  <AO_SmallSunLamp_Blueprint.label>Petite Lampe solaire (on) (plan)</AO_SmallSunLamp_Blueprint.label>
+  <AO_SmallSunLamp_Frame.label>Petite Lampe solaire (on) (construction)</AO_SmallSunLamp_Frame.label>
+  <AO_SmallSunLamp_Frame.description>Permet aux plantes de pousser grâce à la lumière intense. Toujours allumé.</AO_SmallSunLamp_Frame.description>
+
+  <AO_MiniSunLamp.label>Mini Lampe solaire (on)</AO_MiniSunLamp.label>
+  <AO_MiniSunLamp.description>Permet aux plantes de pousser grâce à la lumière intense. Toujours allumé.</AO_MiniSunLamp.description>
+  <AO_MiniSunLamp_Blueprint.label>Mini Lampe solaire (on) (plan)</AO_MiniSunLamp_Blueprint.label>
+  <AO_MiniSunLamp_Frame.label>Mini Lampe solaire (on) (construction)</AO_MiniSunLamp_Frame.label>
+  <AO_MiniSunLamp_Frame.description>Permet aux plantes de pousser grâce à la lumière intense. Toujours allumé.</AO_MiniSunLamp_Frame.description>
+
+
+</LanguageData>

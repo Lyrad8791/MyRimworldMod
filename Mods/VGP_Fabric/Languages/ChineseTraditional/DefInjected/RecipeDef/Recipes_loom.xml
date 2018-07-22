@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCloth.label>紡織棉布</MakeCloth.label>
+  <MakeCloth.description>將棉花紡織成棉布。\n\n產出：20</MakeCloth.description>
+  <MakeCloth.jobString>正在紡織棉布。</MakeCloth.jobString>
+
+  <MakeLinen.label>紡織亞麻布</MakeLinen.label>
+  <MakeLinen.description>將亞麻織成亞麻布。\n\n產出：10</MakeLinen.description>
+  <MakeLinen.jobString>正在紡織亞麻布。</MakeLinen.jobString>
+
+  <MakeHempCloth.label>紡織大麻布</MakeHempCloth.label>
+  <MakeHempCloth.description>將大麻纖維紡織成大麻布。\n\n產出：10</MakeHempCloth.description>
+  <MakeHempCloth.jobString>正在紡織大麻布。</MakeHempCloth.jobString>
+
+  <MakePlasteelThread.label>紡織塑鋼絲</MakePlasteelThread.label>
+  <MakePlasteelThread.description>將塑鋼紡織成絲線，以用於製作高級的布料。 \n\n產出：25</MakePlasteelThread.description>
+  <MakePlasteelThread.jobString>正在紡織塑鋼絲。</MakePlasteelThread.jobString>
+
+  <MakeSynthreadCloth.label>製作合成纖維</MakeSynthreadCloth.label>
+  <MakeSynthreadCloth.description>以棉花和亞麻為原料製作合成纖維。\n\n產出：10</MakeSynthreadCloth.description>
+  <MakeSynthreadCloth.jobString>正在製作合成纖維。</MakeSynthreadCloth.jobString>
+
+  <MakeDevilstrand.label>紡織魔鬼布料</MakeDevilstrand.label>
+  <MakeDevilstrand.description>將惡魔菇製成魔鬼布料。\n\n產出：12</MakeDevilstrand.description>
+  <MakeDevilstrand.jobString>正在製作魔鬼布料。</MakeDevilstrand.jobString>
+
+  <MakeHyperweaveCloth.label>紡織超級布料</MakeHyperweaveCloth.label>
+  <MakeHyperweaveCloth.description>以棉花、亞麻和惡魔菇為原料製作超級布料。\n\n產出：15</MakeHyperweaveCloth.description>
+  <MakeHyperweaveCloth.jobString>正在製作超級布料。</MakeHyperweaveCloth.jobString>
+
+  <Makeblendedleather.label>鞣制混合皮（20）</Makeblendedleather.label>
+  <Makeblendedleather.description>將多種不同的小塊皮革拼合起來。\n\n產出：20。</Makeblendedleather.description>
+  <Makeblendedleather.jobString>正在鞣制混合皮。</Makeblendedleather.jobString>
+
+  <Makeblendedleatherhad.label>鞣制混合皮（5）</Makeblendedleatherhad.label>
+  <Makeblendedleatherhad.description>將多種不同的小塊皮革拼合起來。\n\n產出：5。</Makeblendedleatherhad.description>
+  <Makeblendedleatherhad.jobString>正在鞣制混合皮。</Makeblendedleatherhad.jobString>
+
+  <SalvageApparel.label>回收衣物</SalvageApparel.label>
+  <SalvageApparel.description>將不想要的衣物回收成原材料。</SalvageApparel.description>
+  <SalvageApparel.jobString>正在回收衣物。</SalvageApparel.jobString>
+
+
+</LanguageData>

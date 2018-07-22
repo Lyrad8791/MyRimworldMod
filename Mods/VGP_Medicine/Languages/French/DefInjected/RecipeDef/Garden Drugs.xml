@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Makeantibiotics.label>Antibiotiques</Makeantibiotics.label>
+  <Makeantibiotics.description>Une boisson faite de fruits et de médicaments pour aider au rétablissement d'une maladie.</Makeantibiotics.description>
+  <Makeantibiotics.jobString>Fabrique les antibiotiques.</Makeantibiotics.jobString>
+
+  <VG_Neutroamine.label>Neutroamine</VG_Neutroamine.label>
+  <VG_Neutroamine.description>Fabriquer de la neutroamine à partir des pétales de neutrofleur.</VG_Neutroamine.description>
+  <VG_Neutroamine.jobString>Fabrique de la neutroamine.</VG_Neutroamine.jobString>
+
+  <VG_BulkNeutroamine.label>Neutroamine (en masse)</VG_BulkNeutroamine.label>
+  <VG_BulkNeutroamine.description>Fabriquer en masse de la neutroamine à partir des pétales de neutrofleur.</VG_BulkNeutroamine.description>
+  <VG_BulkNeutroamine.jobString>Fabrique de la neutroamine.</VG_BulkNeutroamine.jobString>
+
+  <VG_BulkFluEz.label>Flu Ez (x4)</VG_BulkFluEz.label>
+  <VG_BulkFluEz.description>Fabriquer quatre Flu Ez avec de la neutroamine.</VG_BulkFluEz.description>
+  <VG_BulkFluEz.jobString>Fabrique du Flu Ez.</VG_BulkFluEz.jobString>
+
+  <VG_BulkIbuprofen.label>Ibuprofène (x4)</VG_BulkIbuprofen.label>
+  <VG_BulkIbuprofen.description>Fabriquer quatre Ibuprofène avec de la neutroamine.</VG_BulkIbuprofen.description>
+  <VG_BulkIbuprofen.jobString>Fabrique de l'Ibuprofène.</VG_BulkIbuprofen.jobString>
+
+  <VG_Bulkantibiotics.label>Antibiotiques (x4)</VG_Bulkantibiotics.label>
+  <VG_Bulkantibiotics.description>MFabriquer quatre antibiotiques avec de la neutroamine et des fruits.</VG_Bulkantibiotics.description>
+  <VG_Bulkantibiotics.jobString>Fabrique des antibiotiques.</VG_Bulkantibiotics.jobString>
+
+  <VG_BulkMedicine.label>Médicament (x4)</VG_BulkMedicine.label>
+  <VG_BulkMedicine.description>Fabriquer des médicaments en masse, donne quatre médicaments.</VG_BulkMedicine.description>
+  <VG_BulkMedicine.jobString>Fabrique des médicaments.</VG_BulkMedicine.jobString>
+
+  <MakeGlitterMedicine.label>Médicament avancé</MakeGlitterMedicine.label>
+  <MakeGlitterMedicine.description>Combiner de la neutroamine, de l'ambroisie et des médicaments pour obtenir un médicament avancé.</MakeGlitterMedicine.description>
+  <MakeGlitterMedicine.jobString>Fabrique le médicament avancé.</MakeGlitterMedicine.jobString>
+
+  <Make_Bandagekit.label>Kit de bandage (x4)</Make_Bandagekit.label>
+  <Make_Bandagekit.description>Fabriquer des kits de bandage à partir de tissu. \n\nDonne 4 kits de bandage.</Make_Bandagekit.description>
+  <Make_Bandagekit.jobString>Fabrique des bandages.</Make_Bandagekit.jobString>
+
+  <MakeBulkBandagekit.label>Kit de bandage (x10)</MakeBulkBandagekit.label>
+  <MakeBulkBandagekit.description>Fabriquer en masse des kits de bandage à partir de tissu. \n\nDonne 10 kits de bandage.</MakeBulkBandagekit.description>
+  <MakeBulkBandagekit.jobString>Fabrique des bandages.</MakeBulkBandagekit.jobString>
+
+  <VG_BulkPenoxycyline.label>Penoxycyline (x5)</VG_BulkPenoxycyline.label>
+  <VG_BulkPenoxycyline.description>Fabriquer en masse de la penoxycyline.</VG_BulkPenoxycyline.description>
+  <VG_BulkPenoxycyline.jobString>Fabrique de la penoxycyline.</VG_BulkPenoxycyline.jobString>
+
+  <VG_BulkGoJuice.label>Go-Juice (x5)</VG_BulkGoJuice.label>
+  <VG_BulkGoJuice.description>Fabriquer en masse du go-juice.</VG_BulkGoJuice.description>
+  <VG_BulkGoJuice.jobString>Fabrique du go-juice.</VG_BulkGoJuice.jobString>
+
+  <VG_BulkFlake.label>Flake (x5)</VG_BulkFlake.label>
+  <VG_BulkFlake.description>Fabriquer en masse du flake.</VG_BulkFlake.description>
+  <VG_BulkFlake.jobString>Fabrique du flake.</VG_BulkFlake.jobString>
+
+  <VG_BulkYayo.label>Yayo (x5)</VG_BulkYayo.label>
+  <VG_BulkYayo.description>Fabriquer en masse du yayo.</VG_BulkYayo.description>
+  <VG_BulkYayo.jobString>Fabrique du yayo.</VG_BulkYayo.jobString>
+
+  <VG_BulkWakeUp.label>Wake-Up (x5)</VG_BulkWakeUp.label>
+  <VG_BulkWakeUp.description>Fabriquer en masse du wake-up.</VG_BulkWakeUp.description>
+  <VG_BulkWakeUp.jobString>Fabrique du wake-up.</VG_BulkWakeUp.jobString>
+
+  <VG_BulkSmokeleafJoint.label>Joint (x5)</VG_BulkSmokeleafJoint.label>
+  <VG_BulkSmokeleafJoint.description>Fabriquer en masse des joints.</VG_BulkSmokeleafJoint.description>
+  <VG_BulkSmokeleafJoint.jobString>Fabrique des joints.</VG_BulkSmokeleafJoint.jobString>
+
+
+</LanguageData>

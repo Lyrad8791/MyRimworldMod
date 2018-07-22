@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Raweggplant.label>Aubergine</Raweggplant.label>
+  <Raweggplant.description>Variété pourpre de l'aubergine. Amer quand elle est mangée cru.</Raweggplant.description>
+
+  <Rawpumpkin.label>Citrouille</Rawpumpkin.label>
+  <Rawpumpkin.description>Variété grande et orange de la famille des courges. Souvent sculpté pour éloigner les fantômes.</Rawpumpkin.description>
+
+  <Rawsquash.label>Courge</Rawsquash.label>
+  <Rawsquash.description>Variété jaune de la famille des courges.</Rawsquash.description>
+
+  <RawTomatoes.label>Tomate</RawTomatoes.label>
+  <RawTomatoes.description>Un fruit au goût prononcé qui a de nombreux usages.</RawTomatoes.description>
+
+  <RawCarrots.label>Carotte</RawCarrots.label>
+  <RawCarrots.description>Légume croquant au goût rafraîchissant. Peut vous aider à voir dans l'obscurité.</RawCarrots.description>
+
+
+</LanguageData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+
+  <ThingDef ParentName="VG_RawDrugsBase">
+    <defName>NeutroPetals</defName>
+    <label>Neutro Flower Petals</label>
+    <description>Beautiful Yellow-Orange Petals from the Neutro Flower. Used to make Neutroamine, a medicine base.</description>
+    <graphicData>
+      <texPath>Things/Item/NeutroPetals</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_ResourceBase">
+    <defName>Bandagekit</defName>
+    <label>Bandage Kit</label>
+    <description>A pack of bandages made from cloth. Less potent than medical kits.</description>
+    <thingClass>Medicine</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Bandagekit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>6</MarketValue>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>0.35</MedicalPotency>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Mass>0.02</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Medicine</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+
+
+
+  </Defs>

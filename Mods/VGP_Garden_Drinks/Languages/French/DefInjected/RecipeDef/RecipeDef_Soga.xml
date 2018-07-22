@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BrewAppleSoda.label>Jus de pomme</BrewAppleSoda.label>
+  <BrewAppleSoda.description>Mélanger les pommes et le sirop pour obtenir un jus de pomme.</BrewAppleSoda.description>
+  <BrewAppleSoda.jobString>Prépare un jus de pomme</BrewAppleSoda.jobString>
+
+  <BrewBananaSoda.label>Jus de banane</BrewBananaSoda.label>
+  <BrewBananaSoda.description>Mélanger les bananes et le sirop pour obtenir un jus de banane.</BrewBananaSoda.description>
+  <BrewBananaSoda.jobString>Prépare un jus de banane</BrewBananaSoda.jobString>
+
+  <BrewGrapeSoda.label>Jus de raisin</BrewGrapeSoda.label>
+  <BrewGrapeSoda.description>Mélanger les raisins et le sirop pour obtenir un jus de raisin.</BrewGrapeSoda.description>
+  <BrewGrapeSoda.jobString>Prépare un jus de raisin</BrewGrapeSoda.jobString>
+
+  <BrewOrangeSoda.label>Jus d'orange</BrewOrangeSoda.label>
+  <BrewOrangeSoda.description>Mélanger les oranges et le sirop pour obtenir un jus d'orange.</BrewOrangeSoda.description>
+  <BrewOrangeSoda.jobString>Prépare un jus d'orange</BrewOrangeSoda.jobString>
+
+  <BrewPeachSoda.label>Jus de pêche</BrewPeachSoda.label>
+  <BrewPeachSoda.description>Mélanger les pêches et le sirop pour obtenir un jus de pêche.</BrewPeachSoda.description>
+  <BrewPeachSoda.jobString>Prépare un jus de pêche</BrewPeachSoda.jobString>
+
+  <BrewPineappleSoda.label>Jus d'ananas</BrewPineappleSoda.label>
+  <BrewPineappleSoda.description>Mélanger les ananas et le sirop pour obtenir un jus d'ananas.</BrewPineappleSoda.description>
+  <BrewPineappleSoda.jobString>Prépare un jus d'ananas</BrewPineappleSoda.jobString>
+
+  <BrewBlueberrySoda.label>Jus de myrtille</BrewBlueberrySoda.label>
+  <BrewBlueberrySoda.description>Mélanger les myrtilles et le sirop pour obtenir un jus de myrtille.</BrewBlueberrySoda.description>
+  <BrewBlueberrySoda.jobString>Prépare un jus de myrtille</BrewBlueberrySoda.jobString>
+
+  <BrewWatermelonSoda.label>Jus de pastèque</BrewWatermelonSoda.label>
+  <BrewWatermelonSoda.description>Mélanger les pastèques et le sirop pour obtenir un jus de pastéque.</BrewWatermelonSoda.description>
+  <BrewWatermelonSoda.jobString>Prépare un jus de pastèque</BrewWatermelonSoda.jobString>
+
+  <BrewCloudberrySoda.label>Jus de plaquebière</BrewCloudberrySoda.label>
+  <BrewCloudberrySoda.description>Mélanger les plaquebières et le sirop pour obtenir un jus de plaquebière.</BrewCloudberrySoda.description>
+  <BrewCloudberrySoda.jobString>Prépare un jus de plaquebière</BrewCloudberrySoda.jobString>
+
+  <BrewGooseberrySoda.label>Jus de groseille</BrewGooseberrySoda.label>
+  <BrewGooseberrySoda.description>Mélanger les groseilles et le sirop pour obtenir un jus de groseille.</BrewGooseberrySoda.description>
+  <BrewGooseberrySoda.jobString>Prépare un jus de groseille</BrewGooseberrySoda.jobString>
+
+  <BrewDateSoda.label>Jus de datte</BrewDateSoda.label>
+  <BrewDateSoda.description>Mélanger les dattes et le sirop pour obtenir un jus de datte.</BrewDateSoda.description>
+  <BrewDateSoda.jobString>Prépare jus de datte</BrewDateSoda.jobString>
+
+  <BrewFigSoda.label>Jus de figue</BrewFigSoda.label>
+  <BrewFigSoda.description>Mélanger les figues et le sirop pour obtenir un jus de figue.</BrewFigSoda.description>
+  <BrewFigSoda.jobString>Prépare un jus de figue</BrewFigSoda.jobString>
+
+  <BrewCherrySoda.label>Jus de cerise</BrewCherrySoda.label>
+  <BrewCherrySoda.description>Mélanger les cerises et le sirop pour obtenir un jus de cerise.</BrewCherrySoda.description>
+  <BrewCherrySoda.jobString>Prépare un jus de cerise</BrewCherrySoda.jobString>
+
+  <BrewCoconutSoda.label>Jus de noix de coco</BrewCoconutSoda.label>
+  <BrewCoconutSoda.description>Mélanger les noix de coco et le sirop pour obtenir un jus de noix de coco.</BrewCoconutSoda.description>
+  <BrewCoconutSoda.jobString>Prépare un jus de noix de coco</BrewCoconutSoda.jobString>
+
+  <BrewSimpleSyrupVG.label>Sirop (VG fruit)</BrewSimpleSyrupVG.label>
+  <BrewSimpleSyrupVG.description>Préparer du sirop en réduisant les fruits riches en sucre (VG mod).</BrewSimpleSyrupVG.description>
+  <BrewSimpleSyrupVG.jobString>Prépare du sirop</BrewSimpleSyrupVG.jobString>
+
+  <BulkBrewSimpleSyrupVG.label>Sirop (x8) (VG fruit)</BulkBrewSimpleSyrupVG.label>
+  <BulkBrewSimpleSyrupVG.description>Préparer plusieurs sirops en réduisant les fruits riches en sucre (VG mod). \n\nFabrique 8 sirops. </BulkBrewSimpleSyrupVG.description>
+  <BulkBrewSimpleSyrupVG.jobString>Prépare des sirops</BulkBrewSimpleSyrupVG.jobString>
+
+
+</LanguageData>

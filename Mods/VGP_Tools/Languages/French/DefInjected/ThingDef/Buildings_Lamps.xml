@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <SunLamp.label>sun lamp</SunLamp.label>-->
+  <!--[Core] <SunLamp.description>Lights an area brightly enough to grow crops, but consumes a huge amount of power. Automatically turns itself off at night.</SunLamp.description>-->
+  <!--[Core] <SunLamp.comps.3.offMessage>Off for plant resting period</SunLamp.comps.3.offMessage>-->
+  <!--[Core] <SunLamp_Blueprint.label>sun lamp (blueprint)</SunLamp_Blueprint.label>-->
+  <!--[Core] <SunLamp_Frame.label>sun lamp (building)</SunLamp_Frame.label>-->
+  <!--[Core] <SunLamp_Frame.description>Lights an area brightly enough to grow crops, but consumes a huge amount of power. Automatically turns itself off at night.</SunLamp_Frame.description>-->
+
+  <SmallSunLamp.label>Petite Lampe solaire</SmallSunLamp.label>
+  <SmallSunLamp.description>Permet aux plantes de pousser grâce à une lumière intense.</SmallSunLamp.description>
+  <SmallSunLamp.comps.3.offMessage>Eteint pendant la période de repos des plantes.</SmallSunLamp.comps.3.offMessage>
+  <SmallSunLamp_Blueprint.label>Petite Lampe solaire (plan)</SmallSunLamp_Blueprint.label>
+  <SmallSunLamp_Frame.label>Petite Lampe solaire (construction)</SmallSunLamp_Frame.label>
+  <SmallSunLamp_Frame.description>Permet aux plantes de pousser grâce à une lumière intense.</SmallSunLamp_Frame.description>
+
+  <MiniSunLamp.label>Mini Lampe solaire</MiniSunLamp.label>
+  <MiniSunLamp.description>Permet aux plantes de pousser grâce à une lumière intense.</MiniSunLamp.description>
+  <MiniSunLamp.comps.3.offMessage>Eteint pendant la période de repos des plantes.</MiniSunLamp.comps.3.offMessage>
+  <MiniSunLamp_Blueprint.label>Mini Lampe solaire (plan)</MiniSunLamp_Blueprint.label>
+  <MiniSunLamp_Frame.label>Mini Lampe solaire (construction)</MiniSunLamp_Frame.label>
+  <MiniSunLamp_Frame.description>Permet aux plantes de pousser grâce à une lumière intense.</MiniSunLamp_Frame.description>
+
+  <VG_DiggingSpot.label>Mine de Terre</VG_DiggingSpot.label>
+  <VG_DiggingSpot.description>Placer un endroit pour extraire de la terre.</VG_DiggingSpot.description>
+  <VG_DiggingSpot_Blueprint.label>Mine de Terre (plan)</VG_DiggingSpot_Blueprint.label>
+  <VG_DiggingSpot_Frame.label>Mine de Terre (construction)</VG_DiggingSpot_Frame.label>Placer un endroit pour extraire de la terre.</VG_DiggingSpot_Frame.description>
+
+
+</LanguageData>

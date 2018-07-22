@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <SoilReclam.label>Terraformer le Sol I</SoilReclam.label>
+  <SoilReclam.description>Recherche des méthodes pour terraformer le sol en terre cultivable. \n\nDébloque le remplacement de pierre lisse et autres sols finis par un sol cultivable. \n\nDébloque le sol en terre et le jardin.</SoilReclam.description>
+
+  <SoilReclamII.label>Terraformer le Sol  II</SoilReclamII.label>
+  <SoilReclamII.description>Recherche des méthodes pour terraformer le sable, les sols marécageux, la boue, les marais, la glace et le gravier en sols cultivables. \n\nDébloque Labourer, qui augmente considérablement la croissance des cultures. \n\nDébloque dans le menus jardin Labourer afin de terraformer n’importe quel type de sol.</SoilReclamII.description>
+
+  <AdvancedHydroponics.label>Culture hydroponique avancée</AdvancedHydroponics.label>
+  <AdvancedHydroponics.description>Vous permet de construire des bassins hydroponiques avancées pour cultiver rapidement à l'intérieur, quel que soit le terrain ou les conditions météorologiques à l'extérieur. Les bassins coûtent cher et nécessitent de l'énergie mais elles produisent leur propre lumière. Les cultures poussent à un rythme plus rapide.</AdvancedHydroponics.description>
+
+  <HeatedSunlamps.label>Lampes solaires chauffantes</HeatedSunlamps.label>
+  <HeatedSunlamps.description>Vous permet de construire des lampes solaires avancées qui fournissent de la lumière et du chauffage pour cultiver.</HeatedSunlamps.description>
+
+
+</LanguageData>

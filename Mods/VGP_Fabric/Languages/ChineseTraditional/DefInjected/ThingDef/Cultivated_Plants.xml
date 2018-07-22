@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <PlantCotton.label>棉花</PlantCotton.label>-->
+  <!--[Core] <PlantCotton.description>長成棉花，用於製作布料。</PlantCotton.description>-->
+
+  <!--[Core] <PlantDevilstrand.label>魔鬼菇</PlantDevilstrand.label>-->
+  <!--[Core] <PlantDevilstrand.description>這種脆弱的蘑菇經過基因改造，能夠生產最頂級的織物纖維。魔鬼菇所具備的神秘特性傳聞已久，因為它的名字，激發出人們的貪婪欲望。</PlantDevilstrand.description>-->
+
+  <PlantFlax.label>亞麻花</PlantFlax.label>
+  <PlantFlax.description>這種花的纖維可以被編織成亞麻布。</PlantFlax.description>
+
+
+</LanguageData>

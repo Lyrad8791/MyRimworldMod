@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_Compost.label>堆肥活化劑</VG_Compost.label>
+  <VG_Compost.description>堆肥活化劑用於製造肥料，能增強土壤和加快植物的生長速度。</VG_Compost.description>
+
+  <RawFertilizer.label>肥料</RawFertilizer.label>
+  <RawFertilizer.description>肥料能豐富土壤和加快植物生長速度。</RawFertilizer.description>
+
+  <VG_PileofDirt.label>土堆</VG_PileofDirt.label>
+  <VG_PileofDirt.description>從挖掘點挖掘出的土壤。用於製作肥料。</VG_PileofDirt.description>
+
+
+</LanguageData>

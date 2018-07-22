@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractRawSteelLeaf.label>提煉鋼鐵葉</ExtractRawSteelLeaf.label>
+  <ExtractRawSteelLeaf.description>用強熱和電磁鐵從鋼鐵葉中提煉鋼鐵。\n\n產出：4鋼鐵/16葉片</ExtractRawSteelLeaf.description>
+  <ExtractRawSteelLeaf.jobString>正在提煉鋼鐵葉。</ExtractRawSteelLeaf.jobString>
+
+  <ExtractRawPlasteelLeaf.label>提煉塑鋼葉</ExtractRawPlasteelLeaf.label>
+  <ExtractRawPlasteelLeaf.description>用強熱和電磁鐵從塑鋼葉中提煉塑鋼。\n\n產出：4塑鋼/16葉片</ExtractRawPlasteelLeaf.description>
+  <ExtractRawPlasteelLeaf.jobString>正在提煉塑鋼葉。</ExtractRawPlasteelLeaf.jobString>
+
+  <ExtractRawGoldLeaf.label>提煉黃金葉</ExtractRawGoldLeaf.label>
+  <ExtractRawGoldLeaf.description>用強熱和電磁鐵從黃金葉中提煉黃金。\n\n產出：4黃金/16葉片</ExtractRawGoldLeaf.description>
+  <ExtractRawGoldLeaf.jobString>正在提煉黃金葉。</ExtractRawGoldLeaf.jobString>
+
+  <ExtractRawJadeLeaf.label>提煉翡翠葉</ExtractRawJadeLeaf.label>
+  <ExtractRawJadeLeaf.description>用強熱和電磁鐵從翡翠葉中提煉翡翠。\n\n產出：4翡翠/16葉片</ExtractRawJadeLeaf.description>
+  <ExtractRawJadeLeaf.jobString>正在提煉翡翠葉。</ExtractRawJadeLeaf.jobString>
+
+  <ExtractRawSilverLeaf.label>提煉白銀葉</ExtractRawSilverLeaf.label>
+  <ExtractRawSilverLeaf.description>用強熱和電磁鐵從白銀葉中提煉白銀。\n\n產出：4白銀/16葉片</ExtractRawSilverLeaf.description>
+  <ExtractRawSilverLeaf.jobString>正在提煉白銀葉。</ExtractRawSilverLeaf.jobString>
+
+  <ExtractRawUraniumLeaf.label>提煉鈾葉</ExtractRawUraniumLeaf.label>
+  <ExtractRawUraniumLeaf.description>用強熱和電磁鐵從鈾葉中提煉鈾。\n\n產出：4鈾/16葉片</ExtractRawUraniumLeaf.description>
+  <ExtractRawUraniumLeaf.jobString>正在提煉鈾葉。</ExtractRawUraniumLeaf.jobString>
+
+  <ExtractBulkSteelLeaf.label>批量提煉鋼鐵葉</ExtractBulkSteelLeaf.label>
+  <ExtractBulkSteelLeaf.description>用強熱和電磁鐵從鋼鐵葉中提煉鋼鐵。\n\n產出：16鋼鐵/64葉片</ExtractBulkSteelLeaf.description>
+  <ExtractBulkSteelLeaf.jobString>正在批量提煉鋼鐵葉。</ExtractBulkSteelLeaf.jobString>
+
+  <ExtractBulkPlasteelLeaf.label>批量提煉塑鋼葉</ExtractBulkPlasteelLeaf.label>
+  <ExtractBulkPlasteelLeaf.description>用強熱和電磁鐵從塑鋼葉中提煉塑鋼。\n\n產出：16塑鋼/64葉片</ExtractBulkPlasteelLeaf.description>
+  <ExtractBulkPlasteelLeaf.jobString>正在批量提煉塑鋼葉。</ExtractBulkPlasteelLeaf.jobString>
+
+  <ExtractbulkGoldLeaf.label>批量提煉黃金葉</ExtractbulkGoldLeaf.label>
+  <ExtractbulkGoldLeaf.description>用強熱和電磁鐵從黃金葉中提煉黃金。\n\n產出：16黃金/64葉片</ExtractbulkGoldLeaf.description>
+  <ExtractbulkGoldLeaf.jobString>正在批量提煉黃金葉。</ExtractbulkGoldLeaf.jobString>
+
+  <ExtractBulkRawJadeLeaf.label>批量提煉翡翠葉</ExtractBulkRawJadeLeaf.label>
+  <ExtractBulkRawJadeLeaf.description>用強熱和電磁鐵從翡翠葉中提煉翡翠。\n\n產出：16翡翠/64葉片</ExtractBulkRawJadeLeaf.description>
+  <ExtractBulkRawJadeLeaf.jobString>正在提煉翡翠葉。</ExtractBulkRawJadeLeaf.jobString>
+
+  <ExtractBulkSilverLeaf.label>批量提煉白銀葉</ExtractBulkSilverLeaf.label>
+  <ExtractBulkSilverLeaf.description>用強熱和電磁鐵從白銀葉中提煉白銀。\n\n產出：16白銀/64葉片</ExtractBulkSilverLeaf.description>
+  <ExtractBulkSilverLeaf.jobString>正在批量提煉白銀葉。</ExtractBulkSilverLeaf.jobString>
+
+  <ExtractBulkUraniumLeaf.label>批量提煉鈾葉</ExtractBulkUraniumLeaf.label>
+  <ExtractBulkUraniumLeaf.description>用強熱和電磁鐵從鈾葉中提煉鈾。\n\n產出：16鈾/64葉片</ExtractBulkUraniumLeaf.description>
+  <ExtractBulkUraniumLeaf.jobString>正在批量提煉鈾葉。</ExtractBulkUraniumLeaf.jobString>
+
+
+</LanguageData>

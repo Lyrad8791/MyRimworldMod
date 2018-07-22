@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <FermentingBarrel.label>釀酒桶</FermentingBarrel.label>-->
+  <!--[Core] <FermentingBarrel.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel.description>-->
+  <!--[Core] <FermentingBarrel_Blueprint.label>釀酒桶藍圖</FermentingBarrel_Blueprint.label>-->
+  <!--[Core] <FermentingBarrel_Blueprint_Install.label>釀酒桶預定地</FermentingBarrel_Blueprint_Install.label>-->
+  <!--[Core] <FermentingBarrel_Frame.label>釀酒桶框架</FermentingBarrel_Frame.label>-->
+  <!--[Core] <FermentingBarrel_Frame.description>用來將麥汁發酵成啤酒的巨大容器。</FermentingBarrel_Frame.description>-->
+
+
+</LanguageData>

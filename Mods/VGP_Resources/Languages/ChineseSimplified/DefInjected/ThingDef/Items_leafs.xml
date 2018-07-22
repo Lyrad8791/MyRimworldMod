@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- bases -->
+
+  <RawSteelLeaf.label>钢铁叶</RawSteelLeaf.label>
+  <RawSteelLeaf.description>钢铁叶可以通过提炼得到钢铁。</RawSteelLeaf.description>
+
+  <RawPlasteelLeaf.label>玻璃钢叶</RawPlasteelLeaf.label>
+  <RawPlasteelLeaf.description>玻璃钢叶可以通过提炼得到玻璃钢。</RawPlasteelLeaf.description>
+
+  <RawGoldLeaf.label>黄金叶</RawGoldLeaf.label>
+  <RawGoldLeaf.description>黄金叶可以通过提炼得到黄金。</RawGoldLeaf.description>
+
+  <RawJadeLeaf.label>翡翠叶</RawJadeLeaf.label>
+  <RawJadeLeaf.description>翡翠叶可以通过提炼得到翡翠。</RawJadeLeaf.description>
+
+  <RawSilverLeaf.label>白银叶</RawSilverLeaf.label>
+  <RawSilverLeaf.description>白银叶可以通过提炼得到白银。</RawSilverLeaf.description>
+
+  <RawUraniumLeaf.label>铀叶</RawUraniumLeaf.label>
+  <RawUraniumLeaf.description>铀叶可以通过提炼得到铀。</RawUraniumLeaf.description>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <CookingI.label>Cuisine avancée</CookingI.label>
+  <CookingI.description>Recherche des systèmes d’équipements de cuisson avancées. \n\nDéverrouille la table à bonbon pour préparer des friandises et des friandises à base de lait.</CookingI.description>
+
+  <CanningMachine.label>Technologie de conserve</CanningMachine.label>
+  <CanningMachine.description>Recherche des systèmes de fabrication d’équipement pour conserver les aliments dans le métal. \n\Débloque l'usine de conserves et la capacité de mise en conserve de la nourriture et des repas.</CanningMachine.description>
+
+  <HandCanningMachine.label>Machine à conserve</HandCanningMachine.label>
+  <HandCanningMachine.description>Recherche des systèmes d’équipement pour conserver les aliments dans le métal. \n\nDébloque la machine à conserve et la capacité de mise en conserve de la nourriture et des repas.</HandCanningMachine.description>
+
+
+</LanguageData>

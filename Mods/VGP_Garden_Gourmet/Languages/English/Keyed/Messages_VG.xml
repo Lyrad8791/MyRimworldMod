@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Universal Fermenter -->
+  <GG_ContainsIngredient>Contains {0} / {1} {2}.</GG_ContainsIngredient>
+  <GG_ContainsProduct>Contains {0} / {1} {2}.</GG_ContainsProduct>
+  <GG_NoIngredient>need ingredients</GG_NoIngredient>
+  <GG_IdealSafeFermentingTemperature>Ideal (safe) fermenting temp</GG_IdealSafeFermentingTemperature>
+  <GG_Finished>Finished</GG_Finished>
+  <GG_Ideal>Ideal</GG_Ideal>
+  <GG_Safe>Safe</GG_Safe>
+
+</LanguageData>

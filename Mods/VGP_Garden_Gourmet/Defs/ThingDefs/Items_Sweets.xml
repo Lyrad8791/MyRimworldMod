@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+   
+	
+   
+   <ThingDef ParentName="VG_MealBase">
+      <defName>Caramel</defName>
+      <label>Caramel</label>
+      <description>A sweet candy made from sugar</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/caramel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>25</MarketValue>
+         <WorkToMake>450</WorkToMake>
+   	    <Mass>0.075</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.2</joy>
+     <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+   </ThingDef>
+
+<ThingDef ParentName="VG_MealBase">
+      <defName>Hardcandy</defName>
+      <label>Hardcandy</label>
+      <description>A hard candy made from sugar</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/hardcandy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>25</MarketValue>
+         <WorkToMake>450</WorkToMake>
+   	    <Mass>0.075</Mass>
+      </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.2</joy>
+     <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+   </ThingDef>
+
+<ThingDef ParentName="VG_MealBase">
+      <defName>Taffy</defName>
+      <label>Taffy</label>
+      <description>A chewy sweet candy</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/taffy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>25</MarketValue>
+         <WorkToMake>450</WorkToMake>
+   	    <Mass>0.075</Mass>
+     </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.2</joy>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+   </ThingDef>
+
+
+
+<ThingDef ParentName="VG_MealRottable">
+      <defName>Chocomilk</defName>
+      <label>chocolate milk</label>
+      <description>Chocolate added to milk.</description>
+      <graphicData>
+      <texPath>Things/Item/chocomilk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>15</MarketValue>
+      </statBases>
+      <ingestible>
+         <preferability>MealSimple</preferability>
+         <nutrition>0.4</nutrition>
+         <joy>0.3</joy>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
+      </ingestible>
+      <thingCategories>
+         <li>SweetMeals</li>
+      </thingCategories>
+   </ThingDef>
+
+
+</Defs>

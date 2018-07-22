@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- bases -->
+
+  <RawCotton.label>Fibre de coton</RawCotton.label>
+  <RawCotton.description>Fibre de coton. Il peut être tissé en tissu ou vendu à un commerçant.</RawCotton.description>
+
+  <RawFlax.label>Fibre de lin</RawFlax.label>
+  <RawFlax.description>Fibre de lin. Il peut être tissé en lin ou vendu à un commerçant.</RawFlax.description>
+
+  <RawDevilstrand.label>Fibre diabledeau</RawDevilstrand.label>
+  <RawDevilstrand.description>Fibre de diabledeau. Il peut être tissé en diablétoffe ou vendu à un commerçant.</RawDevilstrand.description>
+
+  <VG_PlasteelThread.label>Fils de plastacier</VG_PlasteelThread.label>
+  <VG_PlasteelThread.description>Tissage du fil de plastacier. Utilisé dans la fabrication de tissu avancé.</VG_PlasteelThread.description>
+
+  <HempCloth.label>Chanvre</HempCloth.label>
+  <HempCloth.description>Tissu fabriqué à partir du même ingrédient que les fumeurs de joints de smokeleaf, et qui ont décidé que c'était une bonne idée de porter ces vêtements.</HempCloth.description>
+  <HempCloth.stuffProps.stuffAdjective>chanvre</HempCloth.stuffProps.stuffAdjective>
+
+  <!--[Core] <Cloth.label>cloth</Cloth.label>-->
+  <!--[Core] <Cloth.description>Cloth woven from organic fibers.</Cloth.description>-->
+  <!--[Core] <Cloth.stuffProps.stuffAdjective>cloth</Cloth.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <Synthread.label>synthread</Synthread.label>-->
+  <!--[Core] <Synthread.description>Spacer-tech synthetic fabric designed for making ordinary clothes. It is soft, light, strong, and insulates well.</Synthread.description>-->
+  <!--[Core] <Synthread.stuffProps.stuffAdjective>synthread</Synthread.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <DevilstrandCloth.label>devilstrand</DevilstrandCloth.label>-->
+  <!--[Core] <DevilstrandCloth.description>Fabric spun from microfibers extracted from silk-producing Devilstrand mushrooms. Very tough, but insulates no better than cloth.</DevilstrandCloth.description>-->
+  <!--[Core] <DevilstrandCloth.stuffProps.stuffAdjective>devilstrand</DevilstrandCloth.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <Hyperweave.label>hyperweave</Hyperweave.label>-->
+  <!--[Core] <Hyperweave.description>High-tech nano-fibers woven into sheets. It is somewhat heavy, but is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures.</Hyperweave.description>-->
+  <!--[Core] <Hyperweave.stuffProps.stuffAdjective>hyperweave</Hyperweave.stuffProps.stuffAdjective>-->
+
+  <Flaxcloth.label>Etoffe de lin</Flaxcloth.label>
+  <Flaxcloth.description>Un tissu conçu pour faire des vêtements. C'est doux, léger et solide.</Flaxcloth.description>
+  <Flaxcloth.stuffProps.stuffAdjective>étoffe de lin</Flaxcloth.stuffProps.stuffAdjective>
+
+  <BleadedLeather.label>Cuir mélangé</BleadedLeather.label>
+  <BleadedLeather.description>Du cuir mélangé à partir de plusieurs petits morceaux de cuirs différents.</BleadedLeather.description>
+  <BleadedLeather.stuffProps.stuffAdjective>cuir mélangé</BleadedLeather.stuffProps.stuffAdjective>
+
+
+</LanguageData>

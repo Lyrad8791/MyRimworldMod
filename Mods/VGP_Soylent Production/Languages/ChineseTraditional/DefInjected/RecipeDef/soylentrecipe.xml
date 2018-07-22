@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SOYLENT GREEN -->
+
+  <makesoylentgreen.label>製作營養包(綠)</makesoylentgreen.label>
+  <makesoylentgreen.description>製作營養包(綠)。</makesoylentgreen.description>
+  <makesoylentgreen.jobString>正在製作營養包(綠)。</makesoylentgreen.jobString>
+
+
+  <!-- SOYLENT BLUE -->
+
+  <makesoylentblue.label>製作營養包(藍)</makesoylentblue.label>
+  <makesoylentblue.description>製作營養包(藍)。</makesoylentblue.description>
+  <makesoylentblue.jobString>正在製作營養包(藍)。</makesoylentblue.jobString>
+
+
+  <!-- SOYLENT PURPLE -->
+
+  <makesoylentpurple.label>製作營養包(紫)</makesoylentpurple.label>
+  <makesoylentpurple.description>製作營養包(紫)。</makesoylentpurple.description>
+  <makesoylentpurple.jobString>正在製作營養包(紫)。</makesoylentpurple.jobString>
+
+
+  <!-- SOYLENT RED -->
+
+  <makesoylentred.label>製作營養包(紅)</makesoylentred.label>
+  <makesoylentred.description>製作營養包(紅)。</makesoylentred.description>
+  <makesoylentred.jobString>正在製作營養包(紅)。</makesoylentred.jobString>
+
+
+  <!-- SOYLENT YELLOW -->
+
+  <makesoylentyellow.label>製作營養包(黃)</makesoylentyellow.label>
+  <makesoylentyellow.description>製作營養包(黃)。</makesoylentyellow.description>
+  <makesoylentyellow.jobString>正在製作營養包(黃)。</makesoylentyellow.jobString>
+
+
+  <!-- SOYLENT GREEN BULKPRODUCTION -->
+
+  <makesoylentgreen20times.label>製作營養包(綠)（20）</makesoylentgreen20times.label>
+  <makesoylentgreen20times.description>製作營養包(綠)。</makesoylentgreen20times.description>
+  <makesoylentgreen20times.jobString>正在製作營養包(綠)。</makesoylentgreen20times.jobString>
+
+
+  <!-- SOYLENT BLUE BULKPRODUCTION -->
+
+  <makesoylentblue20times.label>製作營養包(藍)（20）</makesoylentblue20times.label>
+  <makesoylentblue20times.description>製作營養包(藍)。</makesoylentblue20times.description>
+  <makesoylentblue20times.jobString>正在製作營養包(藍)。</makesoylentblue20times.jobString>
+
+
+  <!-- SOYLENT PURPLE BULKPRODUCTION -->
+
+  <makesoylentpurple20times.label>製作營養包(紫)（20）</makesoylentpurple20times.label>
+  <makesoylentpurple20times.description>製作營養包(紫)。</makesoylentpurple20times.description>
+  <makesoylentpurple20times.jobString>正在製作營養包(紫)。</makesoylentpurple20times.jobString>
+
+
+  <!-- SOYLENT RED BULKPRODUCTION -->
+
+  <makesoylentred20times.label>製作營養包(紅)（20）</makesoylentred20times.label>
+  <makesoylentred20times.description>製作營養包(紅)。</makesoylentred20times.description>
+  <makesoylentred20times.jobString>正在製作營養包(紅)。</makesoylentred20times.jobString>
+
+
+  <!-- SOYLENT YELLOW BULKPRODUCTION -->
+
+  <makesoylentyellow20times.label>製作營養包(黃)（20）</makesoylentyellow20times.label>
+  <makesoylentyellow20times.description>製作營養包(黃)。</makesoylentyellow20times.description>
+  <makesoylentyellow20times.jobString>正在製作營養包(黃)。</makesoylentyellow20times.jobString>
+
+  <MakeMealSurvivalSoylent.label>製作生存食品包</MakeMealSurvivalSoylent.label>
+  <MakeMealSurvivalSoylent.description>用營養包或乾肉餅烹調而成的生存食品包。絕大部分原料會被浪費掉。</MakeMealSurvivalSoylent.description>
+  <MakeMealSurvivalSoylent.jobString>正在製作生存食品包。</MakeMealSurvivalSoylent.jobString>
+
+
+</LanguageData>

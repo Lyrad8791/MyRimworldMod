@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Caramel.label>焦糖</Caramel.label>
+  <Caramel.description>一种由蔗糖制成的糖。</Caramel.description>
+
+  <Hardcandy.label>硬糖</Hardcandy.label>
+  <Hardcandy.description>一种由蔗糖制成的糖果。</Hardcandy.description>
+
+  <Taffy.label>太妃糖</Taffy.label>
+  <Taffy.description>一种耐嚼的糖果。</Taffy.description>
+
+  <Chocomilk.label>巧克力奶</Chocomilk.label>
+  <Chocomilk.description>融入巧克力的奶。</Chocomilk.description>
+
+
+</LanguageData>

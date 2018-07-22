@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--============================== Main Categories ==============================-->
+
+
+	<ResearchProjectDef>
+		<defName>VG_Ambrosia</defName>
+		<label>ambrosia</label>
+		<description>Researches the ability to grow ambrosia  in hydroponic basins.</description>
+		<tab>VG</tab>
+		<baseCost>1500</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Hydroponics</li>
+		</prerequisites>
+ 		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+ 	 </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>VG_GlitterMeds</defName>
+    <label>Glitterworld Medicine</label>
+    <description>Allows you to craft glitterworld medicine.</description>
+		<tab>VG</tab>
+    <baseCost>750</baseCost>
+    <techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MedicineProduction</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BulkMedicine</defName>
+    <label>Bulk Medicine</label>
+    <description>Allows you to craft larger numbers or medicines. Neutroamine, FluEz, Ibuprofen, Antibiotics, and Medicine Kits.</description>
+		<tab>VG</tab>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MedicineProduction</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BulkPekoeRefining</defName>
+    <label>Bulk Psychoid Pekoe</label>
+    <description>Learn to brew large amounts of psychoid leaves into psychoid pekoe, different forms of the euphoric drug psychite.</description>
+		<tab>VG</tab>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PsychiteRefining</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BulkPsychiteRefining</defName>
+    <label>Bulk Psychite Refining</label>
+    <description>Learn to refine large amounts of psychoid leaves into flake and yayo, different forms of the euphoric drug psychite.</description>
+		<tab>VG</tab>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PsychiteRefining</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  
+<ResearchProjectDef>
+    <defName>BulkWakeUpProduction</defName>
+    <label>Bulk WakeUp Production</label>
+    <description>Your chemists learn the formulas and techniques for synthesizing large amounts of wake-up, a work performance-enhancing drug.</description>
+		<tab>VG</tab>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>WakeUpProduction</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BulkGoJuiceProduction</defName>
+    <label>Bulk GoJuice Production</label>
+    <description>Learn to produce large amounts the synthetic combat-performance-enhancing drug go-juice.</description>
+		<tab>VG</tab>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>GoJuiceProduction</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BulkPenoxycylineProduction</defName>
+    <label>Bulk Penoxycyline Production</label>
+    <description>Learn to produce large amounts penoxycline, a disease prevention drug.</description>
+		<tab>VG</tab>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PenoxycylineProduction</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>

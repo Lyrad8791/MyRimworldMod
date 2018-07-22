@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<RecipeDef Name="SodaBase" Abstract="True">
+		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Brewery</li>
+		</recipeUsers>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef Name="SweetSodaBase" ParentName="SodaBase" Abstract="True">
+		<workAmount>1400</workAmount>
+		<targetCountAdjustment>6</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CPD_Syrup</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CPD_Syrup</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewAppleSoda</defName>
+				<label>brew apple soda</label>
+				<description>Brew apples and syrup into a sweet soda. </description>
+				<jobString>Brewing apple soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawapple</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawapple</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<AppleSoda>6</AppleSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewBananaSoda</defName>
+				<label>brew banana soda</label>
+				<description>Brew bananas and syrup into a sweet soda. </description>
+				<jobString>Brewing banana soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawbanana</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawbanana</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<BananaSoda>6</BananaSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewGrapeSoda</defName>
+				<label>brew grape soda</label>
+				<description>Brew grapes and syrup into a sweet soda. </description>
+				<jobString>Brewing grape soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawgrape</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawgrape</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<GrapeSoda>6</GrapeSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewOrangeSoda</defName>
+				<label>brew orange soda</label>
+				<description>Brew oranges and syrup into a sweet soda. </description>
+				<jobString>Brewing orange soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Raworange</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Raworange</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<OrangeSoda>6</OrangeSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewPeachSoda</defName>
+				<label>brew peach soda</label>
+				<description>Brew peaches and syrup into a sweet soda. </description>
+				<jobString>Brewing peach soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawpeach</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawpeach</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<PeachSoda>6</PeachSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewPineappleSoda</defName>
+				<label>brew pineapple soda</label>
+				<description>Brew pineapples and syrup into a sweet soda. </description>
+				<jobString>Brewing pineapple soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawpineapple</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawpineapple</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<PineappleSoda>6</PineappleSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewBlueberrySoda</defName>
+				<label>brew blueberry soda</label>
+				<description>Brew blueberries and syrup into a sweet soda. </description>
+				<jobString>Brewing blueberry soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawblueberry</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawblueberry</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<BlueberrySoda>6</BlueberrySoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewWatermelonSoda</defName>
+				<label>brew watermelon soda</label>
+				<description>Brew watermelons and syrup into a sweet soda. </description>
+				<jobString>Brewing watermelon soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawwatermelon</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawwatermelon</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<WatermelonSoda>6</WatermelonSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewCloudberrySoda</defName>
+				<label>brew cloudberry soda</label>
+				<description>Brew cloudberries and syrup into a sweet soda. </description>
+				<jobString>Brewing cloudberry soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawcloudberry</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawcloudberry</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<CloudberrySoda>6</CloudberrySoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewGooseberrySoda</defName>
+				<label>brew gooseberry soda</label>
+				<description>Brew gooseberries and syrup into a sweet soda. </description>
+				<jobString>Brewing gooseberry soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawgooseberry</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawgooseberry</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<GooseberrySoda>6</GooseberrySoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewDateSoda</defName>
+				<label>brew date soda</label>
+				<description>Brew dates and syrup into a sweet soda. </description>
+				<jobString>Brewing date soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawdate</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawdate</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<DateSoda>6</DateSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewFigSoda</defName>
+				<label>brew fig soda</label>
+				<description>Brew figs and syrup into a sweet soda. </description>
+				<jobString>Brewing fig soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawfig</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawfig</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<FigSoda>6</FigSoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewCherrySoda</defName>
+				<label>brew Cherry soda</label>
+				<description>Brew cherries and syrup into a sweet soda. </description>
+				<jobString>Brewing cherry soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>RawCherry</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>RawCherry</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<CherrySoda>6</CherrySoda>
+				</products>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewMysterySoda</defName>
+				<label>brew mystery soda</label>
+				<description>Brew fruits and syrup into a sweet soda. </description>
+				<jobString>Brewing mystery soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<categories>
+								<li>FruitFoodRaw</li>
+							</categories>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</fixedIngredientFilter>
+				<products>
+					<MysterySoda>6</MysterySoda>
+				</products>
+			</RecipeDef>
+
+
+			<RecipeDef ParentName="SweetSodaBase">
+				<defName>BrewCoconutSoda</defName>
+				<label>brew coconut soda</label>
+				<description>Brew coconuts and syrup into a sweet soda. </description>
+				<jobString>Brewing coconut soda</jobString>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>RawCoconut</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>RawCoconut</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+				<products>
+					<CoconutSoda>6</CoconutSoda>
+				</products>
+			</RecipeDef>
+
+
+
+			<RecipeDef Name="SyrupBaseVDA" Abstract="True">
+				<jobString>Brewing simple syrup</jobString>
+				<workSpeedStat>BrewingSpeed</workSpeedStat>
+				<workAmount>500</workAmount>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_Brewing</soundWorking>
+				<allowMixingIngredients>true</allowMixingIngredients>
+				<products>
+					<CPD_Syrup>1</CPD_Syrup>
+				</products>
+				<workSkill>Cooking</workSkill>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SyrupBaseVDA">
+				<defName>BrewSimpleSyrupVG</defName>
+				<label>brew simple syrup (VG fruit)</label>
+				<description>Brew syrup by reducing high-sugar fruits from the Vegetable Garden mod. </description>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Rawsugarcane</li>
+							</thingDefs>
+							<categories>
+								<li>FruitFoodRaw</li>
+							</categories>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawsugarcane</li>
+					</thingDefs>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+					<disallowedSpecialFilters>
+						<li>AllowRotten</li>
+					</disallowedSpecialFilters>
+				</fixedIngredientFilter>
+				<recipeUsers>
+					<li>Brewery</li>
+				</recipeUsers>
+			</RecipeDef>
+
+			<RecipeDef ParentName="SyrupBaseVDA">
+				<defName>BulkBrewSimpleSyrupVG</defName>
+				<label>Bulk brew simple syrup (8) (VG fruit)</label>
+				<description>Bulk Brew syrup by reducing high-sugar fruits from the Vegetable Garden mod. Makes 8. </description>
+				<targetCountAdjustment>8</targetCountAdjustment>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+							<li>Rawsugarcane</li>
+							</thingDefs>
+							<categories>
+								<li>FruitFoodRaw</li>
+							</categories>
+						</filter>
+						<count>80</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Rawsugarcane</li>
+					</thingDefs>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+					<disallowedSpecialFilters>
+						<li>AllowRotten</li>
+					</disallowedSpecialFilters>
+				</fixedIngredientFilter>
+				<recipeUsers>
+					<li>Brewery</li>
+				</recipeUsers>
+				<workAmount>2000</workAmount>
+				<products>
+					<CPD_Syrup>8</CPD_Syrup>
+				</products>
+			</RecipeDef>
+
+</Defs>

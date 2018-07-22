@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+  <RecipeDef>
+		<defName>CookMakiVegRoll</defName>
+		<label>prepare four maki vegetarian roll</label>
+		<description>Cooks a somewhat complex meal from a combination of rice and raw plant ingredients. \n\nMakes 4 rolls. Is a fine meal.</description>
+		<jobString>Cooking fine meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+ 		<allowMixingIngredients>true</allowMixingIngredients>
+   <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+		<li>
+			<filter>
+         			<thingDefs>
+            			<li>RawRice</li>
+          			</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+         			<thingDefs>
+            			<li>Rawsnowbeet</li>
+            			<li>Rawbean</li>
+            			<li>Rawmushroom</li>
+            			<li>Rawtofu</li>
+            			<li>PickledVeg</li>
+            			<li>RawAgave</li>
+            			<li>RawCoconut</li>
+          			</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		</ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>RawRice</li>
+            <li>Rawsnowbeet</li>
+            <li>Rawbean</li>
+            <li>Rawtofu</li>
+            <li>Rawmushroom</li>
+            <li>PickledVeg</li>
+            <li>RawAgave</li>
+            <li>RawCoconut</li>
+          </thingDefs>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+      </fixedIngredientFilter>
+    <defaultIngredientFilter>
+         <thingDefs>
+            <li>RawRice</li>
+            <li>Rawsnowbeet</li>
+            <li>Rawbean</li>
+            <li>Rawtofu</li>
+            <li>Rawmushroom</li>
+            <li>PickledVeg</li>
+            <li>RawAgave</li>
+            <li>RawCoconut</li>
+         </thingDefs>
+    </defaultIngredientFilter>
+		 <products>
+    			  <MakiVegRoll>4</MakiVegRoll>
+   		 </products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+  </RecipeDef>
+
+
+</Defs>

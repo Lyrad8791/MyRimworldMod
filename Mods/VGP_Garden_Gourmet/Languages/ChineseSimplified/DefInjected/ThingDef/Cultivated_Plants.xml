@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Plantwheat.label>小麦</Plantwheat.label>
+  <Plantwheat.description>小麦是一种谷物，收获后能制成面粉。</Plantwheat.description>
+
+  <Plantcocoa.label>可可树</Plantcocoa.label>
+  <Plantcocoa.description>可可豆能经过发酵、烘焙、研磨，最后加工成巧克力。</Plantcocoa.description>
+
+  <Plantsugarcane.label>甘蔗</Plantsugarcane.label>
+  <Plantsugarcane.description>甘蔗用于提炼蔗糖。</Plantsugarcane.description>
+
+
+</LanguageData>

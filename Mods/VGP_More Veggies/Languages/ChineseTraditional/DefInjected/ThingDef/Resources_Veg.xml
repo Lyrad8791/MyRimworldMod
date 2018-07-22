@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Raweggplant.label>茄子</Raweggplant.label>
+  <Raweggplant.description>紫色的茄子。生吃時有澀味、而且辣嘴。</Raweggplant.description>
+
+  <Rawpumpkin.label>南瓜</Rawpumpkin.label>
+  <Rawpumpkin.description>南瓜家族中的橙色大個子。萬聖節上常用來雕成南瓜頭。</Rawpumpkin.description>
+
+  <Rawsquash.label>西葫蘆</Rawsquash.label>
+  <Rawsquash.description>葫蘆科南瓜屬中的黃色品種。</Rawsquash.description>
+
+  <RawTomatoes.label>番茄</RawTomatoes.label>
+  <RawTomatoes.description>一種口感鮮嫩多汁的水果，用途非常廣。</RawTomatoes.description>
+
+  <RawCarrots.label>胡蘿蔔</RawCarrots.label>
+  <RawCarrots.description>一種爽口鮮脆的蔬菜。可以治療夜盲症。</RawCarrots.description>
+
+
+</LanguageData>

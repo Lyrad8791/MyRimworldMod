@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationAdd">
+<order>Append</order>
+  <xpath>Defs/ThingDef[defName = "FueledStove"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs |
+         Defs/ThingDef[defName = "WoodFiredGenerator"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs |
+		 Defs/ThingDef[defName = "FueledSmithy"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs</xpath>
+  <value>
+		 <li>Bamboo</li>
+  		 <li>VG_Biofuel</li>
+  </value>
+</Operation>
+
+
+<Operation Class="PatchOperationAdd">
+<order>Append</order>
+  <xpath>Defs/ThingDef[defName = "Campfire"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs</xpath>
+  <value>
+		 <li>Bamboo</li>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Stuffed Workbenches</modName>
+			<yourMod>VGP Vegetable Garden</yourMod>		
+      <success>Invert</success>
+	</li>
+		<li Class="ModCheck.isModLoaded">
+			<modName>DeCore B18</modName>
+			<yourMod>VGP Vegetable Garden</yourMod>		
+      <success>Invert</success>
+	</li>
+    <li Class="PatchOperationRemove">
+ <xpath>Defs/ThingDef[defName = "PassiveCooler"]/constructEffect</xpath>
+	</li>
+    <li Class="PatchOperationRemove">
+ <xpath>Defs/ThingDef[defName = "PassiveCooler"]/costList</xpath>
+	</li>
+    <li Class="PatchOperationAdd">
+ <xpath>Defs/ThingDef[defName = "PassiveCooler"]</xpath>
+    <value>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    </value>
+	</li>
+  </operations>
+</Operation>
+
+
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+	<li Class="PatchOperationTest">
+<xpath>Defs/ThingDef[defName = "TableButcher"]/costList</xpath>
+	</li>	
+	<li Class="PatchOperationRemove">
+ <xpath>Defs/ThingDef[defName = "TableButcher"]/costList</xpath>
+	</li>
+	</operations>
+  </Operation>
+
+</Patch>
+

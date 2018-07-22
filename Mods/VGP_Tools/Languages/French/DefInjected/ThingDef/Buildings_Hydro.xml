@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Planterbox.label>Jardinière</Planterbox.label>
+  <Planterbox.description>Boîte brute remplie de terre, qui vous permet de cultiver n'importe où. La fertilité est réduite à 60%. Ne nécessite pas d'électricité.</Planterbox.description>
+  <Planterbox_Blueprint.label>Jardinière (plan)</Planterbox_Blueprint.label>
+  <Planterbox_Frame.label>Jardinière (construction)</Planterbox_Frame.label>
+  <Planterbox_Frame.description>Boîte brute remplie de terre, qui vous permet de cultiver n'importe où. La fertilité est réduite à 60%. Ne nécessite pas d'électricité.</Planterbox_Frame.description>
+
+  <ModularPlanterbox.label>Jardinière modulaire</ModularPlanterbox.label>
+  <ModularPlanterbox.description>Boîte brute remplie de terre, qui vous permet de cultiver n'importe où. La fertilité est réduite à 60%. Ne nécessite pas d'électricité. La jardinière modulaire 1x1 vous permet de les interconnecter pour personnaliser leur taille.</ModularPlanterbox.description>
+  <ModularPlanterbox_Blueprint.label>Jardinière modulaire (plan)</ModularPlanterbox_Blueprint.label>
+  <ModularPlanterbox_Frame.label>Jardinière modulaire (construction)</ModularPlanterbox_Frame.label>
+  <ModularPlanterbox_Frame.description>Boîte brute remplie de terre, qui vous permet de cultiver n'importe où. La fertilité est réduite à 60%. Ne nécessite pas d'électricité. La jardinière modulaire 1x1 vous permet de les interconnecter pour personnaliser leur taille.</ModularPlanterbox_Frame.description>
+
+  <ModularFlowerbox.label>Bac à fleurs modulaire</ModularFlowerbox.label>
+  <ModularFlowerbox.description>Bac à fleur remplie de terre. Le bac à fleurs modulaire 1x1 vous permet de les interconnecter pour personnaliser leur taille.</ModularFlowerbox.description>
+  <ModularFlowerbox_Blueprint.label>Bac à fleurs modulaire (plan)</ModularFlowerbox_Blueprint.label>
+  <ModularFlowerbox_Frame.label>Bac à fleurs modulaire (construction)</ModularFlowerbox_Frame.label>
+  <ModularFlowerbox_Frame.description>Bac à fleur remplie de terre. Le bac à fleurs modulaire 1x1 vous permet de les interconnecter pour personnaliser leur taille.</ModularFlowerbox_Frame.description>
+
+  <!--[Core] <HydroponicsBasin.label>hydroponics basin</HydroponicsBasin.label>-->
+  <!--[Core] <HydroponicsBasin.description>Grows plants quickly in an artificial nutrient bath. Requires power to work; plants will die if power is cut.</HydroponicsBasin.description>-->
+  <!--[Core] <HydroponicsBasin_Blueprint.label>hydroponics basin (blueprint)</HydroponicsBasin_Blueprint.label>-->
+  <!--[Core] <HydroponicsBasin_Frame.label>hydroponics basin (building)</HydroponicsBasin_Frame.label>-->
+  <!--[Core] <HydroponicsBasin_Frame.description>Grows plants quickly in an artificial nutrient bath. Requires power to work; plants will die if power is cut.</HydroponicsBasin_Frame.description>-->
+
+  <ModularHydroponicsBasin.label>Bassin hydroponique modulaire</ModularHydroponicsBasin.label>
+  <ModularHydroponicsBasin.description>Permet de faire pousser les plantes rapidement, doit être alimenté en permanence en énergie ou sinon les plantes mourront. Fertile à 220%.</ModularHydroponicsBasin.description>
+  <ModularHydroponicsBasin_Blueprint.label>Bassin hydroponique modulair (plan)</ModularHydroponicsBasin_Blueprint.label>
+  <ModularHydroponicsBasin_Frame.label>Bassin hydroponique modulair (construction)</ModularHydroponicsBasin_Frame.label>
+  <ModularHydroponicsBasin_Frame.description>Permet de faire pousser les plantes rapidement, doit être alimenté en permanence en énergie ou sinon les plantes mourront. Fertile à 220%.</ModularHydroponicsBasin_Frame.description>
+
+  <ADVHydroponicsBasin.label>Bassin Hydroponique avancé</ADVHydroponicsBasin.label>
+  <ADVHydroponicsBasin.description>Permet de faire pousser les plantes rapidement, doit être alimenté en permanence en énergie ou sinon les plantes mourront. Nécessite plus d'énergie que le bassin hydroponique de base. Equipé de sa propre lumière solaire. Fertile à 300%.</ADVHydroponicsBasin.description>
+  <ADVHydroponicsBasin_Blueprint.label>Bassin Hydroponique avancé (plan)</ADVHydroponicsBasin_Blueprint.label>
+  <ADVHydroponicsBasin_Frame.label>Bassin Hydroponique avancé (construction)</ADVHydroponicsBasin_Frame.label>
+  <ADVHydroponicsBasin_Frame.description>Permet de faire pousser les plantes rapidement, doit être alimenté en permanence en énergie ou sinon les plantes mourront. Nécessite plus d'énergie que le bassin hydroponique de base. Equipé de sa propre lumière solaire. Fertile à 300%.</ADVHydroponicsBasin_Frame.description>
+
+  <ADVModularHydroponicsBasin.label>Bassin Hydroponique avancé modulaire</ADVModularHydroponicsBasin.label>
+  <ADVModularHydroponicsBasin.description>Permet de faire pousser les plantes rapidement, doit être alimenté en permanence en énergie ou sinon les plantes mourront. Nécessite plus d'énergie que le bassin hydroponique de base. Equipé de sa propre lumière solaire. Fertile à 300%.</ADVModularHydroponicsBasin.description>
+  <ADVModularHydroponicsBasin_Blueprint.label>Bassin Hydroponique avancé modulaire (plan)</ADVModularHydroponicsBasin_Blueprint.label>
+  <ADVModularHydroponicsBasin_Frame.label>Bassin Hydroponique avancé modulaire (construction)</ADVModularHydroponicsBasin_Frame.label>
+  <ADVModularHydroponicsBasin_Frame.description>Permet de faire pousser les plantes rapidement, doit être alimenté en permanence en énergie ou sinon les plantes mourront. Nécessite plus d'énergie que le bassin hydroponique de base. Equipé de sa propre lumière solaire. Fertile à 300%.</ADVModularHydroponicsBasin_Frame.description>
+
+  <VG_Composterbox.label>Bac à compost</VG_Composterbox.label>
+  <VG_Composterbox.description>Le bac à compost à besoin de "démarreur de composteur" fabriqué à l'établi du boucher.
+</VG_Composterbox.description>
+  <VG_Composterbox_Blueprint.label>Bac à compost (plan)</VG_Composterbox_Blueprint.label>
+  <VG_Composterbox_Blueprint_Install.label>Bac à compost (plan)</VG_Composterbox_Blueprint_Install.label>
+  <VG_Composterbox_Frame.label>Bac à compost (construction)</VG_Composterbox_Frame.label>
+  <VG_Composterbox_Frame.description>Le bac à compost à besoin de "démarreur de composteur" fabriqué à l'établi du boucher.
+</VG_Composterbox_Frame.description>
+
+
+</LanguageData>

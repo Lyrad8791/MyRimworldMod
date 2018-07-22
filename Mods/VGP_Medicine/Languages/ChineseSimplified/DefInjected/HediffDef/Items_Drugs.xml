@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drugs -->
+
+  <Tobacco.label>烟叶</Tobacco.label>
+  <Tobacco.stages.0.label>舒适-迟缓</Tobacco.stages.0.label>
+  <Tobacco.stages.1.label>舒适-陶醉</Tobacco.stages.1.label>
+  <Tobacco.stages.2.label>沉沦</Tobacco.stages.2.label>
+
+
+  <!-- Tobaccoaddiction -->
+
+  <TobaccoTolerance.label>烟叶耐受</TobaccoTolerance.label>
+  <TobaccoTolerance.stages.1.label>弱</TobaccoTolerance.stages.1.label>
+  <TobaccoTolerance.stages.2.label>强</TobaccoTolerance.stages.2.label>
+  <TobaccoTolerance.stages.3.label>极强</TobaccoTolerance.stages.3.label>
+
+  <TobaccoAddiction.label>烟叶成瘾</TobaccoAddiction.label>
+  <TobaccoAddiction.stages.1.label>戒断反应</TobaccoAddiction.stages.1.label>
+
+
+</LanguageData>

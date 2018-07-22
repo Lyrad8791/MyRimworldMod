@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>MakeCompostStarter</defName>
+		<label>make compost starter</label>
+		<description>Make compost starter from a wood source and a food source.</description>
+		<jobString>Making fertilizer.</jobString>
+		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>WoodLog</li>
+	     			 </thingDefs>
+	  		    </filter>
+			<count>10</count>
+			</li>
+ 		     <li>
+     			   <filter>
+     			     <categories>
+     			       <li>FoodRaw</li>
+   				</categories>
+ 		        </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			     <li>WoodLog</li>
+			</thingDefs>
+ 			<categories>
+     			     <li>FoodRaw</li>
+   			</categories>
+	      <specialFiltersToDisallow>
+     			   <li>AllowNonSmeltableWeapons</li>
+	      </specialFiltersToDisallow>
+	     </fixedIngredientFilter>
+		<products>
+			<VG_Compost>15</VG_Compost>
+		</products>
+		<workSkill>Crafting</workSkill>
+  		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeFertilizer</defName>
+		<label>make fertilizer</label>
+		<description>Make fertilizer from compost starter and soil.</description>
+		<jobString>Making fertilizer.</jobString>
+		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>VG_Compost</li>
+	     			 </thingDefs>
+	  		    </filter>
+				<count>10</count>
+			</li>
+			<li>
+			    <filter>
+			      <thingDefs>
+			        <li>VG_PileofDirt</li>
+	     			 </thingDefs>
+	  		    </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>VG_Compost</li>
+     			   <li>VG_PileofDirt</li>
+			</thingDefs>
+	      <specialFiltersToDisallow>
+     			   <li>AllowNonSmeltableWeapons</li>
+	      </specialFiltersToDisallow>
+	     </fixedIngredientFilter>
+		<products>
+			<RawFertilizer>10</RawFertilizer>
+		</products>
+		<workSkill>Crafting</workSkill>
+  		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>VG_DigSoil</defName>
+		<label>dig soil</label>
+		<description>Dig up pile of soil. Used in making fertilizer</description>
+		<jobString>Digging Soil.</jobString>
+		<workSpeedStat>MiningSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<soundWorking>Interact_ConstructDirt</soundWorking>
+		<workAmount>1000</workAmount>
+		<products>
+			<VG_PileofDirt>10</VG_PileofDirt>
+		</products>
+		<workSkill>Mining</workSkill>
+  		<recipeUsers>
+			<li>VG_DiggingSpot</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+
+</Defs>

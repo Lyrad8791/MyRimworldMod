@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AO_SunLamp.label>AO太陽燈</AO_SunLamp.label>
+  <AO_SunLamp.description>持續將一片區域照亮到足以種植農作物。</AO_SunLamp.description>
+  <AO_SunLamp_Blueprint.label>AO太陽燈 (藍圖)</AO_SunLamp_Blueprint.label>
+  <AO_SunLamp_Frame.label>AO太陽燈 (建造中)</AO_SunLamp_Frame.label>
+  <AO_SunLamp_Frame.description>持續將一片區域照亮到足以種植農作物。</AO_SunLamp_Frame.description>
+
+  <AO_SmallSunLamp.label>AO太陽燈（中）</AO_SmallSunLamp.label>
+  <AO_SmallSunLamp.description>續將一片區域照亮到足以種植農作物。</AO_SmallSunLamp.description>
+  <AO_SmallSunLamp_Blueprint.label>AO太陽燈（中） (藍圖)</AO_SmallSunLamp_Blueprint.label>
+  <AO_SmallSunLamp_Frame.label>AO太陽燈（中） (建造中)</AO_SmallSunLamp_Frame.label>
+  <AO_SmallSunLamp_Frame.description>持續將一片區域照亮到足以種植農作物。</AO_SmallSunLamp_Frame.description>
+
+  <AO_MiniSunLamp.label>AO太陽燈（小）</AO_MiniSunLamp.label>
+  <AO_MiniSunLamp.description>續將一片區域照亮到足以種植農作物。</AO_MiniSunLamp.description>
+  <AO_MiniSunLamp_Blueprint.label>AO太陽燈（小） (藍圖)</AO_MiniSunLamp_Blueprint.label>
+  <AO_MiniSunLamp_Frame.label>AO太陽燈（小） (建造中)</AO_MiniSunLamp_Frame.label>
+  <AO_MiniSunLamp_Frame.description>持續將一片區域照亮到足以種植農作物。</AO_MiniSunLamp_Frame.description>
+
+
+</LanguageData>

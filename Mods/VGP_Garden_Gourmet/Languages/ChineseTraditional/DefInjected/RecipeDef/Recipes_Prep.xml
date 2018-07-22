@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Makesoymilk.label>製作豆漿（7）</Makesoymilk.label>
+  <Makesoymilk.description>將黃豆打成豆漿。</Makesoymilk.description>
+  <Makesoymilk.jobString>正在製作豆漿。</Makesoymilk.jobString>
+
+  <Makesoycheese.label>製作奶酪（2）</Makesoycheese.label>
+  <Makesoycheese.description>將奶或豆奶製成奶酪。</Makesoycheese.description>
+  <Makesoycheese.jobString>正在製作奶酪。</Makesoycheese.jobString>
+
+  <Maketofu.label>製作豆腐（3）</Maketofu.label>
+  <Maketofu.description>將黃豆製成豆腐。豆腐可以代替肉食或直接生吃。 \n\n製作3份。</Maketofu.description>
+  <Maketofu.jobString>正在製作豆腐。</Maketofu.jobString>
+
+  <Makebulktofu.label>批量製作豆腐（10）</Makebulktofu.label>
+  <Makebulktofu.description>運用高超的廚藝進行大批量地生產豆腐！ \n\n製作10份。</Makebulktofu.description>
+  <Makebulktofu.jobString>正在製作豆腐。</Makebulktofu.jobString>
+
+  <MakePolenta.label>拌玉米糊（2）</MakePolenta.label>
+  <MakePolenta.description>將玉米粉做成玉米糊。玉米糊可以生吃、做成其他食物、烘焙或者烤製。 \n\n製作2份。</MakePolenta.description>
+  <MakePolenta.jobString>正在拌玉米糊。</MakePolenta.jobString>
+
+  <MakebulkPolenta.label>批量拌玉米糊（10）</MakebulkPolenta.label>
+  <MakebulkPolenta.description>將玉米粉製成玉米糊。玉米糊可以生吃、做成其他食物、烘焙或者烤製。 \n\n製作10份。</MakebulkPolenta.description>
+  <MakebulkPolenta.jobString>正在拌玉米糊。</MakebulkPolenta.jobString>
+
+  <PickleVegetable.label>製作醃菜（10）(材料：低營值蔬菜)</PickleVegetable.label>
+  <PickleVegetable.description>把蔬菜醃泡在鹽水中，以防止腐敗。</PickleVegetable.description>
+  <PickleVegetable.jobString>正在製作醃菜。</PickleVegetable.jobString>
+
+  <SaltMeat.label>製作醃肉（10）</SaltMeat.label>
+  <SaltMeat.description>把肉醃泡在鹽水中，以防止腐敗。</SaltMeat.description>
+  <SaltMeat.jobString>正在製作醃肉。</SaltMeat.jobString>
+
+  <VG_VeganEgg.label>製作素蛋（2）</VG_VeganEgg.label>
+  <VG_VeganEgg.description>由豆腐、南瓜或香蕉製成的蛋狀食物，用於替代烘焙或其他料理中蛋材料。</VG_VeganEgg.description>
+  <VG_VeganEgg.jobString>正在製作素蛋。</VG_VeganEgg.jobString>
+
+
+</LanguageData>

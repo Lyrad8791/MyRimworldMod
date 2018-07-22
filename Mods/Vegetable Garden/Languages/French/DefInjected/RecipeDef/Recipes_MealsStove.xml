@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSimple_Bulk.label>Plat simple (x4)</CookMealSimple_Bulk.label>
+  <CookMealSimple_Bulk.description>Cuisine quatre plats simples à partir d’un seul ingrédient.</CookMealSimple_Bulk.description>
+  <CookMealSimple_Bulk.jobString>Cuisine quatre plats simples.</CookMealSimple_Bulk.jobString>
+
+  <CookMealFine_Bulk.label>Plat raffiné (x4)</CookMealFine_Bulk.label>
+  <CookMealFine_Bulk.description>Cuisine quatre plats raffinés en combinant de la viande et des végétaux.</CookMealFine_Bulk.description>
+  <CookMealFine_Bulk.jobString>Cuisine quatre plats raffinés.</CookMealFine_Bulk.jobString>
+
+  <CookMealLavish_Bulk.label>Plat gastronomique (x4)</CookMealLavish_Bulk.label>
+  <CookMealLavish_Bulk.description>Cuisine quatre plats gastronomiques en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés.</CookMealLavish_Bulk.description>
+  <CookMealLavish_Bulk.jobString>Cuisine quatre plats gastronomiques.</CookMealLavish_Bulk.jobString>
+
+  <CookBulkMealSurvival.label>Ration de survie (x4)</CookBulkMealSurvival.label>
+  <CookBulkMealSurvival.description>Cuisine quatre ration de survie en combinant de la viande et des végétaux. La majorité des ingrédients sont gaspillés.</CookBulkMealSurvival.description>
+  <CookBulkMealSurvival.jobString>Cuisine quatre ration de survie.</CookBulkMealSurvival.jobString>
+
+  <Stirfrymeal.label>Plat sauté (x4)</Stirfrymeal.label>
+  <Stirfrymeal.description>Cuisine quatre plats sautés en combinant de la viande et des végétaux crus. \n\nEffet nourriture : Manipulation et Filtrage du sang</Stirfrymeal.description>
+  <Stirfrymeal.jobString>Cuisine quatre sauté.</Stirfrymeal.jobString>
+
+  <Cookstewpot.label>Bol de ragoût (x8)</Cookstewpot.label>
+  <Cookstewpot.description>Cuit lentement du ragoût en combinant de la viande et des végétaux crus. \n\nEffet nourriture : Conscience, Métabolisme, Filtrage du sang et Pompage du dang.</Cookstewpot.description>
+  <Cookstewpot.jobString>Cuisine huit bol de ragoût.</Cookstewpot.jobString>
+
+  <VG_MakebulkPemmican.label>Pemmican (en vrac)</VG_MakebulkPemmican.label>
+  <VG_MakebulkPemmican.description>Prépare du pemmican, un mélange de viande séchée et de plante. N'a pas de goût exceptionnel, mais se conserve pendant des années sans réfrigération.</VG_MakebulkPemmican.description>
+  <VG_MakebulkPemmican.jobString>Prépare du pemmican.</VG_MakebulkPemmican.jobString>
+
+
+</LanguageData>

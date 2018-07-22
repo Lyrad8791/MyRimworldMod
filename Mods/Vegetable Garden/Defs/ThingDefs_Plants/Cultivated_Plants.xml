@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<!-- Starter Plants -->
+	
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantPotato</defName>
+    <label>potato plant</label>
+    <description>A simple, highly nutritious tuber. Grows well even in somewhat poor soil. Harvests quickly. A strong, versatile crop.</description>
+    <graphicData>
+      <texPath>Things/Plants/PotatoPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawPotatoes</harvestedThingDef>
+      <harvestYield>14</harvestYield>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+   </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantCorn</defName>
+    <label>corn plant</label>
+    <description>A large grain plant which produces ears of delicious yellow seeds. Takes a relatively long time to grow, but yields lots of food, takes a long time to spoil, and can be happily eaten raw. Needs fertile soil to grow well.</description>
+    <graphicData>
+      <texPath>Things/Plants/CornPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawCorn</harvestedThingDef>
+      <harvestYield>27</harvestYield>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>11.3</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <immatureGraphicPath>Things/Plant/CornImmature</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantRice</defName>
+    <label>rice plant</label>
+    <description>A low grain plant that thrives in rich soil and yields food fast, but is not nice to eat uncooked.</description>
+    <graphicData>
+      <texPath>Things/Plants/RicePlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestedThingDef>RawRice</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <growDays>3</growDays>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>0.8</max>
+      </visualSizeRange>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantBarley</defName>
+    <label>barley plant</label>
+    <description>A cereal grain. Hearty plant that is imune to blight. Used in cooking and for making ale.</description>
+    <graphicData>
+      <texPath>Things/Plants/BarleyPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <neverBlightable>true</neverBlightable>
+      <harvestedThingDef>RawBarley</harvestedThingDef>
+	<harvestYield>16</harvestYield>
+      <topWindExposure>0.35</topWindExposure>
+      <growDays>7</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	 </plant>
+  </ThingDef>
+
+	<!-- Tier 2 Plants -->
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantSnowbeet</defName>
+    <label>snow beet plant</label>
+    <description>A simple, highly nutritious plants. Grows well even in somewhat poor soil. Harvests quickly. A strong, versatile crop. Does not die in cold weather.</description>
+    <graphicData>
+      <texPath>Things/Plants/SnowBeetPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawsnowbeet</harvestedThingDef>
+      <harvestYield>13</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>agriculture</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+		<defName>Plantredlentil</defName>
+		<label>red lentil plant</label>
+		<description>A redish variety of the lentil plant. One of the oldest know domesticated plants. </description>
+    <graphicData>
+      <texPath>Things/Plants/RedLentilPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawRedLentil</harvestedThingDef>
+	<harvestYield>4</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>3.75</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>agriculture</li>
+      </sowResearchPrerequisites>
+<immatureGraphicPath>Things/Immature/RedLentilPlant</immatureGraphicPath>
+    </plant>
+
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantbean</defName>
+	<label>bean plant</label>
+	<description>Common bean cooked up in many ways.</description>
+    <graphicData>
+      <texPath>Things/Plants/beanPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawbean</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+     	 <growDays>4</growDays>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <sowResearchPrerequisites>
+      	  <li>agriculture</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+  
+
+  <ThingDef ParentName="VG_PlantBase">
+    <defName>PlantOlivetree</defName>
+    <label>olive tree</label>
+    <description>A fruit bearing tree that grows olives and is not destroyed when picked.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Tree/TreeOlive</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
+    <ingestible>
+      <nutrition>0.25</nutrition>
+    </ingestible>
+    <plant>
+ 		<fertilityMin>0.6</fertilityMin>
+		<fertilitySensitivity>0.6</fertilitySensitivity>
+     		<growDays>10</growDays>
+       	<sowMinSkill>6</sowMinSkill>
+ 		<harvestYield>20</harvestYield>
+		<harvestWork>400</harvestWork>
+		<harvestTag>Standard</harvestTag>
+		<harvestAfterGrowth>0.30</harvestAfterGrowth>
+   		<harvestedThingDef>RawOlive</harvestedThingDef>
+      	<sowResearchPrerequisites>
+        		<li>agriculture</li>
+      	</sowResearchPrerequisites>
+       	<sowTags>
+        		<li>Ground</li>
+      	</sowTags>
+   </plant>
+  </ThingDef>
+
+
+
+
+	<!-- Other Plants -->
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantHaygrass</defName>
+    <label>haygrass</label>
+    <description>A mixture of nutrient-rich grasses which yield large amounts of hay. Hay is edible for animals, but not humans.</description>
+    <graphicData>
+      <texPath>Things/Plant/Haygrass</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestedThingDef>Hay</harvestedThingDef>
+      <harvestYield>23</harvestYield>
+      <growDays>7</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>0.8</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantBase">
+    <defName>PlantGrass</defName>
+    <label>grass</label>
+    <description>Wild grass. Grows anywhere there is a little light and minimally fertile ground.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>2</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Grass</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible>
+      <nutrition>0.18</nutrition>
+	</ingestible>
+    <plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<leaflessGraphicPath>Things/Plant/Grass_Leafless</leaflessGraphicPath>
+      <harvestWork>40</harvestWork>
+      <maxMeshCount>9</maxMeshCount>
+      <visualSizeRange>
+        <min>0.4</min>
+        <max>0.6</max>
+      </visualSizeRange>
+      <topWindExposure>0.4</topWindExposure>
+      <reproduceMtbDays>1</reproduceMtbDays>
+		<sowTags>
+			<li>Ground</li>
+		</sowTags>
+    </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantTea</defName>
+    <label>tea plant</label>
+    <description>A green leafy plant, who's leaves can be brewed into a tasty beverage.</description>
+    <graphicData>
+      <texPath>Things/Plants/teaPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawtea</harvestedThingDef>
+	<harvestYield>5</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <growDays>4.25</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+    </plant>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantCoffee</defName>
+    <label>coffee plant</label>
+    <description>A green, leafy plant yielding coffee beans. These beans can be brewed into a tasty beverage.</description>
+    <graphicData>
+      <texPath>Things/Plants/CoffeePlant</texPath>
+	 <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>CPD_CoffeeBeans</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <growDays>4.5</growDays>
+      <fertilitySensitivity>1</fertilitySensitivity>
+ <immatureGraphicPath>Things/Immature/CoffeePlant</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantHops</defName>
+    <label>hop plant</label>
+    <description>A flowering plant that yields hops, and essential ingredient in beer.</description>
+    <graphicData>
+      <texPath>Things/Plants/HopsPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawHops</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <sowMinSkill>5</sowMinSkill>
+      <growDays>5</growDays>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+    </plant>
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>PlantTreeBamboo</defName>
+    <label>bamboo plant</label>
+		<description>A fast-growing tree-like species that grows in cluster. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</description>
+		<graphicData>
+			<texPath>Things/Plants/bambooPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.38, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.47)</offset>
+			</shadowData>
+		</graphicData>
+    <plant>
+      <harvestedThingDef>Bamboo</harvestedThingDef>
+	<harvestYield>12</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <growDays>5</growDays>
+      <fertilitySensitivity>0.75</fertilitySensitivity>
+			<wildClusterSizeRange>
+				<min>15</min>
+				<max>30</max>
+			</wildClusterSizeRange>
+			<wildClusterRadius>5</wildClusterRadius>
+    </plant>
+  </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,1 @@
+﻿I abridged this template from merthsoft's VS template available at: https://ludeon.com/forums/index.php?topic=26831

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Canmeal.label>罐裝食物（7）</Canmeal.label>
+  <Canmeal.description>將食物保存在鐵罐中防止變質。</Canmeal.description>
+  <Canmeal.jobString>正在罐裝食物。</Canmeal.jobString>
+
+  <CanVegetable.label>製作蔬菜罐頭（10）</CanVegetable.label>
+  <CanVegetable.description>將蔬菜保存在鐵罐中防止變質。</CanVegetable.description>
+  <CanVegetable.jobString>正在罐裝食物。</CanVegetable.jobString>
+
+  <CanMeat.label>製作肉類罐頭（10）</CanMeat.label>
+  <CanMeat.description>將肉食保存在鐵罐中防止變質。</CanMeat.description>
+  <CanMeat.jobString>正在罐裝食物。</CanMeat.jobString>
+
+  <VG_Minesalt.label>挖鹽（5）</VG_Minesalt.label>
+  <VG_Minesalt.description>從粗糙的岩石中挖取鹽。需要大量的工序。</VG_Minesalt.description>
+  <VG_Minesalt.jobString>正在挖鹽。</VG_Minesalt.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Makeantibiotics.label>制作健康饮料</Makeantibiotics.label>
+  <Makeantibiotics.description>一种由水果和药物制成的口服液。帮助病人恢复健康。</Makeantibiotics.description>
+  <Makeantibiotics.jobString>正在制作健康饮料。</Makeantibiotics.jobString>
+
+  <VG_Neutroamine.label>制作中性胺</VG_Neutroamine.label>
+  <VG_Neutroamine.description>一种化学合成物质，本身没有作用，但却是许多合成毒品必不可少的原料。</VG_Neutroamine.description>
+  <VG_Neutroamine.jobString>正在制作中性胺。</VG_Neutroamine.jobString>
+
+  <VG_BulkNeutroamine.label>批量制作中性胺（5）</VG_BulkNeutroamine.label>
+  <VG_BulkNeutroamine.description>一种化学合成物质，本身没有作用，但却是许多合成毒品必不可少的原料。</VG_BulkNeutroamine.description>
+  <VG_BulkNeutroamine.jobString>正在批量制作中性胺。</VG_BulkNeutroamine.jobString>
+
+  <VG_BulkFluEz.label>批量制作流感药物（5）</VG_BulkFluEz.label>
+  <VG_BulkFluEz.description>用中性胺制作5份流感药物。</VG_BulkFluEz.description>
+  <VG_BulkFluEz.jobString>正在制作流感药物。</VG_BulkFluEz.jobString>
+
+  <VG_BulkIbuprofen.label>批量制作布洛芬（4）</VG_BulkIbuprofen.label>
+  <VG_BulkIbuprofen.description>用中性胺制作4份布洛芬。</VG_BulkIbuprofen.description>
+  <VG_BulkIbuprofen.jobString>正在制作布洛芬。</VG_BulkIbuprofen.jobString>
+
+  <VG_Bulkantibiotics.label>批量制作健康饮料（4）</VG_Bulkantibiotics.label>
+  <VG_Bulkantibiotics.description>用中性胺和水果制作4份健康饮料。</VG_Bulkantibiotics.description>
+  <VG_Bulkantibiotics.jobString>正在制作健康饮料。</VG_Bulkantibiotics.jobString>
+
+  <VG_BulkMedicine.label>批量制作医药（4）</VG_BulkMedicine.label>
+  <VG_BulkMedicine.description>制作医药。</VG_BulkMedicine.description>
+  <VG_BulkMedicine.jobString>正在制作医药。</VG_BulkMedicine.jobString>
+
+  <MakeGlitterMedicine.label>制作闪耀世界医药</MakeGlitterMedicine.label>
+  <MakeGlitterMedicine.description>由中性胺、仙馐果和医药组合制成的闪耀世界医药。</MakeGlitterMedicine.description>
+  <MakeGlitterMedicine.jobString>正在制作闪耀世界医药。</MakeGlitterMedicine.jobString>
+
+  <Make_Bandagekit.label>制作绷带包（4）</Make_Bandagekit.label>
+  <Make_Bandagekit.description>一包用布制成的绷带。医疗效果比药物低。\n\n制作4份。</Make_Bandagekit.description>
+  <Make_Bandagekit.jobString>正在制作绷带包。</Make_Bandagekit.jobString>
+
+  <MakeBulkBandagekit.label>制作绷带包（10）</MakeBulkBandagekit.label>
+  <MakeBulkBandagekit.description>制作绷带包。 \n\n制作10份。</MakeBulkBandagekit.description>
+  <MakeBulkBandagekit.jobString>正在制作绷带包。</MakeBulkBandagekit.jobString>
+
+  <VG_BulkPenoxycyline.label>制作佩诺西林（5）</VG_BulkPenoxycyline.label>
+  <VG_BulkPenoxycyline.description>制作佩诺西林。\n\n制作5份。</VG_BulkPenoxycyline.description>
+  <VG_BulkPenoxycyline.jobString>正在制作佩诺西林。</VG_BulkPenoxycyline.jobString>
+
+  <VG_BulkGoJuice.label>制作活力水（5）</VG_BulkGoJuice.label>
+  <VG_BulkGoJuice.description>制作活力水。\n\n制作5份。</VG_BulkGoJuice.description>
+  <VG_BulkGoJuice.jobString>正在制作活力水。</VG_BulkGoJuice.jobString>
+
+  <VG_BulkFlake.label>制作薄片（5）</VG_BulkFlake.label>
+  <VG_BulkFlake.description>制作薄片。\n\n制作5份。</VG_BulkFlake.description>
+  <VG_BulkFlake.jobString>正在制作薄片。</VG_BulkFlake.jobString>
+
+  <VG_BulkYayo.label>制作呀呦粉（5）</VG_BulkYayo.label>
+  <VG_BulkYayo.description>制作呀呦粉。\n\n制作5份。</VG_BulkYayo.description>
+  <VG_BulkYayo.jobString>正在制作呀呦粉。</VG_BulkYayo.jobString>
+
+  <VG_BulkWakeUp.label>制作清醒丸（5）</VG_BulkWakeUp.label>
+  <VG_BulkWakeUp.description>制作清醒丸。\n\n制作5份。</VG_BulkWakeUp.description>
+  <VG_BulkWakeUp.jobString>正在制作清醒丸。</VG_BulkWakeUp.jobString>
+
+  <VG_BulkSmokeleafJoint.label>制作大麻烟（5）</VG_BulkSmokeleafJoint.label>
+  <VG_BulkSmokeleafJoint.description>制作大麻烟。\n\n制作5份。</VG_BulkSmokeleafJoint.description>
+  <VG_BulkSmokeleafJoint.jobString>正在制作大麻烟。</VG_BulkSmokeleafJoint.jobString>
+
+  <VG_BulkPekoe.label>make bulk pekoe (5)</VG_BulkPekoe.label>
+  <VG_BulkPekoe.description>Make bulk pekoe.</VG_BulkPekoe.description>
+  <VG_BulkPekoe.jobString>Crafting pekoe.</VG_BulkPekoe.jobString>
+
+  <VG_BulkCigarillos.label>make bulk cigarillos (5)</VG_BulkCigarillos.label>
+  <VG_BulkCigarillos.description>Make bulk cigarillos.</VG_BulkCigarillos.description>
+  <VG_BulkCigarillos.jobString>Crafting cigarillos.</VG_BulkCigarillos.jobString>
+
+
+</LanguageData>

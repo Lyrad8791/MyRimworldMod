@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CanningFactory.label>罐头机</CanningFactory.label>
+  <CanningFactory.description>罐头机需要装载钢。能够把食物加工成罐头。</CanningFactory.description>
+
+  <VG_CanningFactory.label>罐头生产机</VG_CanningFactory.label>
+  <VG_CanningFactory.description>罐头机可以把不同种类的食物加工成罐头以保存它们。</VG_CanningFactory.description>
+  <VG_CanningFactory_Blueprint.label>罐头生产机 (蓝图)</VG_CanningFactory_Blueprint.label>
+  <VG_CanningFactory_Blueprint_Install.label>罐头机 (建造中)</VG_CanningFactory_Blueprint_Install.label>
+  <VG_CanningFactory_Frame.label>罐头生产机 (建造中)</VG_CanningFactory_Frame.label>
+  <VG_CanningFactory_Frame.description>罐头机可以把不同种类的食物加工成罐头以保存它们。</VG_CanningFactory_Frame.description>
+
+
+  <!--<CanningFactory_Blueprint.label>罐头机 (蓝图)</CanningFactory_Blueprint.label>-->
+  <!--<CanningFactory_Frame.label>罐头机 (建造中)</CanningFactory_Frame.label>-->
+  <!--<CanningFactory_Frame.description>罐头机需要装载钢。能够把食物加工成罐头。</CanningFactory_Frame.description>-->
+
+</LanguageData>

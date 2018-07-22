@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Canmeal.label>Mise en conserve des repas</Canmeal.label>
+  <Canmeal.description>Conserver des repas dans une boîte.</Canmeal.description>
+  <Canmeal.jobString>Met en conserve les repas.</Canmeal.jobString>
+
+  <CanVegetable.label>Mise en conserve des légumes</CanVegetable.label>
+  <CanVegetable.description>Conserver des légumes dans une boîte.</CanVegetable.description>
+  <CanVegetable.jobString>Met en conserve les légumes.</CanVegetable.jobString>
+
+  <CanMeat.label>Mise en conserve de la viande</CanMeat.label>
+  <CanMeat.description>Conserver de la viande dans une boîte.</CanMeat.description>
+  <CanMeat.jobString>Met en conserve de la viande.</CanMeat.jobString>
+
+  <VG_Minesalt.label>Sel</VG_Minesalt.label>
+  <VG_Minesalt.description>Mine de sel des pierre brute. Prend beaucoup de temps de travail.</VG_Minesalt.description>
+  <VG_Minesalt.jobString>Mine le sel.</VG_Minesalt.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CraftFlour.label>研磨麵粉（4）</CraftFlour.label>
+  <CraftFlour.description>將小麥研磨成麵粉。</CraftFlour.description>
+  <CraftFlour.jobString>正在研磨麵粉。</CraftFlour.jobString>
+
+  <CraftBulkFlour.label>批量研磨麵粉（25）</CraftBulkFlour.label>
+  <CraftBulkFlour.description>將小麥磨成麵粉。</CraftBulkFlour.description>
+  <CraftBulkFlour.jobString>正在研磨麵粉。</CraftBulkFlour.jobString>
+
+  <CraftCornmeal.label>研磨玉米粉（4）</CraftCornmeal.label>
+  <CraftCornmeal.description>將玉米磨成玉米粉。</CraftCornmeal.description>
+  <CraftCornmeal.jobString>正在研磨玉米粉。</CraftCornmeal.jobString>
+
+  <CraftBulkCornMeal.label>批量研磨玉米粉（25）</CraftBulkCornMeal.label>
+  <CraftBulkCornMeal.description>將玉米磨成玉米粉。</CraftBulkCornMeal.description>
+  <CraftBulkCornMeal.jobString>正在研磨玉米粉。</CraftBulkCornMeal.jobString>
+
+  <GroundSugar.label>製作蔗糖（3）</GroundSugar.label>
+  <GroundSugar.description>將甘蔗碾碎榨汁，最後製成白花花的食糖。</GroundSugar.description>
+  <GroundSugar.jobString>正在製作蔗糖。</GroundSugar.jobString>
+
+  <CraftBulkSugar.label>批量製作蔗糖（25）</CraftBulkSugar.label>
+  <CraftBulkSugar.description>將甘蔗碾碎榨汁，最後製成白花花的食糖。</CraftBulkSugar.description>
+  <CraftBulkSugar.jobString>正在批量製作蔗糖。</CraftBulkSugar.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_PlaceSoil.label>Terre I</VG_PlaceSoil.label>
+  <VG_PlaceSoil.description>Remplacer par de la terre les sols lisses pour faire pousser les cultures.</VG_PlaceSoil.description>
+
+  <VG_ReclaimSoil.label>Terre II</VG_ReclaimSoil.label>
+  <VG_ReclaimSoil.description>Remplacer le sable, le sol marécageux, la boue, les marais, la glace, le gravier par de la terre pour cultiver.</VG_ReclaimSoil.description>
+
+  <VG_PlowSoil.label>Labourer</VG_PlowSoil.label>
+  <VG_PlowSoil.description>Labourer le sol pour améliorer la de croissance des cultures. Fertilité du sol 160% du sol normal.</VG_PlowSoil.description>
+
+
+</LanguageData>

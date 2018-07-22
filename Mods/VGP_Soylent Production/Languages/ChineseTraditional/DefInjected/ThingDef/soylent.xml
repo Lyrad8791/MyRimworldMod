@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SOYLENT GREEN -->
+
+  <soylentgreen.label>營養包(綠)</soylentgreen.label>
+  <soylentgreen.description>營養包(綠) - 用"高級浮游生物"®製成。</soylentgreen.description>
+
+
+  <!-- SOYLENT BLUE -->
+
+  <soylentblue.label>營養包(藍)</soylentblue.label>
+  <soylentblue.description>營養包(藍) - 用動物肉製成。</soylentblue.description>
+
+
+  <!-- SOYLENT PURPLE -->
+
+  <soylentpurple.label>營養包(紫)</soylentpurple.label>
+  <soylentpurple.description>營養包(紫) - 用蟲肉製成。</soylentpurple.description>
+
+
+  <!-- SOYLENT RED -->
+
+  <soylentred.label>營養包(紅)</soylentred.label>
+  <soylentred.description>營養包(紅) - 用作物製成。</soylentred.description>
+
+
+  <!-- SOYLENT YELLOW -->
+
+  <soylentyellow.label>營養包(黃)</soylentyellow.label>
+  <soylentyellow.description>營養包(黃) - 用畜產品製成。</soylentyellow.description>
+
+
+</LanguageData>

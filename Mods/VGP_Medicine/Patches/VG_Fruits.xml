@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModFinder.PatchOperationFindMod">
+				<modName>VGP Vegetable Garden</modName>
+			<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName = "RawBerries"]</xpath>
+	  <value>
+    <thingCategories>
+      <li>FruitFoodRaw</li>
+    </thingCategories>
+	  </value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModFinder.PatchOperationFindMod">
+				<modName>VGP Vegetable Garden</modName>
+			<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName = "RawAgave"]</xpath>
+	  <value>
+    <thingCategories>
+      <li>FruitFoodRaw</li>
+    </thingCategories>
+	  </value>
+			</li>
+		</operations>
+	</Operation>
+
+
+</Patch>
+

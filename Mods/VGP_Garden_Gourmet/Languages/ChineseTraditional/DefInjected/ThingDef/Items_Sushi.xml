@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakiVegRoll.label>素食卷</MakiVegRoll.label>
+  <MakiVegRoll.description>一種裡面有著蔬菜作配料的米飯卷。</MakiVegRoll.description>
+
+  <MakiRoll.label>壽司卷</MakiRoll.label>
+  <MakiRoll.description>一種裡面有著生魚、蔬菜或蛋作配料的米飯卷。</MakiRoll.description>
+
+  <Nigiri.label>壽司</Nigiri.label>
+  <Nigiri.description>表面被生魚片或其他海鮮覆蓋著的一小團米飯。</Nigiri.description>
+
+
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types -->
+
+  <Planteggplant.label>Aubergine</Planteggplant.label>
+  <Planteggplant.description>Variété pourpre de l'aubergine. Amer quand elle est mangée cru.</Planteggplant.description>
+
+  <Plantpumpkin.label>Citrouille</Plantpumpkin.label>
+  <Plantpumpkin.description>Variété grande et orange de la famille des courges. Souvent sculpté pour éloigner les fantômes.</Plantpumpkin.description>
+
+  <Plantsquash.label>Courge</Plantsquash.label>
+  <Plantsquash.description>Variété jaune de la famille des courges.</Plantsquash.description>
+
+  <PlantTomato.label>Pied de tomates</PlantTomato.label>
+  <PlantTomato.description>Fruit rouge qui pousse particulièrement mieux dans un sol riche.</PlantTomato.description>
+
+  <PlantCarrot.label>Carotte</PlantCarrot.label>
+  <PlantCarrot.description>Un long légume orange qui est difficile à cultiver.</PlantCarrot.description>
+
+
+</LanguageData>

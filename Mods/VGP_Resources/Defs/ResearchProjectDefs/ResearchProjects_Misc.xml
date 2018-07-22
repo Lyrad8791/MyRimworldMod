@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--============================== Main Categories ==============================-->
+
+
+	<ResearchProjectDef>
+		<defName>resourceleafs</defName>
+		<label>Resource Plants</label>
+		<description>Researches plants the absorb minerals from the ground. That can be extracted in a smelter.</description>
+		<tab>VG</tab>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+ 	 </ResearchProjectDef>
+
+
+</Defs>

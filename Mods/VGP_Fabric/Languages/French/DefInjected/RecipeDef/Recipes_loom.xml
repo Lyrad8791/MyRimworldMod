@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCloth.label>Tissu (x20)</MakeCloth.label>
+  <MakeCloth.description>Tissage du tissu à partir de fibre de coton. \n\nFabrique 20 tissus.</MakeCloth.description>
+  <MakeCloth.jobString>Tisse du tissu.</MakeCloth.jobString>
+
+  <MakeLinen.label>Lin (x10)</MakeLinen.label>
+  <MakeLinen.description>Tissage du lin à partir de fibre de lin. \n\nFabrique 10 lins.</MakeLinen.description>
+  <MakeLinen.jobString>Tisse du lin.</MakeLinen.jobString>
+
+  <MakeHempCloth.label>Chanvre (x10)</MakeHempCloth.label>
+  <MakeHempCloth.description>Tissage des feuilles de smokeleaf en tissu de chanvre.</MakeHempCloth.description>
+  <MakeHempCloth.jobString>Tisse du tissu de chanvre.</MakeHempCloth.jobString>
+
+  <MakePlasteelThread.label>Fil de plastacier (x25)</MakePlasteelThread.label>
+  <MakePlasteelThread.description>Tissage du fil de plastacier. Utilisé dans la fabrication de tissu avancé. \n\nFabrique 25 fils.</MakePlasteelThread.description>
+  <MakePlasteelThread.jobString>Tisse de fil de plastacier.</MakePlasteelThread.jobString>
+
+  <MakeSynthreadCloth.label>Synthé (x10)</MakeSynthreadCloth.label>
+  <MakeSynthreadCloth.description>Tissage du synthé à partir de fibre de coton, de fibre de lin et du fil de plastacier. \n\nFabrique 10 synthés.</MakeSynthreadCloth.description>
+  <MakeSynthreadCloth.jobString>Tisse du synthé.</MakeSynthreadCloth.jobString>
+
+  <MakeDevilstrand.label>Diablétoffe (x12)</MakeDevilstrand.label>
+  <MakeDevilstrand.description>Tissage du diablétoffe à partir de fibre de diabledeau. \n\nFabrique 12 diablétoffes.</MakeDevilstrand.description>
+  <MakeDevilstrand.jobString>Tisse du diablétoffe.</MakeDevilstrand.jobString>
+
+  <MakeHyperweaveCloth.label>Hyperfibre (x15)</MakeHyperweaveCloth.label>
+  <MakeHyperweaveCloth.description>Tissage de l'hyperfibre en mélangant de la fibre de coton, de lin, de diabledeau et du fil de plastacier. \n\nFabrique 15 hyperfibres.</MakeHyperweaveCloth.description>
+  <MakeHyperweaveCloth.jobString>Tisse de l'hyperfibre.</MakeHyperweaveCloth.jobString>
+
+  <Makeblendedleather.label>Cuir mélangé (x20)</Makeblendedleather.label>
+  <Makeblendedleather.description>Tissage du cuir mélangé à partir de plusieurs petits morceaux de cuirs différents. \n\nFabrique 20 cuirs mélangés.</Makeblendedleather.description>
+  <Makeblendedleather.jobString>Tisse du cuir mélangé.</Makeblendedleather.jobString>
+
+  <Makeblendedleatherhad.label>Cuir mélangé (x5)</Makeblendedleatherhad.label>
+  <Makeblendedleatherhad.description>Tissage du cuir mélangé à partir de plusieurs petits morceaux de cuirs différents. \n\nFabrique 5 cuirs mélangés.</Makeblendedleatherhad.description>
+  <Makeblendedleatherhad.jobString>Tisse du cuir mélangé.</Makeblendedleatherhad.jobString>
+
+  <SalvageApparel.label>Recycler vêtement</SalvageApparel.label>
+  <SalvageApparel.description>Récupéré en matière première les vêtements non utilisés.</SalvageApparel.description>
+  <SalvageApparel.jobString>Recycle les vêtements.</SalvageApparel.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Resource rocks -->
+
+  <MineableSalt.label>壓實的鹽</MineableSalt.label>
+  <MineableSalt.description>壓實了很久的鹽。</MineableSalt.description>
+
+  <ChunkSalt.label>鹽</ChunkSalt.label>
+  <ChunkSalt.description>用於保存食物的鹽。</ChunkSalt.description>
+
+  <VG_SaltMine.label>挖鹽點</VG_SaltMine.label>
+  <VG_SaltMine.description>在粗糙的石頭上開採鹽。</VG_SaltMine.description>
+  <VG_SaltMine_Blueprint.label>挖鹽點 (藍圖)</VG_SaltMine_Blueprint.label>
+  <VG_SaltMine_Frame.label>挖鹽點 (建造中)</VG_SaltMine_Frame.label>
+  <VG_SaltMine_Frame.description>在粗糙的石頭上開採鹽。</VG_SaltMine_Frame.description>
+
+
+</LanguageData>

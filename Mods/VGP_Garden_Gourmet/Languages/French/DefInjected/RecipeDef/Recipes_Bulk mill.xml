@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CraftFlour.label>Farine</CraftFlour.label>
+  <CraftFlour.description>Moudre du grains en farine.</CraftFlour.description>
+  <CraftFlour.jobString>Moud de la farine.</CraftFlour.jobString>
+
+  <CraftBulkFlour.label>Farine (en masse)</CraftBulkFlour.label>
+  <CraftBulkFlour.description>Moudre du grains en farine.</CraftBulkFlour.description>
+  <CraftBulkFlour.jobString>Moud de la farine.</CraftBulkFlour.jobString>
+
+  <CraftCornmeal.label>Farine de maïs</CraftCornmeal.label>
+  <CraftCornmeal.description>Moudre du maïs en farine de maïs.</CraftCornmeal.description>
+  <CraftCornmeal.jobString>Moud de la farine de maïs.</CraftCornmeal.jobString>
+
+  <CraftBulkCornMeal.label>Farine de maïs (en masse)</CraftBulkCornMeal.label>
+  <CraftBulkCornMeal.description>Moudre du maïs en farine de maïs.</CraftBulkCornMeal.description>
+  <CraftBulkCornMeal.jobString>Moud de la farine de maïs.</CraftBulkCornMeal.jobString>
+
+  <GroundSugar.label>Sucre</GroundSugar.label>
+  <GroundSugar.description>Broyer la canne à sucre pour obtenir du sucre !</GroundSugar.description>
+  <GroundSugar.jobString>Broye la canne à sucre.</GroundSugar.jobString>
+
+  <CraftBulkSugar.label>Sucre (en masse)</CraftBulkSugar.label>
+  <CraftBulkSugar.description>Broyer la canne à sucre pour obtenir du sucre !</CraftBulkSugar.description>
+  <CraftBulkSugar.jobString>Broye la canne à sucre.</CraftBulkSugar.jobString>
+
+
+</LanguageData>

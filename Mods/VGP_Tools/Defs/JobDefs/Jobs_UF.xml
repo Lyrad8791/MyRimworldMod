@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>GT_FillUniversalFermenter</defName>
+		<driverClass>Garden.JobDriver_FillUniversalFermenter</driverClass>
+		<reportString>filling TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>GT_TakeProductOutOfUniversalFermenter</defName>
+		<driverClass>Garden.JobDriver_TakeProductOutOfUniversalFermenter</driverClass>
+		<reportString>taking product out of TargetA.</reportString>
+	</JobDef>
+
+</Defs>

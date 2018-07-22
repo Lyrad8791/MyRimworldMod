@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VG_PlaceSoil.label>铺设土壤</VG_PlaceSoil.label>
+  <VG_PlaceSoil.description>在磨光的地面上铺一层土以种植作物。</VG_PlaceSoil.description>
+
+  <VG_ReclaimSoil.label>垦荒土壤</VG_ReclaimSoil.label>
+  <VG_ReclaimSoil.description>挖开沙地、湿软的土地、泥地、沼泽、冰面、沙砾，然后填上土壤以种植作物。</VG_ReclaimSoil.description>
+
+  <VG_PlowSoil.label>肥沃耕地</VG_PlowSoil.label>
+  <VG_PlowSoil.description>犁过的土壤能提供给作物更高效的生长环境。土壤肥力是普通土壤的160％。</VG_PlowSoil.description>
+
+
+</LanguageData>

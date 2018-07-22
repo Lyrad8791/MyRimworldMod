@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <VG_Ambrosia.label>VG：仙馐果</VG_Ambrosia.label>
+  <VG_Ambrosia.description>研究利用水栽培植物盆种植仙馐果的方法。</VG_Ambrosia.description>
+
+  <VG_GlitterMeds.label>VG：闪耀世界医药</VG_GlitterMeds.label>
+  <VG_GlitterMeds.description>允许你制作闪耀世界医药。</VG_GlitterMeds.description>
+
+  <BulkMedicine.label>VG：大量生产药物</BulkMedicine.label>
+  <BulkMedicine.description>允许你大量生产药物。\n\n解锁批量制作中性胺、流感药物、布洛芬、健康饮料、简易药物和医药。</BulkMedicine.description>
+
+  <BulkPekoeRefining.label>VG：批量生产精神茶</BulkPekoeRefining.label>
+  <BulkPekoeRefining.description>学习如何提炼大量精神叶以制作有別於一般兴奋型毒品的精神茶。</BulkPekoeRefining.description>
+
+  <BulkPsychiteRefining.label>VG：批量提炼精神叶</BulkPsychiteRefining.label>
+  <BulkPsychiteRefining.description>学习如何提炼大量精神叶以制作薄片或呀呦粉，属于两种不同形式，但都能够使人亢奋的药物。</BulkPsychiteRefining.description>
+
+  <BulkWakeUpProduction.label>VG：批量生产清醒丸</BulkWakeUpProduction.label>
+  <BulkWakeUpProduction.description>你的研究人员将学习如何大量生产清醒丸，一种能提高工作效率的药物。</BulkWakeUpProduction.description>
+
+  <BulkGoJuiceProduction.label>VG：批量生产活力水</BulkGoJuiceProduction.label>
+  <BulkGoJuiceProduction.description>学习如何大量生产活力水，一种能够提高战斗能力的药物。</BulkGoJuiceProduction.description>
+
+  <BulkPenoxycylineProduction.label>VG：批量生产佩诺西林</BulkPenoxycylineProduction.label>
+  <BulkPenoxycylineProduction.description>学习如何大量生产佩诺西林，一种能够预防疾病的药物。</BulkPenoxycylineProduction.description>
+
+
+</LanguageData>

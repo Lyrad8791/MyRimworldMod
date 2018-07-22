@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Drugs -->
+
+  <RawTobacco.label>Tabac</RawTobacco.label>
+  <RawTobacco.description>Tabac cru. Non recommandé à manger, mais fait une belle fumée.</RawTobacco.description>
+
+  <Cigarillos.label>Cigarillos</Cigarillos.label>
+  <Cigarillos.description>Un paquet de cigarillos</Cigarillos.description>
+  <Cigarillos.ingestible.ingestCommandString>Fumer {0}</Cigarillos.ingestible.ingestCommandString>
+  <Cigarillos.ingestible.ingestReportString>Fume {0}.</Cigarillos.ingestible.ingestReportString>
+
+
+</LanguageData>

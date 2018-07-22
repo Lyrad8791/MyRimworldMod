@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types -->
+
+  <Planteggplant.label>茄子</Planteggplant.label>
+  <Planteggplant.description>紫色的茄子品种。生吃有涩味。</Planteggplant.description>
+
+  <Plantpumpkin.label>南瓜</Plantpumpkin.label>
+  <Plantpumpkin.description>大型的橙色南瓜品种。万圣节上常用来雕成南瓜头。</Plantpumpkin.description>
+
+  <Plantsquash.label>西葫芦</Plantsquash.label>
+  <Plantsquash.description>葫芦科南瓜属的黄色品种。</Plantsquash.description>
+
+  <PlantTomato.label>西红柿</PlantTomato.label>
+  <PlantTomato.description>鲜艳的红色果实，既是水果又是蔬菜，适宜种植在肥沃的土壤中。</PlantTomato.description>
+
+  <PlantCarrot.label>胡萝卜</PlantCarrot.label>
+  <PlantCarrot.description>一种长条状的橘红色蔬菜，即使在贫瘠的土壤中也能种植。</PlantCarrot.description>
+
+
+</LanguageData>

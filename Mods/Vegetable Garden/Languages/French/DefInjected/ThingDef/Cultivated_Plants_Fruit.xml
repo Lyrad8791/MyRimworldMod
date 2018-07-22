@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New crop types Fruit Trees -->
+
+  <PlantAppletree.label>Pommier</PlantAppletree.label>
+  <PlantAppletree.description>Un arbre fruitier produisant des pommes et il n'est pas détruit lorsqu'elles sont récoltées.</PlantAppletree.description>
+
+  <PlantBananaTree.label>Bananier</PlantBananaTree.label>
+  <PlantBananaTree.description>Un arbre fruitier produisant des bananes et il n'est pas détruit lorsqu'elles sont récoltées.</PlantBananaTree.description>
+
+  <PlantorangeTree.label>Oranger</PlantorangeTree.label>
+  <PlantorangeTree.description>Un arbre fruitier produisant des oranges et il n'est pas détruit lorsqu'elles sont récoltées.</PlantorangeTree.description>
+
+  <PlantPeachTree.label>Pêcher</PlantPeachTree.label>
+  <PlantPeachTree.description>Un arbre fruitier produisant des pêches et il n'est pas détruit lorsqu'elles sont récoltées.</PlantPeachTree.description>
+
+
+  <!-- New fruit crop types -->
+
+  <Plantgrape.label>Vigne</Plantgrape.label>
+  <Plantgrape.description>Le raisin est un petit fruit sucré qui pousse dans les vignes.</Plantgrape.description>
+
+  <!--[Core] <PlantAgave.label>agave</PlantAgave.label>-->
+  <!--[Core] <PlantAgave.description>A large-leafed desert plant with edible flowers and stalks.</PlantAgave.description>-->
+
+  <!--[Core] <PlantStrawberry.label>strawberry plant</PlantStrawberry.label>-->
+  <!--[Core] <PlantStrawberry.description>A fragile but tasty fruit. Delicious even when raw.</PlantStrawberry.description>-->
+
+  <Plantblueberry.label>Myrtille</Plantblueberry.label>
+  <Plantblueberry.description>Baie de couleur bleue qui pousse dans les buissons.</Plantblueberry.description>
+
+  <Plantwatermelon.label>Pastèque</Plantwatermelon.label>
+  <Plantwatermelon.description>Ce fruit est riche en vitamines A et C et peut être consommé cru ou cuit et de diverses façons.</Plantwatermelon.description>
+
+
+</LanguageData>

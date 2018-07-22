@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+
+  <VG_GlitterMeds.label>Médicament avancée</VG_GlitterMeds.label>
+  <VG_GlitterMeds.description>Vous permet d'élaborer des médicaments avancés.</VG_GlitterMeds.description>
+
+  <BulkMedicine.label>Médicament \n(en masse)</BulkMedicine.label>
+  <BulkMedicine.description>Vous permet d'élaborer de grande quantité de médicament, Neutroamine, FluEz, Ibuprofène, Antibiotiques et Kit de bandage.</BulkMedicine.description>
+  
+  <BulkPekoeRefining.label>Infuser les feuilles psychoïde \n(en masse)</BulkPekoeRefining.label>
+  <BulkPekoeRefining.description>Infuser les feuilles psychoïdes en masse dans de l'eau bouillante, produisant un thé euphorique et addictif.</BulkPekoeRefining.description>
+
+  <BulkPsychiteRefining.label>Raffinage du psychite \n(en masse)</BulkPsychiteRefining.label>
+  <BulkPsychiteRefining.description>Vous apprend à raffiner en masse les feuilles de psychoïde en Flake et en Yayo, différentes substances psychotropes.</BulkPsychiteRefining.description>
+
+  <BulkWakeUpProduction.label>Production de Wake-Up \n(en masse)</BulkWakeUpProduction.label>
+  <BulkWakeUpProduction.description>Vous apprend la formule et les techniques pour synthétiser le Wake-Up en masse, une drogue améliorant les performances au travail.</BulkWakeUpProduction.description>
+
+  <BulkGoJuiceProduction.label>Production de Go-Juice \n(en masse)</BulkGoJuiceProduction.label>
+  <BulkGoJuiceProduction.description>Vous apprend à produire le Go-Juice en masse, une drogue synthétique améliorant les performances au combat.</BulkGoJuiceProduction.description>
+
+  <BulkPenoxycylineProduction.label>Production Penoxycyline \n(en masse)</BulkPenoxycylineProduction.label>
+  <BulkPenoxycylineProduction.description>Vous apprend à produire la penoxycline en masse, un médicamentpouvant prévenir différentes maladies.</BulkPenoxycylineProduction.description>
+
+
+</LanguageData>

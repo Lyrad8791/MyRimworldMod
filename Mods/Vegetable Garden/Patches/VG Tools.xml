@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+	<Operation Class="PatchOperationSequence">
+  		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>VGP Garden Tools</modName>
+			<yourMod>VGP Vegetable Garden</yourMod>				</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "FertilizerCorpseCampfire"]/recipeUsers/li</xpath>
+				<value>
+					<li>VG_Campfire</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+
+</Patch>
+

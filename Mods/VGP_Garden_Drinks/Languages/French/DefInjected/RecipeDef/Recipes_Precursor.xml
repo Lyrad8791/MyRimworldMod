@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_MakeCornWort.label>Moût de maïs</CPD_MakeCornWort.label>
+  <CPD_MakeCornWort.description>Brasser du moût de maïs.</CPD_MakeCornWort.description>
+  <CPD_MakeCornWort.jobString>Brasse le moût de maïs.</CPD_MakeCornWort.jobString>
+
+  <CPD_MakeRiceMash.label>Moût de riz</CPD_MakeRiceMash.label>
+  <CPD_MakeRiceMash.description>Brasser du moût de riz pour obtenir du Saké.</CPD_MakeRiceMash.description>
+  <CPD_MakeRiceMash.jobString>Brasse le moût de riz.</CPD_MakeRiceMash.jobString>
+
+  <DistillVodka.label>Distiller de la Vodka</DistillVodka.label>
+  <DistillVodka.description>Distiller du moût de pomme de terre pour obtenir de la Vodka.</DistillVodka.description>
+  <DistillVodka.jobString>Distille le moût de pomme de terre.</DistillVodka.jobString>
+
+  <CPD_MakeWineMust.label>Moût de vin de fraise</CPD_MakeWineMust.label>
+  <CPD_MakeWineMust.description>Brasser du moût de fraise pour obtenir du vin de fraise.</CPD_MakeWineMust.description>
+  <CPD_MakeWineMust.jobString>Brasse le moût de fraise.</CPD_MakeWineMust.jobString>
+
+  <VG_MakeGrapeMust.label>Moût de vin</VG_MakeGrapeMust.label>
+  <VG_MakeGrapeMust.description>Brasser du moût de raisin pour obtenir du vin.</VG_MakeGrapeMust.description>
+  <VG_MakeGrapeMust.jobString>Brasse le moût de raisin.</VG_MakeGrapeMust.jobString>
+
+  <VG_MakeCiderMust.label>Moût de pomme</VG_MakeCiderMust.label>
+  <VG_MakeCiderMust.description>Brasser du moût de pomme pour obtenir du cidre.</VG_MakeCiderMust.description>
+  <VG_MakeCiderMust.jobString>Brasse le moût de pomme.</VG_MakeCiderMust.jobString>
+
+  <VG_MakeCaneMust.label>Moût de canne à sucre</VG_MakeCaneMust.label>
+  <VG_MakeCaneMust.description>Brasser du moût de canne à sucre pour obtenir du Rhum.</VG_MakeCaneMust.description>
+  <VG_MakeCaneMust.jobString>Brasse le moût de canne à sucre.</VG_MakeCaneMust.jobString>
+
+  <VG_MakeAgaveMust.label>Moût d'agave</VG_MakeAgaveMust.label>
+  <VG_MakeAgaveMust.description>Brasser du moût d'agave pour obtenir de la Téquila.</VG_MakeAgaveMust.description>
+  <VG_MakeAgaveMust.jobString>Brasse le moût d'agave.</VG_MakeAgaveMust.jobString>
+
+  <VG_MakeBrownMalt.label>Malt brun</VG_MakeBrownMalt.label>
+  <VG_MakeBrownMalt.description>Brasser du malt brun à partir de l'orge pour obtenir de la bière brune.</VG_MakeBrownMalt.description>
+  <VG_MakeBrownMalt.jobString>Brasse le malt brun.</VG_MakeBrownMalt.jobString>
+
+  <VG_MakeFruitMash.label>Moût de fruit</VG_MakeFruitMash.label>
+  <VG_MakeFruitMash.description>Brasser des fruits pour obtenir de l'Eau-de-Vie.</VG_MakeFruitMash.description>
+  <VG_MakeFruitMash.jobString>Brasse les fruits.</VG_MakeFruitMash.jobString>
+
+
+</LanguageData>

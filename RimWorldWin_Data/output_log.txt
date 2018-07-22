@@ -33,7 +33,7 @@ WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to defau
 <RI> Input initialized.
 desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.137931 ms
+UnloadTime: 1.300218 ms
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -47,474 +47,161 @@ Mod Rimsenal_Hair has incorrectly formatted target version 'Unknown'. For the cu
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Non platform assembly: data-0FF59008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-0FF59008.dll
-Non platform assembly: data-11D3C058 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11D3C058.dll
-Non platform assembly: data-11D65B68 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11D65B68.dll
-Non platform assembly: data-11D83B68 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11D83B68.dll
-Non platform assembly: data-11DA9968 (this message is harmless)
-Non platform assembly: data-11DBA978 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11DBA978.dll
-Non platform assembly: data-11E0ED10 (this message is harmless)
-Non platform assembly: data-11DB0050 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11DB0050.dll
-Non platform assembly: data-11E0ED10 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E0ED10.dll
-Non platform assembly: data-11E1C080 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E1C080.dll
-Non platform assembly: data-11E2BA98 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E2BA98.dll
-Non platform assembly: data-15C5D020 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-15C5D020.dll
-Non platform assembly: data-11E938D8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11E938D8.dll
-Non platform assembly: data-11EA25F0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11EA25F0.dll
-Non platform assembly: data-11EA3FF8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11EA3FF8.dll
-Non platform assembly: data-11EB1A08 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11EB1A08.dll
-Non platform assembly: data-11F16008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F16008.dll
-Non platform assembly: data-11F24C18 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F24C18.dll
-Non platform assembly: data-11F34C28 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F34C28.dll
-Non platform assembly: data-11F3AE38 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F3AE38.dll
-Non platform assembly: data-11F3CC40 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F3CC40.dll
-Non platform assembly: data-11F44048 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F44048.dll
-Non platform assembly: data-11F49450 (this message is harmless)
-Non platform assembly: data-11F49450 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F49450.dll
-Non platform assembly: data-17000048 (this message is harmless)
-Non platform assembly: data-17000048 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17000048.dll
-Non platform assembly: data-17068E58 (this message is harmless)
-Non platform assembly: data-11F59068 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F59068.dll
-Non platform assembly: data-17068E58 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17068E58.dll
-Non platform assembly: data-1709B270 (this message is harmless)
-Non platform assembly: data-11F5AE70 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11F5AE70.dll
-Non platform assembly: data-1709B270 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1709B270.dll
-Non platform assembly: data-170AAA78 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170AAA78.dll
-Non platform assembly: data-170AEA80 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170AEA80.dll
-Non platform assembly: data-170D3288 (this message is harmless)
-Non platform assembly: data-170D3288 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170D3288.dll
-Non platform assembly: data-170D5890 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170D5890.dll
-Non platform assembly: data-170DC698 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170DC698.dll
-Non platform assembly: data-170DFAA0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170DFAA0.dll
-Non platform assembly: data-170F00B0 (this message is harmless)
-Non platform assembly: data-170F00B0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170F00B0.dll
-Non platform assembly: data-170FBAB8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-170FBAB8.dll
-Non platform assembly: data-17106CD0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17106CD0.dll
-Non platform assembly: data-1710B2D8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1710B2D8.dll
-Non platform assembly: data-17119EE8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17119EE8.dll
-Non platform assembly: data-1712D6F0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1712D6F0.dll
-Non platform assembly: data-17137700 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17137700.dll
-Non platform assembly: data-1713AD08 (this message is harmless)
-Non platform assembly: data-11C18EB0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11C18EB0.dll
-Non platform assembly: data-1713AD08 (this message is harmless)
-Non platform assembly: data-1713AD08 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1713AD08.dll
-Non platform assembly: data-1713D310 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1713D310.dll
-Non platform assembly: data-17143718 (this message is harmless)
-Non platform assembly: data-17143718 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17143718.dll
-Non platform assembly: data-1716F728 (this message is harmless)
-Non platform assembly: data-1716F728 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1716F728.dll
-Non platform assembly: data-17186930 (this message is harmless)
-Non platform assembly: data-17186930 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17186930.dll
-Non platform assembly: data-1718D138 (this message is harmless)
-Non platform assembly: data-171A1148 (this message is harmless)
-Non platform assembly: data-1718D138 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1718D138.dll
-Non platform assembly: data-171A1148 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-171A1148.dll
-Non platform assembly: data-171AB750 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-171AB750.dll
-Non platform assembly: data-17195940 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17195940.dll
-Non platform assembly: data-171B8960 (this message is harmless)
-Non platform assembly: data-171B8960 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-171B8960.dll
-Non platform assembly: data-171E1170 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-171E1170.dll
-Non platform assembly: data-171EF780 (this message is harmless)
-Non platform assembly: data-171EF780 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-171EF780.dll
-Non platform assembly: data-171FB990 (this message is harmless)
-Non platform assembly: data-1719B948 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1719B948.dll
-Non platform assembly: data-171FB990 (this message is harmless)
-Non platform assembly: data-171FB990 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-171FB990.dll
-Non platform assembly: data-172129A0 (this message is harmless)
-Non platform assembly: data-172129A0 (this message is harmless)
-Non platform assembly: data-172129A0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172129A0.dll
-Non platform assembly: data-172155A8 (this message is harmless)
-Non platform assembly: data-172155A8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172155A8.dll
-Non platform assembly: data-172378F0 (this message is harmless)
-Non platform assembly: data-172378F0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172378F0.dll
-Non platform assembly: data-172402F8 (this message is harmless)
-Non platform assembly: data-17223DB8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17223DB8.dll
-Non platform assembly: data-172402F8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172402F8.dll
-Non platform assembly: data-17242700 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17242700.dll
-Non platform assembly: data-17247F10 (this message is harmless)
-Non platform assembly: data-17247F10 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17247F10.dll
-Non platform assembly: data-1725D008 (this message is harmless)
-Non platform assembly: data-1725D008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1725D008.dll
-Non platform assembly: data-17263010 (this message is harmless)
-Non platform assembly: data-17276620 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17276620.dll
-Non platform assembly: data-17263010 (this message is harmless)
-Non platform assembly: data-172261C0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172261C0.dll
-Non platform assembly: data-17278C28 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17278C28.dll
-Non platform assembly: data-17263010 (this message is harmless)
-Non platform assembly: data-1727B030 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1727B030.dll
-Non platform assembly: data-1727EE38 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1727EE38.dll
-Non platform assembly: data-17263010 (this message is harmless)
-Non platform assembly: data-17263010 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17263010.dll
-Non platform assembly: data-17280040 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17280040.dll
-Non platform assembly: data-11C22ED0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11C22ED0.dll
-Non platform assembly: data-17270230 (this message is harmless)
-Non platform assembly: data-172DA008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172DA008.dll
-Non platform assembly: data-172F4820 (this message is harmless)
-Non platform assembly: data-172F4820 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172F4820.dll
-Non platform assembly: data-172F9828 (this message is harmless)
-Non platform assembly: data-17270230 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17270230.dll
-Non platform assembly: data-17303008 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17303008.dll
-Non platform assembly: data-17312610 (this message is harmless)
-Non platform assembly: data-17312610 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17312610.dll
-Non platform assembly: data-17317C18 (this message is harmless)
-Non platform assembly: data-17317C18 (this message is harmless)
-Non platform assembly: data-17317C18 (this message is harmless)
-Non platform assembly: data-17317C18 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17317C18.dll
-Non platform assembly: data-1731E020 (this message is harmless)
-Non platform assembly: data-17326C70 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17326C70.dll
-Non platform assembly: data-17333630 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17333630.dll
-Non platform assembly: data-1733CA38 (this message is harmless)
-Non platform assembly: data-1733CA38 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1733CA38.dll
-Non platform assembly: data-17341440 (this message is harmless)
-Non platform assembly: data-17341440 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17341440.dll
-Non platform assembly: data-17347E50 (this message is harmless)
-Non platform assembly: data-17347E50 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17347E50.dll
-Non platform assembly: data-17359060 (this message is harmless)
-Non platform assembly: data-17359060 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17359060.dll
-Non platform assembly: data-172AAEC0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-172AAEC0.dll
-Non platform assembly: data-1737A270 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1737A270.dll
-Non platform assembly: data-17395288 (this message is harmless)
-Non platform assembly: data-17395288 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17395288.dll
-Non platform assembly: data-173AB8A0 (this message is harmless)
-Non platform assembly: data-173AB8A0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173AB8A0.dll
-Non platform assembly: data-173B06A8 (this message is harmless)
-Non platform assembly: data-173B06A8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173B06A8.dll
-Non platform assembly: data-173B54B0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173B54B0.dll
-Non platform assembly: data-173B86B8 (this message is harmless)
-Non platform assembly: data-173C24C8 (this message is harmless)
-Non platform assembly: data-173B86B8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173B86B8.dll
-Non platform assembly: data-173C24C8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173C24C8.dll
-Non platform assembly: data-173CDED8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173CDED8.dll
-Non platform assembly: data-173CFCE0 (this message is harmless)
-Non platform assembly: data-173CFCE0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-173CFCE0.dll
-Non platform assembly: data-17431260 (this message is harmless)
-Non platform assembly: data-17431260 (this message is harmless)
-Non platform assembly: data-17431260 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-17431260.dll
-Non platform assembly: data-1743C270 (this message is harmless)
-Non platform assembly: data-1743C270 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1743C270.dll
-Non platform assembly: data-1744AC78 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1744AC78.dll
-Non platform assembly: data-1746FE88 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1746FE88.dll
-Non platform assembly: data-1749BEA0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1749BEA0.dll
-Non platform assembly: data-174A38A8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-174A38A8.dll
-CombatExtended :: Harmony_GenRadial_RadialPatternCount :: Info: Post GenRadial patch maximum radius: 119.4194
+Non platform assembly: data-11633010 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11633010.dll
+Non platform assembly: data-11663020 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11663020.dll
+Non platform assembly: data-11686428 (this message is harmless)
+Non platform assembly: data-11686428 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11686428.dll
+Non platform assembly: data-116E5258 (this message is harmless)
+Non platform assembly: data-116E5258 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-116E5258.dll
+Non platform assembly: data-1172AC28 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1172AC28.dll
+Non platform assembly: data-11730A38 (this message is harmless)
+Non platform assembly: data-11730A38 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11730A38.dll
+Non platform assembly: data-11746718 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11746718.dll
+Non platform assembly: data-11769E60 (this message is harmless)
+Non platform assembly: data-11769E60 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11769E60.dll
+Non platform assembly: data-1176F158 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1176F158.dll
+Non platform assembly: data-11771368 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11771368.dll
+Non platform assembly: data-117852B8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117852B8.dll
+Non platform assembly: data-1178FE00 (this message is harmless)
+Non platform assembly: data-1178FE00 (this message is harmless)
+Non platform assembly: data-1178FE00 (this message is harmless)
+Non platform assembly: data-1178FE00 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1178FE00.dll
+Non platform assembly: data-117D6D98 (this message is harmless)
+Non platform assembly: data-117E8DA8 (this message is harmless)
+Non platform assembly: data-117E8DA8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117E8DA8.dll
+Non platform assembly: data-117D6D98 (this message is harmless)
+Non platform assembly: data-117EB9B0 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117EB9B0.dll
+Non platform assembly: data-117D6D98 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117D6D98.dll
+Non platform assembly: data-117DE7A0 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117DE7A0.dll
+Non platform assembly: data-117EF288 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117EF288.dll
+Non platform assembly: data-117E33A8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-117E33A8.dll
+Config error in Male Attraction: defName Male Attraction should only contain letters, numbers, underscores, or dashes.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Combat Extended :: initialized
+Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Configuration.dll (this message is harmless)
+Facial Stuff successfully completed 48 patches with harmony.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+JTReplaceWalls probably sucessfully replaced Designator_Build.CanDesignateCell(). Code stolen from CCL/RawCode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+JTReplaceWalls probably sucessfully replaced GenConstruct.PlaceBlueprintForBuild(). Code stolen from CCL/RawCode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+JTReplaceWalls probably sucessfully replaced GenConstruct.BlocksConstruction(). Code stolen from CCL/RawCode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+JTReplaceWalls probably sucessfully replaced GenSpawn.SpawningWipes(). Code stolen from CCL/RawCode.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[HugsLib][warn] The Control assembly contains multiple ModBase mods with HarmonyAutoPatch set to true. This warning was caused by modId CultManager.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[HugsLib] v4.1.1 initialized CultManager, SexualTasksUtil
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 11023.
+Total: 73.566681 ms (FindLiveObjects: 0.552480 ms CreateObjectMapping: 0.792870 ms MarkObjects: 72.135864 ms  DeleteObjects: 0.084504 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540957 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 11503.
+Total: 58.731319 ms (FindLiveObjects: 0.496144 ms CreateObjectMapping: 0.579048 ms MarkObjects: 57.560101 ms  DeleteObjects: 0.095707 ms)
+
+Initializing new game with mods Core, HugsLib, EdBPrepareCarefully, RW_FacialStuff-0.18.5.2, CameraPlus, ColonyManager, Vegetable Garden, VGP CoffeeTeaDrugs, VGP_Fabric, VGP_Garden_Drinks, VGP_Garden_Gourmet, VGP_Medicine, VGP_More Veggies, VGP_Resources, VGP_Soylent Production, VGP_Tools, VGP_Trees_Flowers, Spoons Hair Mod -A18, Detailed Body Texture, Rimsenal_Hair, Dubs Bad Hygiene, StackMerger, MassGraves, FacialStuff_DianneDefaults, Control, ReplaceWalls, and WildAnimalSex 2.2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 19962.
+Total: 140.848007 ms (FindLiveObjects: 1.874785 ms CreateObjectMapping: 2.972704 ms MarkObjects: 135.944504 ms  DeleteObjects: 0.055056 ms)
+
+Pawns : 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pawns : 3
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 37e4 -> priority: 1 
-  Thread -> id: 24ec -> priority: 1 
-Hardcore SK :: Result :: Injections successfully initialized
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Crash!!!
-SymInit: Symbol-SearchPath: '.;C:\Users\marti\Source\Repos\MyRimworldMod;C:\Users\marti\Source\Repos\MyRimworldMod;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'marti'
-OS-Version: 10.0.17134 () 0x300-0x1
-C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin.exe:RimWorldWin.exe (00D30000), size: 19025920 (result: 0), SymType: '-exported-', PDB: 'C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin.exe', fileVersion: 5.6.3.37608
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (771F0000), size: 1638400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.17134.165
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (73B30000), size: 917504 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (74BB0000), size: 1982464 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.17134.165
-C:\WINDOWS\System32\USER32.dll:USER32.dll (76CA0000), size: 1626112 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\win32u.dll:win32u.dll (76B80000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (747F0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (768E0000), size: 1458176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (77080000), size: 512000 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (765E0000), size: 1171456 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.17134.165
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (6FF20000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (76FC0000), size: 782336 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.17134.1
-C:\WINDOWS\System32\ole32.dll:ole32.dll (73C10000), size: 1032192 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.17134.137
-C:\WINDOWS\System32\combase.dll:combase.dll (74820000), size: 2473984 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (760F0000), size: 786432 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\System32\SspiCli.dll:SspiCli.dll (73AB0000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SspiCli.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\CRYPTBASE.dll:CRYPTBASE.dll (73AA0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPTBASE.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (76C30000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.17134.137
-C:\WINDOWS\System32\sechost.dll:sechost.dll (74B60000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (74650000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (73D70000), size: 491520 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (74DA0000), size: 20226048 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.17134.137
-C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (76700000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\cfgmgr32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\shcore.dll:shcore.dll (74560000), size: 557056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\System32\windows.storage.dll:windows.storage.dll (73FA0000), size: 6004736 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\windows.storage.dll', fileVersion: 10.0.17134.137
-C:\WINDOWS\System32\kernel.appcore.dll:kernel.appcore.dll (73DF0000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\kernel.appcore.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (73620000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\profapi.dll:profapi.dll (76B60000), size: 98304 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\profapi.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\powrprof.dll:powrprof.dll (76B00000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\powrprof.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\FLTLIB.DLL:FLTLIB.DLL (76B50000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\FLTLIB.DLL', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (76A50000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (74750000), size: 614400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.17134.48
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (76AC0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (721D0000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (6EE50000), size: 888832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (72890000), size: 581632 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.17134.165
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (72A80000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\NSI.dll:NSI.dll (76C90000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\NSI.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (729A0000), size: 720896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.17134.137
-C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (71B90000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMMBASE.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (6EE10000), size: 258048 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (72150000), size: 507904 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.17134.1
-C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Mono\mono.dll:mono.dll (10000000), size: 2297856 (result: 0), SymType: '-exported-', PDB: 'C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Mono\mono.dll', fileVersion: 1.0.0.1
-C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (76FB0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PSAPI.DLL', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (6F2E0000), size: 352256 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (76740000), size: 1327104 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSCTF.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (72120000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dwmapi.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\d3d9.dll:d3d9.dll (6DB10000), size: 1503232 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d9.dll', fileVersion: 10.0.17134.81
-C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\aticfx32.dll:aticfx32.dll (6D6B0000), size: 1552384 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\aticfx32.dll', fileVersion: 22.19.677.257
-C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\atiu9pag.dll:atiu9pag.dll (6F170000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\atiu9pag.dll', fileVersion: 22.19.677.257
-C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\atiumdag.dll:atiumdag.dll (6CC80000), size: 9613312 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\atiumdag.dll', fileVersion: 22.19.677.257
-C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\atiumdva.dll:atiumdva.dll (6C110000), size: 11980800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\c0318486.inf_amd64_11ba0b4b7cc81d52\atiumdva.dll', fileVersion: 22.19.677.257
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (746A0000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (6EDB0000), size: 376832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MMDevApi.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (6F1C0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DEVOBJ.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\System32\PROPSYS.dll:PROPSYS.dll (6EF30000), size: 1572864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PROPSYS.dll', fileVersion: 7.0.17134.112
-C:\WINDOWS\SYSTEM32\wdmaud.drv:wdmaud.drv (6ED70000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wdmaud.drv', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (6FF10000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AVRT.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (6FF00000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ksuser.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (6C010000), size: 1028096 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AUDIOSES.DLL', fileVersion: 10.0.17134.137
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (6E650000), size: 876544 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wintypes.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\SYSTEM32\msacm32.drv:msacm32.drv (6F340000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msacm32.drv', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (6E630000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSACM32.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\midimap.dll:midimap.dll (6E620000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\midimap.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00400000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (761B0000), size: 4370432 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\TextInputFramework.dll:TextInputFramework.dll (6D930000), size: 516096 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\TextInputFramework.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (6D620000), size: 569344 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CoreMessaging.dll', fileVersion: 10.0.17134.165
-C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (6BDB0000), size: 2478080 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CoreUIComponents.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (71370000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntmarta.dll', fileVersion: 10.0.17134.1
-C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Plugins\CSteamworks.dll:CSteamworks.dll (6D5F0000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Plugins\CSteamworks.dll', fileVersion: 1.24.0.0
-C:\Users\marti\Source\Repos\MyRimworldMod\steam_api.dll:steam_api.dll (6BD70000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Users\marti\Source\Repos\MyRimworldMod\steam_api.dll', fileVersion: 2.89.45.4
-C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (6FFC0000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (6FF90000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\rsaenh.dll', fileVersion: 10.0.17134.1
-C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (727C0000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 10.0.17134.112
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (6E9D0000), size: 1581056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.17134.1
-
-========== OUTPUTING STACK TRACE ==================
-
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01175799)
-0x01175799 (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01288D24)
-0x01288D24 (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0128A0A6)
-0x0128A0A6 (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0128BD8B)
-0x0128BD8B (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0128F815)
-0x0128F815 (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 012918EE)
-0x012918EE (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00EAF03F)
-0x00EAF03F (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0127F728)
-0x0127F728 (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 012859B1)
-0x012859B1 (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 013DD45B)
-0x013DD45B (RimWorldWin) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 16054E6C)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 16054E6C)
-0x16054E6C ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 16054E29)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 16054E29)
-0x16054E29 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 16054D91)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 16054D91)
-0x16054D91 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 16054D4E)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 16054D4E)
-0x16054D4E ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFA189)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFA189)
-0x05BFA189 ((<unknown>)) 
-0x100F190D (mono) mono_set_defaults
-0x1005D87C (mono) mono_runtime_invoke
-0x10062737 (mono) mono_runtime_invoke_array
-0x1002F465 (mono) mono_domain_finalize
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF6C3)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF6C3)
-0x05BFF6C3 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF307)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF307)
-0x05BFF307 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF170)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF170)
-0x05BFF170 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF12B)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF12B)
-0x05BFF12B ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFE505)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFE505)
-0x05BFE505 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFE36B)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFE36B)
-0x05BFE36B ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C3F709)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C3F709)
-0x05C3F709 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05CC2D08)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05CC2D08)
-0x05CC2D08 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05CC2456)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05CC2456)
-0x05CC2456 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 16054BE5)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 16054BE5)
-0x16054BE5 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 16054C6F)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 16054C6F)
-0x16054C6F ((<unknown>)) 
-0x100F190D (mono) mono_set_defaults
-0x1005D87C (mono) mono_runtime_invoke
-0x10062737 (mono) mono_runtime_invoke_array
-0x1002F465 (mono) mono_domain_finalize
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF6C3)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF6C3)
-0x05BFF6C3 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF307)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF307)
-0x05BFF307 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFF170)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFF170)
-0x05BFF170 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C76C06)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C76C06)
-0x05C76C06 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C768B2)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C768B2)
-0x05C768B2 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C76879)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C76879)
-0x05C76879 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C6F764)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C6F764)
-0x05C6F764 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C6E904)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C6E904)
-0x05C6E904 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C6E3F9)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C6E3F9)
-0x05C6E3F9 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C6E398)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C6E398)
-0x05C6E398 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C6E219)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C6E219)
-0x05C6E219 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05C6E180)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05C6E180)
-0x05C6E180 ((<unknown>)) 
-  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 05BFA189)
-  ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 05BFA189)
-0x05BFA189 ((<unknown>)) 
-0x100F190D (mono) mono_set_defaults
-0x1005D87C (mono) mono_runtime_invoke
-0x1005DC98 (mono) mono_runtime_delegate_invoke
-0x1007F47F (mono) mono_thread_interruption_request_flag
-0x1010C9DC (mono) unity_mono_reflection_method_get_method
-0x73B48484 (KERNEL32) BaseThreadInitThunk
-0x77252FEA (ntdll) RtlValidSecurityDescriptor
-0x77252FBA (ntdll) RtlValidSecurityDescriptor
-
-========== END OF STACKTRACE ===========
-
-**** Crash! ****
+  Thread -> id: dfc -> priority: 1 
+  Thread -> id: 61c -> priority: 1 

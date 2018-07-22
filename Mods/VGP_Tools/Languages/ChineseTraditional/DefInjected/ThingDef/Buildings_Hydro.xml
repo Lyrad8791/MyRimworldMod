@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Planterbox.label>植物盆</Planterbox.label>
+  <Planterbox.description>裝滿土壤的木箱，使你可以隨處耕種。生長速率只有水培植物盆的60%，但不耗電。</Planterbox.description>
+  <Planterbox_Blueprint.label>植物盆 (藍圖)</Planterbox_Blueprint.label>
+  <Planterbox_Frame.label>植物盆 (建造中)</Planterbox_Frame.label>
+  <Planterbox_Frame.description>裝滿土壤的木箱，使你可以隨處耕種。生長速率只有水培植物盆的60%，但不耗電。</Planterbox_Frame.description>
+
+  <ModularPlanterbox.label>組合植物盆</ModularPlanterbox.label>
+  <ModularPlanterbox.description>裝滿土壤的木箱，使你可以隨處耕種。生長速率只有水培植物盆的60%，但不耗電。1x1的尺寸讓你可以自由組合。</ModularPlanterbox.description>
+  <ModularPlanterbox_Blueprint.label>組合植物盆 (藍圖)</ModularPlanterbox_Blueprint.label>
+  <ModularPlanterbox_Frame.label>組合植物盆 (建造中)</ModularPlanterbox_Frame.label>
+  <ModularPlanterbox_Frame.description>裝滿土壤的木箱，使你可以隨處耕種。生長速率只有水培植物盆的60%，但不耗電。1x1的尺寸讓你可以自由組合。</ModularPlanterbox_Frame.description>
+
+  <!--[Core] <HydroponicsBasin.label>水培植物盆</HydroponicsBasin.label>-->
+  <!--[Core] <HydroponicsBasin.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin.description>-->
+  <!--[Core] <HydroponicsBasin_Blueprint.label>水培植物盆藍圖</HydroponicsBasin_Blueprint.label>-->
+  <!--[Core] <HydroponicsBasin_Frame.label>水培植物盆框架</HydroponicsBasin_Frame.label>-->
+  <!--[Core] <HydroponicsBasin_Frame.description>用來種植作物，水培植物盆能讓植物快速生長。</HydroponicsBasin_Frame.description>-->
+
+  <ModularHydroponicsBasin.label>組合水培植物盆</ModularHydroponicsBasin.label>
+  <ModularHydroponicsBasin.description>將植物種在營養液中，使其快速生長。需要供電，如果電源被切斷，其中的植物將會死亡。</ModularHydroponicsBasin.description>
+  <ModularHydroponicsBasin_Blueprint.label>組合水培植物盆 (藍圖)</ModularHydroponicsBasin_Blueprint.label>
+  <ModularHydroponicsBasin_Frame.label>組合水培植物盆 (建造中)</ModularHydroponicsBasin_Frame.label>
+  <ModularHydroponicsBasin_Frame.description>將植物種在營養液中，使其快速生長。需要供電，如果電源被切斷，其中的植物將會死亡。</ModularHydroponicsBasin_Frame.description>
+
+  <ADVHydroponicsBasin.label>水培植物盆（高級）</ADVHydroponicsBasin.label>
+  <ADVHydroponicsBasin.description>將植物種在高級營養液中，使其更加快速地生長。需要供電，如果電源被切斷，其中的植物將會死亡。內置光源。1x1的尺寸讓你可以自由組合。</ADVHydroponicsBasin.description>
+  <ADVHydroponicsBasin_Blueprint.label>水培植物盆（高級） (藍圖)</ADVHydroponicsBasin_Blueprint.label>
+  <ADVHydroponicsBasin_Frame.label>水培植物盆（高級） (建造中)</ADVHydroponicsBasin_Frame.label>
+  <ADVHydroponicsBasin_Frame.description>將植物種在高級營養液中，使其更加快速地生長。需要供電，如果電源被切斷，其中的植物將會死亡。內置光源。1x1的尺寸讓你可以自由組合。</ADVHydroponicsBasin_Frame.description>
+
+  <ADVModularHydroponicsBasin.label>組合水培植物盆（高級）</ADVModularHydroponicsBasin.label>
+  <ADVModularHydroponicsBasin.description>將植物種在高級營養液中，使其更加快速地生長。需要供電，如果電源被切斷，其中的植物將會死亡。內置光源。1x1的尺寸讓你可以自由組合。</ADVModularHydroponicsBasin.description>
+  <ADVModularHydroponicsBasin_Blueprint.label>組合水培植物盆（高級） (藍圖)</ADVModularHydroponicsBasin_Blueprint.label>
+  <ADVModularHydroponicsBasin_Frame.label>組合水培植物盆（高級） (建造中)</ADVModularHydroponicsBasin_Frame.label>
+  <ADVModularHydroponicsBasin_Frame.description>將植物種在高級營養液中，使其更加快速地生長。需要供電，如果電源被切斷，其中的植物將會死亡。內置光源。1x1的尺寸讓你可以自由組合。</ADVModularHydroponicsBasin_Frame.description>
+
+  <VG_Composterbox.label>堆肥池</VG_Composterbox.label>
+  <VG_Composterbox.description>充滿土壤和動植物的屍體，並在此發酵腐熟。</VG_Composterbox.description>
+  <VG_Composterbox_Blueprint.label>堆肥池 (藍圖)</VG_Composterbox_Blueprint.label>
+  <VG_Composterbox_Blueprint_Install.label>堆肥池 (藍圖)</VG_Composterbox_Blueprint_Install.label>
+  <VG_Composterbox_Frame.label>堆肥池 (建造中)</VG_Composterbox_Frame.label>
+  <VG_Composterbox_Frame.description>充滿土壤和動植物的屍體，並在此發酵腐熟。</VG_Composterbox_Frame.description>
+
+
+</LanguageData>

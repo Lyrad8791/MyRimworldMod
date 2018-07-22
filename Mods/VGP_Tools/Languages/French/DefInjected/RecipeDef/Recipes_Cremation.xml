@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FertilizerCorpse.label>Incinérer en engrais</FertilizerCorpse.label>
+  <FertilizerCorpse.description>Incinérer des cadavres en engrais. Par défaut, tout est désactivé.</FertilizerCorpse.description>
+  <FertilizerCorpse.jobString>Incinère.</FertilizerCorpse.jobString>
+
+  <FertilizerCorpseCampfire.label>Incinérer en engrais</FertilizerCorpseCampfire.label>
+  <FertilizerCorpseCampfire.description>Incinérer des cadavres en engrais dans le feu de camp. Moins efficace et rentable que le crématorium. Par défaut, tout est désactivé.</FertilizerCorpseCampfire.description>
+  <FertilizerCorpseCampfire.jobString>Incinère.</FertilizerCorpseCampfire.jobString>
+
+
+</LanguageData>

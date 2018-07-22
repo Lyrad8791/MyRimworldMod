@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+   
+<ThingDef ParentName="VG_MealRottable">
+      <defName>MakiVegRoll</defName>
+      <label>Maki vegetarian roll</label>
+      <description>A Rolled dish of cold cooked rice served with a garnish of vegetables wrapped.</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/makiRollVeg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>21</MarketValue>
+         <WorkToMake>1000</WorkToMake>
+      </statBases>
+      <ingestible>
+      <preferability>MealFine</preferability>
+		<tasteThought>AteFineMeal</tasteThought>
+      <nutrition>0.80</nutrition>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
+     </ingestible>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+   </ThingDef>
+	
+   
+
+<ThingDef ParentName="VG_MealRottable">
+      <defName>MakiRoll</defName>
+      <label>Maki roll</label>
+      <description>A Rolled dish of cold cooked rice served with a garnish of raw fish, vegetables, or egg.</description>
+      <graphicData>
+      <texPath>Things/Item/Meal/makiRoll</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <statBases>
+         <DeteriorationRate>10</DeteriorationRate>
+         <MarketValue>21</MarketValue>
+         <WorkToMake>1000</WorkToMake>
+      </statBases>
+      <ingestible>
+      <preferability>MealFine</preferability>
+	 <tasteThought>AteFineMeal</tasteThought>
+       <nutrition>0.8</nutrition>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
+     </ingestible>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+   </ThingDef>
+
+  <ThingDef ParentName="VG_MealRottable">
+    <defName>Nigiri</defName>
+    <label>Nigiri</label>
+    <description>A small ball of rice topped with raw fish or other seafood.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/nigiri</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>16</MarketValue>
+      <WorkToMake>600</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <nutrition>0.7</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+  </ThingDef>
+
+
+</Defs>

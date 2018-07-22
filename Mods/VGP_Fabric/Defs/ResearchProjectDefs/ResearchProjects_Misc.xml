@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ResearchProjectDef>
+		<defName>VG_ClothI</defName>
+		<label>Synthread</label>
+		<description>Researches methods of weaving synthread. \nUnlocks the recipe for synthread at the loom.</description>
+		<tab>VG</tab>
+		<baseCost>750</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Devilstrand</li>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VG_ClothII</defName>
+		<label>Hyperweave</label>
+		<description>Researches methods of weaving hyperweave. \nUnlocks the recipe for hyperweave at the loom.</description>
+		<tab>VG</tab>
+		<baseCost>1500</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VG_ClothI</li>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+
+</Defs>

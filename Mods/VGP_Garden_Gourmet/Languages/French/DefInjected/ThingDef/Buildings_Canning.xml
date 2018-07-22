@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CanningFactory.label>Machine à conserve</CanningFactory.label>
+  <CanningFactory.description>La machine de mise en conserve doit être chargée d'acier. Ensuite, vous faites de la viande, des légumes ou des repas en conserve.</CanningFactory.description>
+  <CanningFactory_Blueprint.label>Machine à conserve (plan)</CanningFactory_Blueprint.label>
+  <CanningFactory_Frame.label>Machine à conserve (construction)</CanningFactory_Frame.label>
+  <CanningFactory_Frame.description>La machine de mise en conserve doit être chargée d'acier. Ensuite, vous faites de la viande, des légumes ou des repas en conserve.</CanningFactory_Frame.description>
+
+  <VG_CanningFactory.label>Usine à conserve</VG_CanningFactory.label>
+  <VG_CanningFactory.description>L'usine à conserve peut être configuré pour préparer des repas ou pour préparer différents types d'aliments afin de les conserver.</VG_CanningFactory.description>
+  <VG_CanningFactory_Blueprint.label>Usine à conserve (plan)</VG_CanningFactory_Blueprint.label>
+  <VG_CanningFactory_Blueprint_Install.label>Usine à conserve (plan)</VG_CanningFactory_Blueprint_Install.label>
+  <VG_CanningFactory_Frame.label>Usine à conserve (construction)</VG_CanningFactory_Frame.label>
+  <VG_CanningFactory_Frame.description>L'usine à conserve peut être configuré pour préparer des repas ou pour préparer différents types d'aliments afin de les conserver.</VG_CanningFactory_Frame.description>
+
+
+</LanguageData>

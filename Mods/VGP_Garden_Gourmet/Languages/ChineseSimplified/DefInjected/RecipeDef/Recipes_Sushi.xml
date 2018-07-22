@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMakiVegRoll.label>制作素食卷（4）</CookMakiVegRoll.label>
+  <CookMakiVegRoll.description>用稻米和作物组合作为原料烹制一道稍微复杂的料理。是一款美食。\n\n做4份。</CookMakiVegRoll.description>
+  <CookMakiVegRoll.jobString>正在制作素食卷。</CookMakiVegRoll.jobString>
+
+
+  <!--<CookMakiRoll.label>制作寿司卷（4）</CookMakiRoll.label>-->
+  <!--<CookMakiRoll.description>用稻米和生鱼片/作物作为原料烹制一道稍微复杂的料理。是一款美食。\n\n做4份。</CookMakiRoll.description>-->
+  <!--<CookMakiRoll.jobString>正在制作寿司卷。</CookMakiRoll.jobString>-->
+
+</LanguageData>

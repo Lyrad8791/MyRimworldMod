@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BrewAppleSoda.label>制造苹果苏打</BrewAppleSoda.label>
+  <BrewAppleSoda.description>将苹果制成糖浆，然后加入苏打水。</BrewAppleSoda.description>
+  <BrewAppleSoda.jobString>正在制造苹果苏打。</BrewAppleSoda.jobString>
+
+  <BrewBananaSoda.label>制造香蕉苏打</BrewBananaSoda.label>
+  <BrewBananaSoda.description>将香蕉制成糖浆，然后加入苏打水。</BrewBananaSoda.description>
+  <BrewBananaSoda.jobString>正在制造香蕉苏打。</BrewBananaSoda.jobString>
+
+  <BrewGrapeSoda.label>制造葡萄苏打</BrewGrapeSoda.label>
+  <BrewGrapeSoda.description>将葡萄制成糖浆，然后加入苏打水。</BrewGrapeSoda.description>
+  <BrewGrapeSoda.jobString>正在制造葡萄苏打。</BrewGrapeSoda.jobString>
+
+  <BrewOrangeSoda.label>制造香橙苏打</BrewOrangeSoda.label>
+  <BrewOrangeSoda.description>将香橙制成糖浆，然后加入苏打水。</BrewOrangeSoda.description>
+  <BrewOrangeSoda.jobString>正在制造香橙苏打。</BrewOrangeSoda.jobString>
+
+  <BrewPeachSoda.label>制造桃子苏打</BrewPeachSoda.label>
+  <BrewPeachSoda.description>将桃子制成糖浆，然后加入苏打水。</BrewPeachSoda.description>
+  <BrewPeachSoda.jobString>正在制造桃子苏打。</BrewPeachSoda.jobString>
+
+  <BrewPineappleSoda.label>制造菠萝苏打</BrewPineappleSoda.label>
+  <BrewPineappleSoda.description>将菠萝制成糖浆，然后加入苏打水。</BrewPineappleSoda.description>
+  <BrewPineappleSoda.jobString>正在制造菠萝苏打。</BrewPineappleSoda.jobString>
+
+  <BrewBlueberrySoda.label>制造蓝莓苏打</BrewBlueberrySoda.label>
+  <BrewBlueberrySoda.description>将蓝莓制成糖浆，然后加入苏打水。</BrewBlueberrySoda.description>
+  <BrewBlueberrySoda.jobString>正在制造蓝莓苏打。</BrewBlueberrySoda.jobString>
+
+  <BrewWatermelonSoda.label>制造西瓜苏打</BrewWatermelonSoda.label>
+  <BrewWatermelonSoda.description>将西瓜制成糖浆，然后加入苏打水。</BrewWatermelonSoda.description>
+  <BrewWatermelonSoda.jobString>正在制造西瓜苏打。</BrewWatermelonSoda.jobString>
+
+  <BrewCloudberrySoda.label>制造云莓苏打</BrewCloudberrySoda.label>
+  <BrewCloudberrySoda.description>将云莓制成糖浆，然后加入苏打水。</BrewCloudberrySoda.description>
+  <BrewCloudberrySoda.jobString>正在制造云莓苏打。</BrewCloudberrySoda.jobString>
+
+  <BrewGooseberrySoda.label>制造醋栗苏打</BrewGooseberrySoda.label>
+  <BrewGooseberrySoda.description>将醋栗制成糖浆，然后加入苏打水。</BrewGooseberrySoda.description>
+  <BrewGooseberrySoda.jobString>正在制造醋栗苏打。</BrewGooseberrySoda.jobString>
+
+  <BrewDateSoda.label>制造海枣苏打</BrewDateSoda.label>
+  <BrewDateSoda.description>将海枣制成糖浆，然后加入苏打水。</BrewDateSoda.description>
+  <BrewDateSoda.jobString>正在制造海枣苏打。</BrewDateSoda.jobString>
+
+  <BrewFigSoda.label>制造无花果苏打</BrewFigSoda.label>
+  <BrewFigSoda.description>将无花果制成糖浆，然后加入苏打水。</BrewFigSoda.description>
+  <BrewFigSoda.jobString>正在制造无花果苏打。</BrewFigSoda.jobString>
+
+  <BrewCherrySoda.label>制造樱桃苏打</BrewCherrySoda.label>
+  <BrewCherrySoda.description>将樱桃制成糖浆，然后加入苏打水。</BrewCherrySoda.description>
+  <BrewCherrySoda.jobString>正在制造樱桃苏打。</BrewCherrySoda.jobString>
+
+  <BrewCoconutSoda.label>制造椰子苏打</BrewCoconutSoda.label>
+  <BrewCoconutSoda.description>将整个椰子制成糖浆，然后加入苏打水。</BrewCoconutSoda.description>
+  <BrewCoconutSoda.jobString>正在制造椰子苏打。</BrewCoconutSoda.jobString>
+
+  <BrewSimpleSyrupVG.label>制作醣浆</BrewSimpleSyrupVG.label>
+  <BrewSimpleSyrupVG.description>使用低含糖量的水果制成糖浆。</BrewSimpleSyrupVG.description>
+  <BrewSimpleSyrupVG.jobString>正在制作醣浆。</BrewSimpleSyrupVG.jobString>
+
+  <BulkBrewSimpleSyrupVG.label>制作醣浆（8）</BulkBrewSimpleSyrupVG.label>
+  <BulkBrewSimpleSyrupVG.description>使用低含糖量的水果制成糖浆（8）。</BulkBrewSimpleSyrupVG.description>
+  <BulkBrewSimpleSyrupVG.jobString>正在制作醣浆。</BulkBrewSimpleSyrupVG.jobString>
+
+
+</LanguageData>

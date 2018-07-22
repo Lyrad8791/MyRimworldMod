@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookGrillcheese.label>烤制芝士三明治（2）</CookGrillcheese.label>
+  <CookGrillcheese.description>两片烤面包夹着一片融化的奶酪。 \n\n做2份。\n\n食用效果：新陈代谢。</CookGrillcheese.description>
+  <CookGrillcheese.jobString>正在烤制芝士三明治。</CookGrillcheese.jobString>
+
+  <GrillPolenta.label>烤制玉米糊（2）</GrillPolenta.label>
+  <GrillPolenta.description>烤几片玉米糊。 \n\n做2份。 \n\n食用效果：新陈代谢。</GrillPolenta.description>
+  <GrillPolenta.jobString>正在烤制玉米糊。</GrillPolenta.jobString>
+
+  <Cookgrilledsandwich.label>制作芝士汉堡（2）</Cookgrilledsandwich.label>
+  <Cookgrilledsandwich.description>两片面包夹着烤肉和一片融化的奶酪。 \n\n做2份。 \n\n食用效果：新陈代谢。</Cookgrilledsandwich.description>
+  <Cookgrilledsandwich.jobString>正在制作芝士汉堡。</Cookgrilledsandwich.jobString>
+
+  <CookTacos.label>制作墨西哥玉米卷饼（5）</CookTacos.label>
+  <CookTacos.description>用玉米面饼包裹着肉和奶酪。 \n\n做5份。 \n\n食用效果：操作、新陈代谢。</CookTacos.description>
+  <CookTacos.jobString>正在制作墨西哥玉米卷饼。</CookTacos.jobString>
+
+  <CookPorridge.label>煮粥（2）</CookPorridge.label>
+  <CookPorridge.description>用谷物简单煮出来的粥。 \n\n做2份。 \n\n食用效果：视觉、血液过滤。</CookPorridge.description>
+  <CookPorridge.jobString>正在煮粥。</CookPorridge.jobString>
+
+
+</LanguageData>

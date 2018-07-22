@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Starter Plants -->
+
+  <!--[Core] <PlantPotato.label>potato plant</PlantPotato.label>-->
+  <!--[Core] <PlantPotato.description>A simple, highly nutritious tuber. Grows well even in somewhat poor soil. Harvests quickly. A strong, versatile crop.</PlantPotato.description>-->
+
+  <!--[Core] <PlantCorn.label>corn plant</PlantCorn.label>-->
+  <!--[Core] <PlantCorn.description>A large grain plant which produces ears of delicious yellow seeds. Takes a relatively long time to grow, but yields lots of food, and takes a long time to spoil. Needs fertile soil to grow well.</PlantCorn.description>-->
+
+  <!--[Core] <PlantRice.label>rice plant</PlantRice.label>-->
+  <!--[Core] <PlantRice.description>A low grain plant that thrives in rich soil and yields food fast, but is not nice to eat uncooked.</PlantRice.description>-->
+
+  <PlantBarley.label>Orge</PlantBarley.label>
+  <PlantBarley.description>Graine de céréale. Plante robuste qui résiste à la chaleur. Utilisé en cuisine pour brasser de la bière.</PlantBarley.description>
+
+
+  <!-- Tier 2 Plants -->
+
+  <PlantSnowbeet.label>Betterave</PlantSnowbeet.label>
+  <PlantSnowbeet.description>Une plante simple et nutritive. Pousse bien même dans un sol plutôt pauvre. Pousse rapidement. Une culture forte et polyvalente. Ne meurt pas par temps froid.</PlantSnowbeet.description>
+
+  <Plantredlentil.label>Lentille rouge</Plantredlentil.label>
+  <Plantredlentil.description>Une variété de lentille rouge. Une des plus anciennes plantes domestiquées connues.</Plantredlentil.description>
+
+  <Plantbean.label>Haricot</Plantbean.label>
+  <Plantbean.description>Les haricot peuvent être cuit de plusieurs façons.</Plantbean.description>
+
+  <PlantOlivetree.label>Olivier</PlantOlivetree.label>
+  <PlantOlivetree.description>Un arbre qui produit des olives et qui n'est pas détruit lorsqu'elles sont récoltées.</PlantOlivetree.description>
+
+
+  <!-- Other Plants -->
+
+  <!--[Core] <PlantHaygrass.label>haygrass</PlantHaygrass.label>-->
+  <!--[Core] <PlantHaygrass.description>A mixture of nutrient-rich grasses which yield large amounts of hay. Hay is edible for animals, but not humans.</PlantHaygrass.description>-->
+
+  <!--[Core] <PlantGrass.label>grass</PlantGrass.label>-->
+  <!--[Core] <PlantGrass.description>Wild grass. Grows anywhere there is a little light and minimally fertile ground.</PlantGrass.description>-->
+
+  <PlantTea.label>Théier</PlantTea.label>
+  <PlantTea.description>Une plante de thé verte, dont les feuilles peuvent être infusées en une boisson savoureuse.</PlantTea.description>
+
+  <PlantCoffee.label>Caféier</PlantCoffee.label>
+  <PlantCoffee.description>Une plante verte et feuillue donnant des grains de café. Ces graines peuvent être torréfiées en une boisson savoureuse.</PlantCoffee.description>
+
+  <!--[Core] <PlantHops.label>hop plant</PlantHops.label>-->
+  <!--[Core] <PlantHops.description>A flowering plant that yields hops, an essential ingredient in beer.</PlantHops.description>-->
+
+  <!--[Core] <PlantTreeBamboo.label>bamboo tree</PlantTreeBamboo.label>-->
+  <!--[Core] <PlantTreeBamboo.description>A fast-growing tree-like species that grows in cluster. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</PlantTreeBamboo.description>-->
+
+
+</LanguageData>

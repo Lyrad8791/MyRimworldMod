@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <!--[Core] <RawRice.label>rice</RawRice.label>-->
+  <!--[Core] <RawRice.description>Raw rice.</RawRice.description>-->
+
+  <!--[Core] <RawPotatoes.label>potatoes</RawPotatoes.label>-->
+  <!--[Core] <RawPotatoes.description>Raw potatoes.</RawPotatoes.description>-->
+
+  <!--[Core] <RawCorn.label>corn</RawCorn.label>-->
+  <!--[Core] <RawCorn.description>Raw corn.</RawCorn.description>-->
+
+  <Rawsnowbeet.label>Betterave</Rawsnowbeet.label>
+  <Rawsnowbeet.description>Betterave crue.</Rawsnowbeet.description>
+
+  <RawBarley.label>Orge</RawBarley.label>
+  <RawBarley.description>Graines de céréales utilisées pour l'alimentation du bétail, cuit pour la nourriture et utilisé pour la fabrication de la bière.</RawBarley.description>
+
+  <Rawbean.label>Haricot</Rawbean.label>
+  <Rawbean.description>Les haricots peuvent être cuit de plusieurs façons.</Rawbean.description>
+
+  <RawOlive.label>Olive</RawOlive.label>
+  <RawOlive.description>Ce fruit pousse sur les oliviers.</RawOlive.description>
+
+  <Rawmushroom.label>Champignon</Rawmushroom.label>
+  <Rawmushroom.description>Les champignons crus sont riches en protéines. Bon à manger, même cru.</Rawmushroom.description>
+
+
+</LanguageData>

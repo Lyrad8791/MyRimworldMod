@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <SunLamp.label>太阳灯</SunLamp.label>-->
+  <!--[Core] <SunLamp.description>将一片区域照亮到足以种植农作物，但需要消耗大量电力。夜晚时会自动关闭。</SunLamp.description>-->
+  <!--[Core] <SunLamp.comps.3.offMessage>植物休眠期间关闭。</SunLamp.comps.3.offMessage>-->
+  <!--[Core] <SunLamp_Blueprint.label>太阳灯（蓝图）</SunLamp_Blueprint.label>-->
+  <!--[Core] <SunLamp_Frame.label>太阳灯（建造中）</SunLamp_Frame.label>-->
+  <!--[Core] <SunLamp_Frame.description>将一片区域照亮到足以种植农作物，但需要消耗大量电力。夜晚时会自动关闭。</SunLamp_Frame.description>-->
+
+  <SmallSunLamp.label>太阳灯（中）</SmallSunLamp.label>
+  <SmallSunLamp.description>将一片区域照亮到足以种植农作物。适合室内种植，代替太阳提供光源。</SmallSunLamp.description>
+  <SmallSunLamp.comps.3.offMessage>植物休眠期间关闭。</SmallSunLamp.comps.3.offMessage>
+  <SmallSunLamp_Blueprint.label>太阳灯（中） （蓝图）</SmallSunLamp_Blueprint.label>
+  <SmallSunLamp_Frame.label>太阳灯（中）（建造中）</SmallSunLamp_Frame.label>
+  <SmallSunLamp_Frame.description>将一片区域照亮到足以种植农作物。适合室内种植，代替太阳提供光源。</SmallSunLamp_Frame.description>
+
+  <MiniSunLamp.label>太阳灯（小）</MiniSunLamp.label>
+  <MiniSunLamp.description>将一片区域照亮到足以种植农作物。适合室内种植，代替太阳提供光源。</MiniSunLamp.description>
+  <MiniSunLamp.comps.3.offMessage>植物休眠期间关闭。</MiniSunLamp.comps.3.offMessage>
+  <MiniSunLamp_Blueprint.label>太阳灯（小） （蓝图）</MiniSunLamp_Blueprint.label>
+  <MiniSunLamp_Frame.label>太阳灯（小）（建造中）</MiniSunLamp_Frame.label>
+  <MiniSunLamp_Frame.description>将一片区域照亮到足以种植农作物。适合室内种植，代替太阳提供光源。</MiniSunLamp_Frame.description>
+
+  <VG_DiggingSpot.label>挖土点</VG_DiggingSpot.label>
+  <VG_DiggingSpot.description>用来挖掘土堆，只能放置在土壤上。</VG_DiggingSpot.description>
+  <VG_DiggingSpot_Blueprint.label>挖土点 （蓝图）</VG_DiggingSpot_Blueprint.label>
+  <VG_DiggingSpot_Frame.label>挖土点（建造中）</VG_DiggingSpot_Frame.label>
+  <VG_DiggingSpot_Frame.description>用来挖掘土堆，只能放置在土壤上。</VG_DiggingSpot_Frame.description>
+
+
+</LanguageData>

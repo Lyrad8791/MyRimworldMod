@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+
+  <WorkGiverDef>
+    <defName>DoBillsUseDiggingSpot</defName>
+    <label>do bills at digging spot</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>120</priorityInType>
+    <fixedBillGiverDefs>
+      <li>VG_DiggingSpot</li>
+    </fixedBillGiverDefs>
+    <verb>dig</verb>
+    <gerund>digging</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>GT_WorkGiver_TakeProductOutOfUniversalFermenter</defName>
+		<label>take product out of composter</label>
+		<giverClass>Garden.WorkGiver_TakeProductOutOfUniversalFermenter</giverClass>
+		<workType>Hauling</workType>
+		<verb>take product</verb>
+		<gerund>taking product from</gerund>
+		<priorityInType>26</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>GT_WorkGiver_FillUniversalFermenter</defName>
+		<label>fill composter</label>
+		<giverClass>Garden.WorkGiver_FillUniversalFermenter</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>25</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>
+

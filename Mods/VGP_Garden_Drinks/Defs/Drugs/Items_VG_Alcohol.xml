@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <ThingDef Abstract="True" ParentName="VG_DrugBase" Name="LiquorCloset">
+    <equippedAngleOffset>-150</equippedAngleOffset>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>9</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed, Liquor</foodType>
+      <joy>0.17</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.15</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <severity>0.032</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+      </outcomeDoers>
+    </ingestible>
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>cider</defName>
+	<label>Apple cider</label>
+	<description>Shinzee's Apple Cider is a sweet alcohol from apples.</description>
+	<graphicData>
+      <texPath>Things/Item/cider</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>15</MarketValue>
+	</statBases>
+  </ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>rum</defName>
+	<label>Rum</label>
+	<description>REinstein's Rum. Where's all the rum gone?</description>
+	<graphicData>
+      <texPath>Things/Item/rum</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>22</MarketValue>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>Wine</defName>
+	<label>Wine</label>
+	<description>A sweet alcohol from grapes. From Ramsi's Private Reserves often stolen and smuggled.</description>
+	<graphicData>
+      <texPath>Things/Item/Wine</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>30</MarketValue>
+	</statBases>
+</ThingDef>
+
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>strawberrywine</defName>
+	<label>Berry Wine</label>
+	<description>The artist Spoonshortage had two passions in life. Art and her love of Strawberry wine. So much so that she spent her vast wealth developing her own brand. It quickly spread across the Rim, as the best and only brand to drink. It is a sweet, pinkish alcohol from strawberries.</description>
+    <graphicData>
+	<texPath>Things/Item/StrawberryWine</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>30</MarketValue>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>saki</defName>
+	<label>Sake</label>
+	<description>WHiZ Sake. A crisp, refreshing alcohol from rice.</description>
+    <graphicData>
+	<texPath>Things/Item/Sake</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>19</MarketValue>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>vodka</defName>
+	<label>Vodka</label>
+	<description>Syntria brand vodka is a clear, potato based alcohol. Created by the one of the Rim's most famous TV personalities.</description>
+    <graphicData>
+	<texPath>Things/Item/vodka</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>15</MarketValue>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>tequila</defName>
+	<label>Tequila</label>
+	<description>Kitty's Tequila is a potent liquor made of agave. It has a picture of what looks like a naked and inebriated female cat person on the bottle. Once discovered by a certain Orassan, she quickly perfected the recipe and it became a very popular drink on Orassia and developed an even more storied reputation.</description>
+    <graphicData>
+	<texPath>Things/Item/Tequila</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>24</MarketValue>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>whisky</defName>
+	<label>Whisky</label>
+	<description>Quill's #18 whisky. Takes 18 years to age this drink to perfection. Tho cheap knockoffs have been made to add flavors to speed up the process. A golden, corn based alcohol.</description>
+    <graphicData>
+	<texPath>Things/Item/whiskey</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>19</MarketValue>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>BrownAle</defName>
+	<label>Brown Ale</label>
+	<description>Barky's Brown Ale. A dark amber coloured beer. Made from barley grains.</description>
+	<graphicData>
+      <texPath>Things/Item/BrownAle</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>15</MarketValue>
+	</statBases>
+  </ThingDef>
+
+<ThingDef ParentName="LiquorCloset">
+	<defName>Fruitshine</defName>
+	<label>Fruitshine</label>
+	<description>Fruitshine is a sweet alcohol from fruits. Based off of age old moonshining recipes.</description>
+	<graphicData>
+      <texPath>Things/Item/Fruitshine</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<statBases>
+	  <MarketValue>19</MarketValue>
+	</statBases>
+  </ThingDef>
+
+
+</Defs>

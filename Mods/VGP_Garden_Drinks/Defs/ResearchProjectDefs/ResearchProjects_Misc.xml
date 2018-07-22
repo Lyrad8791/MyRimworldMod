@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ResearchProjectDef>
+		<defName>VG_industrialfermenting</defName>
+		<label>industrial fermenting</label>
+		<description>Research construction methods of a much larger fermenting barrels. Allow 3 times the amount of products to be made in the same amount of time.</description>
+		<tab>VG</tab>
+		<baseCost>1000</baseCost>
+		    <techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Brewing</li>
+		</prerequisites>
+ 		<researchViewX>5</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+
+</Defs>

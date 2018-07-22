@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HeatedSunLamp.label>加熱太陽燈（大）</HeatedSunLamp.label>
+  <HeatedSunLamp.description>為一整片區域提供足以植物生長的亮光。同時也是一個大型加熱器，以保持房間溫暖。</HeatedSunLamp.description>
+  <HeatedSunLamp_Blueprint.label>加熱太陽燈（大） (藍圖)</HeatedSunLamp_Blueprint.label>
+  <HeatedSunLamp_Frame.label>加熱太陽燈（大） (建造中)</HeatedSunLamp_Frame.label>
+  <HeatedSunLamp_Frame.description>為一整片區域提供足以植物生長的亮光。同時也是一個大型加熱器，以保持房間溫暖。</HeatedSunLamp_Frame.description>
+
+  <HeatedSmallSunLamp.label>加熱太陽燈（中）</HeatedSmallSunLamp.label>
+  <HeatedSmallSunLamp.description>為一整片區域提供足以植物生長的亮光。同時也是一個中型加熱器，以保持房間溫暖。</HeatedSmallSunLamp.description>
+  <HeatedSmallSunLamp_Blueprint.label>加熱太陽燈（中） (藍圖)</HeatedSmallSunLamp_Blueprint.label>
+  <HeatedSmallSunLamp_Frame.label>加熱太陽燈（中） (建造中)</HeatedSmallSunLamp_Frame.label>
+  <HeatedSmallSunLamp_Frame.description>為一整片區域提供足以植物生長的亮光。同時也是一個中型加熱器，以保持房間溫暖。</HeatedSmallSunLamp_Frame.description>
+
+  <HeatedMiniSunLamp.label>加熱太陽燈（小）</HeatedMiniSunLamp.label>
+  <HeatedMiniSunLamp.description>為一整片區域提供足以植物生長的亮光。同時也是一個加熱器，以保持房間溫暖。</HeatedMiniSunLamp.description>
+  <HeatedMiniSunLamp_Blueprint.label>小型加熱太陽燈（小） (藍圖)</HeatedMiniSunLamp_Blueprint.label>
+  <HeatedMiniSunLamp_Frame.label>加熱太陽燈（小） (建造中)</HeatedMiniSunLamp_Frame.label>
+  <HeatedMiniSunLamp_Frame.description>為一整片區域提供足以植物生長的亮光。同時也是一個加熱器，以保持房間溫暖。</HeatedMiniSunLamp_Frame.description>
+
+
+</LanguageData>

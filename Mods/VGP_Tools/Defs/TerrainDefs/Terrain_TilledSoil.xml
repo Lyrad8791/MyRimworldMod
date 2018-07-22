@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <TerrainDef>
+    <defName>VG_PlaceSoil</defName>
+    <label>Place Soil</label>
+	<description>Places dirt onto smoothed floors to grow crops.</description>
+    <texturePath>Terrain/Surfaces/Soil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>600</WorkToBuild>
+    </statBases>
+	<designationCategory>GardenTools</designationCategory>
+	<constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <terrainFilthDef>FilthDirt</terrainFilthDef>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	<acceptFilth>false</acceptFilth>
+    <avoidWander>true</avoidWander>
+	<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
+	<researchPrerequisites>
+      <li>SoilReclam</li>
+    </researchPrerequisites>
+    <costList>
+      <VG_PileofDirt>5</VG_PileofDirt>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef>
+    <defName>VG_ReclaimSoil</defName>
+    <label>Reclaim Soil</label>
+	<description>Digs up sand, marshy soil, mud, marsh, ice,  gravel and places dirt to grow crops.</description>
+    <texturePath>Terrain/Surfaces/Soil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+	<designationCategory>GardenTools</designationCategory>
+	<constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+      <li>Undefined</li>
+    </affordances>
+    <terrainFilthDef>FilthDirt</terrainFilthDef>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	<acceptFilth>false</acceptFilth>
+    <avoidWander>true</avoidWander>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    <costList>
+      <VG_PileofDirt>10</VG_PileofDirt>
+    </costList>
+	<researchPrerequisites>
+      <li>SoilReclamII</li>
+    </researchPrerequisites>
+  </TerrainDef>
+
+  <TerrainDef>
+    <defName>VG_PlowSoil</defName>
+    <label>plow soil</label>
+	<description>Plow soil for much improved growing conditions. Soil fertility 160% of normal soil.</description>
+    <texturePath>Things/floor/PlowSoil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>5</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+	  <WorkToBuild>1750</WorkToBuild>
+    </statBases>
+	<designationCategory>GardenTools</designationCategory>
+	<constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <terrainFilthDef>FilthDirt</terrainFilthDef>
+    <fertility>1.6</fertility>
+    <takeFootprints>True</takeFootprints>
+	<acceptFilth>false</acceptFilth>
+    <avoidWander>true</avoidWander>
+	<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+	<researchPrerequisites>
+      <li>SoilReclamII</li>
+    </researchPrerequisites>
+    <costList>
+      <RawFertilizer>10</RawFertilizer>
+    </costList>
+  </TerrainDef>
+
+
+</Defs>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_Soda.label>soda</CPD_Soda.label>
+  <CPD_Soda.stages.0.label>caché</CPD_Soda.stages.0.label>
+  <CPD_Soda.stages.1.label>rafraîchi</CPD_Soda.stages.1.label>
+
+  <CPD_Syrup.label>sirop</CPD_Syrup.label>
+  <CPD_Syrup.stages.0.label>caché</CPD_Syrup.stages.0.label>
+  <CPD_Syrup.stages.1.label>sucré</CPD_Syrup.stages.1.label>
+  <CPD_Syrup.stages.2.label>nerveux</CPD_Syrup.stages.2.label>
+  <CPD_Syrup.stages.3.label>hyperglycémique</CPD_Syrup.stages.3.label>
+  <CPD_Syrup.stages.4.label>coma sucré</CPD_Syrup.stages.4.label>
+
+
+</LanguageData>

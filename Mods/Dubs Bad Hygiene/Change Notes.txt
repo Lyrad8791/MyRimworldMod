@@ -1,0 +1,186 @@
+﻿Update 13 June, 2018
+v2.2.4
+Made it so pawns will wash thier hands with wash buckets after using a toilet.
+But wash buckets now have a limited number of uses before they become contaminated and need cleaning, so that there is a reason to actually use proper basins.
+Fixed job drivers for hospitality guests again.
+Added mod option sliders for base terrain fertility and fertilizer grid strength, you can bow balance terrain, fertilizer and irrigation fertility however you like.
+
+
+
+Update: 10 june, 2018
+v2.2.3
+Changed small water tower cost from wood to woody stuff.
+Split the architect menu into hygiene and hygiene/misc.
+Replaced the fertilized terrain with biosolids which can be placed on any diggable terrain to boost fertility, similar to irrigation and stacks with it, costs less to make, but needs replacing once a year.
+Added a comp to the composters def which lets you mod the product and the material used to make it.
+Changed the designator to drain septic tanks into a drop down menu which lets you decide when to automatically drain the tank.
+Made the search for bathroom fixtures smarter so that if you have a restroom with only 1 toilet, then a pawn wont try to use any fixtures in the room if at least 1 thing is reserved, unless they are in urgent need to use a toilet.
+Changed the contamination chance for using toilets to check the toilets cell and not the room cleanliness, and changed the way the chance works.
+Removed the forced jobs for urgent defecation, this prevents unwanted interruptions.
+Changed the thermostat control on boilers and hot water tanks, they are always on by default, you must now click on a hot water tank and enable thermostat control, then the boiler will switch on for 1 hour stints when the water temp is below 25%.
+
+Fixed a bug that meant toilets with assigned pawns that were in prison cells couldn’t be used by prisoners.
+Fixed a bug that prevented prisoners from open defecating in their cell.
+Fixed the water tower and solar heater from the old version of the mod not being converted properly to the legacy buildings.
+
+Added a mod option to toggle the visibility of the new biosolids fertilizer grid.
+Added mod options for contamination chance and irrigation strength, and to toggle the needs for prisoners or hospitality guests.
+Added mod options panel to override the def settings for filtering out exactly what needs are given to what pawns, lets you disable by race, body type or hediff.
+Added experimental features section to the mod options, including needs toggles for non colonists, and bladder needs for pets and/or wild animals.
+Added a thirst need under experimental features, they can drink from basins, sinks or surface water, eating a meal raises it, diarrhea makes it fall faster.
+Added a paintable litter box for teh kitties.
+
+
+
+
+Update: 04 June, 2018
+v2.2.2
+Halved the chance to get contamination from dirty toilets and water
+Halved the chance for the contamination to turn into disease
+
+Update: 04 June, 2018
+v2.2.1
+Made the diseases a little less harsh
+Made it a lot harder to catch dysentery
+Fixed the roomrole worker for public bathrooms
+Reduced the amount of hot water used by baths and showers
+
+Update: 04 June, 2018
+v2.2.0
+Pawns no longer wander into public or private bathrooms
+Pawns will jog to the bathroom if its urgent
+Patched in the job drivers for Hospitality
+Non-human colonists won't have the needs by default
+Body types can be added to a list in the need defs to activate the need
+Fixed white flickery edges on all textures
+Needs now stick to 50% in caravans
+Changed and added to the research tree
+Changed shower steam effect to reduce mote spam
+Added debug options to add and remove water for the ground water grid
+Fixed the fahrenheit and kelvin readout on thermostat
+Colonists manning things won't break to use toilets
+Fixed a bug that cause pawns to leave the bath as soon as joy was filled
+Fixed a bug that caused buildings to vanish while overlapping unfinished pipes
+Fixed fertility reading in bottom left corner text readout
+Added mod option to switch pipe visibility mode between visible, underfloor, or invisible
+Fixed pipe blockages so they should actually happen now
+Pawns forced to get rest now only use bedpans
+
+Recoded pipe nets
+Converted lots of classes to comps so it's easier to modify
+Removed white versions of pipes fixtures and radiators
+Added tool to paint fixtures and radiators with a selection of colours
+Split water towers into towers pumps and wells (saved towers still work the same)
+Added water quality.
+Added more details to inspect tabs for stuff like total water/pumping/heating capacities
+Added “washing” hediff to fix alerts for temps and clothing while naked and protect them from heat and cold while washing
+Added sewage spill incident
+Changed contamination so towers will become contaminated, then need to be drained or treated with filtration.
+Added water tower contamination incident
+Hygiene related diseases now trigger from direct contamination rather than an incident
+Added drain tank button to water towers to clear contamination.
+Added a pollution types def where you can add any terrain or thing def to a list with a value for how much it pollutes the groundwater.
+Sewage no longer kills trees only small plants.
+Sewage now only spreads downstream in rivers.
+Added river direction overlay.
+Sewage processor doesn't need an outlet anymore and works faster
+Showers baths and basins no longer produce sewage.
+Toilets produce more sewage
+Latrines store sewage again which needs to be emptied
+Sewage can be dug up into barrels of fecal sludge
+Added burn pits to burn fecal sludge, also allows burning corpses and apparel, pawns will become contaminated by standing near it.
+Added composter to turn fecal sludge into fertilizer, works like brewing beer
+Added fertilized soil with 115% fertility
+
+Power showers now heat water on demand
+Baths can now be heated by placing a campfire next to them
+Pipes can now be built through water
+Added radius adjustment to sprinklers
+Added bad hygiene hediff which gives stat offsets if pawns don't wash for a long time
+Thermal store changed to hot water tank using the boiler graphic
+Split the multi-fuel stove into a log stove and a gas boiler allowing them to be more efficient
+Added electric boiler with no built in tank to replace the old electric boiler
+Added animation to baths
+Added hot tubs
+Added large radiators
+Added multi-split air conditioning with pipes, indoor units and freezer units
+Added water filtration system
+Added piped wells
+Added deep wells
+Added wind pump
+Added electric pump
+Added industrial pump
+Added septic tanks
+Added fire sprinklers
+Added the kitchen sink
+
+
+
+
+
+
+
+Update: 24 May, 2017 @ 9:41pm
+Added sewage outlets that connect to rivers, like an unpowered version of the sewage processor.
+Added built in shower which lets you see floor tiles.
+Burn barrels can now be crafted into fecal sludge which can then be used to make night soil.
+Bathroom fixtures now all have crafting quality to boost bathroom impressiveness.
+Bathroom fixtures can be reinstalled.
+Pipes no longer have negative beauty.
+Fixes for skynet and starvation mods.
+New research setup, medieval stage for unpowered, industrial for powered.
+Latrines can now be plumbed.
+Sewage processor capacity doubled.
+Some other stuff i forgot about.
+
+
+Discuss this update in the discussions section.
+Update: 22 Apr, 2017 @ 9:33pm
+Added new central heating system.
+Enabled the needs on visitors while running hospitality.
+Optimised pipe code.
+Drafted pawns no longer soil themselves.
+If all toilets are in use then pawns will wait and try again up to 20 times befoer soiling themselves.
+Pipes are now hidden under floors.
+
+
+Discuss this update in the discussions section.
+Update: 21 Jan, 2017 @ 4:17pm
+Patch notes:
+Added baths.
+Added flippable toilet seats.
+Added white version of the toilet showers and basins.
+Added stuff based pipes.
+You now have a chance of catching D&V from burning waste in a burn barrel.
+Possible fixes for MISC robots.
+Fixed hygiene and bladder usage while travelling.
+Sewage treatment now has a capacity, add more of them or risk breakdowns.
+Fixed forced apparel being cleared when using showers/baths.
+New method for tracking hygiene - minimum level can only be reached by combination of worktype, heat, and room cleanliness.
+Added Bathroom room role.
+Added open defecation - if a pawn fails to find an available toilet 10 times in a row they resort to open defecation.
+Bedpans can now be stockpiled.
+Added mood boosts for using impressive bathrooms.
+Added gender restrictions to bathroom facilities.
+Added colonist assigning to bathroom facilities - they will use the nearest available first.
+Reduced mood debuff for low bladder.
+General graphics tweaks and name changes.
+
+Discuss this update in the discussions section.
+Update: 11 Jan, 2017 @ 9:17pm
+Pawns should now make having wounds tended a priority over showering
+Doctors should now only wash people who are unable to move.
+Reduced the size of showers to 1 cell.
+Moved hygiene related buildings to a new Hygiene tab.
+
+Discuss this update in the discussions section.
+Update: 11 Jan, 2017 @ 12:52am
+Updated all the graphics
+Made pipes slightly smaller
+New jobs for washing bedridden patients and cleaning up bed pans
+showers now cool off heatstroke and warm up hypothermia
+wash buckets now reinstallable
+
+for a patient to use bed pans the bed must be set to medical
+
+Discuss this update in the discussions section.

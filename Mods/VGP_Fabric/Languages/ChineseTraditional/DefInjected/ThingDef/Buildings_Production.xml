@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableLoom.label>紡織機</TableLoom.label>
+  <TableLoom.description>用於將纖維原料紡織成布匹的工作台。</TableLoom.description>
+  <TableLoom_Blueprint.label>紡織機 (藍圖)</TableLoom_Blueprint.label>
+  <TableLoom_Frame.label>紡織機 (建造中)</TableLoom_Frame.label>
+  <TableLoom_Frame.description>用於將纖維原料紡織成布匹的工作台。</TableLoom_Frame.description>
+
+  <TableElecLoom.label>紡織機（電動）</TableElecLoom.label>
+  <TableElecLoom.description>用於將纖維原料紡織成布匹的工作台。</TableElecLoom.description>
+  <TableElecLoom_Blueprint.label>紡織機（電動）(藍圖)</TableElecLoom_Blueprint.label>
+  <TableElecLoom_Frame.label>紡織機（電動）(建造中)</TableElecLoom_Frame.label>
+  <TableElecLoom_Frame.description>用於將纖維原料紡織成布匹的工作台。</TableElecLoom_Frame.description>
+
+
+</LanguageData>

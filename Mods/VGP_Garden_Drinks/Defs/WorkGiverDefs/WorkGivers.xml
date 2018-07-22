@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>VG_WorkGiver_TakeProductOutOfUniversalFermenter</defName>
+		<label>take product out of fermenter</label>
+		<giverClass>Garden.WorkGiver_TakeProductOutOfUniversalFermenter</giverClass>
+		<workType>Hauling</workType>
+		<verb>take product</verb>
+		<gerund>taking product from</gerund>
+		<priorityInType>26</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>VG_WorkGiver_FillUniversalFermenter</defName>
+		<label>fill fermenter</label>
+		<giverClass>Garden.WorkGiver_FillUniversalFermenter</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>25</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>
+

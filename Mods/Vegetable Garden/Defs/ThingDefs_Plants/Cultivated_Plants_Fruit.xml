@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<!-- New crop types Fruit Trees -->
+
+
+  <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>PlantAppletree</defName>
+    <label>apple tree</label>
+    <description>A fruit bearing tree that grows apples and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/appleTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>18</growDays>
+      <harvestedThingDef>Rawapple</harvestedThingDef>
+<immatureGraphicPath>Things/Immature/appleTree</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>PlantBananaTree</defName>
+    <label>banana tree</label>
+    <description>A fruit bearing tree that grows banana and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/bananaTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>   
+      <growDays>18</growDays>
+      <harvestedThingDef>Rawbanana</harvestedThingDef>
+<immatureGraphicPath>Things/Immature/bananaTree</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+
+    <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>PlantorangeTree</defName>
+    <label>orange tree</label>
+    <description>A fruit bearing tree that grows oranges and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/orangeTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>18</growDays>
+      <harvestedThingDef>Raworange</harvestedThingDef>
+ <immatureGraphicPath>Things/Immature/orangeTree</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>PlantPeachTree</defName>
+    <label>peach tree</label>
+    <description>A fruit bearing tree that grows peaches and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/peachTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>18</growDays>
+      <harvestedThingDef>Rawpeach</harvestedThingDef>
+   <immatureGraphicPath>Things/Immature/peachTree</immatureGraphicPath>
+   </plant>
+ </ThingDef>
+
+    <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>DateTree</defName>
+    <label>date palm tree</label>
+    <description>A fruit bearing tree that grows dates and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/DateTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>12</growDays>
+      <harvestedThingDef>Rawdate</harvestedThingDef>
+	<wildBiomes>
+        <AridShrubland>0.01</AridShrubland>
+        <Desert>0.01</Desert>
+	</wildBiomes>
+    <immatureGraphicPath>Things/Immature/DateTree</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+
+    <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>FigTree</defName>
+    <label>fig tree</label>
+    <description>A fruit bearing tree that grows figs and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Plants/FigTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>12</growDays>
+      <harvestedThingDef>Rawfig</harvestedThingDef>
+	<wildBiomes>
+        <AridShrubland>0.01</AridShrubland>
+        <Desert>0.01</Desert>
+	</wildBiomes>
+    <immatureGraphicPath>Things/Immature/FigTree</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>Coconuttree</defName>
+    <label>coconut tree</label>
+    <description>A fruit bearing tree that grows coconuts and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeCoconut</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>14</growDays>
+      <harvestedThingDef>RawCoconut</harvestedThingDef>
+	<wildBiomes>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+       <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_FruitTreeBase">
+    <defName>PlantCherrytree</defName>
+    <label>cherry tree</label>
+    <description>A fruit bearing tree that grows cherries and is not destroyed when picked.</description>
+    <graphicData>
+      <texPath>Things/Tree/TreeCherryFruit</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <growDays>18</growDays>
+      <harvestedThingDef>RawCherry</harvestedThingDef>
+	<wildBiomes>
+		<TemperateForest>0.01</TemperateForest>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+ <immatureGraphicPath>Things/Immature/TreeCherryFruit</immatureGraphicPath>
+       <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+ </plant>
+  </ThingDef>
+
+
+<!-- New fruit crop types  -->
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantpineapple</defName>
+	<label>pineapple plant</label>
+	<description>Think skin fruit that grows a top a bush.</description>
+    <graphicData>
+      <texPath>Things/Plants/pineapplePlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawpineapple</harvestedThingDef>
+	<harvestYield>6</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>5.75</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   <TropicalRainforest>0.01</TropicalRainforest>    		
+	</wildBiomes>
+       <immatureGraphicPath>Things/Immature/pineapplePlant</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+         <li>Hydroponic</li>
+     </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantcloudberry</defName>
+	<label>cloudberry plant</label>
+	<description>A berry bush that grows well in cold climates.</description>
+    <graphicData>
+      <texPath>Things/Plants/cloudberryPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawcloudberry</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6.25</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   	<Tundra>0.01</Tundra>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+      <immatureGraphicPath>Things/Immature/cloudberryPlant</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantgooseberry</defName>
+	<label>gooseberry plant</label>
+	<description>A berry bush that grows well in cold climates.</description>
+    <graphicData>
+      <texPath>Things/Plants/gooseberryPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestedThingDef>Rawgooseberry</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6.25</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+	<wildBiomes>
+	   	<Tundra>0.01</Tundra>
+    		<BorealForest>0.01</BorealForest>
+	</wildBiomes>
+       <sowTags>
+        <li>Ground</li>
+         <li>Hydroponic</li>
+    </sowTags>
+      <sowResearchPrerequisites>
+        <li>agricultureIV</li>
+      </sowResearchPrerequisites>
+   </plant>
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantgrape</defName>
+	<label>grape vine</label>
+	<description>A sweet small fruit that grows in small viney bushes.</description>
+    <graphicData>
+      <texPath>Things/Plants/grapePlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawgrape</harvestedThingDef>
+	<harvestYield>7</harvestYield>
+     <sowMinSkill>6</sowMinSkill>
+      <growDays>6.5</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Immature/grapePlant</immatureGraphicPath>
+    </plant>
+
+  </ThingDef>
+
+
+
+<ThingDef ParentName="VG_PlantDef">
+    <defName>PlantAgave</defName>
+    <label>agave</label>
+    <description>A large-leafed desert plant with edible flowers and stalks.</description>
+    <graphicData>
+      <texPath>Things/Plants/Agave</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawAgave</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Hydroponic</li>
+        <li>Ground</li>
+      </sowTags>
+      <fertilityMin>0.3</fertilityMin>
+      <growDays>6</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <fertilitySensitivity>0.75</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+  </plant>
+  </ThingDef>
+
+
+  <ThingDef ParentName="VG_PlantDef">
+    <defName>PlantStrawberry</defName>
+    <label>strawberry plant</label>
+    <description>A fragile but tasty fruit. Delicious even when raw.</description>
+    <graphicData>
+      <texPath>Things/Plants/StrawberryPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>RawBerries</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6.30</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/StrawberryImmature</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+
+
+<ThingDef ParentName="VG_PlantDef">
+		<defName>Plantblueberry</defName>
+		<label>blueberry plant</label>
+		<description>Blue colored berry that grows in bushes.</description>
+    <graphicData>
+      <texPath>Things/Plants/blueberryPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawblueberry</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6.5</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Immature/blueberryPlant</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+
+<ThingDef ParentName="VG_PlantDef">
+	<defName>Plantwatermelon</defName>
+	<label>watermelon plant</label>
+	<description>This fruit is rich in vitamins A and C and can be eaten raw or cooked in a variety of ways.</description>
+    <graphicData>
+      <texPath>Things/Plants/watermelonPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>Rawwatermelon</harvestedThingDef>
+	<harvestYield>6</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <growDays>6</growDays>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+       <sowResearchPrerequisites>
+        <li>agricultureII</li>
+      </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Immature/watermelonPlant</immatureGraphicPath>
+   </plant>
+  </ThingDef>
+
+
+
+
+</Defs>

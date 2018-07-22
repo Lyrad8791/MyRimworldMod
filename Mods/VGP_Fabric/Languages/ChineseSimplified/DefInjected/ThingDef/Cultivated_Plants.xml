@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <PlantCotton.label>棉花</PlantCotton.label>-->
+  <!--[Core] <PlantCotton.description>产出棉花。一种用于制衣的良好植物纤维。</PlantCotton.description>-->
+
+  <!--[Core] <PlantDevilstrand.label>恶魔菇</PlantDevilstrand.label>-->
+  <!--[Core] <PlantDevilstrand.description>这种经过基因工程改造的脆弱蘑菇能够产出最高级的丝质纤维。据传这种蘑菇拥有非常神秘的特性，它的名称源自它在人群中所激发出的贪欲。</PlantDevilstrand.description>-->
+
+  <PlantFlax.label>亚麻花</PlantFlax.label>
+  <PlantFlax.description>这种花的纤维可以被编织成亚麻布。</PlantFlax.description>
+
+
+</LanguageData>

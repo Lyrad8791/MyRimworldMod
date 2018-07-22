@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- bases -->
+
+  <RawCotton.label>棉花</RawCotton.label>
+  <RawCotton.description>棉花，可以被纺织成布或卖给商人。</RawCotton.description>
+
+  <RawFlax.label>亚麻</RawFlax.label>
+  <RawFlax.description>亚麻，可以被纺织成布或卖给商人。</RawFlax.description>
+
+  <RawDevilstrand.label>恶魔菇</RawDevilstrand.label>
+  <RawDevilstrand.description>恶魔菇。可以被编织成布或卖给商人。</RawDevilstrand.description>
+
+  <VG_PlasteelThread.label>玻璃钢丝</VG_PlasteelThread.label>
+  <VG_PlasteelThread.description>通过熔化玻璃钢纺织而成的丝线，用于生产高级布料。</VG_PlasteelThread.description>
+
+  <HempCloth.label>大麻布</HempCloth.label>
+  <HempCloth.description>别人拿来当烟抽的东西制成布然后穿在身上真的没问题吗？</HempCloth.description>
+  <HempCloth.stuffProps.stuffAdjective>大麻布</HempCloth.stuffProps.stuffAdjective>
+
+  <!--[Core] <Cloth.label>布</Cloth.label>-->
+  <!--[Core] <Cloth.description>由有机纤维织成的布。</Cloth.description>-->
+  <!--[Core] <Cloth.stuffProps.stuffAdjective>布</Cloth.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <Synthread.label>合成纤维</Synthread.label>-->
+  <!--[Core] <Synthread.description>太空时代的合成纤维，一般用于制作衣物。柔软、轻盈、坚固，并且有很好的隔温性。</Synthread.description>-->
+  <!--[Core] <Synthread.stuffProps.stuffAdjective>合成纤维</Synthread.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <DevilstrandCloth.label>魔菇布</DevilstrandCloth.label>-->
+  <!--[Core] <DevilstrandCloth.description>从产丝的恶魔菇中提取的纤维所织成的布。非常坚固，但隔温性不如合成纤维。</DevilstrandCloth.description>-->
+  <!--[Core] <DevilstrandCloth.stuffProps.stuffAdjective>魔菇布</DevilstrandCloth.stuffProps.stuffAdjective>-->
+
+  <!--[Core] <Hyperweave.label>超织物</Hyperweave.label>-->
+  <!--[Core] <Hyperweave.description>高科技纳米纤维织成的布。稍微有点重，但是几乎不可能破损。其生产技术只有最先进的闪耀世界才掌握。</Hyperweave.description>-->
+  <!--[Core] <Hyperweave.stuffProps.stuffAdjective>超织物</Hyperweave.stuffProps.stuffAdjective>-->
+
+  <Flaxcloth.label>亚麻布</Flaxcloth.label>
+  <Flaxcloth.description>用于制作衣物，柔软、轻、强韧。</Flaxcloth.description>
+  <Flaxcloth.stuffProps.stuffAdjective>亚麻布</Flaxcloth.stuffProps.stuffAdjective>
+
+  <BleadedLeather.label>混合皮</BleadedLeather.label>
+  <BleadedLeather.description>多种不同的小块皮革拼凑而成。</BleadedLeather.description>
+  <BleadedLeather.stuffProps.stuffAdjective>混合皮</BleadedLeather.stuffProps.stuffAdjective>
+
+
+</LanguageData>

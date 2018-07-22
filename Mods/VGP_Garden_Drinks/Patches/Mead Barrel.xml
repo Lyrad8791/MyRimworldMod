@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Misc. Bees'n'Honey</modName>
+			<yourMod>VGP Garden Drinks</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/ThingDef[defName = "VG_AgaveMust"]</xpath>
+				<order>Prepend</order>
+				<value>
+	<ThingDef ParentName="AlcoholPrecursorBase">
+		<defName>VG_MeadBase</defName>
+		<label>mead base</label>
+		<description>"Mead base" made from Honey. This substance needs to ferment in a fermenting barrel before it becomes drinkable mead.</description>
+		<graphicData>
+			<texPath>Things/Item/MeadBase</texPath>
+		</graphicData>
+	</ThingDef>
+				</value>
+			</li>
+		</operations>
+</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Misc. Bees'n'Honey</modName>
+			<yourMod>VGP Garden Drinks</yourMod>						</li>
+			<li Class="PatchOperationInsert">
+	<xpath>Defs/RecipeDef[defName = "VG_MakeAgaveMust"]</xpath>
+				<order>Prepend</order>
+				<value>
+	<RecipeDef ParentName="PrecursorBase">
+		<defName>CPD_MakeMeadBase</defName>
+		<label>make mead base</label>
+		<description>Make unfinished mead from honey.</description>
+		<jobString>Making mead base.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Honey</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Honey</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<VG_MeadBase>5</VG_MeadBase>
+		</products>
+	</RecipeDef>
+				</value>
+			</li>
+		</operations>
+
+</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Misc. Bees'n'Honey</modName>
+			<yourMod>VGP Garden Drinks</yourMod>						</li>
+			<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/comps/li[contains(@Class,'CompProperties_UniversalFermenter')]/products</xpath>
+				<value>
+                <li>
+                    <thingDef>Mead</thingDef>
+                    <ingredientFilter>
+                        <thingDefs>
+                            <li>VG_MeadBase</li>
+                        </thingDefs>
+                    </ingredientFilter>
+                    <maxCapacity>40</maxCapacity>
+<baseFermentationDuration>369000</baseFermentationDuration>
+                    <efficiency>1</efficiency>
+                </li>
+
+				</value>
+			</li>
+		</operations>
+</Operation>
+
+</Patch>
+

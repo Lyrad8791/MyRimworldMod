@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NeutroPetals.label>Pétales de neutrofleur</NeutroPetals.label>
+  <NeutroPetals.description>Une jolie fleur jaune-orangé. Utiliser pour fabriquer la Neutroamine, la base des médicaments.</NeutroPetals.description>
+
+  <Bandagekit.label>Kit de bandage</Bandagekit.label>
+  <Bandagekit.description>Un paquet de bandages en tissu. Moins efficace que les médicaments.</Bandagekit.description>
+
+
+</LanguageData>

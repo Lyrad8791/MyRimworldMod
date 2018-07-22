@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <soylentmaking.label>VG：营养包技术</soylentmaking.label>
+  <soylentmaking.description>允许你建造营养包生产机。营养包能够用作物、畜产品、肉类或"高级浮游生物"作原料制作。</soylentmaking.description>
+
+  <soylentmakingadvanced.label>VG：批量生产营养包</soylentmakingadvanced.label>
+  <soylentmakingadvanced.description>允许你批量生产营养包(大约节省15%生产时间)，并且能够用营养包或干肉饼制作简单的包装生存食品。</soylentmakingadvanced.description>
+
+
+</LanguageData>

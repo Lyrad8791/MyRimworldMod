@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlantSteelLeaf.label>ChampiAcier</PlantSteelLeaf.label>
+  <PlantSteelLeaf.description>Plante naturel qui contient dans ses veines de l’acier. Les champiaciers peuvent être fondus dans la fonderie électrique afin d’en obtenir de l'acier.</PlantSteelLeaf.description>
+
+  <PlantPlasteelLeaf.label>Bulbe Plastacier</PlantPlasteelLeaf.label>
+  <PlantPlasteelLeaf.description>Plante naturel qui contient dans ses veines du plastacier. Les bulbes de plastacier peuvent être fondus dans la fonderie électrique afin d’en obtenir du plastacier.</PlantPlasteelLeaf.description>
+
+  <PlantGoldLeaf.label>Fougère d'Or</PlantGoldLeaf.label>
+  <PlantGoldLeaf.description>Plante naturel qui contient dans ses veines de l’or. Les fougères d'or peuvent être fondus dans la fonderie électrique afin d’en obtenir de l’or.</PlantGoldLeaf.description>
+
+  <PlantJadeLeaf.label>Cristal de Jade</PlantJadeLeaf.label>
+  <PlantJadeLeaf.description>Plante naturel qui contient dans ses veines du jade. Les cristaux de jade peuvent être fondus dans la fonderie électrique afin d’en obtenir du jade.</PlantJadeLeaf.description>
+
+  <PlantSilverLeaf.label>Fleur d'argent</PlantSilverLeaf.label>
+  <PlantSilverLeaf.description>Plante naturel qui contient dans ses veines de l’argent. Les pétales de fleur d'argent peuvent être fondus dans la fonderie électrique afin d’en obtenir de l’argent.</PlantSilverLeaf.description>
+
+  <PlantUraniumLeaf.label>Racine d'uranium</PlantUraniumLeaf.label>
+  <PlantUraniumLeaf.description>Plante naturel qui contient dans ses veines de l’uranium. Les racines d'uranium peuvent être fondus dans la fonderie électrique afin d’en obtenir de l’uranium.</PlantUraniumLeaf.description>
+
+
+</LanguageData>

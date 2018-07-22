@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+
+
+
+<RecipeDef>
+      <defName>CookGrillcheese</defName>
+      <label>cook two grilled cheeses</label>
+      <description>Two slices of bread grilled with cheese melt in the middle. \n\nMakes 2 servings. \n\nFood Effects: Metabolism.</description>
+      <jobString>Toasting bread.</jobString>  
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Bread</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+         </li>
+		<li>
+            <filter>
+               <thingDefs>
+                  <li>cheese</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+      </ingredients>
+      <products>
+         <grilledcheese>2</grilledcheese>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Bread</li>
+		<li>cheese</li>
+         </thingDefs>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+      </fixedIngredientFilter>
+      <workAmount>1000</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+   	 <soundWorking>Recipe_CookMeal</soundWorking>
+	 <recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+      </RecipeDef>
+
+<RecipeDef>
+      <defName>GrillPolenta</defName>
+      <label>grill two polenta</label>
+      <description>Grilled slices of Polenta. \n\nMakes 2 servings. \n\nFood Effects: Metabolism and Manipulation.</description>
+      <jobString>Grilling polenta.</jobString>  
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>RawPolenta</li>
+               </thingDefs>
+            </filter>
+            <count>8</count>
+         </li>
+      </ingredients>
+      <products>
+         <grilledpolenta>2</grilledpolenta>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>RawPolenta</li>
+         </thingDefs>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+      </fixedIngredientFilter>
+      <workAmount>800</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+   	 <soundWorking>Recipe_CookMeal</soundWorking>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+      </RecipeDef>
+
+
+      <RecipeDef>
+      <defName>Cookgrilledsandwich</defName>
+      <label>cook two cheeseburgers</label>
+      <description>A sandwich made of bread, meat, and cheese. \n\nMakes 2 servings. \n\nFood Effects: Metabolism.</description>
+      <jobString>Grilling sandwich.</jobString>  
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Bread</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+		<li>
+            <filter>
+               <thingDefs>
+                  <li>cheese</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+	     <li>
+		<filter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</filter>
+		<count>6</count>
+		</li>
+      </ingredients>
+      <products>
+         <grilledmeat>2</grilledmeat>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Bread</li>
+		 <li>cheese</li>
+          </thingDefs>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+      </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+         <thingDefs>
+            <li>Bread</li>
+		 <li>cheese</li>
+         </thingDefs>
+      <exceptedCategories>
+        <li>EggsFertilized</li>
+      </exceptedCategories>
+      <exceptedThingDefs>
+        <li>Human_Meat</li>
+         <li>Megaspider_Meat</li>
+     </exceptedThingDefs>
+    </defaultIngredientFilter>
+
+      <workAmount>1000</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+   	 <soundWorking>Recipe_CookMeal</soundWorking>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+      </RecipeDef>
+
+      <RecipeDef>
+      <defName>CookTacos</defName>
+      <label>cook five tacos</label>
+      <description>Meat and Cheese in a corn shell. Requires meat, cheese, and cornmeal to make. \n\n Makes 5 servings. \n\nFood Effects: Manipulation and Metabolism.</description>
+      <jobString>Preparing tacos.</jobString>  
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Cornmeal</li>
+               </thingDefs>
+            </filter>
+            <count>10</count>
+         </li>
+		<li>
+            <filter>
+               <thingDefs>
+                  <li>cheese</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+         </li>
+	     <li>
+		<filter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+		</filter>
+		<count>10</count>
+		</li>
+      </ingredients>
+      <products>
+         <Tacos>5</Tacos>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Cornmeal</li>
+		 <li>cheese</li>
+          </thingDefs>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+      </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+         <thingDefs>
+            <li>Cornmeal</li>
+		 <li>cheese</li>
+         </thingDefs>
+      <exceptedCategories>
+        <li>EggsFertilized</li>
+      </exceptedCategories>
+      <exceptedThingDefs>
+        <li>Human_Meat</li>
+           <li>Megaspider_Meat</li>
+   </exceptedThingDefs>
+    </defaultIngredientFilter>
+      <workAmount>1000</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <effectWorking>Cook</effectWorking>
+   	 <soundWorking>Recipe_CookMeal</soundWorking>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+      </RecipeDef>
+
+<RecipeDef>
+	<defName>CookPorridge</defName>
+	<label>cook two porridges</label>
+	<description>A simple porridge cooked from grains. \n\nMakes 2 servings. \n\nFood Effects: Sight and Blood Filtration.</description>
+	<jobString>Making porridge.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+	<workAmount>900</workAmount>
+     <soundWorking>Recipe_CookMeal</soundWorking>          	<allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+         <li>ElectricStove</li>
+	    <li>FueledStove</li>
+      </recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>Rawwheat</li>
+	        <li>RawCorn</li>
+	        <li>RawRice</li>
+	        <li>RawBarley</li>
+	      </thingDefs>
+	    </filter>
+	    <count>0.7</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>Rawwheat</li>
+	    <li>RawCorn</li>
+	    <li>RawRice</li>
+	    <li>RawBarley</li>
+	  </thingDefs>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+	</fixedIngredientFilter>
+	<products>
+	  <Porridge>2</Porridge>
+	</products>
+	<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+
+</RecipeDef>
+
+</Defs>

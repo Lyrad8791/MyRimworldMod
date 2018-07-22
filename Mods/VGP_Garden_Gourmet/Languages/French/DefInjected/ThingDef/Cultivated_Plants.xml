@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Plantwheat.label>Blé</Plantwheat.label>
+  <Plantwheat.description>Le grain de blé est du céréale, il peut être moulu en farine.</Plantwheat.description>
+
+  <Plantcocoa.label>Cacaoyer</Plantcocoa.label>
+  <Plantcocoa.description>Les fèves de cacao sont raffinées en chocolat.</Plantcocoa.description>
+
+  <Plantsugarcane.label>Canne à sucre</Plantsugarcane.label>
+  <Plantsugarcane.description>La canne à sucre se raffine pour la fabrication de sucre.</Plantsugarcane.description>
+
+
+</LanguageData>

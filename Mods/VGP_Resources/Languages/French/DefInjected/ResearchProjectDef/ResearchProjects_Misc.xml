@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Main Categories -->
+
+  <resourceleafs.label>Plantes à ressources</resourceleafs.label>
+  <resourceleafs.description>Recherche des plantes qui absorbent les minéraux du sol. Cela peut être extrait dans la fonderie.</resourceleafs.description>
+
+
+</LanguageData>

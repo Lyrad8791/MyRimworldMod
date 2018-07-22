@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsOven.label>烘焙</DoBillsOven.label>
+  <DoBillsOven.verb>烘焙</DoBillsOven.verb>
+  <DoBillsOven.gerund>烘焙</DoBillsOven.gerund>
+
+  <DoBillsCanningstove.label>處理食物</DoBillsCanningstove.label>
+  <DoBillsCanningstove.verb>處理</DoBillsCanningstove.verb>
+  <DoBillsCanningstove.gerund>處理</DoBillsCanningstove.gerund>
+
+  <DoBillsBake.label>製作糖果</DoBillsBake.label>
+  <DoBillsBake.verb>製作糖果</DoBillsBake.verb>
+  <DoBillsBake.gerund>製作糖果</DoBillsBake.gerund>
+
+  <DoBillsGrindStone.label>研磨穀物</DoBillsGrindStone.label>
+  <DoBillsGrindStone.verb>研磨</DoBillsGrindStone.verb>
+  <DoBillsGrindStone.gerund>研磨</DoBillsGrindStone.gerund>
+
+  <DoBillsCanningMachine.label>罐裝食物</DoBillsCanningMachine.label>
+  <DoBillsCanningMachine.verb>罐裝</DoBillsCanningMachine.verb>
+  <DoBillsCanningMachine.gerund>罐裝</DoBillsCanningMachine.gerund>
+
+  <DoBillsUseSaltMine.label>開採礦鹽</DoBillsUseSaltMine.label>
+  <DoBillsUseSaltMine.verb>採礦</DoBillsUseSaltMine.verb>
+  <DoBillsUseSaltMine.gerund>採礦</DoBillsUseSaltMine.gerund>
+
+  <GG_WorkGiver_TakeProductOutOfUniversalFermenter.label>取出罐頭生產機內的罐頭</GG_WorkGiver_TakeProductOutOfUniversalFermenter.label>
+  <GG_WorkGiver_TakeProductOutOfUniversalFermenter.verb>取出</GG_WorkGiver_TakeProductOutOfUniversalFermenter.verb>
+  <GG_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>取出</GG_WorkGiver_TakeProductOutOfUniversalFermenter.gerund>
+
+  <GG_WorkGiver_FillUniversalFermenter.label>把食物放進罐頭生產機</GG_WorkGiver_FillUniversalFermenter.label>
+  <GG_WorkGiver_FillUniversalFermenter.verb>放入</GG_WorkGiver_FillUniversalFermenter.verb>
+  <GG_WorkGiver_FillUniversalFermenter.gerund>放入</GG_WorkGiver_FillUniversalFermenter.gerund>
+
+
+</LanguageData>

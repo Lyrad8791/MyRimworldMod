@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>soylentmaking</defName>
+		<label>Soylent Production</label>
+		<description>Allows you to build the Soylent Machine to make Soylent from Plants, Animal Products, Meat and "High Energy Plankton"®.</description>
+		<tab>VG</tab>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>soylentmakingadvanced</defName>
+		<label>Advanced Soylent Production</label>
+		<description>Allows you to mass produce Soylent (which reduces production time by arround 15%) and to create simple survivor meals out of soylent and/or pemmican (at high ressource cost).</description>
+		<tab>VG</tab>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>soylentmaking</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+</Defs>

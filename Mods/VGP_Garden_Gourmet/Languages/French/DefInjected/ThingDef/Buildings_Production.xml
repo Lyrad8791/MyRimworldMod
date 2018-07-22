@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Oven.label>Four</Oven.label>
+  <Oven.description>Un four en pierre utilisé pour la cuisson.</Oven.description>
+  <Oven_Blueprint.label>Four (plan)</Oven_Blueprint.label>
+  <Oven_Frame.label>Four (construction)</Oven_Frame.label>
+  <Oven_Frame.description>Un four en pierre utilisé pour la cuisson.</Oven_Frame.description>
+
+  <ElectricOven.label>Four électrique</ElectricOven.label>
+  <ElectricOven.description>Un four électrique utilisé pour la cuisson.</ElectricOven.description>
+  <ElectricOven_Blueprint.label>Four électrique (plan)</ElectricOven_Blueprint.label>
+  <ElectricOven_Frame.label>Four électrique (construction)</ElectricOven_Frame.label>
+  <ElectricOven_Frame.description>Un four électrique utilisé pour la cuisson.</ElectricOven_Frame.description>
+
+  <HandCanningstove.label>Plan de travaille à combustible</HandCanningstove.label>
+  <HandCanningstove.description>Une table de préparation des aliments, fait que des choses simples. Nécessite 40% de travail en plus pour faire les objets.</HandCanningstove.description>
+  <HandCanningstove_Blueprint.label>Plan de travaille à combustible (plan)</HandCanningstove_Blueprint.label>
+  <HandCanningstove_Frame.label>Plan de travaille à combustible (construction)</HandCanningstove_Frame.label>
+  <HandCanningstove_Frame.description>Une table de préparation des aliments, fait que des choses simples. Nécessite 40% de travail en plus pour faire les objets.</HandCanningstove_Frame.description>
+
+  <Canningstove.label>Plan de travaille électrique</Canningstove.label>
+  <Canningstove.description>Une table de préparation électrique des aliments, fait que des choses simples.</Canningstove.description>
+  <Canningstove_Blueprint.label>Plan de travaille (plan)</Canningstove_Blueprint.label>
+  <Canningstove_Frame.label>Plan de travaille (construction)</Canningstove_Frame.label>
+  <Canningstove_Frame.description>Une table de préparation électrique des aliments, fait que des choses simples.</Canningstove_Frame.description>
+
+  <FueledCandyTable.label>Table de bonbons à combustible</FueledCandyTable.label>
+  <FueledCandyTable.description>Fait des friandises sucrées.</FueledCandyTable.description>
+  <FueledCandyTable_Blueprint.label>Table de bonbons à combustible (plan)</FueledCandyTable_Blueprint.label>
+  <FueledCandyTable_Frame.label>Table de bonbons à combustible (construction)</FueledCandyTable_Frame.label>
+  <FueledCandyTable_Frame.description>Fait des friandises sucrées.</FueledCandyTable_Frame.description>
+
+  <CandyTable.label>Table de bonbons électrique</CandyTable.label>
+  <CandyTable.description>Fait des friandises sucrées.</CandyTable.description>
+  <CandyTable_Blueprint.label>Table de bonbons électrique (plan)</CandyTable_Blueprint.label>
+  <CandyTable_Frame.label>Table de bonbons électrique (construction)</CandyTable_Frame.label>
+  <CandyTable_Frame.description>Fait des friandises sucrées.</CandyTable_Frame.description>
+
+  <CookingTools.label>Ustensile de cuisine</CookingTools.label>
+  <CookingTools.description>Augmente la vitesse de travail de 14%. Doit être placé près des équipements de cuisine. Augmentera la vitesse de cuisson de toutes les tables à proximité.</CookingTools.description>
+  <CookingTools_Blueprint.label>Ustensile de cuisine (plan)</CookingTools_Blueprint.label>
+  <CookingTools_Blueprint_Install.label>Ustensile de cuisine (plan)</CookingTools_Blueprint_Install.label>
+  <CookingTools_Frame.label>Ustensile de cuisine (construction)</CookingTools_Frame.label>
+  <CookingTools_Frame.description>Augmente la vitesse de travail de 14%. Doit être placé près des équipements de cuisine. Augmentera la vitesse de cuisson de toutes les tables à proximité.</CookingTools_Frame.description>
+
+  <GrindStone.label>Meule</GrindStone.label>
+  <GrindStone.description>Une petite meule à actionner manuellement pour broyer rapidement des plantes.</GrindStone.description>
+  <GrindStone_Blueprint.label>Meule (plan)</GrindStone_Blueprint.label>
+  <GrindStone_Frame.label>Meule (construction)</GrindStone_Frame.label>
+  <GrindStone_Frame.description>Une petite meule à actionner manuellement pour broyer rapidement des plantes.</GrindStone_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--============================== Main Categories ==============================-->
+
+
+
+	<ResearchProjectDef>
+		<defName>SoilReclam</defName>
+		<label>Soil Reclamation I</label>
+		<description>Researches methods of making farmable soil. \n\nUnlocks placing soil on smoothed stone and other finished flooring. \n\nUnlocks Floor menu Place Soil.</description>
+		<tab>VG</tab>
+		<baseCost>800</baseCost>
+		    <techLevel>Medieval</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>SoilReclamII</defName>
+		<label>Soil Reclamation II</label>
+		<description>Researches methods of turning sand, marshy soil, mud, marsh, ice, gravel into farmable soil. \n\nUnlocks Plow soil, to greatly increase crop growth. \n\nUnlocks Floor menus to Plow Soil and Reclaim Soil.</description>
+		<tab>VG</tab>
+		<baseCost>1700</baseCost>
+		    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>SoilReclam</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+
+  <ResearchProjectDef>
+    <defName>AdvancedHydroponics</defName>
+    <label>adv. hydroponic</label>
+    <description>Allows you to build advanced hydroponics tables to rapidly grow crops indoors regardless of the terrain or weather outside. Tables cost more to make, require power, and provide light. And crops grow at a faster rate.</description>	<tab>VG</tab>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Hydroponics</li>
+    </prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>HeatedSunlamps</defName>
+    <label>Heated Sunlamps</label>
+    <description>Allows you to build advanced sun lamps that provides light and act as a heater to grow crops.</description>
+		<tab>VG</tab>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>

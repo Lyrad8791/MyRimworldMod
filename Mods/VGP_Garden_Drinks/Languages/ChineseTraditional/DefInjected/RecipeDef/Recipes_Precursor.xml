@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CPD_MakeCornWort.label>製作玉米麥芽漿</CPD_MakeCornWort.label>
+  <CPD_MakeCornWort.description>製作玉米麥芽漿以用來釀造威士忌。</CPD_MakeCornWort.description>
+  <CPD_MakeCornWort.jobString>正在製作玉米麥芽漿。</CPD_MakeCornWort.jobString>
+
+  <CPD_MakeRiceMash.label>製作米糠</CPD_MakeRiceMash.label>
+  <CPD_MakeRiceMash.description>製作米糠以用來釀造清酒。</CPD_MakeRiceMash.description>
+  <CPD_MakeRiceMash.jobString>正在製作米糠。</CPD_MakeRiceMash.jobString>
+
+  <DistillVodka.label>釀造伏特加</DistillVodka.label>
+  <DistillVodka.description>把未經蒸餾的伏特加進行蒸餾以取得伏特加。</DistillVodka.description>
+  <DistillVodka.jobString>正在釀造伏特加。</DistillVodka.jobString>
+
+  <CPD_MakeWineMust.label>製作莓果酒酒醪</CPD_MakeWineMust.label>
+  <CPD_MakeWineMust.description>製作莓果酒酒醪以用來釀造莓果酒。</CPD_MakeWineMust.description>
+  <CPD_MakeWineMust.jobString>正在製作莓果酒酒醪。</CPD_MakeWineMust.jobString>
+
+  <VG_MakeGrapeMust.label>製作葡萄酒酒醪</VG_MakeGrapeMust.label>
+  <VG_MakeGrapeMust.description>製作葡萄酒酒醪以用來釀造葡萄酒。</VG_MakeGrapeMust.description>
+  <VG_MakeGrapeMust.jobString>正在製作葡萄酒酒醪。</VG_MakeGrapeMust.jobString>
+
+  <VG_MakeCiderMust.label>製作蘋果酒酒醪</VG_MakeCiderMust.label>
+  <VG_MakeCiderMust.description>製作蘋果酒酒醪以用來釀造蘋果酒。</VG_MakeCiderMust.description>
+  <VG_MakeCiderMust.jobString>正在製作蘋果酒醪。</VG_MakeCiderMust.jobString>
+
+  <VG_MakeCaneMust.label>製作甘蔗酒醪</VG_MakeCaneMust.label>
+  <VG_MakeCaneMust.description>製作甘蔗酒醪以用來釀造朗姆酒。</VG_MakeCaneMust.description>
+  <VG_MakeCaneMust.jobString>正在製作甘蔗酒醪。</VG_MakeCaneMust.jobString>
+
+  <VG_MakeAgaveMust.label>製作龍舌蘭酒醪</VG_MakeAgaveMust.label>
+  <VG_MakeAgaveMust.description>製作龍舌蘭酒醪以用來釀造龍舌蘭酒。</VG_MakeAgaveMust.description>
+  <VG_MakeAgaveMust.jobString>正在製作龍舌蘭酒醪。</VG_MakeAgaveMust.jobString>
+
+  <VG_MakeBrownMalt.label>製作棕色麥芽</VG_MakeBrownMalt.label>
+  <VG_MakeBrownMalt.description>製作棕色麥芽以用來釀造棕色愛爾。</VG_MakeBrownMalt.description>
+  <VG_MakeBrownMalt.jobString>正在製作棕色麥芽。</VG_MakeBrownMalt.jobString>
+
+  <VG_MakeFruitMash.label>製作水果酒醪</VG_MakeFruitMash.label>
+  <VG_MakeFruitMash.description>製作水果酒醪以用來釀造鮮果釀。</VG_MakeFruitMash.description>
+  <VG_MakeFruitMash.jobString>正在製作水果酒醪。</VG_MakeFruitMash.jobString>
+
+
+</LanguageData>

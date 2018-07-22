@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="VG_ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+		<statBases>
+			<Beauty>-7</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+  
+    <ThingDef Name="VG_ResourceVerbBase" ParentName="VG_ResourceBase" Abstract="True">
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+    <ThingDef Abstract="True" ParentName="VG_ResourceBase" Name="VG_RawDrugsBase">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>5</DeteriorationRate>
+ 	<Mass>0.03</Mass>
+   </statBases>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>NeverForNutrition</preferability>
+      <joyKind>Gluttonous</joyKind>
+    </ingestible>
+    <tickerType>Rare</tickerType>
+	<thingCategories>
+         <li>PlantMatter</li>
+      </thingCategories>
+  </ThingDef>
+
+ <ThingDef Name="VG_PlantBase" Abstract="True">
+    <category>Plant</category>
+    <thingClass>Plant</thingClass>
+    <altitudeLayer>LowPlant</altitudeLayer>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <tickerType>Long</tickerType>
+    <selectable>False</selectable>
+    <neverMultiSelect>True</neverMultiSelect>
+    <drawerType>MapMeshOnly</drawerType>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <graphicData>
+      <shaderType>CutoutPlant</shaderType>
+    </graphicData>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+      <soundHarvesting>Harvest_Standard</soundHarvesting>
+      <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+      <harvestWork>190</harvestWork>
+      <sowWork>260</sowWork>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.00</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+  
+  	  <ThingDef ParentName="VG_PlantBase" Name="VG_PlantDef" Abstract="True">
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+
+    <ThingDef Abstract="True" ParentName="VG_ResourceBase" Name="VG_PlantProductBase">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>5</DeteriorationRate>
+ 	<Mass>0.03</Mass>
+    </statBases>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>NeverForNutrition</preferability>
+      <joyKind>Gluttonous</joyKind>
+    </ingestible>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+
+
+  <ThingDef Abstract="True" ParentName="VG_PlantProductBase" Name="VG_RawFruitBase">
+    <statBases>
+	<Mass>0.065</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <nutrition>0.12</nutrition>
+       <joyKind>Gluttonous</joyKind>
+       <ingestEffect>EatVegetarian</ingestEffect>
+       <ingestSound>RawVegetable_Eat</ingestSound>
+       <foodType>VegetableOrFruit</foodType>
+       <joy>0.006</joy>
+    </ingestible>
+    <thingCategories>
+      <li>FruitFoodRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

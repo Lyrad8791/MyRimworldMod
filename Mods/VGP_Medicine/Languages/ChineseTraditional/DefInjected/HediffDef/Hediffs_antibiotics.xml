@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Antibiotics.label>健康飲料</Antibiotics.label>
+  <Antibiotics.stages.0.label>微醺-隱藏</Antibiotics.stages.0.label>
+  <Antibiotics.stages.1.label>感覺更好了</Antibiotics.stages.1.label>
+  <Antibiotics.stages.2.label>增強免疫力</Antibiotics.stages.2.label>
+  <Antibiotics.stages.3.label>爛醉</Antibiotics.stages.3.label>
+  <Antibiotics.stages.4.label>過量</Antibiotics.stages.4.label>
+  <Antibiotics.stages.5.label>嚴重過量</Antibiotics.stages.5.label>
+
+
+</LanguageData>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BakeBread.label>烘焙麵包（3）</BakeBread.label>
+  <BakeBread.description>用麵粉烘焙成麵包。 \n\n製作3個麵包。</BakeBread.description>
+  <BakeBread.jobString>正在烘焙麵包。</BakeBread.jobString>
+
+  <Bakesweetroll.label>烘焙甜麵包（4）</Bakesweetroll.label>
+  <Bakesweetroll.description>灑滿了糖霜的甜麵包 \n\n製作4份。 \n\n食用效果：意識、行動。</Bakesweetroll.description>
+  <Bakesweetroll.jobString>正在烘焙甜麵包。</Bakesweetroll.jobString>
+
+  <Bakepizza.label>烘焙批薩（3）</Bakepizza.label>
+  <Bakepizza.description>烘焙批薩。 \n\n製作3份。 \n\n食用效果：意識、新陳代謝。</Bakepizza.description>
+  <Bakepizza.jobString>正在烘焙批薩。</Bakepizza.jobString>
+
+  <BakeCookies.label>烘焙曲奇（6）</BakeCookies.label>
+  <BakeCookies.description>烘焙曲奇。 \n\n製作6塊曲奇。</BakeCookies.description>
+  <BakeCookies.jobString>正在烘焙曲奇。</BakeCookies.jobString>
+
+  <BakeBlueberryPie.label>烘焙水果派（3）</BakeBlueberryPie.label>
+  <BakeBlueberryPie.description>烘焙美味的水果餡餅。 \n\n製作3塊水果派。</BakeBlueberryPie.description>
+  <BakeBlueberryPie.jobString>正在烘焙水果派。</BakeBlueberryPie.jobString>
+
+  <DryFruit.label>烘培果脯（10）</DryFruit.label>
+  <DryFruit.description>將水果烘乾延長保存時間。</DryFruit.description>
+  <DryFruit.jobString>正在烘培果脯。</DryFruit.jobString>
+
+  <Bakepolenta.label>烘焙玉米糊麵包</Bakepolenta.label>
+  <Bakepolenta.description>烘焙美味的玉米糊麵包。 \n\n製作1個玉米糊麵包。</Bakepolenta.description>
+  <Bakepolenta.jobString>正在烘焙玉米糊麵包。</Bakepolenta.jobString>
+
+  <BakeCornbread.label>烘焙玉米麵包（2）</BakeCornbread.label>
+  <BakeCornbread.description>烘焙美味的玉米麵包。 \n\n製作4個玉米麵包。</BakeCornbread.description>
+  <BakeCornbread.jobString>正在烘焙玉米麵包。</BakeCornbread.jobString>
+
+  <Bakemuffin.label>烘焙水果瑪芬（6）</Bakemuffin.label>
+  <Bakemuffin.description>烘焙美味的水果瑪芬。 \n\n製作6個水果瑪芬。</Bakemuffin.description>
+  <Bakemuffin.jobString>正在烘焙水果瑪芬。</Bakemuffin.jobString>
+
+  <BakeMeatPie.label>烘焙肉派（2）</BakeMeatPie.label>
+  <BakeMeatPie.description>烘焙美味的肉派。 \n\n製作2個肉派。</BakeMeatPie.description>
+  <BakeMeatPie.jobString>正在烘焙肉派。</BakeMeatPie.jobString>
+
+
+</LanguageData>

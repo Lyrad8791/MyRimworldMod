@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SOYLENT GREEN -->
+
+  <makesoylentgreen.label>Soylent vert</makesoylentgreen.label>
+  <makesoylentgreen.description>Fabriquer du soylent vert "plancton de haute énergie" ®.</makesoylentgreen.description>
+  <makesoylentgreen.jobString>Fabrique le soylent vert.</makesoylentgreen.jobString>
+
+
+  <!-- SOYLENT BLUE -->
+
+  <makesoylentblue.label>Soylent bleu</makesoylentblue.label>
+  <makesoylentblue.description>Fabriquer du soylent bleu à partir de viande animale.</makesoylentblue.description>
+  <makesoylentblue.jobString>Fabrique le soylent bleu.</makesoylentblue.jobString>
+
+
+  <!-- SOYLENT PURPLE -->
+
+  <makesoylentpurple.label>Soylent violet</makesoylentpurple.label>
+  <makesoylentpurple.description>Fabriquer du soylent violet à partir de viande d'insectes.</makesoylentpurple.description>
+  <makesoylentpurple.jobString>Fabrique le soylent violet.</makesoylentpurple.jobString>
+
+
+  <!-- SOYLENT RED -->
+
+  <makesoylentred.label>Soylent rouge</makesoylentred.label>
+  <makesoylentred.description>Fabriquer du soylent rouge à partir de plantes.</makesoylentred.description>
+  <makesoylentred.jobString>Fabrique le soylent rouge.</makesoylentred.jobString>
+
+
+  <!-- SOYLENT YELLOW -->
+
+  <makesoylentyellow.label>Soylent jaune</makesoylentyellow.label>
+  <makesoylentyellow.description>Fabriquer du soylent jaune à partir de produits d'animaux.</makesoylentyellow.description>
+  <makesoylentyellow.jobString>Fabrique le soylent jaune.</makesoylentyellow.jobString>
+
+
+  <!-- SOYLENT GREEN BULKPRODUCTION -->
+
+  <makesoylentgreen20times.label>Soylents vert (x20)</makesoylentgreen20times.label>
+  <makesoylentgreen20times.description>Fabriquer du soylent vert "plancton de haute énergie" ®.</makesoylentgreen20times.description>
+  <makesoylentgreen20times.jobString>Fabrique les soylents vert.</makesoylentgreen20times.jobString>
+
+
+  <!-- SOYLENT BLUE BULKPRODUCTION -->
+
+  <makesoylentblue20times.label>Soylents bleu (x20)</makesoylentblue20times.label>
+  <makesoylentblue20times.description>Fabriquer du soylent bleu à partir de viande animale.</makesoylentblue20times.description>
+  <makesoylentblue20times.jobString>Fabrique les soylents bleu.</makesoylentblue20times.jobString>
+
+
+  <!-- SOYLENT PURPLE BULKPRODUCTION -->
+
+  <makesoylentpurple20times.label>Soylents violet (x20)</makesoylentpurple20times.label>
+  <makesoylentpurple20times.description>Fabriquer du soylent violet à partir de viande d'insectes.</makesoylentpurple20times.description>
+  <makesoylentpurple20times.jobString>Fabrique les soylents violet.</makesoylentpurple20times.jobString>
+
+
+  <!-- SOYLENT RED BULKPRODUCTION -->
+
+  <makesoylentred20times.label>Soylents Rouge (x20)</makesoylentred20times.label>
+  <makesoylentred20times.description>Fabriquer du soylent rouge à partir de plantes.</makesoylentred20times.description>
+  <makesoylentred20times.jobString>Fabrique les soylents rouge.</makesoylentred20times.jobString>
+
+
+  <!-- SOYLENT YELLOW BULKPRODUCTION -->
+
+  <makesoylentyellow20times.label>Soylents jaune (x20)</makesoylentyellow20times.label>
+  <makesoylentyellow20times.description>Fabriquer du soylent jaune à partir de produits d'animaux.</makesoylentyellow20times.description>
+  <makesoylentyellow20times.jobString>Fabrique les soylents jaune.</makesoylentyellow20times.jobString>
+
+  <MakeMealSurvivalSoylent.label>Rations de survie</MakeMealSurvivalSoylent.label>
+  <MakeMealSurvivalSoylent.description>Cuisiner une ration de survie à partir d'une combinaison de soylent et/ou du pemmican. Une grande partie des ingrédients sont gaspillés.</MakeMealSurvivalSoylent.description>
+  <MakeMealSurvivalSoylent.jobString>Cuisine la ration de survie.</MakeMealSurvivalSoylent.jobString>
+
+
+</LanguageData>

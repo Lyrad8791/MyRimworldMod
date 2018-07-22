@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+	<Operation Class="PatchOperationSequence">
+  		<success>Always</success>
+		<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Survivalist's Additions</modName>
+			<yourMod>VGP Vegetable Garden</yourMod>				</li>
+		<li Class="PatchOperationInsert">
+  <xpath>Defs/ThingDef[defName = "SRV_Grill"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li  |
+		 Defs/ThingDef[defName = "SRV_ShelterHeater"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs/li</xpath>
+				<value>
+					<li>Bamboo</li>
+					<li>VG_Biofuel</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+
+</Patch>
+

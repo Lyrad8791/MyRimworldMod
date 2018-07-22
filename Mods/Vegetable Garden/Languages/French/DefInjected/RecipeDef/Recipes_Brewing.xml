@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fruitdrink.label>Jus de fruits</Fruitdrink.label>
+  <Fruitdrink.description>Presser les fruits pour une boisson juteuse.</Fruitdrink.description>
+  <Fruitdrink.jobString>Presse des fruits.</Fruitdrink.jobString>
+
+  <BrewCoffee.label>Torréfier 4 cafés</BrewCoffee.label>
+  <BrewCoffee.description>Torréfier les graines de café pour préparer des tasses de café.</BrewCoffee.description>
+  <BrewCoffee.jobString>Prépare le café.</BrewCoffee.jobString>
+
+  <BulkBrewCoffee.label>Torréfier 12 cafés</BulkBrewCoffee.label>
+  <BulkBrewCoffee.description>Torréfier les graines de café pour préparer des tasses de café.</BulkBrewCoffee.description>
+  <BulkBrewCoffee.jobString>Prépare le café.</BulkBrewCoffee.jobString>
+
+  <BrewTea.label>Infuser 2 thés</BrewTea.label>
+  <BrewTea.description>Préparer les feuilles de thé pour les infuser dans des tasses de thé.</BrewTea.description>
+  <BrewTea.jobString>Prépare le thé.</BrewTea.jobString>
+
+  <BulkBrewTea.label>Infuser 10 thés</BulkBrewTea.label>
+  <BulkBrewTea.description>Préparer plusieurs feuilles de thé pour les infuser dans des tasses de thé.</BulkBrewTea.description>
+  <BulkBrewTea.jobString>Prépare le thé.</BulkBrewTea.jobString>
+
+
+</LanguageData>

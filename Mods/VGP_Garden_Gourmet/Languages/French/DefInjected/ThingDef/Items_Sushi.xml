@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakiVegRoll.label>Maki végétarien</MakiVegRoll.label>
+  <MakiVegRoll.description>Un plat roulé de riz cuit à froid servi avec une garniture de légumes.</MakiVegRoll.description>
+
+  <MakiRoll.label>Maki</MakiRoll.label>
+  <MakiRoll.description>Un plat roulé de riz cuit à froid servi avec une garniture de poisson cru, de légumes ou d'oeufs.</MakiRoll.description>
+
+  <Nigiri.label>Nigiri</Nigiri.label>
+  <Nigiri.description>Une petite boule de riz garnie de poisson cru.</Nigiri.description>
+
+
+</LanguageData>

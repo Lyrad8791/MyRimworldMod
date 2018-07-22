@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Flowers Vanilla -->
+
+  <!--[Core] <PlantDandelion.label>dandelions</PlantDandelion.label>-->
+  <!--[Core] <PlantDandelion.description>A common small flower. Though it is often considered a weed, it is pleasant to look at.</PlantDandelion.description>-->
+
+  <!--[Core] <PlantRose.label>rose</PlantRose.label>-->
+  <!--[Core] <PlantRose.description>A beautiful cultivated flower, symbolic of love and romance since ancient times.</PlantRose.description>-->
+
+  <!--[Core] <PlantDaylily.label>daylily</PlantDaylily.label>-->
+  <!--[Core] <PlantDaylily.description>A beautiful cultivated flower - great for brightening up a drab yard. Must be replanted often.</PlantDaylily.description>-->
+
+
+  <!-- New Flowers -->
+
+  <PlantPlumeria.label>Plumeria</PlantPlumeria.label>
+  <PlantPlumeria.description>Une belle petite fleur en forme de buisson, elle fleurie dans des couleurs aléatoires.</PlantPlumeria.description>
+
+  
+  <PlantAlliumGiganteum.label>Ail d'ornement géant</PlantAlliumGiganteum.label>
+  <PlantAlliumGiganteum.description>Une magnifique fleur cultivée, bulbe de couleur pourpre.</PlantAlliumGiganteum.description>
+
+  <PlantAnthurium.label>Langue de feu</PlantAnthurium.label>
+  <PlantAnthurium.description>Une magnifique fleur rouge cultivée.</PlantAnthurium.description>
+
+  <PlantNymphHair.label>Fétuque</PlantNymphHair.label>
+  <PlantNymphHair.description>Une jolie herbe bleutée.</PlantNymphHair.description>
+
+  <PlantPinkRimstalk.label>Bignone</PlantPinkRimstalk.label>
+  <PlantPinkRimstalk.description>Une magnifique fleur rose avec une longue tige cultivée.</PlantPinkRimstalk.description>
+
+  <PlantSunflower.label>Tournesol</PlantSunflower.label>
+  <PlantSunflower.description>Une magnifique et grande fleur jaune clair cultivée.</PlantSunflower.description>
+
+
+</LanguageData>

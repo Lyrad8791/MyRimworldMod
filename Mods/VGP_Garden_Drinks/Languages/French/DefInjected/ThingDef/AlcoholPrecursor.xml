@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Alcohol Precursors -->
+
+  <CPD_CornWort.label>Moût de maïs</CPD_CornWort.label>
+  <CPD_CornWort.description>Moût de maïs. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir du Whisky.</CPD_CornWort.description>
+
+  <CPD_RiceMash.label>Moût de riz</CPD_RiceMash.label>
+  <CPD_RiceMash.description>Riz broyé, mélangé et cuit. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir Saké.</CPD_RiceMash.description>
+
+  <CPD_VodkaPrecursor.label>Moût de pomme de terre</CPD_VodkaPrecursor.label>
+  <CPD_VodkaPrecursor.description>Moût de pomme de terre. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir de la Vodka.</CPD_VodkaPrecursor.description>
+
+  <CPD_WineMust.label>Moût de vin de fraise</CPD_WineMust.label>
+  <CPD_WineMust.description>Jus de fraise pressé. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir un vin de fraise.</CPD_WineMust.description>
+
+  <VG_CiderMust.label>Moût de pomme</VG_CiderMust.label>
+  <VG_CiderMust.description>Jus de pomme pressé. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir du cidre.</VG_CiderMust.description>
+
+  <VG_CaneMash.label>Moût de canne à sucre</VG_CaneMash.label>
+  <VG_CaneMash.description>Sucre broyé, mélangé et cuit. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir du Rhum.</VG_CaneMash.description>
+
+  <VG_GrapeMust.label>Moût de raisin</VG_GrapeMust.label>
+  <VG_GrapeMust.description>Jus de raisin pressé. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir du vin.</VG_GrapeMust.description>
+
+  <VG_AgaveMust.label>Moût d'agave</VG_AgaveMust.label>
+  <VG_AgaveMust.description>Jus d'agave pressé. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir du la Téquila.</VG_AgaveMust.description>
+
+  <VG_FruitMash.label>Moût de fruits</VG_FruitMash.label>
+  <VG_FruitMash.description>Jus de fruits pressés. Cette substance doit fermenter dans un tonneau de fermentation avant de devenir de l'Eau-de-Vie.</VG_FruitMash.description>
+
+  <VG_BrownMalt.label>Malt brun</VG_BrownMalt.label>
+  <VG_BrownMalt.description>Bière brune non fermentée. Elle doit fermenter dans un baril avant de pouvoir être bue.</VG_BrownMalt.description>
+
+
+</LanguageData>
