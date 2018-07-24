@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkTypeDef>
+    <defName>Dominate</defName>
+    <labelShort>Dominate</labelShort>
+    <pawnLabel>Dominant</pawnLabel>
+    <gerundLabel>dominating</gerundLabel>
+    <description>Dominate.</description>
+    <verb>dominate</verb>
+    <naturalPriority>1010</naturalPriority>
+    <relevantSkills>
+      <li>Melee</li>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+    </relevantSkills>
+  </WorkTypeDef>
+
+  <WorkGiverDef>
+    <defName>Restrain</defName>
+    <label>restrain</label>
+    <giverClass>Control.WorkGiver_Restrain</giverClass>
+    <workType>Dominate</workType>
+    <priorityInType>80</priorityInType>
+    <verb>operate on</verb>
+    <gerund>operating on</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>Free</defName>
+    <label>restrain</label>
+    <giverClass>Control.WorkGiver_Free</giverClass>
+    <workType>Dominate</workType>
+    <priorityInType>85</priorityInType>
+    <verb>operate on</verb>
+    <gerund>operating on</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+  <JobDef>
+    <defName>Restrain</defName>
+    <driverClass>Control.JobDriver_TakeToRestrain</driverClass>
+    <reportString>Restraining TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>Free</defName>
+    <driverClass>Control.JobDriver_Free</driverClass>
+    <reportString>Freeing TargetA.</reportString>
+  </JobDef>
+
+
+
+
+
+</Defs>

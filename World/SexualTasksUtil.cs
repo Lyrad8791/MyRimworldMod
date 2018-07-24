@@ -24,11 +24,32 @@ namespace Control
 
     public class DominationUtil : ModBase
     {
+
+        static HediffDef restrainedHediff; 
+        public static List<Pawn> RestrainedPawns = new List<Pawn>();
         public static List<IDominationBill> sexualBills = new List<IDominationBill> { new VaginalSex(),new AnalSex() };
         public override string ModIdentifier
         {
             get { return "SexualTasksUtil"; }
-        }     
+        }
+
+        public static HediffDef RestrainedHediff
+        {
+            get
+            {
+                if (restrainedHediff == null)
+                {
+                    restrainedHediff = DefDatabase<HediffDef>.GetNamed("Restrained");
+                }
+                return restrainedHediff;
+            }
+        }
+
+        public override void MapLoaded(Map map)
+        {
+            RestrainedPawns = Find.VisibleMap.mapPawns.FreeColonists.
+                Where(x => x.health.hediffSet.HasHediff(RestrainedHediff)).ToList();
+        }
         public override void Tick(int currentTick)
         {
             if (currentTick%60 == 0)

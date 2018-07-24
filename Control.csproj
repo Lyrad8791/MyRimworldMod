@@ -54,7 +54,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AI\RecipeWorker_Restrain.cs" />
+    <Compile Include="Mods\Control\Defs\AI\JobDriver_Free.cs" />
+    <Compile Include="Mods\Control\Defs\AI\JobDriver_TakeToRestrain.cs" />
+    <Compile Include="Mods\Control\Defs\AI\WorkGiver_Free.cs" />
+    <Compile Include="Mods\Control\Defs\AI\WorkGiver_Restrain.cs" />
+    <Compile Include="Mods\Control\Defs\Restrictions\Building_DominationDevice.cs" />
+    <Compile Include="Mods\Control\Defs\Restrictions\RecipeWorker_Restrain.cs" />
     <Compile Include="Character\Hediffs\Hediff_SexualSatisfaction.cs" />
     <Compile Include="Character\Needs\NeedUtil.cs" />
     <Compile Include="Character\Needs\Need_Domination.cs" />
@@ -88,15 +93,26 @@
     <Content Include="Legacy\Cult\defs\Character\Traits.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Legacy\Recipes.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Legacy\Recruit.xml" />
     <Content Include="Legacy\Cult\defs\UI\ControlTab.xml" />
-    <Content Include="Mods\Control\Defs\Hediffs.xml">
+    <Content Include="Mods\Control\Defs\AI\Work.xml" />
+    <Content Include="Mods\Control\Defs\Restrictions\Buildings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Mods\Control\Defs\Restrictions\Hediffs.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Mods\Control\Defs\Needs.xml" />
-    <Content Include="Mods\Control\Defs\RestrictionRecipes.xml" />
-    <Content Include="Mods\Control\Defs\Recipes.xml" />
+    <Content Include="Mods\Control\Defs\Restrictions\RestrictionItems.xml" />
+    <Content Include="Mods\Control\Defs\Restrictions\RestrictionItemRecipes.xml" />
+    <Content Include="Mods\Control\Defs\Restrictions\RestrictionRecipes.xml" />
     <Content Include="Mods\Control\Defs\Scenario.xml" />
+    <Content Include="UI\Seeding\Hediffs.xml" />
+    <Content Include="UI\Seeding\SeedingRecipes.xml" />
+    <Content Include="UI\Seeding\SeedingItemRecipes.xml" />
     <Content Include="Mods\Control\Defs\Thoughts.xml" />
     <Content Include="Mods\Core\About\About.xml" />
     <Content Include="Mods\Core\About\Preview.png" />
@@ -9622,6 +9638,7 @@
     <None Include="Mods\Core\Languages\Ukrainian\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AI\" />
     <Folder Include="Legacy\Cult\defs\Thoughts\" />
     <Folder Include="Mods\Control\Assemblies\" />
   </ItemGroup>

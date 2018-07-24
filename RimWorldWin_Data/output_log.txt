@@ -1,39 +1,39 @@
 Initialize engine version: 5.6.3p1 (9c92e827232b)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 9.0c [aticfx32.dll 22.19.677.257]
-    Renderer: AMD Radeon R9 200 Series
-    Vendor:   ATI
-    VRAM:     3052 MB (via DXGI)
-    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 NULL=1 RESZ=1 SlowINTZ=1 ATOC=0 BC4=1 BC5=1
+    Version:  Direct3D 9.0c [nvldumd.dll 22.21.13.8554]
+    Renderer: NVIDIA Quadro K610M
+    Vendor:   NVIDIA
+    VRAM:     995 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1 BC4=1 BC5=1
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll into Unity Child Domain
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
-Loading C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
-- Completed reload, in  0.027 seconds
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NAudio.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\NVorbis.dll into Unity Child Domain
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll (this message is harmless)
+Loading C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\TextMeshPro-1.0.55.56.0b11.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Pass '' has no vertex shader
 WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to default shader.
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.267248 ms
+UnloadTime: 1.891936 ms
 [Steamworks.NET] SteamAPI.Init() failed. Possible causes: Steam client not running, launched from outside Steam without steam_appid.txt in place, running with different privileges than Steam client (e.g. "as administrator")
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -42,77 +42,26 @@ RimWorld 0.18.1722 rev1198
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
-Mod Rimsenal_Hair has incorrectly formatted target version 'Unknown'. For the current version, write: <targetVersion>0.18.1722</targetVersion>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Non platform assembly: data-11A0F010 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11A0F010.dll
-Non platform assembly: data-11A406F0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11A406F0.dll
-Non platform assembly: data-11AA2BD0 (this message is harmless)
-Non platform assembly: data-11AA2BD0 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11AA2BD0.dll
-Non platform assembly: data-11AC5FD8 (this message is harmless)
-Non platform assembly: data-11AC5FD8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11AC5FD8.dll
-Non platform assembly: data-11B058B8 (this message is harmless)
-Non platform assembly: data-11B058B8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B058B8.dll
-Non platform assembly: data-11B0B340 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B0B340.dll
-Non platform assembly: data-11B0E550 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B0E550.dll
-Non platform assembly: data-11B19A10 (this message is harmless)
-Non platform assembly: data-11B19A10 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B19A10.dll
-Non platform assembly: data-11B21AC8 (this message is harmless)
-Non platform assembly: data-11B2CED8 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B2CED8.dll
-Non platform assembly: data-11B45750 (this message is harmless)
-Fallback handler could not load library C:/Users/marti/Source/Repos/MyRimworldMod/RimWorldWin_Data/Mono/data-11B45750.dll
-Could not find a type named Control.RecipeWorker_Restrain
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Could not find a type named Control.RecipeWorker_Restrain
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Could not find a type named Control.RecipeWorker_Restrain
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+Platform assembly: C:\Users\marti\source\repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Non platform assembly: data-1357E2D0 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-1357E2D0.dll
+Non platform assembly: data-135919D0 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-135919D0.dll
+Non platform assembly: data-135D5DE8 (this message is harmless)
+Non platform assembly: data-135D5DE8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-135D5DE8.dll
+Non platform assembly: data-13635EC8 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13635EC8.dll
+Non platform assembly: data-13649068 (this message is harmless)
+Fallback handler could not load library C:/Users/marti/source/repos/MyRimworldMod/RimWorldWin_Data/Mono/data-13649068.dll
 Config error in Male Attraction: defName Male Attraction should only contain letters, numbers, underscores, or dashes.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Config error in Restrain: workerClass is null.
+Config error in Create Bondage Gear: defName Create Bondage Gear should only contain letters, numbers, underscores, or dashes.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Config error in Restrain: failable surgery does not require bed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Config error in Blindfold: workerClass is null.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Config error in Blindfold: failable surgery does not require bed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Config error in Gag: workerClass is null.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Config error in Gag: failable surgery does not require bed
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Managed\System.Configuration.dll (this message is harmless)
 [HugsLib][warn] The Control assembly contains multiple ModBase mods with HarmonyAutoPatch set to true. This warning was caused by modId CultManager.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -122,40 +71,40 @@ Platform assembly: C:\Users\marti\Source\Repos\MyRimworldMod\RimWorldWin_Data\Ma
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.733944 ms
+UnloadTime: 1.786306 ms
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 9064.
-Total: 30.911392 ms (FindLiveObjects: 0.394994 ms CreateObjectMapping: 0.529434 ms MarkObjects: 29.932545 ms  DeleteObjects: 0.053775 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 7829.
+Total: 24.257755 ms (FindLiveObjects: 0.390019 ms CreateObjectMapping: 0.407553 ms MarkObjects: 23.402876 ms  DeleteObjects: 0.056022 ms)
 
-Loading game from file New Arrivals6 with mods Core, EdBPrepareCarefully, HugsLib, Dubs Bad Hygiene, Detailed Body Texture, Rimsenal_Hair, Vegetable Garden, VGP CoffeeTeaDrugs, VGP_Fabric, VGP_Garden_Drinks, VGP_Medicine, VGP_Garden_Gourmet, VGP_More Veggies, VGP_Resources, VGP_Soylent Production, VGP_Tools, VGP_Trees_Flowers, Control, and Spoons Hair Mod -A18
+Loading game from file New Arrivals10 with mods Core, HugsLib, EdBPrepareCarefully, and Control
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 17570.
-Total: 121.437561 ms (FindLiveObjects: 0.923148 ms CreateObjectMapping: 1.752829 ms MarkObjects: 118.722855 ms  DeleteObjects: 0.038411 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 14102.
+Total: 106.518501 ms (FindLiveObjects: 0.771485 ms CreateObjectMapping: 0.907051 ms MarkObjects: 104.692421 ms  DeleteObjects: 0.147540 ms)
 
-Exception filling tab RimWorld.ITab_Pawn_Health: System.ArgumentNullException: Argument cannot be null.
-Parameter name: type
-  at System.Activator.CheckType (System.Type type) [0x00000] in <filename unknown>:0 
-  at System.Activator.CreateInstance (System.Type type, Boolean nonPublic) [0x00000] in <filename unknown>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <filename unknown>:0 
-  at Verse.RecipeDef.get_Worker () [0x00000] in <filename unknown>:0 
-  at RimWorld.HealthCardUtility+<DrawMedOperationsTab>c__AnonStorey3.<>m__0 () [0x00000] in <filename unknown>:0 
-  at RimWorld.BillStack.DoListing (Rect rect, System.Func`1 recipeOptionsMaker, UnityEngine.Vector2& scrollPosition, System.Single& viewHeight) [0x00000] in <filename unknown>:0 
-  at RimWorld.HealthCardUtility.DrawMedOperationsTab (Rect leftRect, Verse.Pawn pawn, Verse.Thing thingForMedBills, Single curY) [0x00000] in <filename unknown>:0 
-  at RimWorld.HealthCardUtility.DrawHealthSummary (Rect rect, Verse.Pawn pawn, Boolean allowOperations, Verse.Thing thingForMedBills) [0x00000] in <filename unknown>:0 
-  at RimWorld.HealthCardUtility.DrawPawnHealthCard (Rect outRect, Verse.Pawn pawn, Boolean allowOperations, Boolean showBloodLoss, Verse.Thing thingForMedBills) [0x00000] in <filename unknown>:0 
-  at RimWorld.ITab_Pawn_Health.FillTab () [0x00000] in <filename unknown>:0 
-  at Verse.InspectTabBase+<DoTabGUI>c__AnonStorey0.<>m__0 () [0x00000] in <filename unknown>:0 
+Finished
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Alignment was UpperCenter at end of frame.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.924438 ms
+
+Unloading 5975 unused Assets to reduce memory usage. Loaded Objects now: 8297.
+Total: 65.463394 ms (FindLiveObjects: 0.641906 ms CreateObjectMapping: 0.777900 ms MarkObjects: 49.233967 ms  DeleteObjects: 14.809191 ms)
+
+Loading game from file New Arrivals11 with mods Core, HugsLib, EdBPrepareCarefully, and Control
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1d74 -> priority: 1 
-  Thread -> id: 23a4 -> priority: 1 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 14259.
+Total: 132.565125 ms (FindLiveObjects: 0.682961 ms CreateObjectMapping: 1.247463 ms MarkObjects: 130.553024 ms  DeleteObjects: 0.080826 ms)
+
+Finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

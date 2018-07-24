@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+   
+  <RecipeDef>
+    <defName>Restrain</defName>
+    <label>restrain</label>
+    <description>restrain.</description>
+    <workerClass>Control.RecipeWorker_Restrain</workerClass>
+    <jobString>restraining</jobString>
+    <workAmount>200</workAmount>
+    <targetsBodyPart>false</targetsBodyPart>
+    <addsHediff>Restrained</addsHediff>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <anesthetize>false</anesthetize>
+    <ingredients>
+			<li>
+				<filter>
+          <thingDefs>
+						<li>BondageGear</li>
+					</thingDefs>
+          </filter>
+				<count>1</count>
+			</li>
+		</ingredients>  
+		<fixedIngredientFilter>
+      <thingDefs>
+				<li>BondageGear</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>RemoveRestrain</defName>
+    <label>remove restrain</label>
+    <description>Remove restrain.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>restraining</jobString>
+    <workAmount>200</workAmount>
+    <targetsBodyPart>false</targetsBodyPart>
+    <removesHediff>Restrained</removesHediff>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <anesthetize>false</anesthetize>
+    <products>
+      <BondageGear>1</BondageGear>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Blindfold</defName>
+    <label>(un)blindfold</label>
+    <description>blindfold.</description>
+    <workerClass>Control.RecipeWorker_Restrain</workerClass>
+    <jobString>blindfolding</jobString>
+    <workAmount>40</workAmount>
+    <addsHediff>Blindfolded</addsHediff>
+    <targetsBodyPart>false</targetsBodyPart>
+    <recipeUsers>
+      <li>DominationDevice</li>
+    </recipeUsers>
+    <anesthetize>false</anesthetize>
+    <!--<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>  
+		<fixedIngredientFilter>
+      <categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>-->
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Gag</defName>
+    <label>(un)gag</label>
+    <description>gag.</description>
+    <workerClass>Control.RecipeWorker_Restrain</workerClass>
+    <jobString>gag</jobString>
+    <workAmount>100</workAmount>
+    <addsHediff>Gagged</addsHediff>
+    <targetsBodyPart>false</targetsBodyPart>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <anesthetize>false</anesthetize>
+    <!--<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>  
+		<fixedIngredientFilter>
+      <categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>-->
+  </RecipeDef>
+
+
+  
+  
+</Defs>
