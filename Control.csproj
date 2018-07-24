@@ -54,7 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AI\RecipeWorker_Impregnate.cs" />
+    <Compile Include="AI\RecipeWorker_Restrain.cs" />
     <Compile Include="Character\Hediffs\Hediff_SexualSatisfaction.cs" />
     <Compile Include="Character\Needs\NeedUtil.cs" />
     <Compile Include="Character\Needs\Need_Domination.cs" />

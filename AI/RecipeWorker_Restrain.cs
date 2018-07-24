@@ -8,9 +8,17 @@ namespace Control
     public class RecipeWorker_Restrain : RecipeWorker
     {
         public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
-        {
-
-            pawn.health.AddHediff(this.recipe.addsHediff, part, null);
+        {            
+            Hediff hediff = pawn.health.hediffSet.hediffs.Find((Hediff x) => x.def == this.recipe.addsHediff && x.Part == part && x.Visible);
+            if (hediff != null)
+            {
+                pawn.health.RemoveHediff(hediff);
+            }
+            
+            else
+            {
+                pawn.health.AddHediff(this.recipe.addsHediff, part, null);
+            }
         }
         
         public override IEnumerable<BodyPartRecord> GetPartsToApplyOn(Pawn pawn, RecipeDef recipe)
@@ -41,17 +49,7 @@ namespace Control
                 }
             }
             //yield return null;
-        }
-
-        public override bool IsViolationOnPawn(Pawn pawn, BodyPartRecord part, Faction billDoerFaction)
-        {
-            if (pawn.gender == Gender.Male)
-            {
-                return true;
-            }
-            return base.IsViolationOnPawn(pawn, part, billDoerFaction);
-        }
-       
+        }     
         
     }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <RecipeDef>
+    <!--<RecipeDef>
 		<defName>Impregnation</defName>
 		<label>impregnate using seed</label>
 		<description>impregnates.</description>
@@ -14,7 +14,7 @@
     <recipeUsers><li>Human</li></recipeUsers>
     <anesthetize>false</anesthetize>
     <requireBed>false</requireBed>
-    <!--<ingredients>
+    --><!--<ingredients>
 			<li>
 				<filter>
           <categories>
@@ -28,8 +28,8 @@
       <categories>
 				<li>Medicine</li>
 			</categories>
-		</fixedIngredientFilter>-->
-	</RecipeDef>
+		</fixedIngredientFilter>--><!--
+	</RecipeDef>-->
  
  
   <RecipeDef>
