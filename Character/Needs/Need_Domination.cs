@@ -8,10 +8,10 @@ using Verse.AI;
 namespace Control
 {
 
-    public class Need_Sex : Need
+    public class Need_Domination : Need
     {
-        bool added = false;
-        public Need_Sex(Pawn pawn) : base(pawn)
+
+        public Need_Domination(Pawn pawn) : base(pawn)
         {
             this.threshPercents = new List<float>();
             this.threshPercents.Add(0.15f);
@@ -23,16 +23,18 @@ namespace Control
 
         public override void SetInitialLevel()
         {
-            this.CurLevelPercentage = 0.7f;
+            this.CurLevelPercentage = 1f;
+            if (pawn.gender == Gender.Female)
+            {
+                CurLevelPercentage = 0.2f;
+            }
         }
 
         public override void NeedInterval()
         {
-            this.CurLevelPercentage -= 1.0E-04f;
-            if (!added)
+            if (pawn.gender == Gender.Female)
             {
-               // Hed.AddInitialEntitlement(pawn);
-                added = true;
+                CurLevelPercentage -= 1E-4f;
             }
         }
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <RecipeDef ParentName="SurgeryFlesh">
+    <RecipeDef>
 		<defName>Impregnation</defName>
 		<label>impregnate using seed</label>
 		<description>impregnates.</description>
@@ -10,9 +10,11 @@
     <appliedOnFixedBodyParts>
 			<li>Genitals</li>
 		</appliedOnFixedBodyParts>		
-    <addsHediff>Pregnant</addsHediff>
+    <addsHediff>EnergizerImpregnation</addsHediff>
     <recipeUsers><li>Human</li></recipeUsers>
-    <ingredients>
+    <anesthetize>false</anesthetize>
+    <requireBed>false</requireBed>
+    <!--<ingredients>
 			<li>
 				<filter>
           <categories>
@@ -21,11 +23,50 @@
 				</filter>
 				<count>1</count>
 			</li>
-		</ingredients>
+		</ingredients>  
 		<fixedIngredientFilter>
       <categories>
 				<li>Medicine</li>
 			</categories>
-		</fixedIngredientFilter>
+		</fixedIngredientFilter>-->
 	</RecipeDef>
+ 
+ 
+  <RecipeDef>
+    <defName>CreateEnergizerSeeds</defName>
+    <label>create energizer seed</label>
+    <description>create energizer seed.</description>
+    <jobString>creating energizer seed</jobString>
+    <workSpeedStat>BrewingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+
+    <workAmount>900</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CPD_CoffeeBeans</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CPD_CoffeeBeans</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <EnergizingSeed>12</EnergizingSeed>
+    </products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
 </Defs>

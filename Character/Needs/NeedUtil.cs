@@ -5,9 +5,9 @@ namespace Control
 {
     public static class NeedUtil
     {
-        public static Need_Sex GetSexNeed(Pawn pawn)
+        public static Need_Domination GetSexNeed(Pawn pawn)
         {
-            return pawn.needs.TryGetNeed<Need_Sex>();
+            return pawn.needs.TryGetNeed<Need_Domination>();
         }
         public static Need_Bladder GetBladder(Pawn pawn)
         {
